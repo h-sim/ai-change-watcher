@@ -86,9 +86,14 @@ def ensure_dir(path: str) -> None:
 
 
 def fetch(url: str) -> str:
-    # 軽い防御（タイムアウト＋UA）
-    headers = {"User-Agent": "ai-change-watcher/1.0"}
-    r = requests.get(url, headers=headers, timeout=30)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+    }
+    r = requests.get(url, headers=headers, timeout=30, allow_redirects=True)
     r.raise_for_status()
     return r.text
 
