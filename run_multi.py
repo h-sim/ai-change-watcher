@@ -69,14 +69,20 @@ def classify_impact(name: str, url: str, snippet: str, default_impact: str) -> s
 
     # Developer Changelog: 破壊的っぽい語があればBreakingに昇格
     if "changelog" in n:
-        breaking_kw = ["breaking", "deprecat", "remove", "sunset", "migration required"]
+        breaking_kw = [
+            "breaking", "deprecat", "remove", "removed", "will be removed",
+            "sunset", "sunsetting", "migration required", "end of life", "eol"
+        ]
         if any(k in s for k in breaking_kw):
             return "Breaking"
         return "High"
 
-    # News: 原則Medium、重要語があればHighに昇格
+    # News: 原則Medium、ただし重要語があればHighに昇格
     if "news" in n:
-        high_kw = ["policy", "pricing", "security", "terms", "compliance"]
+        high_kw = [
+            "policy", "pricing", "price", "security", "terms", "compliance",
+            "privacy", "trust", "safety", "enterprise"
+        ]
         if any(k in s for k in high_kw):
             return "High"
         return "Medium"

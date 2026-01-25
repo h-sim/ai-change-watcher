@@ -1,5 +1,21 @@
 [
   {
+    "id": "ed98e85968fbabf18acedcdf40ed1b3f22d7ca88",
+    "impact": "Medium",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-        <lastBuildDate>Sun, 25 Jan 2026 06:01:35 GMT</lastBuildDate>\n+        <lastBuildDate>Sun, 25 Jan 2026 06:03:12 GMT</lastBuildDate>",
+    "pubDate": "Sun, 25 Jan 2026 07:34:28 GMT"
+  },
+  {
+    "id": "0096fe22be319b774aca9b1e83a32ad1d4b52767",
+    "impact": "Medium",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-        <lastBuildDate>Sun, 25 Jan 2026 03:04:58 GMT</lastBuildDate>\n+        <lastBuildDate>Sun, 25 Jan 2026 06:01:35 GMT</lastBuildDate>",
+    "pubDate": "Sun, 25 Jan 2026 06:02:37 GMT"
+  },
+  {
     "id": "c6308b54eda7c985121ad8d6abc78e777b6cdb94",
     "impact": "Breaking",
     "name": "OpenAI OpenAPI Spec (YAML)",

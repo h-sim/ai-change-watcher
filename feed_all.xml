@@ -2,8 +2,32 @@
 <rss version="2.0">
 <channel>
 <title>AI Change Watcher (All)</title>
-<link>https://h-sim.github.io/ai-change-watcher/</link>
+<link>http://localhost/</link>
 <description>All detected text changes (may include noise). Verify on official sources.</description>
+
+<item>
+<title>[Medium] OpenAI News (RSS)</title>
+<link>https://openai.com/news/rss.xml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-        <lastBuildDate>Sun, 25 Jan 2026 06:01:35 GMT</lastBuildDate>
++        <lastBuildDate>Sun, 25 Jan 2026 06:03:12 GMT</lastBuildDate>]]></description>
+<pubDate>Sun, 25 Jan 2026 07:34:28 GMT</pubDate>
+<guid isPermaLink="false">ed98e85968fbabf18acedcdf40ed1b3f22d7ca88</guid>
+</item>
+
+<item>
+<title>[Medium] OpenAI News (RSS)</title>
+<link>https://openai.com/news/rss.xml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-        <lastBuildDate>Sun, 25 Jan 2026 03:04:58 GMT</lastBuildDate>
++        <lastBuildDate>Sun, 25 Jan 2026 06:01:35 GMT</lastBuildDate>]]></description>
+<pubDate>Sun, 25 Jan 2026 06:02:37 GMT</pubDate>
+<guid isPermaLink="false">0096fe22be319b774aca9b1e83a32ad1d4b52767</guid>
+</item>
 
 <item>
 <title>[Breaking] OpenAI OpenAPI Spec (YAML)</title>
