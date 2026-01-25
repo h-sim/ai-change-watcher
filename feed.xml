@@ -5,5 +5,105 @@
 <link>https://h-sim.github.io/ai-change-watcher/</link>
 <description>Breaking/High changes only. Verify on official sources.</description>
 
+<item>
+<title>[Breaking] OpenAI OpenAPI Spec (YAML)</title>
+<link>https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-title: OpenAI API
+-description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.
+-version: 2.3.0
+-termsOfService: https://openai.com/policies/terms-of-use
+-contact:
+-name: OpenAI Support
+-url: https://help.openai.com/
+-license:
+-name: MIT
+-url: https://github.com/openai/openai-openapi/blob/master/LICENSE
++  title: OpenAI API
++  description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details.
++  version: 2.3.0
++  termsOfService: https://openai.com/policies/terms-of-use
++  contact:
++    name: OpenAI Support
++    url: https://help.openai.com/
++  license:
++    name: MIT
++    url: https://github.com/openai/openai-openapi/blob/master/LICENSE
++  - url: https://api.openai.com/v1
++  - ApiKeyAuth: []
+-description: Build Assistants that can call models and use tools.
+-description: Turn audio into text or text into audio.
+-description: Given a list of messages comprising a conversation, the model will return a response.
+-description: Manage conversations and conversation items.
+-description: >-
+-Given a prompt, the model will return one or more predicted completions, and can also return the
+-probabilities of alternative tokens at each position.
+-description: >-
+-Get a vector representation of a given input that can be easily consumed by machine learning models and
+-algorithms.
+-description: Manage and run evals in the OpenAI platform.
+-description: Manage fine-tuning jobs to tailor a model to your specific training data.
+-description: Manage and run graders in the OpenAI platform.
+-description: Create large batches of API requests to run asynchronously.
+-description: Files are used to upload documents that can be used with features like Assistants and Fine-tuning.
+-description: Use Uploads to upload large files in multiple parts.
+-description: Given a prompt and/or an input image, the model will generate a new image.
+-description: List and describe the various models available in the API.]]></description>
+<pubDate>Sun, 25 Jan 2026 05:10:25 GMT</pubDate>
+<guid isPermaLink="false">c6308b54eda7c985121ad8d6abc78e777b6cdb94</guid>
+</item>
+
+<item>
+<title>[High] OpenAI Developer Changelog (RSS)</title>
+<link>https://developers.openai.com/changelog/rss.xml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-Developer changelog
+-Track new docs, product features, and fixes across OpenAI's developer platform in one changelog.
+-https://developers.openai.com/
+-Team Config for shared configuration
+-https://developers.openai.com/changelog/#codex-2026-01-23-mdx
+-https://developers.openai.com/changelog/#codex-2026-01-23-mdx
+-Team Config for shared configuration
+-Fri, 23 Jan 2026 00:00:00 GMT
+-# Team Config for shared configuration
++<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer changelog</title><
++
++
++
++
+-Learn more in [Team Config](/codex/team-config).
+-Custom prompts deprecated
+-https://developers.openai.com/changelog/#codex-2026-01-22-mdx
+-https://developers.openai.com/changelog/#codex-2026-01-22-mdx
+-Custom prompts deprecated
+-Thu, 22 Jan 2026 00:00:00 GMT
+-# Custom prompts deprecated
+-Custom prompts are now deprecated. Use [skills](/codex/skills) for reusable instructions and workflows instead.
+-Expanded llms.txt coverage
+-https://developers.openai.com/changelog/#developers-2026-01-22-mdx
+-https://developers.openai.com/changelog/#developers-2026-01-22-mdx
+-Expanded llms.txt coverage to include resources, blog posts, cookbook entries, and the developer changelog, with full exports where available.
+-Thu, 22 Jan 2026 00:00:00 GMT
+-# Expanded llms.txt coverage
+-## Fixes & improvements
+-Codex CLI Release: 0.89.0
+-https://developers.openai.com/changelog/#github-release-279171728
+-https://developers.openai.com/changelog/#github-release-279171728
+-0.89.0
+-Thu, 22 Jan 2026 00:00:00 GMT
+-<h2>New Features</h2>
+-<ul>
+-<li>Added a <code>/permissions</code> command with a shorter approval set while keeping <code>/approvals</code> for compatibility. (<a class="issue-link js-issue-link" data-error-text="Failed to load
+-<li>Added a <code>/skill</code> UI to enable or disable individual skills. (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3839927982" data-permission-text="Title
+-<li>Improved slash-command selection by prioritizing exact and prefix matches over fuzzy matches. (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3839965917" data
+-<li>App server now supports <code>thread/read</code> and can filter archived threads in <code>thread/list</code>. (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="]]></description>
+<pubDate>Sun, 25 Jan 2026 05:10:25 GMT</pubDate>
+<guid isPermaLink="false">82bbff0d532deff4e6a3992065909b3424f92af1</guid>
+</item>
+
 </channel>
 </rss>
