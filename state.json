@@ -1,5 +1,13 @@
 [
   {
+    "id": "60e7cbefb52d000d6263446ab7daed933763df33",
+    "impact": "High",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-\n-TEST_CHANGE",
+    "pubDate": "Sun, 25 Jan 2026 08:53:13 GMT"
+  },
+  {
     "id": "ed98e85968fbabf18acedcdf40ed1b3f22d7ca88",
     "impact": "Medium",
     "name": "OpenAI News (RSS)",

@@ -6,6 +6,18 @@
 <description>Breaking/High changes only. Verify on official sources.</description>
 
 <item>
+<title>[High] OpenAI Developer Changelog (RSS)</title>
+<link>https://developers.openai.com/changelog/rss.xml</link>
+<description><![CDATA[Detected a text change. Please verify on the official page.
+
+Diff (excerpt):
+-
+-TEST_CHANGE]]></description>
+<pubDate>Sun, 25 Jan 2026 08:53:13 GMT</pubDate>
+<guid isPermaLink="false">60e7cbefb52d000d6263446ab7daed933763df33</guid>
+</item>
+
+<item>
 <title>[Breaking] OpenAI OpenAPI Spec (YAML)</title>
 <link>https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml</link>
 <description><![CDATA[Detected a text change. Please verify on the official page.
