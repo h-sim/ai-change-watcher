@@ -122,6 +122,7 @@ def main():
             # RSS/XML/YAML は BeautifulSoup に通さず、そのまま比較する（安定・警告回避）
             if url.endswith((".xml", ".yml", ".yaml")):
                 new_text = raw
+                new_text = "\n".join(line.rstrip() for line in new_text.splitlines())
             else:
                 # HTMLっぽいときだけテキスト抽出（ノイズ削減）
                 if "<html" in raw.lower() or "<!doctype html" in raw.lower():
