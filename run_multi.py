@@ -223,13 +223,31 @@ def summarize_ja_3lines(name: str, url: str, snippet: str, impact: str) -> str:
             input=prompt,
         )
 
-        text = (getattr(resp, "output_text", "") or "").strip()
+        # SDK差異に備え、output_text が無い/空の場合は output 配列から拾う
+        text = ""
+        if hasattr(resp, "output_text") and getattr(resp, "output_text"):
+            text = getattr(resp, "output_text")
+        else:
+            try:
+                parts = []
+                for item in getattr(resp, "output", []) or []:
+                    for c in getattr(item, "content", []) or []:
+                        t = getattr(c, "text", None)
+                        if t:
+                            parts.append(t)
+                text = "".join(parts)
+            except Exception:
+                text = ""
 
-        # 保険：必ず3行に整形
+        text = (text or "").strip()
+        if not text:
+            return ""
+
+        # 保険：必ず3行に整形（ただし断定しない文面に寄せる）
         lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
         lines = lines[:3]
         while len(lines) < 3:
-            lines.append("要約生成に失敗（差分のみ確認）")
+            lines.append("差分のみ要確認のように見える")
         return "\n".join(lines)
 
     except Exception:
@@ -341,6 +359,8 @@ def main():
             summary_ja = ""
             if impact2 in ("Breaking", "High"):
                 summary_ja = summarize_ja_3lines(name, url, snippet, impact2)
+                if not summary_ja:
+                    print(f"[{impact2}] {name} : 要約生成に失敗（空のまま継続）")
 
             item_id = make_item_id(url, snippet)
             if item_id not in existing_ids:
