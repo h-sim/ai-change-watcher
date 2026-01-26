@@ -56,6 +56,42 @@ def truncate_excerpt(s: str, limit: int = EXCERPT_LIMIT) -> str:
     return s
 
 
+def openapi_highlights(diff_text: str, max_lines: int = 25) -> str:
+    """OpenAPIの巨大diffをそのままRSSに載せず、読み手に価値が高い要素だけ抜粋する。"""
+    diff_text = (diff_text or "").strip()
+    if not diff_text:
+        return ""
+
+    patterns = [
+        r"^[-+]\s*openapi:\s*.+$",
+        r"^[-+]\s*version:\s*.+$",
+        r"^[-+]\s*termsOfService:\s*.+$",
+        r"^[-+]\s*servers:\s*$",
+        r"^[-+]\s*-\s*url:\s*.+$",
+        r"^[-+]\s*security:\s*$",
+        r"^[-+]\s*tags:\s*$",
+        r"^[-+]\s*-\s*name:\s*.+$",
+        r"^[-+]\s*contact:\s*$",
+        r"^[-+]\s*license:\s*$",
+        r"^[-+]\s*url:\s*https?://.+$",
+    ]
+    rx = re.compile("(?:" + "|".join(patterns) + ")")
+
+    picked = []
+    for line in diff_text.splitlines():
+        line = line.rstrip("\r")
+        if rx.match(line.strip()):
+            picked.append(line)
+        if len(picked) >= max_lines:
+            break
+
+    # 何も拾えない場合は先頭数行だけ（ただし巨大なJSON差分は切り捨てたいので行数限定）
+    if not picked:
+        picked = diff_text.splitlines()[:min(max_lines, 10)]
+
+    return "\n".join(picked).strip()
+
+
 def build_feed(items: list, title: str, link: str, description: str) -> str:
     header = f"""<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 <rss version=\"2.0\">
@@ -77,10 +113,16 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
 
         # 炎上耐性：断定しない、公式で確認を促す
         snippet = it.get("snippet", "").strip()
+        is_openapi = "openapi" in (it.get("name") or "").lower()
         summary_ja = (it.get("summary_ja") or "").strip()
 
         # Diff抜粋が巨大化するとRSSが読めなくなるため上限を設ける
         snippet_raw = snippet if snippet else "(no snippet)"
+
+        # OpenAPIは巨大diffになりやすいので、要点だけを抽出してRSS可読性を優先
+        if is_openapi:
+            snippet_raw = openapi_highlights(snippet_raw) or "(no highlight)"
+
         snippet_raw = truncate_excerpt(snippet_raw, EXCERPT_LIMIT)
 
         # RSSリーダーで改行が潰れることがあるため、表示は <br/> に統一
@@ -94,14 +136,14 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
                 f"{summary_ja_disp}<br/><br/>"
                 "Please verify on the official page.<br/>"
                 f"Source: {it.get('url','')}<br/><br/>"
-                "Diff (excerpt):<br/>"
-                f"{snippet_disp}"
+                + ("Highlights (excerpt):<br/>" if is_openapi else "Diff (excerpt):<br/>")
+                + f"{snippet_disp}"
             )
         else:
             desc = (
                 "Detected a text change. Please verify on the official page.<br/><br/>"
-                "Diff (excerpt):<br/>"
-                f"{snippet_disp}"
+                + ("Highlights (excerpt):<br/>" if is_openapi else "Diff (excerpt):<br/>")
+                + f"{snippet_disp}"
             )
 
         # RSSで改行を保ちたいので CDATA に入れる（XMLとして安全）
