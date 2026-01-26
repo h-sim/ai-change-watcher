@@ -4,9 +4,9 @@ __pycache__/
 # Python virtual environment
 .venv/
 
-# Local snapshots/state outputs
-snapshots/
-state.json
+# Local outputs
+feed.xml
+feed_all.xml
 
 # Editor/OS
 .DS_Store
