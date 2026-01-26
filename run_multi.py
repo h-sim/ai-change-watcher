@@ -509,12 +509,70 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_score_min": 80,
             "expect_reason_contains": ["Changelog: breaking/deprecate/removed"],
         },
+        {
+            "id": "diff_snippet_ignores_rss_meta",
+            "name": "RSS meta noise only",
+            "url": "https://example.com/rss.xml",
+            "default": "Medium",
+            # diff_snippet/diff_stats を検証する（classify_impact は呼ばない）
+            "snippet": None,
+            "old_text": "<rss><channel><lastBuildDate>Mon, 01 Jan 2026 00:00:00 GMT</lastBuildDate></channel></rss>",
+            "new_text": "<rss><channel><lastBuildDate>Tue, 02 Jan 2026 00:00:00 GMT</lastBuildDate></channel></rss>",
+            "expect_diff_snippet_empty": True,
+            "expect_diff_stats": {"added": 0, "removed": 0, "churn": 0},
+        },
+        {
+            "id": "diff_stats_counts_real_change",
+            "name": "real change should count",
+            "url": "https://example.com/rss.xml",
+            "default": "Medium",
+            "snippet": None,
+            "old_text": "a\nb\nc\n",
+            "new_text": "a\nb\nX\n",
+            "expect_diff_snippet_empty": False,
+            "expect_diff_stats": {"added": 1, "removed": 1, "churn": 2},
+        },
     ]
 
     ok = True
     print("[SELFTEST] classify_impact rules (MVP: 方針2=ノイズ最小)")
 
     for t in tests:
+        # diff_snippet/diff_stats の挙動テスト（通知ノイズの回帰を防ぐ）
+        if t.get("snippet") is None:
+            old_text = t.get("old_text", "")
+            new_text = t.get("new_text", "")
+
+            sn = diff_snippet(old_text, new_text)
+            st2 = diff_stats(old_text, new_text)
+
+            exp_empty = bool(t.get("expect_diff_snippet_empty"))
+            exp_stats = t.get("expect_diff_stats") or {}
+
+            fail_reasons = []
+            if exp_empty and sn != "":
+                fail_reasons.append("diff_snippet expected empty but got non-empty")
+            if (not exp_empty) and sn == "":
+                fail_reasons.append("diff_snippet expected non-empty but got empty")
+
+            for k in ("added", "removed", "churn"):
+                if k in exp_stats and st2.get(k) != exp_stats.get(k):
+                    fail_reasons.append(f"diff_stats {k} expected={exp_stats.get(k)} got={st2.get(k)}")
+
+            if fail_reasons:
+                ok = False
+                print(f"[FAIL] {t['id']}: " + "; ".join(fail_reasons))
+                if verbose:
+                    print("       diff_snippet=", sn)
+                    print("       diff_stats =", st2)
+            else:
+                if verbose:
+                    print(f"[PASS] {t['id']}: diff_snippet_len={len(sn)} diff_stats={st2}")
+                else:
+                    print(f"[PASS] {t['id']}")
+            continue
+
+        # classify_impact のルールテスト
         impact, score, reasons = classify_impact(t["name"], t["url"], t["snippet"], t["default"])
         st = snippet_stats(t["snippet"])
 
@@ -542,7 +600,9 @@ def run_selftests(verbose: bool = False) -> bool:
                 print("       snippet=", t["snippet"])
         else:
             if verbose:
-                print(f"[PASS] {t['id']}: impact={impact} score={score} reasons={reasons} (+{st['added']}/-{st['removed']}, churn={st['churn']})")
+                print(
+                    f"[PASS] {t['id']}: impact={impact} score={score} reasons={reasons} (+{st['added']}/-{st['removed']}, churn={st['churn']})"
+                )
             else:
                 print(f"[PASS] {t['id']} (+{st['added']}/-{st['removed']}, churn={st['churn']})")
     print("[SELFTEST] RESULT:", "PASS" if ok else "FAIL")
