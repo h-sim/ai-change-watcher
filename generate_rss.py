@@ -2,6 +2,7 @@ import os
 import re
 import json
 import html
+from email.utils import parsedate_to_datetime
 from datetime import datetime, timezone
 
 
@@ -92,6 +93,46 @@ def openapi_highlights(diff_text: str, max_lines: int = 25) -> str:
     return "\n".join(picked).strip()
 
 
+def item_datetime(it: dict) -> datetime:
+    """state.json の item から比較用の日時を取得（なるべく堅牢に）。"""
+    # 1) RFC822 pubDate（RSS形式）
+    pub = (it.get("pubDate") or "").strip()
+    if pub:
+        try:
+            dt = parsedate_to_datetime(pub)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.astimezone(timezone.utc)
+        except Exception:
+            pass
+
+    # 2) epoch seconds / timestamp らしき値
+    for k in ("ts", "timestamp", "time"):
+        if k in it:
+            try:
+                return datetime.fromtimestamp(float(it[k]), tz=timezone.utc)
+            except Exception:
+                pass
+
+    # 3) それ以外は現在時刻
+    return datetime.now(timezone.utc)
+
+
+def latest_per_target(items: list) -> list:
+    """ターゲット(URL)ごとに最新1件だけ残す（RSSの可読性を優先）。"""
+    best = {}
+    for it in items:
+        key = (it.get("url") or it.get("name") or "").strip()
+        if not key:
+            continue
+        dt = item_datetime(it)
+        if key not in best or dt > best[key][0]:
+            best[key] = (dt, it)
+
+    # 最新順で返す
+    return [pair[1] for pair in sorted(best.values(), key=lambda x: x[0], reverse=True)]
+
+
 def build_feed(items: list, title: str, link: str, description: str) -> str:
     header = f"""<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
 <rss version=\"2.0\">
@@ -168,7 +209,8 @@ def main():
 
     # 2系統：
     # 1) 重要（Breaking/High）
-    important = [it for it in items if it.get("impact") in ("Breaking", "High")]
+    important_raw = [it for it in items if it.get("impact") in ("Breaking", "High")]
+    important = latest_per_target(important_raw)
     rss_important = build_feed(
         important,
         title="AI Change Watcher (Important)",
