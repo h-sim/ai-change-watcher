@@ -524,12 +524,11 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_diff_stats": {"added": 0, "removed": 0, "churn": 0},
         },
         {
-        {
             "id": "news_compact_keeps_high_signal_line",
             "name": "OpenAI News (RSS)",
             "url": "https://openai.com/news/rss.xml",
             "default": "Medium",
-            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update" ]),
+            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update"]),
             # compact_news_snippet の回帰防止：高シグナル行が削られないこと
             "expect_compact_news": {
                 "max_lines": 12,
@@ -552,10 +551,11 @@ def run_selftests(verbose: bool = False) -> bool:
             "name": "OpenAI News (RSS)",
             "url": "https://openai.com/news/rss.xml",
             "default": "Medium",
-            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update" ]),
+            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update"]),
             # 仕様要件：state の id は「圧縮前 snippet」で生成し、圧縮方法の変更で重複 item が増えないようにする
             "expect_item_id_full_vs_compact_different": True,
         },
+        {
             "id": "diff_stats_counts_real_change",
             "name": "real change should count",
             "url": "https://example.com/rss.xml",
