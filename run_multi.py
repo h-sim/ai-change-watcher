@@ -205,6 +205,7 @@ def diff_stats(old_text: str, new_text: str) -> dict:
 
     return {"added": added, "removed": removed, "churn": added + removed}
 
+
 def snippet_stats(snippet: str) -> dict:
     """snippet（+/-行）から、追加/削除/総量(churn)を集計する。"""
     added = 0
@@ -221,6 +222,50 @@ def snippet_stats(snippet: str) -> dict:
             elif line.startswith("-"):
                 removed += 1
     return {"added": added, "removed": removed, "churn": added + removed}
+
+
+# News(RSS)向けにdiff snippetを圧縮して可読性を高める
+def compact_news_snippet(snippet: str, max_lines: int = 12, prefer_keywords: list[str] | None = None) -> str:
+    """News(RSS)向けに diff snippet を読みやすく圧縮する。
+
+    - 大量入替が起きた時、40行の +/- だと読まれないため、
+      "規約/料金/安全" などのキーワード行を優先して残す。
+    - それでも足りない場合は先頭から補完する。
+
+    返り値は `diff_snippet()` と同じく +/- 行のみ。
+    """
+    lines = [ln for ln in (snippet or "").splitlines() if ln.strip()]
+    if not lines:
+        return ""
+
+    kws = [k.lower() for k in (prefer_keywords or []) if k]
+
+    # 1) キーワードを含む行を優先
+    picked: list[str] = []
+    seen: set[str] = set()
+
+    def _add(line: str) -> None:
+        if line in seen:
+            return
+        seen.add(line)
+        picked.append(line)
+
+    if kws:
+        for ln in lines:
+            low = ln.lower()
+            if any(k in low for k in kws):
+                _add(ln)
+                if len(picked) >= max_lines:
+                    break
+
+    # 2) 足りなければ先頭から補完
+    if len(picked) < max_lines:
+        for ln in lines:
+            _add(ln)
+            if len(picked) >= max_lines:
+                break
+
+    return "\n".join(picked[:max_lines]).strip()
 
 def classify_impact(name: str, url: str, snippet: str, default_impact: str):
     """重要度の自動判定（MVP: 方針2=ノイズ最小優先）
@@ -341,6 +386,10 @@ def classify_impact(name: str, url: str, snippet: str, default_impact: str):
         added_lines = sum(1 for ln in (snippet or "").splitlines() if ln.startswith("+"))
         churn = removed_lines + added_lines
 
+        # 高シグナルがある上で大量更新なら、重要だが確認コストも高い（理由として明示）
+        if churn >= 30 and has_high_signal:
+            reasons.append("News: 高シグナル+大量更新（要確認）")
+
         # MVP(方針2): 高シグナルが無い大量更新は『並び替え/入替/再配信』の可能性が高いので通知を抑制
         if churn >= 30 and not has_high_signal:
             reasons.append("News: 大量更新（入替/並び替えの可能性）→通知抑制")
@@ -436,6 +485,16 @@ def run_selftests(verbose: bool = False) -> bool:
             "expect_impact": "High",
             "expect_score_min": 50,
             "expect_reason_contains": ["News: policy/terms/pricing/security"],
+        },
+        {
+            "id": "news_policy_high_with_churn",
+            "name": "OpenAI News (RSS)",
+            "url": "https://openai.com/news/rss.xml",
+            "default": "Medium",
+            "snippet": "\n".join(["- old" for _ in range(20)] + ["+ new" for _ in range(19)] + ["+ Terms of Use update" ]),
+            "expect_impact": "High",
+            "expect_score_min": 50,
+            "expect_reason_contains": ["News: policy/terms/pricing/security", "News: 高シグナル+大量更新（要確認）"],
         },
         {
             "id": "changelog_breaking",
@@ -675,6 +734,24 @@ def main(log_diff_stats: bool = False):
         if snippet:
             # state.json には常に diff 統計を保存する（ログ出力有無と独立）
             stats_for_state = diff_stats(old_text, new_text)
+
+            # News は大量入替が起きやすいので、excerpt を短くして可読性を最優先する
+            if "news" in (name or "").lower() and stats_for_state.get("churn", 0) >= 20:
+                snippet = compact_news_snippet(
+                    snippet,
+                    max_lines=12,
+                    prefer_keywords=[
+                        "policy",
+                        "terms",
+                        "termsofservice",
+                        "pricing",
+                        "billing",
+                        "security",
+                        "privacy",
+                        "trust",
+                        "safety",
+                    ],
+                )
 
             impact2, score, reasons = classify_impact(name, url, snippet, impact)
 
