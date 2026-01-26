@@ -16,18 +16,22 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "3.13"
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 openai
+          python3 -m pip install -U pip
+          pip install -r requirements.txt
+
+      - name: Self-test rules
+        run: python3 run_multi.py --selftest
 
       - name: Run watcher
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python run_multi.py
-          python generate_rss.py
+          python3 run_multi.py
+          python3 generate_rss.py
 
       - name: Commit and push changes
         run: |
