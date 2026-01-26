@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "id": "4b6c5be32b6b8b74e199133100d20dbf5115bf0a",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "-title: Codex CLI Release: 0.72.0\n-link: https://developers.openai.com/changelog/#github-release-270052666\n-id: https://developers.openai.com/changelog/#github-release-270052666\n-date: Sat, 13 Dec 2025 00:00:00 GMT\n-body:\n-#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 0,
+      "removed": 6,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 26 Jan 2026 22:40:28 GMT"
+  }
+]
