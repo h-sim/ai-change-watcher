@@ -29,6 +29,7 @@ jobs:
       - name: Run watcher
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SITE_URL: https://h-sim.github.io/ai-change-watcher/
         run: |
           python3 run_multi.py --log-diff-stats
           python3 generate_rss.py
