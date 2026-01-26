@@ -1,4 +1,0 @@
-AI Change Watcher Test Source
-line1
-line2
-TEST_CHANGE_1
