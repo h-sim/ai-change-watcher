@@ -607,6 +607,10 @@ def main(log_diff_stats: bool = False):
     state = load_state()
     existing_ids = {it.get("id") for it in state if "id" in it}
 
+    # 今回の実行で「新規に追加された item 数」を集計（Actionsログだけで状況把握できるようにする）
+    added_total = 0
+    added_by_impact = {"Breaking": 0, "High": 0, "Medium": 0, "Low": 0}
+
     for t in TARGETS:
         name = t["name"]
         url = t["url"]
@@ -699,6 +703,9 @@ def main(log_diff_stats: bool = False):
                     },
                 )
                 existing_ids.add(item_id)
+                added_total += 1
+                if impact2 in added_by_impact:
+                    added_by_impact[impact2] += 1
 
             if log_diff_stats:
                 print(
@@ -715,6 +722,18 @@ def main(log_diff_stats: bool = False):
     # 履歴は上限で刈る
     state = state[:MAX_ITEMS]
     save_state(state)
+
+    # 追加件数のサマリ（「変更なし」でも 0 件と明示する）
+    if added_total == 0:
+        print("[SUMMARY] Added 0 new items")
+    else:
+        parts = []
+        for k in ("Breaking", "High", "Medium", "Low"):
+            v = added_by_impact.get(k, 0)
+            if v:
+                parts.append(f"{k}={v}")
+        tail = (" (" + ", ".join(parts) + ")") if parts else ""
+        print(f"[SUMMARY] Added {added_total} new items" + tail)
 
 
 if __name__ == "__main__":
