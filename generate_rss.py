@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import html
 from datetime import datetime, timezone
@@ -26,8 +27,23 @@ def load_items() -> list:
         return []
 
 
+
 def rss_escape(s: str) -> str:
     return html.escape(s, quote=True)
+
+
+def sanitize_xml_10(s: str) -> str:
+    """XML 1.0で不正な制御文字を除去する（RSSパーサのエラー回避）"""
+    if not s:
+        return ""
+    # 許可: TAB(0x09), LF(0x0A), CR(0x0D)
+    return re.sub(r"[\x00-\x08\x0B\x0C\x0E-\x1F]", "", s)
+
+
+def cdata_wrap(s: str) -> str:
+    """CDATAを安全に包む。本文に ']]>' が含まれるとXMLが壊れるため分割する。"""
+    s = sanitize_xml_10(s or "")
+    return "<![CDATA[" + s.replace("]]>", "]]]]><![CDATA[>") + "]]>"
 
 
 def build_feed(items: list, title: str, link: str, description: str) -> str:
@@ -75,11 +91,12 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
             )
 
         # RSSで改行を保ちたいので CDATA に入れる（XMLとして安全）
+        desc_xml = cdata_wrap(desc)
         out.append(f"""
 <item>
 <title>{rss_escape(item_title)}</title>
 <link>{rss_escape(item_link)}</link>
-<description><![CDATA[{desc}]]></description>
+<description>{desc_xml}</description>
 <pubDate>{rss_escape(pub_date)}</pubDate>
 <guid isPermaLink=\"false\">{rss_escape(it["id"])}</guid>
 </item>
