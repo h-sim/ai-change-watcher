@@ -1,80 +1,4902 @@
-Fri, 23 Jan 2026 12:00:00 GMT	Unrolling the Codex agent loop	https://openai.com/index/unrolling-the-codex-agent-loop	https://openai.com/index/unrolling-the-codex-agent-loop
-Thu, 22 Jan 2026 12:00:00 GMT	Scaling PostgreSQL to power 800 million ChatGPT users	https://openai.com/index/scaling-postgresql	https://openai.com/index/scaling-postgresql
-Thu, 22 Jan 2026 05:00:00 GMT	Inside Praktika's conversational approach to language learning	https://openai.com/index/praktika	https://openai.com/index/praktika
-Thu, 22 Jan 2026 00:00:00 GMT	Inside GPT-5 for Work: How Businesses Use GPT-5	https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work	https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
-Wed, 21 Jan 2026 10:00:00 GMT	How Higgsfield turns simple ideas into cinematic social videos	https://openai.com/index/higgsfield	https://openai.com/index/higgsfield
-Wed, 21 Jan 2026 01:00:00 GMT	Introducing Edu for Countries	https://openai.com/index/edu-for-countries	https://openai.com/index/edu-for-countries
-Wed, 21 Jan 2026 01:00:00 GMT	How countries can end the capability overhang	https://openai.com/index/how-countries-can-end-the-capability-overhang	https://openai.com/index/how-countries-can-end-the-capability-overhang
-Tue, 20 Jan 2026 21:00:00 GMT	Horizon 1000: Advancing AI for primary healthcare	https://openai.com/index/horizon-1000	https://openai.com/index/horizon-1000
-Tue, 20 Jan 2026 19:00:00 GMT	Stargate Community	https://openai.com/index/stargate-community	https://openai.com/index/stargate-community
-Tue, 20 Jan 2026 11:00:00 GMT	Cisco and OpenAI redefine enterprise engineering with AI agents	https://openai.com/index/cisco	https://openai.com/index/cisco
-Tue, 20 Jan 2026 05:45:00 GMT	ServiceNow powers actionable enterprise AI with OpenAI	https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai	https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai
-Tue, 20 Jan 2026 00:00:00 GMT	Our approach to age prediction	https://openai.com/index/our-approach-to-age-prediction	https://openai.com/index/our-approach-to-age-prediction
-Sun, 18 Jan 2026 12:00:00 GMT	AI for self empowerment	https://openai.com/index/ai-for-self-empowerment	https://openai.com/index/ai-for-self-empowerment
-Sun, 18 Jan 2026 10:00:00 GMT	A business that scales with the value of intelligence	https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence	https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
-Fri, 16 Jan 2026 12:00:00 GMT	The truth left out from Elon Musk’s recent court filing	https://openai.com/index/the-truth-elon-left-out	https://openai.com/index/the-truth-elon-left-out
-Fri, 16 Jan 2026 00:00:00 GMT	Introducing ChatGPT Go, now available worldwide	https://openai.com/index/introducing-chatgpt-go	https://openai.com/index/introducing-chatgpt-go
-Fri, 16 Jan 2026 00:00:00 GMT	Our approach to advertising and expanding access to ChatGPT	https://openai.com/index/our-approach-to-advertising-and-expanding-access	https://openai.com/index/our-approach-to-advertising-and-expanding-access
-Thu, 15 Jan 2026 07:00:00 GMT	Investing in Merge Labs	https://openai.com/index/investing-in-merge-labs	https://openai.com/index/investing-in-merge-labs
-Thu, 15 Jan 2026 00:00:00 GMT	Strengthening the U.S. AI supply chain through domestic manufacturing	https://openai.com/index/strengthening-the-us-ai-supply-chain	https://openai.com/index/strengthening-the-us-ai-supply-chain
-Wed, 14 Jan 2026 14:00:00 GMT	OpenAI partners with Cerebras	https://openai.com/index/cerebras-partnership	https://openai.com/index/cerebras-partnership
-Tue, 13 Jan 2026 16:00:00 GMT	Zenken boosts a lean sales team with ChatGPT Enterprise	https://openai.com/index/zenken	https://openai.com/index/zenken
-Mon, 12 Jan 2026 00:00:00 GMT	OpenAI’s Raising Concerns Policy	https://openai.com/index/openai-raising-concerns-policy	https://openai.com/index/openai-raising-concerns-policy
-Fri, 09 Jan 2026 11:00:00 GMT	OpenAI and SoftBank Group partner with SB Energy	https://openai.com/index/stargate-sb-energy-partnership	https://openai.com/index/stargate-sb-energy-partnership
-Fri, 09 Jan 2026 00:00:00 GMT	Datadog uses Codex for system-level code review	https://openai.com/index/datadog	https://openai.com/index/datadog
-Thu, 08 Jan 2026 13:00:00 GMT	Netomi’s lessons for scaling agentic systems into the enterprise	https://openai.com/index/netomi	https://openai.com/index/netomi
-Thu, 08 Jan 2026 12:00:00 GMT	OpenAI for Healthcare	https://openai.com/index/openai-for-healthcare	https://openai.com/index/openai-for-healthcare
-Wed, 07 Jan 2026 10:00:00 GMT	How Tolan builds voice-first AI with GPT-5.1	https://openai.com/index/tolan	https://openai.com/index/tolan
-Wed, 07 Jan 2026 00:00:00 GMT	Introducing ChatGPT Health	https://openai.com/index/introducing-chatgpt-health	https://openai.com/index/introducing-chatgpt-health
-Fri, 02 Jan 2026 10:00:00 GMT	Announcing OpenAI Grove Cohort 2	https://openai.com/index/openai-grove	https://openai.com/index/openai-grove
-Mon, 22 Dec 2025 00:00:00 GMT	One in a million: celebrating the customers shaping AI’s future	https://openai.com/index/one-in-a-million-customers	https://openai.com/index/one-in-a-million-customers
-Mon, 22 Dec 2025 00:00:00 GMT	Continuously hardening ChatGPT Atlas against prompt injection	https://openai.com/index/hardening-atlas-against-prompt-injection	https://openai.com/index/hardening-atlas-against-prompt-injection
-Thu, 18 Dec 2025 12:00:00 GMT	Evaluating chain-of-thought monitorability	https://openai.com/index/evaluating-chain-of-thought-monitorability	https://openai.com/index/evaluating-chain-of-thought-monitorability
-Thu, 18 Dec 2025 11:00:00 GMT	Deepening our collaboration with the U.S. Department of Energy	https://openai.com/index/us-department-of-energy-collaboration	https://openai.com/index/us-department-of-energy-collaboration
-Thu, 18 Dec 2025 11:00:00 GMT	Updating our Model Spec with teen protections	https://openai.com/index/updating-model-spec-with-teen-protections	https://openai.com/index/updating-model-spec-with-teen-protections
-Thu, 18 Dec 2025 11:00:00 GMT	AI literacy resources for teens and parents	https://openai.com/index/ai-literacy-resources-for-teens-and-parents	https://openai.com/index/ai-literacy-resources-for-teens-and-parents
-Thu, 18 Dec 2025 00:00:00 GMT	Introducing GPT-5.2-Codex	https://openai.com/index/gpt-5-2-codex	https://openai.com/index/gpt-5-2-codex
-Thu, 18 Dec 2025 00:00:00 GMT	Addendum to GPT-5.2 System Card: GPT-5.2-Codex	https://openai.com/index/gpt-5-2-codex-system-card	https://openai.com/index/gpt-5-2-codex-system-card
-Thu, 18 Dec 2025 00:00:00 GMT	Introducing GPT-5.2-Codex	https://openai.com/index/introducing-gpt-5-2-codex	https://openai.com/index/introducing-gpt-5-2-codex
-Wed, 17 Dec 2025 06:00:00 GMT	Introducing OpenAI Academy for News Organizations	https://openai.com/index/openai-academy-for-news-organizations	https://openai.com/index/openai-academy-for-news-organizations
-Wed, 17 Dec 2025 00:00:00 GMT	Developers can now submit apps to ChatGPT	https://openai.com/index/developers-can-now-submit-apps-to-chatgpt	https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
-Tue, 16 Dec 2025 09:00:00 GMT	Evaluating AI’s ability to perform scientific research tasks	https://openai.com/index/frontierscience	https://openai.com/index/frontierscience
-Tue, 16 Dec 2025 08:00:00 GMT	Measuring AI’s capability to accelerate biological research	https://openai.com/index/accelerating-biological-research-in-the-wet-lab	https://openai.com/index/accelerating-biological-research-in-the-wet-lab
-Tue, 16 Dec 2025 00:00:00 GMT	The new ChatGPT Images is here	https://openai.com/index/new-chatgpt-images-is-here	https://openai.com/index/new-chatgpt-images-is-here
-Fri, 12 Dec 2025 00:00:00 GMT	How We Used Codex to Ship Sora for Android in 28 Days	https://openai.com/index/shipping-sora-for-android-with-codex	https://openai.com/index/shipping-sora-for-android-with-codex
-Fri, 12 Dec 2025 00:00:00 GMT	BBVA and OpenAI collaborate to transform global banking	https://openai.com/index/bbva-collaboration-expansion	https://openai.com/index/bbva-collaboration-expansion
-Fri, 12 Dec 2025 00:00:00 GMT	BNY builds “AI for everyone, everywhere” with OpenAI	https://openai.com/index/bny	https://openai.com/index/bny
-Thu, 11 Dec 2025 10:00:00 GMT	Advancing science and math with GPT-5.2	https://openai.com/index/gpt-5-2-for-science-and-math	https://openai.com/index/gpt-5-2-for-science-and-math
-Thu, 11 Dec 2025 00:00:00 GMT	Increasing revenue 300% by bringing AI to SMBs	https://openai.com/index/podium	https://openai.com/index/podium
-Thu, 11 Dec 2025 00:00:00 GMT	Introducing GPT-5.2	https://openai.com/index/introducing-gpt-5-2	https://openai.com/index/introducing-gpt-5-2
-Thu, 11 Dec 2025 00:00:00 GMT	Update to GPT-5 System Card: GPT-5.2	https://openai.com/index/gpt-5-system-card-update-gpt-5-2	https://openai.com/index/gpt-5-system-card-update-gpt-5-2
-Thu, 11 Dec 2025 00:00:00 GMT	Ten years	https://openai.com/index/ten-years	https://openai.com/index/ten-years
-Thu, 11 Dec 2025 00:00:00 GMT	The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora	https://openai.com/index/disney-sora-agreement	https://openai.com/index/disney-sora-agreement
-Wed, 10 Dec 2025 12:00:00 GMT	Strengthening cyber resilience as AI capabilities advance	https://openai.com/index/strengthening-cyber-resilience	https://openai.com/index/strengthening-cyber-resilience
-Tue, 09 Dec 2025 16:00:00 GMT	How Scout24 is building the next generation of real-estate search with AI	https://openai.com/index/scout24	https://openai.com/index/scout24
-Tue, 09 Dec 2025 09:00:00 GMT	OpenAI co-founds Agentic AI Foundation, donates AGENTS.md	https://openai.com/index/agentic-ai-foundation	https://openai.com/index/agentic-ai-foundation
-Tue, 09 Dec 2025 06:00:00 GMT	Launching our first OpenAI Certifications courses	https://openai.com/index/openai-certificate-courses	https://openai.com/index/openai-certificate-courses
-Tue, 09 Dec 2025 00:00:00 GMT	Bringing powerful AI to millions across Europe with Deutsche Telekom	https://openai.com/index/deutsche-telekom-collaboration	https://openai.com/index/deutsche-telekom-collaboration
-Tue, 09 Dec 2025 00:00:00 GMT	OpenAI appoints Denise Dresser as Chief Revenue Officer	https://openai.com/index/openai-appoints-denise-dresser	https://openai.com/index/openai-appoints-denise-dresser
-Tue, 09 Dec 2025 00:00:00 GMT	Building AI fluency at scale with ChatGPT Enterprise	https://openai.com/index/commonwealth-bank-of-australia	https://openai.com/index/commonwealth-bank-of-australia
-Mon, 08 Dec 2025 06:00:00 GMT	Instacart and OpenAI partner on AI shopping experiences	https://openai.com/index/instacart-partnership	https://openai.com/index/instacart-partnership
-Mon, 08 Dec 2025 04:00:00 GMT	The state of enterprise AI	https://openai.com/index/the-state-of-enterprise-ai-2025-report	https://openai.com/index/the-state-of-enterprise-ai-2025-report
-Mon, 08 Dec 2025 00:00:00 GMT	How Virgin Atlantic uses AI to enhance every step of travel	https://openai.com/index/virgin-atlantic-oliver-byers	https://openai.com/index/virgin-atlantic-oliver-byers
-Thu, 04 Dec 2025 19:00:00 GMT	Introducing OpenAI for Australia	https://openai.com/global-affairs/openai-for-australia	https://openai.com/global-affairs/openai-for-australia
-Wed, 03 Dec 2025 10:00:00 GMT	How confessions can keep language models honest	https://openai.com/index/how-confessions-can-keep-language-models-honest	https://openai.com/index/how-confessions-can-keep-language-models-honest
-Wed, 03 Dec 2025 10:00:00 GMT	OpenAI to acquire Neptune	https://openai.com/index/openai-to-acquire-neptune	https://openai.com/index/openai-to-acquire-neptune
-Wed, 03 Dec 2025 08:00:00 GMT	Announcing the initial People-First AI Fund grantees	https://openai.com/index/people-first-ai-fund-grantees	https://openai.com/index/people-first-ai-fund-grantees
-Mon, 01 Dec 2025 22:00:00 GMT	Inside Mirakl's agentic commerce vision	https://openai.com/index/mirakl	https://openai.com/index/mirakl
-Mon, 01 Dec 2025 12:00:00 GMT	Funding grants for new research into AI and mental health	https://openai.com/index/ai-mental-health-research-grants	https://openai.com/index/ai-mental-health-research-grants
-Mon, 01 Dec 2025 06:00:00 GMT	OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”	https://openai.com/index/norad-holiday-collaboration	https://openai.com/index/norad-holiday-collaboration
-Mon, 01 Dec 2025 05:00:00 GMT	OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption	https://openai.com/index/thrive-holdings	https://openai.com/index/thrive-holdings
-Mon, 01 Dec 2025 05:00:00 GMT	Accenture and OpenAI accelerate enterprise AI success	https://openai.com/index/accenture-partnership	https://openai.com/index/accenture-partnership
-Wed, 26 Nov 2025 19:00:00 GMT	Mixpanel security incident: what OpenAI users need to know	https://openai.com/index/mixpanel-incident	https://openai.com/index/mixpanel-incident
-Tue, 25 Nov 2025 22:00:00 GMT	Expanding data residency access to business customers worldwide	https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide	https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
-Tue, 25 Nov 2025 12:00:00 GMT	Our approach to mental health-related litigation	https://openai.com/index/mental-health-litigation-approach	https://openai.com/index/mental-health-litigation-approach
-Tue, 25 Nov 2025 00:00:00 GMT	Inside JetBrains—the company reshaping how the world writes code	https://openai.com/index/jetbrains-2025	https://openai.com/index/jetbrains-2025
-Mon, 24 Nov 2025 00:00:00 GMT	GPT-5 and the future of mathematical discovery	https://openai.com/index/gpt-5-mathematical-discovery	https://openai.com/index/gpt-5-mathematical-discovery
-Mon, 24 Nov 2025 00:00:00 GMT	Introducing shopping research in ChatGPT	https://openai.com/index/chatgpt-shopping-research	https://openai.com/index/chatgpt-shopping-research
-Thu, 20 Nov 2025 14:50:00 GMT	OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain	https://openai.com/index/openai-and-foxconn-collaborate	https://openai.com/index/openai-and-foxconn-collaborate
-Thu, 20 Nov 2025 06:00:00 GMT	Helping 1,000 small businesses build with AI	https://openai.com/index/small-business-ai-jam	https://openai.com/index/small-business-ai-jam
-Thu, 20 Nov 2025 00:00:00 GMT	Early experiments in accelerating science with GPT-5	https://openai.com/index/accelerating-science-gpt-5	https://openai.com/index/accelerating-science-gpt-5
+#ITEM
+title: Agent bio bug bounty call
+link: https://openai.com/bio-bug-bounty
+id: https://openai.com/bio-bug-bounty
+date: Thu, 17 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Enabling a data-driven workforce
+link: https://openai.com/business/enabling-a-data-driven-workforce-webinar
+id: https://openai.com/business/enabling-a-data-driven-workforce-webinar
+date: Thu, 08 Aug 2024 00:00:00 GMT
+body:
+#ITEM
+title: Fine-tuning GPT-4o webinar
+link: https://openai.com/business/fine-tuning-gpt-4o-webinar
+id: https://openai.com/business/fine-tuning-gpt-4o-webinar
+date: Mon, 26 Aug 2024 00:00:00 GMT
+body:
+#ITEM
+title: Inside GPT-5 for Work: How Businesses Use GPT-5
+link: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
+id: https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work
+date: Thu, 22 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: New in ChatGPT for Business: April 2025
+link: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
+id: https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025
+date: Thu, 24 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: New in ChatGPT for Business: March 2025
+link: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
+id: https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025
+date: Tue, 18 Mar 2025 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work: Automate and scale financial operations
+link: https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations
+id: https://openai.com/business/put-ai-to-work-automate-and-scale-financial-operations
+date: Mon, 30 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work for marketing teams
+link: https://openai.com/business/put-ai-to-work-for-marketing-teams
+id: https://openai.com/business/put-ai-to-work-for-marketing-teams
+date: Thu, 31 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work: Lessons from hundreds of successful deployments
+link: https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments
+id: https://openai.com/business/put-ai-to-work-lessons-from-hundreds-of-successful-deployments
+date: Tue, 10 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Solving complex problems with OpenAI o1 models
+link: https://openai.com/business/solving-complex-problems-with-openai-o1-models
+id: https://openai.com/business/solving-complex-problems-with-openai-o1-models
+date: Thu, 17 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: A Student’s Guide to Writing with ChatGPT
+link: https://openai.com/chatgpt/use-cases/student-writing-guide
+id: https://openai.com/chatgpt/use-cases/student-writing-guide
+date: Wed, 13 Nov 2024 10:00:00 GMT
+body:
+#ITEM
+title: Stargate Infrastructure
+link: https://openai.com/form/stargate-infrastructure
+id: https://openai.com/form/stargate-infrastructure
+date: Tue, 21 Jan 2025 13:30:00 GMT
+body:
+#ITEM
+title: 1,000 Scientist AI Jam Session
+link: https://openai.com/global-affairs/1000-scientist-ai-jam-session
+id: https://openai.com/global-affairs/1000-scientist-ai-jam-session
+date: Fri, 28 Feb 2025 08:00:00 GMT
+body:
+#ITEM
+title: A Primer on the EU AI Act: What It Means for AI Providers and Deployers
+link: https://openai.com/global-affairs/a-primer-on-the-eu-ai-act
+id: https://openai.com/global-affairs/a-primer-on-the-eu-ai-act
+date: Tue, 30 Jul 2024 00:00:00 GMT
+body:
+#ITEM
+title: Accelerating AI adoption in Europe
+link: https://openai.com/global-affairs/accelerating-ai-uptake-in-europe
+id: https://openai.com/global-affairs/accelerating-ai-uptake-in-europe
+date: Mon, 06 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Working with 400,000 teachers to shape the future of AI in schools
+link: https://openai.com/global-affairs/aft
+id: https://openai.com/global-affairs/aft
+date: Tue, 08 Jul 2025 07:00:00 GMT
+body:
+#ITEM
+title: Introducing AI stories: daily benefits shine a light on bigger opportunities
+link: https://openai.com/global-affairs/ai-stories-daily-benefits-bigger-opportunities
+id: https://openai.com/global-affairs/ai-stories-daily-benefits-bigger-opportunities
+date: Tue, 06 May 2025 10:30:00 GMT
+body:
+#ITEM
+title: American-made innovation
+link: https://openai.com/global-affairs/american-made-innovation
+id: https://openai.com/global-affairs/american-made-innovation
+date: Mon, 22 Sep 2025 11:30:00 GMT
+body:
+#ITEM
+title: An update on disrupting deceptive uses of AI
+link: https://openai.com/global-affairs/an-update-on-disrupting-deceptive-uses-of-ai
+id: https://openai.com/global-affairs/an-update-on-disrupting-deceptive-uses-of-ai
+date: Wed, 09 Oct 2024 03:30:00 GMT
+body:
+#ITEM
+title: Argentina’s AI opportunity
+link: https://openai.com/global-affairs/argentinas-ai-opportunity
+id: https://openai.com/global-affairs/argentinas-ai-opportunity
+date: Tue, 14 Oct 2025 06:00:00 GMT
+body:
+#ITEM
+title: Brazil’s AI moment is here
+link: https://openai.com/global-affairs/brazil-ai-moment-is-here
+id: https://openai.com/global-affairs/brazil-ai-moment-is-here
+date: Tue, 04 Nov 2025 15:30:00 GMT
+body:
+#ITEM
+title: College students and ChatGPT adoption in the US
+link: https://openai.com/global-affairs/college-students-and-chatgpt
+id: https://openai.com/global-affairs/college-students-and-chatgpt
+date: Thu, 20 Feb 2025 06:00:00 GMT
+body:
+#ITEM
+title: Comment on NTIA AI Accountability Policy
+link: https://openai.com/global-affairs/comment-on-ntia-ai-accountability-policy
+id: https://openai.com/global-affairs/comment-on-ntia-ai-accountability-policy
+date: Mon, 12 Jun 2023 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s comments to the NTIA on data center growth, resilience, and security
+link: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security
+id: https://openai.com/global-affairs/comments-to-the-ntia-on-data-center-growth-resilience-and-security
+date: Mon, 04 Nov 2024 12:00:00 GMT
+body:
+#ITEM
+title: Disrupting malicious uses of AI
+link: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai
+id: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai
+date: Fri, 21 Feb 2025 06:30:00 GMT
+body:
+#ITEM
+title: Disrupting malicious uses of AI: June 2025
+link: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025
+id: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-june-2025
+date: Thu, 05 Jun 2025 02:00:00 GMT
+body:
+#ITEM
+title: Disrupting malicious uses of AI: October 2025
+link: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025
+id: https://openai.com/global-affairs/disrupting-malicious-uses-of-ai-october-2025
+date: Tue, 07 Oct 2025 03:00:00 GMT
+body:
+#ITEM
+title: The EU Code of Practice and future of AI in Europe
+link: https://openai.com/global-affairs/eu-code-of-practice
+id: https://openai.com/global-affairs/eu-code-of-practice
+date: Fri, 11 Jul 2025 09:30:00 GMT
+body:
+#ITEM
+title: Intellectual freedom by design
+link: https://openai.com/global-affairs/intellectual-freedom-by-design
+id: https://openai.com/global-affairs/intellectual-freedom-by-design
+date: Tue, 15 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Gov
+link: https://openai.com/global-affairs/introducing-chatgpt-gov
+id: https://openai.com/global-affairs/introducing-chatgpt-gov
+date: Tue, 28 Jan 2025 06:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI for Government
+link: https://openai.com/global-affairs/introducing-openai-for-government
+id: https://openai.com/global-affairs/introducing-openai-for-government
+date: Mon, 16 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing the Intelligence Age
+link: https://openai.com/global-affairs/introducing-the-intelligence-age
+id: https://openai.com/global-affairs/introducing-the-intelligence-age
+date: Sun, 09 Feb 2025 22:00:00 GMT
+body:
+#ITEM
+title: Announcing the OpenAI Learning Accelerator
+link: https://openai.com/global-affairs/learning-accelerator
+id: https://openai.com/global-affairs/learning-accelerator
+date: Mon, 25 Aug 2025 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s letter to Governor Newsom on harmonized regulation
+link: https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation
+id: https://openai.com/global-affairs/letter-to-governor-newsom-on-harmonized-regulation
+date: Tue, 12 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s new economic analysis
+link: https://openai.com/global-affairs/new-economic-analysis
+id: https://openai.com/global-affairs/new-economic-analysis
+date: Tue, 22 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Open Weights and AI for All
+link: https://openai.com/global-affairs/open-weights-and-ai-for-all
+id: https://openai.com/global-affairs/open-weights-and-ai-for-all
+date: Tue, 05 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing the OpenAI Academy
+link: https://openai.com/global-affairs/openai-academy
+id: https://openai.com/global-affairs/openai-academy
+date: Mon, 23 Sep 2024 03:30:00 GMT
+body:
+#ITEM
+title: OpenAI and UK Government announce strategic partnership to deliver AI-driven growth
+link: https://openai.com/global-affairs/openai-and-uk-government-partnership
+id: https://openai.com/global-affairs/openai-and-uk-government-partnership
+date: Mon, 21 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI at the Paris AI Action Summit
+link: https://openai.com/global-affairs/openai-at-the-paris-ai-action-summit
+id: https://openai.com/global-affairs/openai-at-the-paris-ai-action-summit
+date: Fri, 07 Feb 2025 17:00:00 GMT
+body:
+#ITEM
+title: OpenAI appoints Scott Schools as Chief Compliance Officer
+link: https://openai.com/global-affairs/openai-chief-compliance-officer-announcement
+id: https://openai.com/global-affairs/openai-chief-compliance-officer-announcement
+date: Tue, 22 Oct 2024 10:30:00 GMT
+body:
+#ITEM
+title: Dr. Ronnie Chatterji named OpenAI’s first Chief Economist
+link: https://openai.com/global-affairs/openai-chief-economist-announcement
+id: https://openai.com/global-affairs/openai-chief-economist-announcement
+date: Tue, 22 Oct 2024 10:05:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI for Australia
+link: https://openai.com/global-affairs/openai-for-australia
+id: https://openai.com/global-affairs/openai-for-australia
+date: Thu, 04 Dec 2025 19:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI for Countries
+link: https://openai.com/global-affairs/openai-for-countries
+id: https://openai.com/global-affairs/openai-for-countries
+date: Wed, 07 May 2025 03:00:00 GMT
+body:
+#ITEM
+title: SAP and OpenAI partner to launch sovereign ‘OpenAI for Germany’
+link: https://openai.com/global-affairs/openai-for-germany
+id: https://openai.com/global-affairs/openai-for-germany
+date: Wed, 24 Sep 2025 04:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Greek Government launch ‘OpenAI for Greece’
+link: https://openai.com/global-affairs/openai-for-greece
+id: https://openai.com/global-affairs/openai-for-greece
+date: Fri, 05 Sep 2025 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI nonprofit jam
+link: https://openai.com/global-affairs/openai-nonprofit-jam
+id: https://openai.com/global-affairs/openai-nonprofit-jam
+date: Thu, 17 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s proposals for the U.S. AI Action Plan
+link: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan
+id: https://openai.com/global-affairs/openai-proposals-for-the-us-ai-action-plan
+date: Thu, 13 Mar 2025 03:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s comment to the NTIA on open model weights
+link: https://openai.com/global-affairs/openai-s-comment-to-the-ntia-on-open-model-weights
+id: https://openai.com/global-affairs/openai-s-comment-to-the-ntia-on-open-model-weights
+date: Wed, 27 Mar 2024 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s technology explained
+link: https://openai.com/global-affairs/openai-technology-explained
+id: https://openai.com/global-affairs/openai-technology-explained
+date: Wed, 11 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s approach to AI and national security
+link: https://openai.com/global-affairs/openais-approach-to-ai-and-national-security
+id: https://openai.com/global-affairs/openais-approach-to-ai-and-national-security
+date: Thu, 24 Oct 2024 14:00:00 GMT
+body:
+#ITEM
+title: AI in Australia—OpenAI’s Economic Blueprint
+link: https://openai.com/global-affairs/openais-australia-economic-blueprint
+id: https://openai.com/global-affairs/openais-australia-economic-blueprint
+date: Mon, 30 Jun 2025 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s Economic Blueprint
+link: https://openai.com/global-affairs/openais-economic-blueprint
+id: https://openai.com/global-affairs/openais-economic-blueprint
+date: Mon, 13 Jan 2025 03:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s EU Economic Blueprint
+link: https://openai.com/global-affairs/openais-eu-economic-blueprint
+id: https://openai.com/global-affairs/openais-eu-economic-blueprint
+date: Mon, 07 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s Approach to Frontier Risk
+link: https://openai.com/global-affairs/our-approach-to-frontier-risk
+id: https://openai.com/global-affairs/our-approach-to-frontier-risk
+date: Thu, 26 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s response to the Department of Energy on AI infrastructure
+link: https://openai.com/global-affairs/response-to-department-of-energy
+id: https://openai.com/global-affairs/response-to-department-of-energy
+date: Wed, 07 May 2025 18:30:00 GMT
+body:
+#ITEM
+title: Response to NIST Executive Order on AI
+link: https://openai.com/global-affairs/response-to-nist-executive-order-on-ai
+id: https://openai.com/global-affairs/response-to-nist-executive-order-on-ai
+date: Fri, 02 Feb 2024 00:00:00 GMT
+body:
+#ITEM
+title: Our response to the UK’s copyright consultation
+link: https://openai.com/global-affairs/response-to-uk-copyright-consultation
+id: https://openai.com/global-affairs/response-to-uk-copyright-consultation
+date: Wed, 02 Apr 2025 07:00:00 GMT
+body:
+#ITEM
+title: Questions for the Record
+link: https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record
+id: https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record
+date: Thu, 22 Jun 2023 00:00:00 GMT
+body:
+#ITEM
+title: Scaling the OpenAI Academy
+link: https://openai.com/global-affairs/scaling-the-openai-academy
+id: https://openai.com/global-affairs/scaling-the-openai-academy
+date: Tue, 25 Mar 2025 07:00:00 GMT
+body:
+#ITEM
+title: Seizing the AI opportunity
+link: https://openai.com/global-affairs/seizing-the-ai-opportunity
+id: https://openai.com/global-affairs/seizing-the-ai-opportunity
+date: Mon, 27 Oct 2025 12:00:00 GMT
+body:
+#ITEM
+title: OpenAI announces strategic collaboration with Japan’s Digital Agency
+link: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency
+id: https://openai.com/global-affairs/strategic-collaboration-with-japan-digital-agency
+date: Thu, 02 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Testimony before the U.S. Senate
+link: https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate
+id: https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate
+date: Thu, 22 Jun 2023 00:00:00 GMT
+body:
+#ITEM
+title: The power of personalized AI
+link: https://openai.com/global-affairs/the-power-of-personalized-ai
+id: https://openai.com/global-affairs/the-power-of-personalized-ai
+date: Fri, 17 Jan 2025 13:00:00 GMT
+body:
+#ITEM
+title: The Washington Post partners with OpenAI on search content
+link: https://openai.com/global-affairs/the-washington-post-partners-with-openai
+id: https://openai.com/global-affairs/the-washington-post-partners-with-openai
+date: Tue, 22 Apr 2025 06:00:00 GMT
+body:
+#ITEM
+title: GPT-5 bio bug bounty call
+link: https://openai.com/gpt-5-bio-bug-bounty
+id: https://openai.com/gpt-5-bio-bug-bounty
+date: Fri, 05 Sep 2025 08:45:00 GMT
+body:
+#ITEM
+title: 1 million business customers putting AI to work
+link: https://openai.com/index/1-million-businesses-putting-ai-to-work
+id: https://openai.com/index/1-million-businesses-putting-ai-to-work
+date: Wed, 05 Nov 2025 05:00:00 GMT
+body:
+#ITEM
+title: Improving India’s critical care infrastructure
+link: https://openai.com/index/10bedicu
+id: https://openai.com/index/10bedicu
+date: Thu, 06 Jun 2024 10:00:00 GMT
+body:
+#ITEM
+title: A $50 million fund to build with communities
+link: https://openai.com/index/50-million-fund-to-build-with-communities
+id: https://openai.com/index/50-million-fund-to-build-with-communities
+date: Fri, 18 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: A business that scales with the value of intelligence
+link: https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
+id: https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence
+date: Sun, 18 Jan 2026 10:00:00 GMT
+body:
+#ITEM
+title: A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models
+link: https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models
+id: https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models
+date: Fri, 11 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: A Content and Product Partnership with Vox Media
+link: https://openai.com/index/a-content-and-product-partnership-with-vox-media
+id: https://openai.com/index/a-content-and-product-partnership-with-vox-media
+date: Wed, 29 May 2024 07:00:00 GMT
+body:
+#ITEM
+title: A hazard analysis framework for code synthesis large language models
+link: https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models
+id: https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models
+date: Mon, 25 Jul 2022 07:00:00 GMT
+body:
+#ITEM
+title: A Holistic Approach to Undesired Content Detection in the Real World
+link: https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world
+id: https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world
+date: Thu, 20 Jun 2024 00:00:00 GMT
+body:
+#ITEM
+title: Partnering with AARP to help keep older adults safe online
+link: https://openai.com/index/aarp-partnership-older-adults-online-safety
+id: https://openai.com/index/aarp-partnership-older-adults-online-safety
+date: Fri, 26 Sep 2025 06:00:00 GMT
+body:
+#ITEM
+title: Measuring AI’s capability to accelerate biological research
+link: https://openai.com/index/accelerating-biological-research-in-the-wet-lab
+id: https://openai.com/index/accelerating-biological-research-in-the-wet-lab
+date: Tue, 16 Dec 2025 08:00:00 GMT
+body:
+#ITEM
+title: Accelerating life sciences research
+link: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
+id: https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences
+date: Fri, 22 Aug 2025 08:30:00 GMT
+body:
+#ITEM
+title: Early experiments in accelerating science with GPT-5
+link: https://openai.com/index/accelerating-science-gpt-5
+id: https://openai.com/index/accelerating-science-gpt-5
+date: Thu, 20 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Accenture and OpenAI accelerate enterprise AI success
+link: https://openai.com/index/accenture-partnership
+id: https://openai.com/index/accenture-partnership
+date: Mon, 01 Dec 2025 05:00:00 GMT
+body:
+#ITEM
+title: Using GPT-4 to deliver a new customer service standard
+link: https://openai.com/index/ada
+id: https://openai.com/index/ada
+date: Thu, 05 Sep 2024 08:00:00 GMT
+body:
+#ITEM
+title: Adebayo Ogunlesi joins OpenAI’s Board of Directors
+link: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
+id: https://openai.com/index/adebayo-ogunlesi-joins-openais-board-of-directors
+date: Tue, 14 Jan 2025 09:00:00 GMT
+body:
+#ITEM
+title: Advancing red teaming with people and AI
+link: https://openai.com/index/advancing-red-teaming-with-people-and-ai
+id: https://openai.com/index/advancing-red-teaming-with-people-and-ai
+date: Thu, 21 Nov 2024 10:30:00 GMT
+body:
+#ITEM
+title: Adversarial attacks on neural network policies
+link: https://openai.com/index/adversarial-attacks-on-neural-network-policies
+id: https://openai.com/index/adversarial-attacks-on-neural-network-policies
+date: Wed, 08 Feb 2017 08:00:00 GMT
+body:
+#ITEM
+title: Adversarial training methods for semi-supervised text classification
+link: https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification
+id: https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification
+date: Wed, 25 May 2016 07:00:00 GMT
+body:
+#ITEM
+title: Early methods for studying affective use and emotional well-being on ChatGPT
+link: https://openai.com/index/affective-use-study
+id: https://openai.com/index/affective-use-study
+date: Fri, 21 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI co-founds Agentic AI Foundation, donates AGENTS.md
+link: https://openai.com/index/agentic-ai-foundation
+id: https://openai.com/index/agentic-ai-foundation
+date: Tue, 09 Dec 2025 09:00:00 GMT
+body:
+#ITEM
+title: AI and compute
+link: https://openai.com/index/ai-and-compute
+id: https://openai.com/index/ai-and-compute
+date: Wed, 16 May 2018 07:00:00 GMT
+body:
+#ITEM
+title: AI and efficiency
+link: https://openai.com/index/ai-and-efficiency
+id: https://openai.com/index/ai-and-efficiency
+date: Tue, 05 May 2020 07:00:00 GMT
+body:
+#ITEM
+title: AI as the greatest source of empowerment for all
+link: https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all
+id: https://openai.com/index/ai-as-the-greatest-source-of-empowerment-for-all
+date: Mon, 21 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Pioneering an AI clinical copilot with Penda Health
+link: https://openai.com/index/ai-clinical-copilot-penda-health
+id: https://openai.com/index/ai-clinical-copilot-penda-health
+date: Tue, 22 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: AI for self empowerment
+link: https://openai.com/index/ai-for-self-empowerment
+id: https://openai.com/index/ai-for-self-empowerment
+date: Sun, 18 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: AI literacy resources for teens and parents
+link: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
+id: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
+date: Thu, 18 Dec 2025 11:00:00 GMT
+body:
+#ITEM
+title: Funding grants for new research into AI and mental health
+link: https://openai.com/index/ai-mental-health-research-grants
+id: https://openai.com/index/ai-mental-health-research-grants
+date: Mon, 01 Dec 2025 12:00:00 GMT
+body:
+#ITEM
+title: AI progress and recommendations
+link: https://openai.com/index/ai-progress-and-recommendations
+id: https://openai.com/index/ai-progress-and-recommendations
+date: Thu, 06 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: AI safety needs social scientists
+link: https://openai.com/index/ai-safety-needs-social-scientists
+id: https://openai.com/index/ai-safety-needs-social-scientists
+date: Tue, 19 Feb 2019 08:00:00 GMT
+body:
+#ITEM
+title: Creating agent and human collaboration with GPT 4o
+link: https://openai.com/index/altera
+id: https://openai.com/index/altera
+date: Tue, 01 Oct 2024 09:59:00 GMT
+body:
+#ITEM
+title: Announcing OpenAI DevDay 2025
+link: https://openai.com/index/announcing-devday-2025
+id: https://openai.com/index/announcing-devday-2025
+date: Wed, 23 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Join us for OpenAI’s first developer conference on November 6 in San Francisco
+link: https://openai.com/index/announcing-openai-devday
+id: https://openai.com/index/announcing-openai-devday
+date: Wed, 06 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: Announcing The Stargate Project
+link: https://openai.com/index/announcing-the-stargate-project
+id: https://openai.com/index/announcing-the-stargate-project
+date: Tue, 21 Jan 2025 13:30:00 GMT
+body:
+#ITEM
+title: Model Distillation in the API
+link: https://openai.com/index/api-model-distillation
+id: https://openai.com/index/api-model-distillation
+date: Tue, 01 Oct 2024 10:02:00 GMT
+body:
+#ITEM
+title: OpenAI’s API now available with no waitlist
+link: https://openai.com/index/api-no-waitlist
+id: https://openai.com/index/api-no-waitlist
+date: Thu, 18 Nov 2021 08:00:00 GMT
+body:
+#ITEM
+title: API Partnership with Stack Overflow
+link: https://openai.com/index/api-partnership-with-stack-overflow
+id: https://openai.com/index/api-partnership-with-stack-overflow
+date: Mon, 06 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Prompt Caching in the API
+link: https://openai.com/index/api-prompt-caching
+id: https://openai.com/index/api-prompt-caching
+date: Tue, 01 Oct 2024 10:03:00 GMT
+body:
+#ITEM
+title: Our approach to data and AI
+link: https://openai.com/index/approach-to-data-and-ai
+id: https://openai.com/index/approach-to-data-and-ai
+date: Tue, 07 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Using GPT-4 to improve teaching and learning in Brazil
+link: https://openai.com/index/arco-education
+id: https://openai.com/index/arco-education
+date: Tue, 17 Sep 2024 05:00:00 GMT
+body:
+#ITEM
+title: Personalizing education with ChatGPT
+link: https://openai.com/index/asu
+id: https://openai.com/index/asu
+date: Mon, 26 Aug 2024 04:00:00 GMT
+body:
+#ITEM
+title: Asymmetric actor critic for image-based robot learning
+link: https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning
+id: https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning
+date: Wed, 18 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: Attacking machine learning with adversarial examples
+link: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
+id: https://openai.com/index/attacking-machine-learning-with-adversarial-examples
+date: Fri, 24 Feb 2017 08:00:00 GMT
+body:
+#ITEM
+title: AWS and OpenAI announce multi-year strategic partnership
+link: https://openai.com/index/aws-and-openai-partnership
+id: https://openai.com/index/aws-and-openai-partnership
+date: Mon, 03 Nov 2025 06:00:00 GMT
+body:
+#ITEM
+title: Partnership with Axel Springer to deepen beneficial use of AI in journalism
+link: https://openai.com/index/axel-springer-partnership
+id: https://openai.com/index/axel-springer-partnership
+date: Wed, 13 Dec 2023 08:00:00 GMT
+body:
+#ITEM
+title: Scaling accounting capacity with OpenAI
+link: https://openai.com/index/basis
+id: https://openai.com/index/basis
+date: Tue, 12 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Empowering a global org with ChatGPT
+link: https://openai.com/index/bbva
+id: https://openai.com/index/bbva
+date: Thu, 21 Nov 2024 05:00:00 GMT
+body:
+#ITEM
+title: From Pilot to Practice: How BBVA Is Scaling AI Across the Organization
+link: https://openai.com/index/bbva-2025
+id: https://openai.com/index/bbva-2025
+date: Thu, 06 Nov 2025 09:30:00 GMT
+body:
+#ITEM
+title: BBVA and OpenAI collaborate to transform global banking
+link: https://openai.com/index/bbva-collaboration-expansion
+id: https://openai.com/index/bbva-collaboration-expansion
+date: Fri, 12 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Transforming visual accessibility
+link: https://openai.com/index/be-my-eyes
+id: https://openai.com/index/be-my-eyes
+date: Tue, 14 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Benchmarking safe exploration in deep reinforcement learning
+link: https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning
+id: https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning
+date: Thu, 21 Nov 2019 08:00:00 GMT
+body:
+#ITEM
+title: Bertelsmann powers creativity and productivity with OpenAI
+link: https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai
+id: https://openai.com/index/bertelsmann-powers-creativity-and-productivity-with-openai
+date: Wed, 22 Jan 2025 17:00:00 GMT
+body:
+#ITEM
+title: Best practices for deploying language models
+link: https://openai.com/index/best-practices-for-deploying-language-models
+id: https://openai.com/index/best-practices-for-deploying-language-models
+date: Thu, 02 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Better exploration with parameter noise
+link: https://openai.com/index/better-exploration-with-parameter-noise
+id: https://openai.com/index/better-exploration-with-parameter-noise
+date: Thu, 27 Jul 2017 07:00:00 GMT
+body:
+#ITEM
+title: Better language models and their implications
+link: https://openai.com/index/better-language-models
+id: https://openai.com/index/better-language-models
+date: Thu, 14 Feb 2019 08:00:00 GMT
+body:
+#ITEM
+title: Block-sparse GPU kernels
+link: https://openai.com/index/block-sparse-gpu-kernels
+id: https://openai.com/index/block-sparse-gpu-kernels
+date: Wed, 06 Dec 2017 08:00:00 GMT
+body:
+#ITEM
+title: Scaling domain expertise in complex, regulated domains
+link: https://openai.com/index/blue-j
+id: https://openai.com/index/blue-j
+date: Thu, 21 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: BNY builds “AI for everyone, everywhere” with OpenAI
+link: https://openai.com/index/bny
+id: https://openai.com/index/bny
+date: Fri, 12 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Personalizing travel at scale with OpenAI
+link: https://openai.com/index/booking-com
+id: https://openai.com/index/booking-com
+date: Thu, 20 Mar 2025 23:00:00 GMT
+body:
+#ITEM
+title: BrowseComp: a benchmark for browsing agents
+link: https://openai.com/index/browsecomp
+id: https://openai.com/index/browsecomp
+date: Thu, 10 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: Announcing OpenAI’s Bug Bounty Program
+link: https://openai.com/index/bug-bounty-program
+id: https://openai.com/index/bug-bounty-program
+date: Tue, 11 Apr 2023 07:00:00 GMT
+body:
+#ITEM
+title: Building an early warning system for LLM-aided biological threat creation
+link: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
+id: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
+date: Wed, 31 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas
+link: https://openai.com/index/building-chatgpt-atlas
+id: https://openai.com/index/building-chatgpt-atlas
+date: Thu, 30 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Building more helpful ChatGPT experiences for everyone
+link: https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone
+id: https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone
+date: Tue, 02 Sep 2025 04:00:00 GMT
+body:
+#ITEM
+title: Building OpenAI with OpenAI
+link: https://openai.com/index/building-openai-with-openai
+id: https://openai.com/index/building-openai-with-openai
+date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: Building towards age prediction
+link: https://openai.com/index/building-towards-age-prediction
+id: https://openai.com/index/building-towards-age-prediction
+date: Tue, 16 Sep 2025 06:00:00 GMT
+body:
+#ITEM
+title: Built to benefit everyone
+link: https://openai.com/index/built-to-benefit-everyone
+id: https://openai.com/index/built-to-benefit-everyone
+date: Tue, 28 Oct 2025 06:00:00 GMT
+body:
+#ITEM
+title: Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol
+link: https://openai.com/index/buy-it-in-chatgpt
+id: https://openai.com/index/buy-it-in-chatgpt
+date: Mon, 29 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: Creating an AI-powered Magic Studio
+link: https://openai.com/index/canva
+id: https://openai.com/index/canva
+date: Thu, 16 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Canva enables creativity with AI
+link: https://openai.com/index/canva-cam-adams
+id: https://openai.com/index/canva-cam-adams
+date: Mon, 07 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI partners with Cerebras
+link: https://openai.com/index/cerebras-partnership
+id: https://openai.com/index/cerebras-partnership
+date: Wed, 14 Jan 2026 14:00:00 GMT
+body:
+#ITEM
+title: Detecting misbehavior in frontier reasoning models
+link: https://openai.com/index/chain-of-thought-monitoring
+id: https://openai.com/index/chain-of-thought-monitoring
+date: Mon, 10 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT
+link: https://openai.com/index/chatgpt
+id: https://openai.com/index/chatgpt
+date: Wed, 30 Nov 2022 08:00:00 GMT
+body:
+#ITEM
+title: ChatGPT agent System Card
+link: https://openai.com/index/chatgpt-agent-system-card
+id: https://openai.com/index/chatgpt-agent-system-card
+date: Thu, 17 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: ChatGPT can now see, hear, and speak
+link: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
+id: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
+date: Mon, 25 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: A free version of ChatGPT built for teachers
+link: https://openai.com/index/chatgpt-for-teachers
+id: https://openai.com/index/chatgpt-for-teachers
+date: Wed, 19 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Free ChatGPT for transitioning U.S. servicemembers and veterans
+link: https://openai.com/index/chatgpt-for-veterans
+id: https://openai.com/index/chatgpt-for-veterans
+date: Mon, 10 Nov 2025 02:00:00 GMT
+body:
+#ITEM
+title: ChatGPT plugins
+link: https://openai.com/index/chatgpt-plugins
+id: https://openai.com/index/chatgpt-plugins
+date: Thu, 23 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Plus
+link: https://openai.com/index/chatgpt-plus
+id: https://openai.com/index/chatgpt-plus
+date: Wed, 01 Feb 2023 08:00:00 GMT
+body:
+#ITEM
+title: Introducing shopping research in ChatGPT
+link: https://openai.com/index/chatgpt-shopping-research
+id: https://openai.com/index/chatgpt-shopping-research
+date: Mon, 24 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing study mode in ChatGPT
+link: https://openai.com/index/chatgpt-study-mode
+id: https://openai.com/index/chatgpt-study-mode
+date: Tue, 29 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: Continue your ChatGPT experience beyond WhatsApp
+link: https://openai.com/index/chatgpt-whatsapp-transition
+id: https://openai.com/index/chatgpt-whatsapp-transition
+date: Tue, 21 Oct 2025 17:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s commitment to child safety: adopting safety by design principles
+link: https://openai.com/index/child-safety-adopting-sbd-principles
+id: https://openai.com/index/child-safety-adopting-sbd-principles
+date: Tue, 23 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: How Chime is redefining marketing through AI
+link: https://openai.com/index/chime-vineet-mehra
+id: https://openai.com/index/chime-vineet-mehra
+date: Wed, 05 Nov 2025 15:00:00 GMT
+body:
+#ITEM
+title: Cisco and OpenAI redefine enterprise engineering with AI agents
+link: https://openai.com/index/cisco
+id: https://openai.com/index/cisco
+date: Tue, 20 Jan 2026 11:00:00 GMT
+body:
+#ITEM
+title: Achieving 10x growth with agentic sales prospecting
+link: https://openai.com/index/clay
+id: https://openai.com/index/clay
+date: Tue, 18 Jun 2024 07:00:00 GMT
+body:
+#ITEM
+title: CLIP: Connecting text and images
+link: https://openai.com/index/clip
+id: https://openai.com/index/clip
+date: Tue, 05 Jan 2021 08:00:00 GMT
+body:
+#ITEM
+title: CNA is transforming its newsroom with AI
+link: https://openai.com/index/cna-walter-fernandez
+id: https://openai.com/index/cna-walter-fernandez
+date: Mon, 22 Sep 2025 17:17:00 GMT
+body:
+#ITEM
+title: Shipping code faster with o3, o4-mini, and GPT-4.1
+link: https://openai.com/index/coderabbit
+id: https://openai.com/index/coderabbit
+date: Thu, 22 May 2025 10:25:00 GMT
+body:
+#ITEM
+title: Powering next generation applications with OpenAI Codex
+link: https://openai.com/index/codex-apps
+id: https://openai.com/index/codex-apps
+date: Tue, 24 May 2022 07:00:00 GMT
+body:
+#ITEM
+title: Codex is now generally available
+link: https://openai.com/index/codex-now-generally-available
+id: https://openai.com/index/codex-now-generally-available
+date: Mon, 06 Oct 2025 10:50:00 GMT
+body:
+#ITEM
+title: Collaborating with Carlyle to Chart the Future of Private Equity
+link: https://openai.com/index/collaborating-with-carlyle-to-chart-the-future-of-private-equity
+id: https://openai.com/index/collaborating-with-carlyle-to-chart-the-future-of-private-equity
+date: Tue, 14 May 2024 08:00:00 GMT
+body:
+#ITEM
+title: Collective alignment: public input on our Model Spec
+link: https://openai.com/index/collective-alignment-aug-2025-updates
+id: https://openai.com/index/collective-alignment-aug-2025-updates
+date: Wed, 27 Aug 2025 13:00:00 GMT
+body:
+#ITEM
+title: Using GPT-4o reasoning to transform cancer care
+link: https://openai.com/index/color-health
+id: https://openai.com/index/color-health
+date: Mon, 17 Jun 2024 04:15:00 GMT
+body:
+#ITEM
+title: Combating online child sexual exploitation & abuse
+link: https://openai.com/index/combating-online-child-sexual-exploitation-abuse
+id: https://openai.com/index/combating-online-child-sexual-exploitation-abuse
+date: Mon, 29 Sep 2025 03:00:00 GMT
+body:
+#ITEM
+title: Building AI fluency at scale with ChatGPT Enterprise
+link: https://openai.com/index/commonwealth-bank-of-australia
+id: https://openai.com/index/commonwealth-bank-of-australia
+date: Tue, 09 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Competitive self-play
+link: https://openai.com/index/competitive-self-play
+id: https://openai.com/index/competitive-self-play
+date: Wed, 11 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: Computational limitations in robust classification and win-win results
+link: https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results
+id: https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results
+date: Mon, 04 Feb 2019 08:00:00 GMT
+body:
+#ITEM
+title: Computer-Using Agent
+link: https://openai.com/index/computer-using-agent
+id: https://openai.com/index/computer-using-agent
+date: Thu, 23 Jan 2025 10:00:00 GMT
+body:
+#ITEM
+title: Concrete AI safety problems
+link: https://openai.com/index/concrete-ai-safety-problems
+id: https://openai.com/index/concrete-ai-safety-problems
+date: Tue, 21 Jun 2016 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI partners with Condé Nast
+link: https://openai.com/index/conde-nast
+id: https://openai.com/index/conde-nast
+date: Tue, 20 Aug 2024 11:00:00 GMT
+body:
+#ITEM
+title: Confidence-Building Measures for Artificial Intelligence: Workshop proceedings
+link: https://openai.com/index/confidence-building-measures-for-artificial-intelligence
+id: https://openai.com/index/confidence-building-measures-for-artificial-intelligence
+date: Tue, 01 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: Consensus accelerates research with GPT-5 and Responses API
+link: https://openai.com/index/consensus
+id: https://openai.com/index/consensus
+date: Thu, 23 Oct 2025 09:00:00 GMT
+body:
+#ITEM
+title: Consistency Models
+link: https://openai.com/index/consistency-models
+id: https://openai.com/index/consistency-models
+date: Thu, 20 Jun 2024 00:00:00 GMT
+body:
+#ITEM
+title: We’re bringing the Financial Times’ world-class journalism to ChatGPT
+link: https://openai.com/index/content-partnership-with-financial-times
+id: https://openai.com/index/content-partnership-with-financial-times
+date: Mon, 29 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Why responsible AI development needs cooperation on safety
+link: https://openai.com/index/cooperation-on-safety
+id: https://openai.com/index/cooperation-on-safety
+date: Wed, 10 Jul 2019 07:00:00 GMT
+body:
+#ITEM
+title: The court rejects Elon’s latest attempt to slow OpenAI down
+link: https://openai.com/index/court-rejects-elon
+id: https://openai.com/index/court-rejects-elon
+date: Fri, 14 Mar 2025 09:00:00 GMT
+body:
+#ITEM
+title: How CRED is tapping AI to deliver premium customer experiences
+link: https://openai.com/index/cred-swamy-seetharaman
+id: https://openai.com/index/cred-swamy-seetharaman
+date: Wed, 05 Nov 2025 21:30:00 GMT
+body:
+#ITEM
+title: AI-written critiques help humans notice flaws
+link: https://openai.com/index/critiques
+id: https://openai.com/index/critiques
+date: Mon, 13 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Custom instructions for ChatGPT
+link: https://openai.com/index/custom-instructions-for-chatgpt
+id: https://openai.com/index/custom-instructions-for-chatgpt
+date: Thu, 20 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Customizing GPT-3 for your application
+link: https://openai.com/index/customizing-gpt-3
+id: https://openai.com/index/customizing-gpt-3
+date: Tue, 14 Dec 2021 08:00:00 GMT
+body:
+#ITEM
+title: Knowledge preservation powered by ChatGPT
+link: https://openai.com/index/dai-nippon-printing
+id: https://openai.com/index/dai-nippon-printing
+date: Tue, 28 Oct 2025 17:00:00 GMT
+body:
+#ITEM
+title: DALL·E: Creating images from text
+link: https://openai.com/index/dall-e
+id: https://openai.com/index/dall-e
+date: Tue, 05 Jan 2021 08:00:00 GMT
+body:
+#ITEM
+title: DALL·E 2: Extending creativity
+link: https://openai.com/index/dall-e-2-extending-creativity
+id: https://openai.com/index/dall-e-2-extending-creativity
+date: Thu, 14 Jul 2022 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E 2 pre-training mitigations
+link: https://openai.com/index/dall-e-2-pre-training-mitigations
+id: https://openai.com/index/dall-e-2-pre-training-mitigations
+date: Tue, 28 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E 2 research preview update
+link: https://openai.com/index/dall-e-2-update
+id: https://openai.com/index/dall-e-2-update
+date: Wed, 18 May 2022 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E 3 is now available in ChatGPT Plus and Enterprise
+link: https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise
+id: https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise
+date: Thu, 19 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E 3 system card
+link: https://openai.com/index/dall-e-3-system-card
+id: https://openai.com/index/dall-e-3-system-card
+date: Tue, 03 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E API now available in public beta
+link: https://openai.com/index/dall-e-api-now-available-in-public-beta
+id: https://openai.com/index/dall-e-api-now-available-in-public-beta
+date: Thu, 03 Nov 2022 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E: Introducing outpainting
+link: https://openai.com/index/dall-e-introducing-outpainting
+id: https://openai.com/index/dall-e-introducing-outpainting
+date: Wed, 31 Aug 2022 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E now available in beta
+link: https://openai.com/index/dall-e-now-available-in-beta
+id: https://openai.com/index/dall-e-now-available-in-beta
+date: Wed, 20 Jul 2022 07:00:00 GMT
+body:
+#ITEM
+title: DALL·E now available without waitlist
+link: https://openai.com/index/dall-e-now-available-without-waitlist
+id: https://openai.com/index/dall-e-now-available-without-waitlist
+date: Wed, 28 Sep 2022 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Data Partnerships
+link: https://openai.com/index/data-partnerships
+id: https://openai.com/index/data-partnerships
+date: Thu, 09 Nov 2023 08:00:00 GMT
+body:
+#ITEM
+title: Datadog uses Codex for system-level code review
+link: https://openai.com/index/datadog
+id: https://openai.com/index/datadog
+date: Fri, 09 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: AI safety via debate
+link: https://openai.com/index/debate
+id: https://openai.com/index/debate
+date: Thu, 03 May 2018 07:00:00 GMT
+body:
+#ITEM
+title: Delivering high-performance customer support
+link: https://openai.com/index/decagon
+id: https://openai.com/index/decagon
+date: Tue, 29 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Deep double descent
+link: https://openai.com/index/deep-double-descent
+id: https://openai.com/index/deep-double-descent
+date: Thu, 05 Dec 2019 08:00:00 GMT
+body:
+#ITEM
+title: Understanding complex trends with deep research
+link: https://openai.com/index/deep-research
+id: https://openai.com/index/deep-research
+date: Sun, 02 Feb 2025 16:00:00 GMT
+body:
+#ITEM
+title: Deep research System Card
+link: https://openai.com/index/deep-research-system-card
+id: https://openai.com/index/deep-research-system-card
+date: Tue, 25 Feb 2025 10:00:00 GMT
+body:
+#ITEM
+title: Defining and evaluating political bias in LLMs
+link: https://openai.com/index/defining-and-evaluating-political-bias-in-llms
+id: https://openai.com/index/defining-and-evaluating-political-bias-in-llms
+date: Thu, 09 Oct 2025 13:00:00 GMT
+body:
+#ITEM
+title: Deliberative alignment: reasoning enables safer language models
+link: https://openai.com/index/deliberative-alignment
+id: https://openai.com/index/deliberative-alignment
+date: Fri, 20 Dec 2024 10:00:00 GMT
+body:
+#ITEM
+title: Democratic inputs to AI
+link: https://openai.com/index/democratic-inputs-to-ai
+id: https://openai.com/index/democratic-inputs-to-ai
+date: Thu, 25 May 2023 07:00:00 GMT
+body:
+#ITEM
+title: Democratic inputs to AI grant program: lessons learned and implementation plans
+link: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
+id: https://openai.com/index/democratic-inputs-to-ai-grant-program-update
+date: Tue, 16 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: Detecting and reducing scheming in AI models
+link: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models
+id: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models
+date: Wed, 17 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: Bringing powerful AI to millions across Europe with Deutsche Telekom
+link: https://openai.com/index/deutsche-telekom-collaboration
+id: https://openai.com/index/deutsche-telekom-collaboration
+date: Tue, 09 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Developers can now submit apps to ChatGPT
+link: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
+id: https://openai.com/index/developers-can-now-submit-apps-to-chatgpt
+date: Wed, 17 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Building agricultural database for farmers
+link: https://openai.com/index/digital-green
+id: https://openai.com/index/digital-green
+date: Fri, 12 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: Discovering the minutiae of backend systems
+link: https://openai.com/index/discovering-the-minutiae-of-backend-systems
+id: https://openai.com/index/discovering-the-minutiae-of-backend-systems
+date: Thu, 08 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: Discovering types for entity disambiguation
+link: https://openai.com/index/discovering-types-for-entity-disambiguation
+id: https://openai.com/index/discovering-types-for-entity-disambiguation
+date: Wed, 07 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora
+link: https://openai.com/index/disney-sora-agreement
+id: https://openai.com/index/disney-sora-agreement
+date: Thu, 11 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Disrupting a covert Iranian influence operation
+link: https://openai.com/index/disrupting-a-covert-iranian-influence-operation
+id: https://openai.com/index/disrupting-a-covert-iranian-influence-operation
+date: Fri, 16 Aug 2024 11:00:00 GMT
+body:
+#ITEM
+title: Disrupting deceptive uses of AI by covert influence operations
+link: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations
+id: https://openai.com/index/disrupting-deceptive-uses-of-AI-by-covert-influence-operations
+date: Thu, 30 May 2024 10:00:00 GMT
+body:
+#ITEM
+title: Disrupting malicious uses of AI by state-affiliated threat actors
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
+date: Wed, 14 Feb 2024 08:00:00 GMT
+body:
+#ITEM
+title: Distill
+link: https://openai.com/index/distill
+id: https://openai.com/index/distill
+date: Mon, 20 Mar 2017 07:00:00 GMT
+body:
+#ITEM
+title: Domain randomization and generative models for robotic grasping
+link: https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping
+id: https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping
+date: Tue, 17 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: Q&A with DoorDash’s CPO, Mariana Garavaglia
+link: https://openai.com/index/doordash-mariana-garavaglia
+id: https://openai.com/index/doordash-mariana-garavaglia
+date: Mon, 18 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Doppel’s AI defense system stops attacks before they spread
+link: https://openai.com/index/doppel
+id: https://openai.com/index/doppel
+date: Tue, 28 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: Dota 2
+link: https://openai.com/index/dota-2
+id: https://openai.com/index/dota-2
+date: Fri, 11 Aug 2017 07:00:00 GMT
+body:
+#ITEM
+title: Dota 2 with large scale deep reinforcement learning
+link: https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning
+id: https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning
+date: Fri, 13 Dec 2019 08:00:00 GMT
+body:
+#ITEM
+title: Filling crucial language learning gaps
+link: https://openai.com/index/duolingo
+id: https://openai.com/index/duolingo
+date: Tue, 14 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Economic impacts research at OpenAI
+link: https://openai.com/index/economic-impacts
+id: https://openai.com/index/economic-impacts
+date: Thu, 03 Mar 2022 08:00:00 GMT
+body:
+#ITEM
+title: A research agenda for assessing the economic impacts of code generation models
+link: https://openai.com/index/economic-impacts-research
+id: https://openai.com/index/economic-impacts-research
+date: Thu, 03 Mar 2022 08:00:00 GMT
+body:
+#ITEM
+title: Introducing Edu for Countries
+link: https://openai.com/index/edu-for-countries
+id: https://openai.com/index/edu-for-countries
+date: Wed, 21 Jan 2026 01:00:00 GMT
+body:
+#ITEM
+title: Efficient training of language models to fill in the middle
+link: https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle
+id: https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle
+date: Thu, 28 Jul 2022 07:00:00 GMT
+body:
+#ITEM
+title: EliseAI improves housing and healthcare efficiency with AI
+link: https://openai.com/index/eliseai-minna-song
+id: https://openai.com/index/eliseai-minna-song
+date: Tue, 18 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: Elon Musk wanted an OpenAI for-profit
+link: https://openai.com/index/elon-musk-wanted-an-openai-for-profit
+id: https://openai.com/index/elon-musk-wanted-an-openai-for-profit
+date: Fri, 13 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Emergence of grounded compositional language in multi-agent populations
+link: https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations
+id: https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations
+date: Wed, 15 Mar 2017 07:00:00 GMT
+body:
+#ITEM
+title: Toward understanding and preventing misalignment generalization
+link: https://openai.com/index/emergent-misalignment
+id: https://openai.com/index/emergent-misalignment
+date: Wed, 18 Jun 2025 10:00:00 GMT
+body:
+#ITEM
+title: Emergent tool use from multi-agent interaction
+link: https://openai.com/index/emergent-tool-use
+id: https://openai.com/index/emergent-tool-use
+date: Tue, 17 Sep 2019 07:00:00 GMT
+body:
+#ITEM
+title: Empowering defenders through our Cybersecurity Grant Program
+link: https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program
+id: https://openai.com/index/empowering-defenders-through-our-cybersecurity-grant-program
+date: Thu, 20 Jun 2024 10:00:00 GMT
+body:
+#ITEM
+title: Building an autonomous financial analyst with o1 and o3-mini
+link: https://openai.com/index/endex
+id: https://openai.com/index/endex
+date: Thu, 27 Feb 2025 09:30:00 GMT
+body:
+#ITEM
+title: Transforming the manufacturing industry with ChatGPT
+link: https://openai.com/index/eneos-materials
+id: https://openai.com/index/eneos-materials
+date: Wed, 24 Sep 2025 17:00:00 GMT
+body:
+#ITEM
+title: Implicit generation and generalization methods for energy-based models
+link: https://openai.com/index/energy-based-models
+id: https://openai.com/index/energy-based-models
+date: Thu, 21 Mar 2019 07:00:00 GMT
+body:
+#ITEM
+title: Enhancing news in ChatGPT with The Atlantic
+link: https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic
+id: https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic
+date: Wed, 29 May 2024 07:30:00 GMT
+body:
+#ITEM
+title: Equivalence between policy gradients and soft Q-learning
+link: https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning
+id: https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning
+date: Fri, 21 Apr 2017 07:00:00 GMT
+body:
+#ITEM
+title: Data-driven beauty and creativity with ChatGPT
+link: https://openai.com/index/estee-lauder
+id: https://openai.com/index/estee-lauder
+date: Wed, 13 Nov 2024 00:00:00 GMT
+body:
+#ITEM
+title: Estimating worst case frontier risks of open weight LLMs
+link: https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms
+id: https://openai.com/index/estimating-worst-case-frontier-risks-of-open-weight-llms
+date: Tue, 05 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Estonia and OpenAI to bring ChatGPT to schools nationwide
+link: https://openai.com/index/estonia-schools-and-chatgpt
+id: https://openai.com/index/estonia-schools-and-chatgpt
+date: Tue, 25 Feb 2025 04:15:00 GMT
+body:
+#ITEM
+title: How evals drive the next chapter in AI for businesses
+link: https://openai.com/index/evals-drive-next-chapter-of-ai
+id: https://openai.com/index/evals-drive-next-chapter-of-ai
+date: Wed, 19 Nov 2025 11:00:00 GMT
+body:
+#ITEM
+title: Evaluating chain-of-thought monitorability
+link: https://openai.com/index/evaluating-chain-of-thought-monitorability
+id: https://openai.com/index/evaluating-chain-of-thought-monitorability
+date: Thu, 18 Dec 2025 12:00:00 GMT
+body:
+#ITEM
+title: Evaluating fairness in ChatGPT
+link: https://openai.com/index/evaluating-fairness-in-chatgpt
+id: https://openai.com/index/evaluating-fairness-in-chatgpt
+date: Tue, 15 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Evaluating large language models trained on code
+link: https://openai.com/index/evaluating-large-language-models-trained-on-code
+id: https://openai.com/index/evaluating-large-language-models-trained-on-code
+date: Wed, 07 Jul 2021 07:00:00 GMT
+body:
+#ITEM
+title: Evolution strategies as a scalable alternative to reinforcement learning
+link: https://openai.com/index/evolution-strategies
+id: https://openai.com/index/evolution-strategies
+date: Fri, 24 Mar 2017 07:00:00 GMT
+body:
+#ITEM
+title: Evolution through large models
+link: https://openai.com/index/evolution-through-large-models
+id: https://openai.com/index/evolution-through-large-models
+date: Fri, 17 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Evolved Policy Gradients
+link: https://openai.com/index/evolved-policy-gradients
+id: https://openai.com/index/evolved-policy-gradients
+date: Wed, 18 Apr 2018 07:00:00 GMT
+body:
+#ITEM
+title: Evolving OpenAI’s structure
+link: https://openai.com/index/evolving-our-structure
+id: https://openai.com/index/evolving-our-structure
+date: Mon, 05 May 2025 11:00:00 GMT
+body:
+#ITEM
+title: Expanding data residency access to business customers worldwide
+link: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
+id: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
+date: Tue, 25 Nov 2025 22:00:00 GMT
+body:
+#ITEM
+title: Expanding economic opportunity with AI
+link: https://openai.com/index/expanding-economic-opportunity-with-ai
+id: https://openai.com/index/expanding-economic-opportunity-with-ai
+date: Thu, 04 Sep 2025 11:30:00 GMT
+body:
+#ITEM
+title: Expanding on how Voice Engine works and our safety research
+link: https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research
+id: https://openai.com/index/expanding-on-how-voice-engine-works-and-our-safety-research
+date: Fri, 07 Jun 2024 17:45:00 GMT
+body:
+#ITEM
+title: Expanding on what we missed with sycophancy
+link: https://openai.com/index/expanding-on-sycophancy
+id: https://openai.com/index/expanding-on-sycophancy
+date: Fri, 02 May 2025 08:00:00 GMT
+body:
+#ITEM
+title: Expanding Stargate to Michigan
+link: https://openai.com/index/expanding-stargate-to-michigan
+id: https://openai.com/index/expanding-stargate-to-michigan
+date: Thu, 30 Oct 2025 13:30:00 GMT
+body:
+#ITEM
+title: AI powers Expedia’s marketing evolution
+link: https://openai.com/index/expedia-jochen-koedijk
+id: https://openai.com/index/expedia-jochen-koedijk
+date: Wed, 14 May 2025 10:00:00 GMT
+body:
+#ITEM
+title: Expert Council on Well-Being and AI
+link: https://openai.com/index/expert-council-on-well-being-and-ai
+id: https://openai.com/index/expert-council-on-well-being-and-ai
+date: Tue, 14 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: #Exploration: A study of count-based exploration for deep reinforcement learning
+link: https://openai.com/index/exploration
+id: https://openai.com/index/exploration
+date: Tue, 15 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: Extensions and limitations of the neural GPU
+link: https://openai.com/index/extensions-and-limitations-of-the-neural-gpu
+id: https://openai.com/index/extensions-and-limitations-of-the-neural-gpu
+date: Wed, 02 Nov 2016 07:00:00 GMT
+body:
+#ITEM
+title: Extracting Concepts from GPT-4
+link: https://openai.com/index/extracting-concepts-from-gpt-4
+id: https://openai.com/index/extracting-concepts-from-gpt-4
+date: Thu, 06 Jun 2024 00:00:00 GMT
+body:
+#ITEM
+title: Accelerating engineering cycles 20% with OpenAI
+link: https://openai.com/index/factory
+id: https://openai.com/index/factory
+date: Thu, 06 Mar 2025 09:00:00 GMT
+body:
+#ITEM
+title: Fanatics Betting and Gaming uses AI to focus on the big picture
+link: https://openai.com/index/fanatics-betting-gaming-andrea-ellis
+id: https://openai.com/index/fanatics-betting-gaming-andrea-ellis
+date: Thu, 13 Feb 2025 10:01:00 GMT
+body:
+#ITEM
+title: Faster physics in Python
+link: https://openai.com/index/faster-physics-in-python
+id: https://openai.com/index/faster-physics-in-python
+date: Wed, 28 Jun 2017 07:00:00 GMT
+body:
+#ITEM
+title: Faulty reward functions in the wild
+link: https://openai.com/index/faulty-reward-functions
+id: https://openai.com/index/faulty-reward-functions
+date: Wed, 21 Dec 2016 08:00:00 GMT
+body:
+#ITEM
+title: FFJORD: Free-form continuous dynamics for scalable reversible generative models
+link: https://openai.com/index/ffjord
+id: https://openai.com/index/ffjord
+date: Tue, 02 Oct 2018 07:00:00 GMT
+body:
+#ITEM
+title: Fighting the New York Times’ invasion of user privacy
+link: https://openai.com/index/fighting-nyt-user-privacy-invasion
+id: https://openai.com/index/fighting-nyt-user-privacy-invasion
+date: Wed, 12 Nov 2025 06:00:00 GMT
+body:
+#ITEM
+title: Figma uses AI to transform digital design
+link: https://openai.com/index/figma-david-kossnick
+id: https://openai.com/index/figma-david-kossnick
+date: Fri, 01 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Finding GPT-4’s mistakes with GPT-4
+link: https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4
+id: https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4
+date: Thu, 27 Jun 2024 10:00:00 GMT
+body:
+#ITEM
+title: Fine-tuning GPT-2 from human preferences
+link: https://openai.com/index/fine-tuning-gpt-2
+id: https://openai.com/index/fine-tuning-gpt-2
+date: Thu, 19 Sep 2019 07:00:00 GMT
+body:
+#ITEM
+title: Catching halibut with ChatGPT
+link: https://openai.com/index/fishing-for-first-timers
+id: https://openai.com/index/fishing-for-first-timers
+date: Tue, 04 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI, Oracle, and SoftBank expand Stargate with five new AI datacenter sites
+link: https://openai.com/index/five-new-stargate-sites
+id: https://openai.com/index/five-new-stargate-sites
+date: Tue, 23 Sep 2025 14:00:00 GMT
+body:
+#ITEM
+title: Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk
+link: https://openai.com/index/forecasting-misuse
+id: https://openai.com/index/forecasting-misuse
+date: Wed, 11 Jan 2023 08:00:00 GMT
+body:
+#ITEM
+title: Solving (some) formal math olympiad problems
+link: https://openai.com/index/formal-math
+id: https://openai.com/index/formal-math
+date: Wed, 02 Feb 2022 08:00:00 GMT
+body:
+#ITEM
+title: Frontier AI regulation: Managing emerging risks to public safety
+link: https://openai.com/index/frontier-ai-regulation
+id: https://openai.com/index/frontier-ai-regulation
+date: Thu, 06 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Frontier Model Forum
+link: https://openai.com/index/frontier-model-forum
+id: https://openai.com/index/frontier-model-forum
+date: Wed, 26 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Frontier Model Forum updates
+link: https://openai.com/index/frontier-model-forum-updates
+id: https://openai.com/index/frontier-model-forum-updates
+date: Wed, 25 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: Frontier risk and preparedness
+link: https://openai.com/index/frontier-risk-and-preparedness
+id: https://openai.com/index/frontier-risk-and-preparedness
+date: Thu, 26 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: Evaluating AI’s ability to perform scientific research tasks
+link: https://openai.com/index/frontierscience
+id: https://openai.com/index/frontierscience
+date: Tue, 16 Dec 2025 09:00:00 GMT
+body:
+#ITEM
+title: Function calling and other API updates
+link: https://openai.com/index/function-calling-and-other-api-updates
+id: https://openai.com/index/function-calling-and-other-api-updates
+date: Tue, 13 Jun 2023 07:00:00 GMT
+body:
+#ITEM
+title: GamePad: A learning environment for theorem proving
+link: https://openai.com/index/gamepad
+id: https://openai.com/index/gamepad
+date: Sat, 02 Jun 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI named Emerging Leader in Generative AI
+link: https://openai.com/index/gartner-2025-emerging-leader
+id: https://openai.com/index/gartner-2025-emerging-leader
+date: Mon, 17 Nov 2025 10:00:00 GMT
+body:
+#ITEM
+title: Gathering human feedback
+link: https://openai.com/index/gathering-human-feedback
+id: https://openai.com/index/gathering-human-feedback
+date: Thu, 03 Aug 2017 07:00:00 GMT
+body:
+#ITEM
+title: Measuring the performance of our models on real-world tasks
+link: https://openai.com/index/gdpval
+id: https://openai.com/index/gdpval
+date: Thu, 25 Sep 2025 09:00:00 GMT
+body:
+#ITEM
+title: OpenAI and GEDI partner for Italian news content
+link: https://openai.com/index/gedi
+id: https://openai.com/index/gedi
+date: Thu, 26 Sep 2024 04:30:00 GMT
+body:
+#ITEM
+title: Generalizing from simulation
+link: https://openai.com/index/generalizing-from-simulation
+id: https://openai.com/index/generalizing-from-simulation
+date: Thu, 19 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: Generative language modeling for automated theorem proving
+link: https://openai.com/index/generative-language-modeling-for-automated-theorem-proving
+id: https://openai.com/index/generative-language-modeling-for-automated-theorem-proving
+date: Mon, 07 Sep 2020 07:00:00 GMT
+body:
+#ITEM
+title: Generative models
+link: https://openai.com/index/generative-models
+id: https://openai.com/index/generative-models
+date: Thu, 16 Jun 2016 07:00:00 GMT
+body:
+#ITEM
+title: Genmab launches “AI Everywhere”
+link: https://openai.com/index/genmab
+id: https://openai.com/index/genmab
+date: Thu, 19 Sep 2024 04:00:00 GMT
+body:
+#ITEM
+title: No-code personal agents, powered by GPT-4.1 and Realtime API
+link: https://openai.com/index/genspark
+id: https://openai.com/index/genspark
+date: Tue, 01 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: Global news partnerships: Le Monde and Prisa Media
+link: https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media
+id: https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media
+date: Wed, 13 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: Glow: Better reversible generative models
+link: https://openai.com/index/glow
+id: https://openai.com/index/glow
+date: Mon, 09 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: Gotta Learn Fast: A new benchmark for generalization in RL
+link: https://openai.com/index/gotta-learn-fast
+id: https://openai.com/index/gotta-learn-fast
+date: Tue, 10 Apr 2018 07:00:00 GMT
+body:
+#ITEM
+title: Governance of superintelligence
+link: https://openai.com/index/governance-of-superintelligence
+id: https://openai.com/index/governance-of-superintelligence
+date: Mon, 22 May 2023 07:00:00 GMT
+body:
+#ITEM
+title: Preserving languages for the future
+link: https://openai.com/index/government-of-iceland
+id: https://openai.com/index/government-of-iceland
+date: Tue, 14 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: GPT-2: 1.5B release
+link: https://openai.com/index/gpt-2-1-5b-release
+id: https://openai.com/index/gpt-2-1-5b-release
+date: Tue, 05 Nov 2019 08:00:00 GMT
+body:
+#ITEM
+title: GPT-2: 6-month follow-up
+link: https://openai.com/index/gpt-2-6-month-follow-up
+id: https://openai.com/index/gpt-2-6-month-follow-up
+date: Tue, 20 Aug 2019 07:00:00 GMT
+body:
+#ITEM
+title: GPT-3.5 Turbo fine-tuning and API updates
+link: https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates
+id: https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates
+date: Tue, 22 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: GPT-3 powers the next generation of apps
+link: https://openai.com/index/gpt-3-apps
+id: https://openai.com/index/gpt-3-apps
+date: Thu, 25 Mar 2021 07:00:00 GMT
+body:
+#ITEM
+title: New GPT-3 capabilities: Edit & insert
+link: https://openai.com/index/gpt-3-edit-insert
+id: https://openai.com/index/gpt-3-edit-insert
+date: Tue, 15 Mar 2022 07:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-4.1 in the API
+link: https://openai.com/index/gpt-4-1
+id: https://openai.com/index/gpt-4-1
+date: Mon, 14 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI GPT-4.5 System Card
+link: https://openai.com/index/gpt-4-5-system-card
+id: https://openai.com/index/gpt-4-5-system-card
+date: Thu, 27 Feb 2025 12:00:00 GMT
+body:
+#ITEM
+title: GPT-4 API general availability and deprecation of older models in the Completions API
+link: https://openai.com/index/gpt-4-api-general-availability
+id: https://openai.com/index/gpt-4-api-general-availability
+date: Wed, 24 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: GPT-4
+link: https://openai.com/index/gpt-4-research
+id: https://openai.com/index/gpt-4-research
+date: Tue, 14 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-4o and more tools to ChatGPT free users
+link: https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free
+id: https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free
+date: Mon, 13 May 2024 10:00:00 GMT
+body:
+#ITEM
+title: Fine-tuning now available for GPT-4o
+link: https://openai.com/index/gpt-4o-fine-tuning
+id: https://openai.com/index/gpt-4o-fine-tuning
+date: Tue, 20 Aug 2024 10:00:00 GMT
+body:
+#ITEM
+title: Addendum to GPT-4o System Card: 4o image generation
+link: https://openai.com/index/gpt-4o-image-generation-system-card-addendum
+id: https://openai.com/index/gpt-4o-image-generation-system-card-addendum
+date: Tue, 25 Mar 2025 11:00:00 GMT
+body:
+#ITEM
+title: GPT-4o mini: advancing cost-efficient intelligence
+link: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence
+id: https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence
+date: Thu, 18 Jul 2024 10:00:00 GMT
+body:
+#ITEM
+title: GPT-4o System Card
+link: https://openai.com/index/gpt-4o-system-card
+id: https://openai.com/index/gpt-4o-system-card
+date: Thu, 08 Aug 2024 00:00:00 GMT
+body:
+#ITEM
+title: GPT-4o System Card External Testers Acknowledgements
+link: https://openai.com/index/gpt-4o-system-card/external-testers-acknowledgements
+id: https://openai.com/index/gpt-4o-system-card/external-testers-acknowledgements
+date: Thu, 08 Aug 2024 10:00:00 GMT
+body:
+#ITEM
+title: GPT-4V(ision) system card
+link: https://openai.com/index/gpt-4v-system-card
+id: https://openai.com/index/gpt-4v-system-card
+date: Mon, 25 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: GPT-5.1: A smarter, more conversational ChatGPT
+link: https://openai.com/index/gpt-5-1
+id: https://openai.com/index/gpt-5-1
+date: Wed, 12 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Building more with GPT-5.1-Codex-Max
+link: https://openai.com/index/gpt-5-1-codex-max
+id: https://openai.com/index/gpt-5-1-codex-max
+date: Wed, 19 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: GPT-5.1-Codex-Max System Card
+link: https://openai.com/index/gpt-5-1-codex-max-system-card
+id: https://openai.com/index/gpt-5-1-codex-max-system-card
+date: Wed, 19 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.1 for developers
+link: https://openai.com/index/gpt-5-1-for-developers
+id: https://openai.com/index/gpt-5-1-for-developers
+date: Thu, 13 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.2-Codex
+link: https://openai.com/index/gpt-5-2-codex
+id: https://openai.com/index/gpt-5-2-codex
+date: Thu, 18 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Addendum to GPT-5.2 System Card: GPT-5.2-Codex
+link: https://openai.com/index/gpt-5-2-codex-system-card
+id: https://openai.com/index/gpt-5-2-codex-system-card
+date: Thu, 18 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Advancing science and math with GPT-5.2
+link: https://openai.com/index/gpt-5-2-for-science-and-math
+id: https://openai.com/index/gpt-5-2-for-science-and-math
+date: Thu, 11 Dec 2025 10:00:00 GMT
+body:
+#ITEM
+title: How Amgen uses GPT-5
+link: https://openai.com/index/gpt-5-amgen
+id: https://openai.com/index/gpt-5-amgen
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Coding and design with GPT-5
+link: https://openai.com/index/gpt-5-coding-design
+id: https://openai.com/index/gpt-5-coding-design
+date: Thu, 07 Aug 2025 00:03:00 GMT
+body:
+#ITEM
+title: Creative writing with GPT-5
+link: https://openai.com/index/gpt-5-creative-writing
+id: https://openai.com/index/gpt-5-creative-writing
+date: Thu, 07 Aug 2025 00:02:00 GMT
+body:
+#ITEM
+title: How Cursor uses GPT-5
+link: https://openai.com/index/gpt-5-cursor
+id: https://openai.com/index/gpt-5-cursor
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: First look at GPT-5
+link: https://openai.com/index/gpt-5-first-look
+id: https://openai.com/index/gpt-5-first-look
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: GPT-5 and the future of mathematical discovery
+link: https://openai.com/index/gpt-5-mathematical-discovery
+id: https://openai.com/index/gpt-5-mathematical-discovery
+date: Mon, 24 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Medical research with GPT-5
+link: https://openai.com/index/gpt-5-medical-research
+id: https://openai.com/index/gpt-5-medical-research
+date: Thu, 07 Aug 2025 00:01:00 GMT
+body:
+#ITEM
+title: GPT-5 and the new era of work
+link: https://openai.com/index/gpt-5-new-era-of-work
+id: https://openai.com/index/gpt-5-new-era-of-work
+date: Thu, 07 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: From hard refusals to safe-completions: toward output-centric safety training
+link: https://openai.com/index/gpt-5-safe-completions
+id: https://openai.com/index/gpt-5-safe-completions
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: GPT-5 System Card
+link: https://openai.com/index/gpt-5-system-card
+id: https://openai.com/index/gpt-5-system-card
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum
+link: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1
+id: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1
+date: Wed, 12 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Addendum to GPT-5 system card: GPT-5-Codex
+link: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex
+id: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex
+date: Mon, 15 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: Addendum to GPT-5 System Card: Sensitive conversations
+link: https://openai.com/index/gpt-5-system-card-sensitive-conversations
+id: https://openai.com/index/gpt-5-system-card-sensitive-conversations
+date: Mon, 27 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: Update to GPT-5 System Card: GPT-5.2
+link: https://openai.com/index/gpt-5-system-card-update-gpt-5-2
+id: https://openai.com/index/gpt-5-system-card-update-gpt-5-2
+date: Thu, 11 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: gpt-oss-120b & gpt-oss-20b Model Card
+link: https://openai.com/index/gpt-oss-model-card
+id: https://openai.com/index/gpt-oss-model-card
+date: Tue, 05 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: gpt-oss-safeguard technical report
+link: https://openai.com/index/gpt-oss-safeguard-technical-report
+id: https://openai.com/index/gpt-oss-safeguard-technical-report
+date: Wed, 29 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: GPTs are GPTs: An early look at the labor market impact potential of large language models
+link: https://openai.com/index/gpts-are-gpts
+id: https://openai.com/index/gpts-are-gpts
+date: Fri, 17 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Building smarter maps with GPT-4o vision fine-tuning
+link: https://openai.com/index/grab
+id: https://openai.com/index/grab
+date: Wed, 20 Nov 2024 17:00:00 GMT
+body:
+#ITEM
+title: Introducing group chats in ChatGPT
+link: https://openai.com/index/group-chats-in-chatgpt
+id: https://openai.com/index/group-chats-in-chatgpt
+date: Thu, 13 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Gym Retro
+link: https://openai.com/index/gym-retro
+id: https://openai.com/index/gym-retro
+date: Fri, 25 May 2018 07:00:00 GMT
+body:
+#ITEM
+title: Report from the OpenAI hackathon
+link: https://openai.com/index/hackathon-follow-up
+id: https://openai.com/index/hackathon-follow-up
+date: Thu, 15 Mar 2018 07:00:00 GMT
+body:
+#ITEM
+title: Continuously hardening ChatGPT Atlas against prompt injection
+link: https://openai.com/index/hardening-atlas-against-prompt-injection
+id: https://openai.com/index/hardening-atlas-against-prompt-injection
+date: Mon, 22 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Customizing models for legal professionals
+link: https://openai.com/index/harvey
+id: https://openai.com/index/harvey
+date: Tue, 02 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Introducing HealthBench
+link: https://openai.com/index/healthbench
+id: https://openai.com/index/healthbench
+date: Mon, 12 May 2025 10:30:00 GMT
+body:
+#ITEM
+title: Saving lives with AI health coaching
+link: https://openai.com/index/healthify
+id: https://openai.com/index/healthify
+date: Wed, 13 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Hearst Content Partnership
+link: https://openai.com/index/hearst
+id: https://openai.com/index/hearst
+date: Tue, 08 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Automating 90% of finance and legal work with agents
+link: https://openai.com/index/hebbia
+id: https://openai.com/index/hebbia
+date: Tue, 25 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: Helen Toner joins OpenAI’s board of directors
+link: https://openai.com/index/helen-toner-joins
+id: https://openai.com/index/helen-toner-joins
+date: Wed, 08 Sep 2021 07:00:00 GMT
+body:
+#ITEM
+title: Hello GPT-4o
+link: https://openai.com/index/hello-gpt-4o
+id: https://openai.com/index/hello-gpt-4o
+date: Mon, 13 May 2024 10:05:00 GMT
+body:
+#ITEM
+title: Helping people when they need it most
+link: https://openai.com/index/helping-people-when-they-need-it-most
+id: https://openai.com/index/helping-people-when-they-need-it-most
+date: Tue, 26 Aug 2025 04:00:00 GMT
+body:
+#ITEM
+title: Growing impact and scale with ChatGPT
+link: https://openai.com/index/hibob
+id: https://openai.com/index/hibob
+date: Wed, 08 Oct 2025 08:00:00 GMT
+body:
+#ITEM
+title: Hierarchical text-conditional image generation with CLIP latents
+link: https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents
+id: https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents
+date: Wed, 13 Apr 2022 07:00:00 GMT
+body:
+#ITEM
+title: How Higgsfield turns simple ideas into cinematic social videos
+link: https://openai.com/index/higgsfield
+id: https://openai.com/index/higgsfield
+date: Wed, 21 Jan 2026 10:00:00 GMT
+body:
+#ITEM
+title: Hindsight Experience Replay
+link: https://openai.com/index/hindsight-experience-replay
+id: https://openai.com/index/hindsight-experience-replay
+date: Wed, 05 Jul 2017 07:00:00 GMT
+body:
+#ITEM
+title: Building a data-driven, efficient culture with AI
+link: https://openai.com/index/holiday-extras
+id: https://openai.com/index/holiday-extras
+date: Mon, 18 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: Horizon 1000: Advancing AI for primary healthcare
+link: https://openai.com/index/horizon-1000
+id: https://openai.com/index/horizon-1000
+date: Tue, 20 Jan 2026 21:00:00 GMT
+body:
+#ITEM
+title: How AI training scales
+link: https://openai.com/index/how-ai-training-scales
+id: https://openai.com/index/how-ai-training-scales
+date: Fri, 14 Dec 2018 08:00:00 GMT
+body:
+#ITEM
+title: How confessions can keep language models honest
+link: https://openai.com/index/how-confessions-can-keep-language-models-honest
+id: https://openai.com/index/how-confessions-can-keep-language-models-honest
+date: Wed, 03 Dec 2025 10:00:00 GMT
+body:
+#ITEM
+title: How countries can end the capability overhang
+link: https://openai.com/index/how-countries-can-end-the-capability-overhang
+id: https://openai.com/index/how-countries-can-end-the-capability-overhang
+date: Wed, 21 Jan 2026 01:00:00 GMT
+body:
+#ITEM
+title: How OpenAI is approaching 2024 worldwide elections
+link: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
+id: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
+date: Mon, 15 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: How people are using ChatGPT
+link: https://openai.com/index/how-people-are-using-chatgpt
+id: https://openai.com/index/how-people-are-using-chatgpt
+date: Mon, 15 Sep 2025 03:00:00 GMT
+body:
+#ITEM
+title: How should AI systems behave, and who should decide?
+link: https://openai.com/index/how-should-ai-systems-behave
+id: https://openai.com/index/how-should-ai-systems-behave
+date: Thu, 16 Feb 2023 08:00:00 GMT
+body:
+#ITEM
+title: How the voices for ChatGPT were chosen
+link: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
+id: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
+date: Sun, 19 May 2024 23:30:00 GMT
+body:
+#ITEM
+title: HYGH powers next-gen digital ads with ChatGPT Business
+link: https://openai.com/index/hygh
+id: https://openai.com/index/hygh
+date: Fri, 10 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing our latest image generation model in the API
+link: https://openai.com/index/image-generation-api
+id: https://openai.com/index/image-generation-api
+date: Wed, 23 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: Image GPT
+link: https://openai.com/index/image-gpt
+id: https://openai.com/index/image-gpt
+date: Wed, 17 Jun 2020 07:00:00 GMT
+body:
+#ITEM
+title: Improved Techniques for Training Consistency Models
+link: https://openai.com/index/improved-techniques-for-training-consistency-models
+id: https://openai.com/index/improved-techniques-for-training-consistency-models
+date: Thu, 20 Jun 2024 00:00:00 GMT
+body:
+#ITEM
+title: Improvements to data analysis in ChatGPT
+link: https://openai.com/index/improvements-to-data-analysis-in-chatgpt
+id: https://openai.com/index/improvements-to-data-analysis-in-chatgpt
+date: Thu, 16 May 2024 15:00:00 GMT
+body:
+#ITEM
+title: Improving GANs using optimal transport
+link: https://openai.com/index/improving-gans-using-optimal-transport
+id: https://openai.com/index/improving-gans-using-optimal-transport
+date: Thu, 15 Mar 2018 07:00:00 GMT
+body:
+#ITEM
+title: Improving language model behavior by training on a curated dataset
+link: https://openai.com/index/improving-language-model-behavior
+id: https://openai.com/index/improving-language-model-behavior
+date: Thu, 10 Jun 2021 07:00:00 GMT
+body:
+#ITEM
+title: Improving mathematical reasoning with process supervision
+link: https://openai.com/index/improving-mathematical-reasoning-with-process-supervision
+id: https://openai.com/index/improving-mathematical-reasoning-with-process-supervision
+date: Wed, 31 May 2023 07:00:00 GMT
+body:
+#ITEM
+title: Improving Model Safety Behavior with Rule-Based Rewards
+link: https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards
+id: https://openai.com/index/improving-model-safety-behavior-with-rule-based-rewards
+date: Wed, 24 Jul 2024 09:00:00 GMT
+body:
+#ITEM
+title: Improving verifiability in AI development
+link: https://openai.com/index/improving-verifiability
+id: https://openai.com/index/improving-verifiability
+date: Thu, 16 Apr 2020 07:00:00 GMT
+body:
+#ITEM
+title: Delivering contextual job matching for millions with OpenAI
+link: https://openai.com/index/indeed
+id: https://openai.com/index/indeed
+date: Thu, 15 Aug 2024 07:00:00 GMT
+body:
+#ITEM
+title: Infrastructure for deep learning
+link: https://openai.com/index/infrastructure-for-deep-learning
+id: https://openai.com/index/infrastructure-for-deep-learning
+date: Mon, 29 Aug 2016 07:00:00 GMT
+body:
+#ITEM
+title: Ingredients for robotics research
+link: https://openai.com/index/ingredients-for-robotics-research
+id: https://openai.com/index/ingredients-for-robotics-research
+date: Mon, 26 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: Insights from global conversations
+link: https://openai.com/index/insights-from-global-conversations
+id: https://openai.com/index/insights-from-global-conversations
+date: Thu, 29 Jun 2023 07:00:00 GMT
+body:
+#ITEM
+title: Instacart and OpenAI partner on AI shopping experiences
+link: https://openai.com/index/instacart-partnership
+id: https://openai.com/index/instacart-partnership
+date: Mon, 08 Dec 2025 06:00:00 GMT
+body:
+#ITEM
+title: Aligning language models to follow instructions
+link: https://openai.com/index/instruction-following
+id: https://openai.com/index/instruction-following
+date: Thu, 27 Jan 2022 08:00:00 GMT
+body:
+#ITEM
+title: Three lessons for creating a sustainable AI advantage
+link: https://openai.com/index/intercom
+id: https://openai.com/index/intercom
+date: Wed, 30 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Interpretable and pedagogical examples
+link: https://openai.com/index/interpretable-and-pedagogical-examples
+id: https://openai.com/index/interpretable-and-pedagogical-examples
+date: Thu, 02 Nov 2017 07:00:00 GMT
+body:
+#ITEM
+title: Interpretable machine learning through teaching
+link: https://openai.com/index/interpretable-machine-learning-through-teaching
+id: https://openai.com/index/interpretable-machine-learning-through-teaching
+date: Thu, 15 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: Introducing 4o Image Generation
+link: https://openai.com/index/introducing-4o-image-generation
+id: https://openai.com/index/introducing-4o-image-generation
+date: Tue, 25 Mar 2025 11:05:00 GMT
+body:
+#ITEM
+title: Introducing Aardvark: OpenAI’s agentic security researcher
+link: https://openai.com/index/introducing-aardvark
+id: https://openai.com/index/introducing-aardvark
+date: Thu, 30 Oct 2025 11:00:00 GMT
+body:
+#ITEM
+title: Introducing Activation Atlases
+link: https://openai.com/index/introducing-activation-atlases
+id: https://openai.com/index/introducing-activation-atlases
+date: Wed, 06 Mar 2019 08:00:00 GMT
+body:
+#ITEM
+title: Introducing AgentKit, new Evals, and RFT for agents
+link: https://openai.com/index/introducing-agentkit
+id: https://openai.com/index/introducing-agentkit
+date: Mon, 06 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing apps in ChatGPT and the new Apps SDK
+link: https://openai.com/index/introducing-apps-in-chatgpt
+id: https://openai.com/index/introducing-apps-in-chatgpt
+date: Mon, 06 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing canvas, a new way to write and code with ChatGPT.
+link: https://openai.com/index/introducing-canvas
+id: https://openai.com/index/introducing-canvas
+date: Thu, 03 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT agent
+link: https://openai.com/index/introducing-chatgpt-agent
+id: https://openai.com/index/introducing-chatgpt-agent
+date: Thu, 17 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT and Whisper APIs
+link: https://openai.com/index/introducing-chatgpt-and-whisper-apis
+id: https://openai.com/index/introducing-chatgpt-and-whisper-apis
+date: Wed, 24 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Atlas, the browser with ChatGPT built in
+link: https://openai.com/index/introducing-chatgpt-atlas
+id: https://openai.com/index/introducing-chatgpt-atlas
+date: Tue, 21 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI for Education
+link: https://openai.com/index/introducing-chatgpt-edu
+id: https://openai.com/index/introducing-chatgpt-edu
+date: Thu, 30 May 2024 07:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Enterprise
+link: https://openai.com/index/introducing-chatgpt-enterprise
+id: https://openai.com/index/introducing-chatgpt-enterprise
+date: Mon, 28 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Go, now available worldwide
+link: https://openai.com/index/introducing-chatgpt-go
+id: https://openai.com/index/introducing-chatgpt-go
+date: Fri, 16 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Health
+link: https://openai.com/index/introducing-chatgpt-health
+id: https://openai.com/index/introducing-chatgpt-health
+date: Wed, 07 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Pro
+link: https://openai.com/index/introducing-chatgpt-pro
+id: https://openai.com/index/introducing-chatgpt-pro
+date: Thu, 05 Dec 2024 10:30:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Pulse
+link: https://openai.com/index/introducing-chatgpt-pulse
+id: https://openai.com/index/introducing-chatgpt-pulse
+date: Thu, 25 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT search
+link: https://openai.com/index/introducing-chatgpt-search
+id: https://openai.com/index/introducing-chatgpt-search
+date: Thu, 31 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT Team
+link: https://openai.com/index/introducing-chatgpt-team
+id: https://openai.com/index/introducing-chatgpt-team
+date: Wed, 10 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: Introducing Codex
+link: https://openai.com/index/introducing-codex
+id: https://openai.com/index/introducing-codex
+date: Fri, 16 May 2025 08:00:00 GMT
+body:
+#ITEM
+title: Work smarter with your company knowledge in ChatGPT
+link: https://openai.com/index/introducing-company-knowledge
+id: https://openai.com/index/introducing-company-knowledge
+date: Thu, 23 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing data residency in Asia
+link: https://openai.com/index/introducing-data-residency-in-asia
+id: https://openai.com/index/introducing-data-residency-in-asia
+date: Wed, 07 May 2025 18:00:00 GMT
+body:
+#ITEM
+title: Introducing data residency in Europe
+link: https://openai.com/index/introducing-data-residency-in-europe
+id: https://openai.com/index/introducing-data-residency-in-europe
+date: Wed, 05 Feb 2025 22:00:00 GMT
+body:
+#ITEM
+title: Introducing deep research
+link: https://openai.com/index/introducing-deep-research
+id: https://openai.com/index/introducing-deep-research
+date: Sun, 02 Feb 2025 16:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-4.5
+link: https://openai.com/index/introducing-gpt-4-5
+id: https://openai.com/index/introducing-gpt-4-5
+date: Thu, 27 Feb 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5
+link: https://openai.com/index/introducing-gpt-5
+id: https://openai.com/index/introducing-gpt-5
+date: Thu, 07 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.2
+link: https://openai.com/index/introducing-gpt-5-2
+id: https://openai.com/index/introducing-gpt-5-2
+date: Thu, 11 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5.2-Codex
+link: https://openai.com/index/introducing-gpt-5-2-codex
+id: https://openai.com/index/introducing-gpt-5-2-codex
+date: Thu, 18 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing GPT-5 for developers
+link: https://openai.com/index/introducing-gpt-5-for-developers
+id: https://openai.com/index/introducing-gpt-5-for-developers
+date: Thu, 07 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing gpt-oss
+link: https://openai.com/index/introducing-gpt-oss
+id: https://openai.com/index/introducing-gpt-oss
+date: Tue, 05 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing gpt-oss-safeguard
+link: https://openai.com/index/introducing-gpt-oss-safeguard
+id: https://openai.com/index/introducing-gpt-oss-safeguard
+date: Wed, 29 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing gpt-realtime and Realtime API updates
+link: https://openai.com/index/introducing-gpt-realtime
+id: https://openai.com/index/introducing-gpt-realtime
+date: Thu, 28 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing GPTs
+link: https://openai.com/index/introducing-gpts
+id: https://openai.com/index/introducing-gpts
+date: Mon, 06 Nov 2023 08:00:00 GMT
+body:
+#ITEM
+title: Introducing improvements to the fine-tuning API and expanding our custom models program
+link: https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program
+id: https://openai.com/index/introducing-improvements-to-the-fine-tuning-api-and-expanding-our-custom-models-program
+date: Thu, 04 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Introducing IndQA
+link: https://openai.com/index/introducing-indqa
+id: https://openai.com/index/introducing-indqa
+date: Mon, 03 Nov 2025 22:30:00 GMT
+body:
+#ITEM
+title: Introducing NextGenAI
+link: https://openai.com/index/introducing-nextgenai
+id: https://openai.com/index/introducing-nextgenai
+date: Tue, 04 Mar 2025 06:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI o3 and o4-mini
+link: https://openai.com/index/introducing-o3-and-o4-mini
+id: https://openai.com/index/introducing-o3-and-o4-mini
+date: Wed, 16 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI
+link: https://openai.com/index/introducing-openai
+id: https://openai.com/index/introducing-openai
+date: Fri, 11 Dec 2015 08:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI Dublin
+link: https://openai.com/index/introducing-openai-dublin
+id: https://openai.com/index/introducing-openai-dublin
+date: Wed, 13 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI for Nonprofits
+link: https://openai.com/index/introducing-openai-for-nonprofits
+id: https://openai.com/index/introducing-openai-for-nonprofits
+date: Thu, 30 May 2024 07:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI Japan
+link: https://openai.com/index/introducing-openai-japan
+id: https://openai.com/index/introducing-openai-japan
+date: Sun, 14 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI London
+link: https://openai.com/index/introducing-openai-london
+id: https://openai.com/index/introducing-openai-london
+date: Wed, 28 Jun 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI o1
+link: https://openai.com/index/introducing-openai-o1-preview
+id: https://openai.com/index/introducing-openai-o1-preview
+date: Thu, 12 Sep 2024 10:03:00 GMT
+body:
+#ITEM
+title: Introducing Operator
+link: https://openai.com/index/introducing-operator
+id: https://openai.com/index/introducing-operator
+date: Thu, 23 Jan 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing next-generation audio models in the API
+link: https://openai.com/index/introducing-our-next-generation-audio-models
+id: https://openai.com/index/introducing-our-next-generation-audio-models
+date: Thu, 20 Mar 2025 11:00:00 GMT
+body:
+#ITEM
+title: Introducing parental controls
+link: https://openai.com/index/introducing-parental-controls
+id: https://openai.com/index/introducing-parental-controls
+date: Mon, 29 Sep 2025 03:00:00 GMT
+body:
+#ITEM
+title: Introducing SimpleQA
+link: https://openai.com/index/introducing-simpleqa
+id: https://openai.com/index/introducing-simpleqa
+date: Wed, 30 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Introducing Stargate Norway
+link: https://openai.com/index/introducing-stargate-norway
+id: https://openai.com/index/introducing-stargate-norway
+date: Thu, 31 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing Stargate UAE
+link: https://openai.com/index/introducing-stargate-uae
+id: https://openai.com/index/introducing-stargate-uae
+date: Thu, 22 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing Stargate UK
+link: https://openai.com/index/introducing-stargate-uk
+id: https://openai.com/index/introducing-stargate-uk
+date: Tue, 16 Sep 2025 14:30:00 GMT
+body:
+#ITEM
+title: Introducing Structured Outputs in the API
+link: https://openai.com/index/introducing-structured-outputs-in-the-api
+id: https://openai.com/index/introducing-structured-outputs-in-the-api
+date: Tue, 06 Aug 2024 10:00:00 GMT
+body:
+#ITEM
+title: Introducing SWE-bench Verified
+link: https://openai.com/index/introducing-swe-bench-verified
+id: https://openai.com/index/introducing-swe-bench-verified
+date: Tue, 13 Aug 2024 10:00:00 GMT
+body:
+#ITEM
+title: Introducing text and code embeddings
+link: https://openai.com/index/introducing-text-and-code-embeddings
+id: https://openai.com/index/introducing-text-and-code-embeddings
+date: Tue, 25 Jan 2022 08:00:00 GMT
+body:
+#ITEM
+title: Introducing the ChatGPT app for iOS
+link: https://openai.com/index/introducing-the-chatgpt-app-for-ios
+id: https://openai.com/index/introducing-the-chatgpt-app-for-ios
+date: Thu, 18 May 2023 07:00:00 GMT
+body:
+#ITEM
+title: Introducing the GPT Store
+link: https://openai.com/index/introducing-the-gpt-store
+id: https://openai.com/index/introducing-the-gpt-store
+date: Wed, 10 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: Introducing the Model Spec
+link: https://openai.com/index/introducing-the-model-spec
+id: https://openai.com/index/introducing-the-model-spec
+date: Wed, 08 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Introducing the Realtime API
+link: https://openai.com/index/introducing-the-realtime-api
+id: https://openai.com/index/introducing-the-realtime-api
+date: Tue, 01 Oct 2024 10:05:00 GMT
+body:
+#ITEM
+title: Introducing the Teen Safety Blueprint
+link: https://openai.com/index/introducing-the-teen-safety-blueprint
+id: https://openai.com/index/introducing-the-teen-safety-blueprint
+date: Thu, 06 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing upgrades to Codex
+link: https://openai.com/index/introducing-upgrades-to-codex
+id: https://openai.com/index/introducing-upgrades-to-codex
+date: Mon, 15 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: Introducing vision to the fine-tuning API
+link: https://openai.com/index/introducing-vision-to-the-fine-tuning-api
+id: https://openai.com/index/introducing-vision-to-the-fine-tuning-api
+date: Tue, 01 Oct 2024 10:04:00 GMT
+body:
+#ITEM
+title: Intuit and OpenAI join forces on new AI-powered experiences
+link: https://openai.com/index/intuit-partnership
+id: https://openai.com/index/intuit-partnership
+date: Tue, 18 Nov 2025 05:00:00 GMT
+body:
+#ITEM
+title: Investing in Merge Labs
+link: https://openai.com/index/investing-in-merge-labs
+id: https://openai.com/index/investing-in-merge-labs
+date: Thu, 15 Jan 2026 07:00:00 GMT
+body:
+#ITEM
+title: Invideo AI uses OpenAI models to create videos 10x faster
+link: https://openai.com/index/invideo-ai
+id: https://openai.com/index/invideo-ai
+date: Thu, 17 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Creating next-gen characters
+link: https://openai.com/index/inworld-ai-DO-NOT-PUBLISH
+id: https://openai.com/index/inworld-ai-DO-NOT-PUBLISH
+date: Sun, 01 Jan 2023 08:00:00 GMT
+body:
+#ITEM
+title: Simplifying contract reviews with AI
+link: https://openai.com/index/ironclad
+id: https://openai.com/index/ironclad
+date: Wed, 11 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scientist
+link: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
+id: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
+date: Tue, 14 May 2024 18:00:00 GMT
+body:
+#ITEM
+title: AI in Japan—OpenAI’s Japan Economic Blueprint
+link: https://openai.com/index/japan-economic-blueprint
+id: https://openai.com/index/japan-economic-blueprint
+date: Wed, 22 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Embedding AI into developer software
+link: https://openai.com/index/jetbrains
+id: https://openai.com/index/jetbrains
+date: Thu, 21 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: Inside JetBrains—the company reshaping how the world writes code
+link: https://openai.com/index/jetbrains-2025
+id: https://openai.com/index/jetbrains-2025
+date: Tue, 25 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: AI helps John Deere transform agriculture
+link: https://openai.com/index/john-deere-justin-rose
+id: https://openai.com/index/john-deere-justin-rose
+date: Tue, 06 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: A joint statement from OpenAI and Microsoft
+link: https://openai.com/index/joint-statement-from-openai-and-microsoft
+id: https://openai.com/index/joint-statement-from-openai-and-microsoft
+date: Thu, 11 Sep 2025 14:00:00 GMT
+body:
+#ITEM
+title: Jukebox
+link: https://openai.com/index/jukebox
+id: https://openai.com/index/jukebox
+date: Thu, 30 Apr 2020 07:00:00 GMT
+body:
+#ITEM
+title: Powering virtual education for the classroom
+link: https://openai.com/index/khan-academy
+id: https://openai.com/index/khan-academy
+date: Tue, 14 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Klarna's AI assistant does the work of 700 full-time agents
+link: https://openai.com/index/klarna
+id: https://openai.com/index/klarna
+date: Fri, 05 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Lessons learned on language model safety and misuse
+link: https://openai.com/index/language-model-safety-and-misuse
+id: https://openai.com/index/language-model-safety-and-misuse
+date: Thu, 03 Mar 2022 08:00:00 GMT
+body:
+#ITEM
+title: Language models are few-shot learners
+link: https://openai.com/index/language-models-are-few-shot-learners
+id: https://openai.com/index/language-models-are-few-shot-learners
+date: Thu, 28 May 2020 07:00:00 GMT
+body:
+#ITEM
+title: Language models can explain neurons in language models
+link: https://openai.com/index/language-models-can-explain-neurons-in-language-models
+id: https://openai.com/index/language-models-can-explain-neurons-in-language-models
+date: Tue, 09 May 2023 07:00:00 GMT
+body:
+#ITEM
+title: Improving language understanding with unsupervised learning
+link: https://openai.com/index/language-unsupervised
+id: https://openai.com/index/language-unsupervised
+date: Mon, 11 Jun 2018 07:00:00 GMT
+body:
+#ITEM
+title: Large-scale study of curiosity-driven learning
+link: https://openai.com/index/large-scale-study-of-curiosity-driven-learning
+id: https://openai.com/index/large-scale-study-of-curiosity-driven-learning
+date: Mon, 13 Aug 2018 07:00:00 GMT
+body:
+#ITEM
+title: LaunchDarkly's approach to AI-powered product management
+link: https://openai.com/index/launchdarkly-claire-vo
+id: https://openai.com/index/launchdarkly-claire-vo
+date: Tue, 04 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: Launching Sora responsibly
+link: https://openai.com/index/launching-sora-responsibly
+id: https://openai.com/index/launching-sora-responsibly
+date: Tue, 30 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI Expands Leadership with Fidji Simo
+link: https://openai.com/index/leadership-expansion-with-fidji-simo
+id: https://openai.com/index/leadership-expansion-with-fidji-simo
+date: Wed, 07 May 2025 21:00:00 GMT
+body:
+#ITEM
+title: OpenAI leadership team update
+link: https://openai.com/index/leadership-team-update
+id: https://openai.com/index/leadership-team-update
+date: Thu, 05 May 2022 07:00:00 GMT
+body:
+#ITEM
+title: Leadership updates
+link: https://openai.com/index/leadership-updates-march-2025
+id: https://openai.com/index/leadership-updates-march-2025
+date: Mon, 24 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: Learning a hierarchy
+link: https://openai.com/index/learning-a-hierarchy
+id: https://openai.com/index/learning-a-hierarchy
+date: Thu, 26 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: Learning complex goals with iterated amplification
+link: https://openai.com/index/learning-complex-goals-with-iterated-amplification
+id: https://openai.com/index/learning-complex-goals-with-iterated-amplification
+date: Mon, 22 Oct 2018 07:00:00 GMT
+body:
+#ITEM
+title: Learning concepts with energy functions
+link: https://openai.com/index/learning-concepts-with-energy-functions
+id: https://openai.com/index/learning-concepts-with-energy-functions
+date: Wed, 07 Nov 2018 08:00:00 GMT
+body:
+#ITEM
+title: Learning Day
+link: https://openai.com/index/learning-day
+id: https://openai.com/index/learning-day
+date: Thu, 01 Aug 2019 07:00:00 GMT
+body:
+#ITEM
+title: Learning dexterity
+link: https://openai.com/index/learning-dexterity
+id: https://openai.com/index/learning-dexterity
+date: Mon, 30 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: Learning from human preferences
+link: https://openai.com/index/learning-from-human-preferences
+id: https://openai.com/index/learning-from-human-preferences
+date: Tue, 13 Jun 2017 07:00:00 GMT
+body:
+#ITEM
+title: Learning Montezuma’s Revenge from a single demonstration
+link: https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration
+id: https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration
+date: Wed, 04 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: Learning policy representations in multiagent systems
+link: https://openai.com/index/learning-policy-representations-in-multiagent-systems
+id: https://openai.com/index/learning-policy-representations-in-multiagent-systems
+date: Sun, 17 Jun 2018 07:00:00 GMT
+body:
+#ITEM
+title: Learning sparse neural networks through L₀ regularization
+link: https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization
+id: https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization
+date: Mon, 04 Dec 2017 08:00:00 GMT
+body:
+#ITEM
+title: Learning to communicate
+link: https://openai.com/index/learning-to-communicate
+id: https://openai.com/index/learning-to-communicate
+date: Thu, 16 Mar 2017 07:00:00 GMT
+body:
+#ITEM
+title: Learning to cooperate, compete, and communicate
+link: https://openai.com/index/learning-to-cooperate-compete-and-communicate
+id: https://openai.com/index/learning-to-cooperate-compete-and-communicate
+date: Thu, 08 Jun 2017 07:00:00 GMT
+body:
+#ITEM
+title: Learning to model other minds
+link: https://openai.com/index/learning-to-model-other-minds
+id: https://openai.com/index/learning-to-model-other-minds
+date: Thu, 14 Sep 2017 07:00:00 GMT
+body:
+#ITEM
+title: Learning to reason with LLMs
+link: https://openai.com/index/learning-to-reason-with-llms
+id: https://openai.com/index/learning-to-reason-with-llms
+date: Thu, 12 Sep 2024 10:02:00 GMT
+body:
+#ITEM
+title: Learning to summarize with human feedback
+link: https://openai.com/index/learning-to-summarize-with-human-feedback
+id: https://openai.com/index/learning-to-summarize-with-human-feedback
+date: Fri, 04 Sep 2020 07:00:00 GMT
+body:
+#ITEM
+title: Learning with opponent-learning awareness
+link: https://openai.com/index/learning-with-opponent-learning-awareness
+id: https://openai.com/index/learning-with-opponent-learning-awareness
+date: Wed, 13 Sep 2017 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI and the Lenfest Institute AI Collaborative and Fellowship program
+link: https://openai.com/index/lenfest-institute
+id: https://openai.com/index/lenfest-institute
+date: Tue, 22 Oct 2024 06:05:00 GMT
+body:
+#ITEM
+title: Improving health literacy and patient well-being
+link: https://openai.com/index/lifespan
+id: https://openai.com/index/lifespan
+date: Wed, 06 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: Lowe’s puts project expertise into every hand
+link: https://openai.com/index/lowes
+id: https://openai.com/index/lowes
+date: Wed, 07 May 2025 07:00:00 GMT
+body:
+#ITEM
+title: Lowe’s leverages AI to power home improvement retail
+link: https://openai.com/index/lowes-chandhu-nair
+id: https://openai.com/index/lowes-chandhu-nair
+date: Mon, 05 May 2025 05:00:00 GMT
+body:
+#ITEM
+title: Driving growth and ‘WOW’ moments with OpenAI
+link: https://openai.com/index/ly-corporation
+id: https://openai.com/index/ly-corporation
+date: Wed, 12 Mar 2025 18:00:00 GMT
+body:
+#ITEM
+title: Machine Learning Unconference
+link: https://openai.com/index/machine-learning-unconference
+id: https://openai.com/index/machine-learning-unconference
+date: Thu, 18 Aug 2016 07:00:00 GMT
+body:
+#ITEM
+title: March 20 ChatGPT outage: Here’s what happened
+link: https://openai.com/index/march-20-chatgpt-outage
+id: https://openai.com/index/march-20-chatgpt-outage
+date: Fri, 24 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: New funding to build towards AGI
+link: https://openai.com/index/march-funding-updates
+id: https://openai.com/index/march-funding-updates
+date: Mon, 31 Mar 2025 15:00:00 GMT
+body:
+#ITEM
+title: Sparking a more productive company with ChatGPT Enterprise
+link: https://openai.com/index/match-group
+id: https://openai.com/index/match-group
+date: Wed, 06 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: Bringing the magic of AI to Mattel’s iconic brands
+link: https://openai.com/index/mattels-iconic-brands
+id: https://openai.com/index/mattels-iconic-brands
+date: Thu, 12 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Automating customer support agents
+link: https://openai.com/index/mavenagi
+id: https://openai.com/index/mavenagi
+date: Wed, 29 May 2024 09:00:00 GMT
+body:
+#ITEM
+title: Measuring Goodhart’s law
+link: https://openai.com/index/measuring-goodharts-law
+id: https://openai.com/index/measuring-goodharts-law
+date: Wed, 13 Apr 2022 07:00:00 GMT
+body:
+#ITEM
+title: Memory and new controls for ChatGPT
+link: https://openai.com/index/memory-and-new-controls-for-chatgpt
+id: https://openai.com/index/memory-and-new-controls-for-chatgpt
+date: Tue, 13 Feb 2024 00:00:00 GMT
+body:
+#ITEM
+title: Our approach to mental health-related litigation
+link: https://openai.com/index/mental-health-litigation-approach
+id: https://openai.com/index/mental-health-litigation-approach
+date: Tue, 25 Nov 2025 12:00:00 GMT
+body:
+#ITEM
+title: Introducing Verdi, an AI dev platform powered by GPT-4o
+link: https://openai.com/index/mercado-libre
+id: https://openai.com/index/mercado-libre
+date: Tue, 24 Sep 2024 07:00:00 GMT
+body:
+#ITEM
+title: Supporting sellers with enhanced product listings
+link: https://openai.com/index/mercari
+id: https://openai.com/index/mercari
+date: Thu, 27 Feb 2025 14:00:00 GMT
+body:
+#ITEM
+title: Meta-learning for wrestling
+link: https://openai.com/index/meta-learning-for-wrestling
+id: https://openai.com/index/meta-learning-for-wrestling
+date: Wed, 11 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Microscope
+link: https://openai.com/index/microscope
+id: https://openai.com/index/microscope
+date: Tue, 14 Apr 2020 07:00:00 GMT
+body:
+#ITEM
+title: Microsoft invests in and partners with OpenAI to support us building beneficial AGI
+link: https://openai.com/index/microsoft-invests-in-and-partners-with-openai
+id: https://openai.com/index/microsoft-invests-in-and-partners-with-openai
+date: Mon, 22 Jul 2019 07:00:00 GMT
+body:
+#ITEM
+title: Inside Mirakl's agentic commerce vision
+link: https://openai.com/index/mirakl
+id: https://openai.com/index/mirakl
+date: Mon, 01 Dec 2025 22:00:00 GMT
+body:
+#ITEM
+title: Mixi reimagines communication with ChatGPT
+link: https://openai.com/index/mixi
+id: https://openai.com/index/mixi
+date: Wed, 20 Aug 2025 17:00:00 GMT
+body:
+#ITEM
+title: Mixpanel security incident: what OpenAI users need to know
+link: https://openai.com/index/mixpanel-incident
+id: https://openai.com/index/mixpanel-incident
+date: Wed, 26 Nov 2025 19:00:00 GMT
+body:
+#ITEM
+title: MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering
+link: https://openai.com/index/mle-bench
+id: https://openai.com/index/mle-bench
+date: Thu, 10 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Model ML is helping financial firms rebuild with AI from the ground up
+link: https://openai.com/index/model-ml-chaz-englander
+id: https://openai.com/index/model-ml-chaz-englander
+date: Wed, 23 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Accelerating the development of life-saving treatments
+link: https://openai.com/index/moderna
+id: https://openai.com/index/moderna
+date: Wed, 24 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Introducing more enterprise-grade features for API customers
+link: https://openai.com/index/more-enterprise-grade-features-for-api-customers
+id: https://openai.com/index/more-enterprise-grade-features-for-api-customers
+date: Tue, 23 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: More on Dota 2
+link: https://openai.com/index/more-on-dota-2
+id: https://openai.com/index/more-on-dota-2
+date: Wed, 16 Aug 2017 07:00:00 GMT
+body:
+#ITEM
+title: More ways to work with your team and tools in ChatGPT
+link: https://openai.com/index/more-ways-to-work-with-your-team
+id: https://openai.com/index/more-ways-to-work-with-your-team
+date: Thu, 25 Sep 2025 11:00:00 GMT
+body:
+#ITEM
+title: Shaping the future of financial services
+link: https://openai.com/index/morgan-stanley
+id: https://openai.com/index/morgan-stanley
+date: Wed, 04 Dec 2024 10:00:00 GMT
+body:
+#ITEM
+title: Moving AI governance forward
+link: https://openai.com/index/moving-ai-governance-forward
+id: https://openai.com/index/moving-ai-governance-forward
+date: Fri, 21 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research
+link: https://openai.com/index/multi-goal-reinforcement-learning
+id: https://openai.com/index/multi-goal-reinforcement-learning
+date: Mon, 26 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: Multimodal neurons in artificial neural networks
+link: https://openai.com/index/multimodal-neurons
+id: https://openai.com/index/multimodal-neurons
+date: Thu, 04 Mar 2021 08:00:00 GMT
+body:
+#ITEM
+title: MuseNet
+link: https://openai.com/index/musenet
+id: https://openai.com/index/musenet
+date: Thu, 25 Apr 2019 07:00:00 GMT
+body:
+#ITEM
+title: Building a custom math tutor powered by ChatGPT
+link: https://openai.com/index/my-dog-the-math-tutor
+id: https://openai.com/index/my-dog-the-math-tutor
+date: Tue, 04 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Navigating the challenges and opportunities of synthetic voices
+link: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
+id: https://openai.com/index/navigating-the-challenges-and-opportunities-of-synthetic-voices
+date: Fri, 29 Mar 2024 00:00:00 GMT
+body:
+#ITEM
+title: Netomi’s lessons for scaling agentic systems into the enterprise
+link: https://openai.com/index/netomi
+id: https://openai.com/index/netomi
+date: Thu, 08 Jan 2026 13:00:00 GMT
+body:
+#ITEM
+title: Neural MMO: A massively multiagent game environment
+link: https://openai.com/index/neural-mmo
+id: https://openai.com/index/neural-mmo
+date: Mon, 04 Mar 2019 08:00:00 GMT
+body:
+#ITEM
+title: Neuro drives national retail wins with ChatGPT Business
+link: https://openai.com/index/neurogum
+id: https://openai.com/index/neurogum
+date: Wed, 12 Nov 2025 11:00:00 GMT
+body:
+#ITEM
+title: New AI classifier for indicating AI-written text
+link: https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text
+id: https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text
+date: Tue, 31 Jan 2023 08:00:00 GMT
+body:
+#ITEM
+title: New and improved content moderation tooling
+link: https://openai.com/index/new-and-improved-content-moderation-tooling
+id: https://openai.com/index/new-and-improved-content-moderation-tooling
+date: Wed, 10 Aug 2022 07:00:00 GMT
+body:
+#ITEM
+title: New and improved embedding model
+link: https://openai.com/index/new-and-improved-embedding-model
+id: https://openai.com/index/new-and-improved-embedding-model
+date: Thu, 15 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: The new ChatGPT Images is here
+link: https://openai.com/index/new-chatgpt-images-is-here
+id: https://openai.com/index/new-chatgpt-images-is-here
+date: Tue, 16 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: New Credit Facility Enhances Financial Flexibility
+link: https://openai.com/index/new-credit-facility-enhances-financial-flexibility
+id: https://openai.com/index/new-credit-facility-enhances-financial-flexibility
+date: Thu, 03 Oct 2024 07:00:00 GMT
+body:
+#ITEM
+title: New embedding models and API updates
+link: https://openai.com/index/new-embedding-models-and-api-updates
+id: https://openai.com/index/new-embedding-models-and-api-updates
+date: Thu, 25 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: New models and developer products announced at DevDay
+link: https://openai.com/index/new-models-and-developer-products-announced-at-devday
+id: https://openai.com/index/new-models-and-developer-products-announced-at-devday
+date: Mon, 06 Nov 2023 08:00:00 GMT
+body:
+#ITEM
+title: New tools and features in the Responses API
+link: https://openai.com/index/new-tools-and-features-in-the-responses-api
+id: https://openai.com/index/new-tools-and-features-in-the-responses-api
+date: Wed, 21 May 2025 08:00:00 GMT
+body:
+#ITEM
+title: New tools for building agents
+link: https://openai.com/index/new-tools-for-building-agents
+id: https://openai.com/index/new-tools-for-building-agents
+date: Tue, 11 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: New compliance and administrative tools for ChatGPT Enterprise
+link: https://openai.com/index/new-tools-for-chatgpt-enterprise
+id: https://openai.com/index/new-tools-for-chatgpt-enterprise
+date: Thu, 18 Jul 2024 00:00:00 GMT
+body:
+#ITEM
+title: New ways to manage your data in ChatGPT
+link: https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt
+id: https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt
+date: Tue, 25 Apr 2023 07:00:00 GMT
+body:
+#ITEM
+title: A landmark multi-year global partnership with News Corp
+link: https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership
+id: https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership
+date: Wed, 22 May 2024 13:15:00 GMT
+body:
+#ITEM
+title: The Newsroom AI Catalyst: a global program with WAN-IFRA
+link: https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra
+id: https://openai.com/index/newsroom-ai-catalyst-global-program-with-wan-ifra
+date: Wed, 29 May 2024 08:00:00 GMT
+body:
+#ITEM
+title: The next chapter of the Microsoft–OpenAI partnership
+link: https://openai.com/index/next-chapter-of-microsoft-openai-partnership
+id: https://openai.com/index/next-chapter-of-microsoft-openai-partnership
+date: Tue, 28 Oct 2025 06:00:00 GMT
+body:
+#ITEM
+title: Nonlinear computation in deep linear networks
+link: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
+id: https://openai.com/index/nonlinear-computation-in-deep-linear-networks
+date: Fri, 29 Sep 2017 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI announces nonprofit commission advisors
+link: https://openai.com/index/nonprofit-commission-advisors
+id: https://openai.com/index/nonprofit-commission-advisors
+date: Tue, 15 Apr 2025 13:00:00 GMT
+body:
+#ITEM
+title: New commission to provide insight as OpenAI builds the world’s best-equipped nonprofit
+link: https://openai.com/index/nonprofit-commission-guidance
+id: https://openai.com/index/nonprofit-commission-guidance
+date: Wed, 02 Apr 2025 12:00:00 GMT
+body:
+#ITEM
+title: Statement from the OpenAI Board of Directors on the Nonprofit Commission Report
+link: https://openai.com/index/nonprofit-commission-report
+id: https://openai.com/index/nonprofit-commission-report
+date: Thu, 17 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”
+link: https://openai.com/index/norad-holiday-collaboration
+id: https://openai.com/index/norad-holiday-collaboration
+date: Mon, 01 Dec 2025 06:00:00 GMT
+body:
+#ITEM
+title: Notion’s rebuild for agentic AI: How GPT‑5 helped unlock autonomous workflows
+link: https://openai.com/index/notion
+id: https://openai.com/index/notion
+date: Fri, 07 Nov 2025 10:00:00 GMT
+body:
+#ITEM
+title: Nubank elevates customer experiences with OpenAI
+link: https://openai.com/index/nubank
+id: https://openai.com/index/nubank
+date: Fri, 07 Mar 2025 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI o1 and new tools for developers
+link: https://openai.com/index/o1-and-new-tools-for-developers
+id: https://openai.com/index/o1-and-new-tools-for-developers
+date: Tue, 17 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Coding with OpenAI o1
+link: https://openai.com/index/o1-coding
+id: https://openai.com/index/o1-coding
+date: Thu, 12 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Economics and reasoning with OpenAI o1
+link: https://openai.com/index/o1-economics
+id: https://openai.com/index/o1-economics
+date: Thu, 12 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Decoding genetics with OpenAI o1
+link: https://openai.com/index/o1-genetics
+id: https://openai.com/index/o1-genetics
+date: Thu, 12 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: Answering quantum physics questions with OpenAI o1
+link: https://openai.com/index/o1-quantum-physics
+id: https://openai.com/index/o1-quantum-physics
+date: Thu, 12 Sep 2024 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI o3-mini System Card
+link: https://openai.com/index/o3-mini-system-card
+id: https://openai.com/index/o3-mini-system-card
+date: Fri, 31 Jan 2025 11:00:00 GMT
+body:
+#ITEM
+title: Addendum to o3 and o4-mini system card: Codex
+link: https://openai.com/index/o3-o4-mini-codex-system-card-addendum
+id: https://openai.com/index/o3-o4-mini-codex-system-card-addendum
+date: Fri, 16 May 2025 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI o3 and o4-mini System Card
+link: https://openai.com/index/o3-o4-mini-system-card
+id: https://openai.com/index/o3-o4-mini-system-card
+date: Wed, 16 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: Addendum to OpenAI o3 and o4-mini system card: OpenAI o3 Operator
+link: https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3
+id: https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3
+date: Fri, 23 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: On first-order meta-learning algorithms
+link: https://openai.com/index/on-first-order-meta-learning-algorithms
+id: https://openai.com/index/on-first-order-meta-learning-algorithms
+date: Thu, 08 Mar 2018 08:00:00 GMT
+body:
+#ITEM
+title: On the quantitative analysis of decoder-based generative models
+link: https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models
+id: https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models
+date: Mon, 14 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: One in a million: celebrating the customers shaping AI’s future
+link: https://openai.com/index/one-in-a-million-customers
+id: https://openai.com/index/one-in-a-million-customers
+date: Mon, 22 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: One-shot imitation learning
+link: https://openai.com/index/one-shot-imitation-learning
+id: https://openai.com/index/one-shot-imitation-learning
+date: Tue, 21 Mar 2017 07:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI Academy for News Organizations
+link: https://openai.com/index/openai-academy-for-news-organizations
+id: https://openai.com/index/openai-academy-for-news-organizations
+date: Wed, 17 Dec 2025 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI acquires Global Illumination
+link: https://openai.com/index/openai-acquires-global-illumination
+id: https://openai.com/index/openai-acquires-global-illumination
+date: Wed, 16 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI acquires Rockset
+link: https://openai.com/index/openai-acquires-rockset
+id: https://openai.com/index/openai-acquires-rockset
+date: Fri, 21 Jun 2024 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI acquires Software Applications Incorporated, maker of Sky
+link: https://openai.com/index/openai-acquires-software-applications-incorporated
+id: https://openai.com/index/openai-acquires-software-applications-incorporated
+date: Thu, 23 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AMD GPUs
+link: https://openai.com/index/openai-amd-strategic-partnership
+id: https://openai.com/index/openai-amd-strategic-partnership
+date: Mon, 06 Oct 2025 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Apple announce partnership
+link: https://openai.com/index/openai-and-apple-announce-partnership
+id: https://openai.com/index/openai-and-apple-announce-partnership
+date: Mon, 10 Jun 2024 11:55:00 GMT
+body:
+#ITEM
+title: OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators
+link: https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration
+id: https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration
+date: Mon, 13 Oct 2025 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Foxconn collaborate to strengthen U.S. manufacturing across the AI supply chain
+link: https://openai.com/index/openai-and-foxconn-collaborate
+id: https://openai.com/index/openai-and-foxconn-collaborate
+date: Thu, 20 Nov 2025 14:50:00 GMT
+body:
+#ITEM
+title: OpenAI and Future partner on specialist content
+link: https://openai.com/index/openai-and-future-partner-on-specialist-content
+id: https://openai.com/index/openai-and-future-partner-on-specialist-content
+date: Wed, 04 Dec 2024 23:30:00 GMT
+body:
+#ITEM
+title: OpenAI and Guardian Media Group launch content partnership
+link: https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership
+id: https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership
+date: Fri, 14 Feb 2025 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI and journalism
+link: https://openai.com/index/openai-and-journalism
+id: https://openai.com/index/openai-and-journalism
+date: Mon, 08 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Los Alamos National Laboratory announce research partnership
+link: https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together
+id: https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together
+date: Wed, 10 Jul 2024 06:30:00 GMT
+body:
+#ITEM
+title: OpenAI and Microsoft
+link: https://openai.com/index/openai-and-microsoft
+id: https://openai.com/index/openai-and-microsoft
+date: Tue, 15 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Microsoft extend partnership
+link: https://openai.com/index/openai-and-microsoft-extend-partnership
+id: https://openai.com/index/openai-and-microsoft-extend-partnership
+date: Mon, 23 Jan 2023 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Reddit Partnership
+link: https://openai.com/index/openai-and-reddit-partnership
+id: https://openai.com/index/openai-and-reddit-partnership
+date: Thu, 16 May 2024 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI and the CSU system bring AI to 500,000 students & faculty
+link: https://openai.com/index/openai-and-the-csu-system
+id: https://openai.com/index/openai-and-the-csu-system
+date: Tue, 04 Feb 2025 11:30:00 GMT
+body:
+#ITEM
+title: OpenAI announces leadership transition
+link: https://openai.com/index/openai-announces-leadership-transition
+id: https://openai.com/index/openai-announces-leadership-transition
+date: Fri, 17 Nov 2023 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI announces new members to board of directors
+link: https://openai.com/index/openai-announces-new-members-to-board-of-directors
+id: https://openai.com/index/openai-announces-new-members-to-board-of-directors
+date: Fri, 08 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Anthropic share findings from a joint safety evaluation
+link: https://openai.com/index/openai-anthropic-safety-evaluation
+id: https://openai.com/index/openai-anthropic-safety-evaluation
+date: Wed, 27 Aug 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI API
+link: https://openai.com/index/openai-api
+id: https://openai.com/index/openai-api
+date: Thu, 11 Jun 2020 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI appoints Denise Dresser as Chief Revenue Officer
+link: https://openai.com/index/openai-appoints-denise-dresser
+id: https://openai.com/index/openai-appoints-denise-dresser
+date: Tue, 09 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI appoints Retired U.S. Army General Paul M. Nakasone to Board of Directors
+link: https://openai.com/index/openai-appoints-retired-us-army-general
+id: https://openai.com/index/openai-appoints-retired-us-army-general
+date: Thu, 13 Jun 2024 14:00:00 GMT
+body:
+#ITEM
+title: OpenAI Baselines: ACKTR & A2C
+link: https://openai.com/index/openai-baselines-acktr-a2c
+id: https://openai.com/index/openai-baselines-acktr-a2c
+date: Fri, 18 Aug 2017 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Baselines: DQN
+link: https://openai.com/index/openai-baselines-dqn
+id: https://openai.com/index/openai-baselines-dqn
+date: Wed, 24 May 2017 07:00:00 GMT
+body:
+#ITEM
+title: Proximal Policy Optimization
+link: https://openai.com/index/openai-baselines-ppo
+id: https://openai.com/index/openai-baselines-ppo
+date: Thu, 20 Jul 2017 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Board Forms Safety and Security Committee
+link: https://openai.com/index/openai-board-forms-safety-and-security-committee
+id: https://openai.com/index/openai-board-forms-safety-and-security-committee
+date: Tue, 28 May 2024 03:00:00 GMT
+body:
+#ITEM
+title: Launching our first OpenAI Certifications courses
+link: https://openai.com/index/openai-certificate-courses
+id: https://openai.com/index/openai-certificate-courses
+date: Tue, 09 Dec 2025 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI Codex
+link: https://openai.com/index/openai-codex
+id: https://openai.com/index/openai-codex
+date: Tue, 10 Aug 2021 07:00:00 GMT
+body:
+#ITEM
+title: Turning contracts into searchable data at OpenAI
+link: https://openai.com/index/openai-contract-data-agent
+id: https://openai.com/index/openai-contract-data-agent
+date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI Cybersecurity Grant Program
+link: https://openai.com/index/openai-cybersecurity-grant-program
+id: https://openai.com/index/openai-cybersecurity-grant-program
+date: Thu, 01 Jun 2023 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Deutschland
+link: https://openai.com/index/openai-deutschland
+id: https://openai.com/index/openai-deutschland
+date: Thu, 22 May 2025 23:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Elon Musk
+link: https://openai.com/index/openai-elon-musk
+id: https://openai.com/index/openai-elon-musk
+date: Tue, 05 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI en France
+link: https://openai.com/index/openai-en-france
+id: https://openai.com/index/openai-en-france
+date: Fri, 15 Nov 2024 00:00:00 GMT
+body:
+#ITEM
+title: OpenAI Fellows Fall 2018
+link: https://openai.com/index/openai-fellows
+id: https://openai.com/index/openai-fellows
+date: Wed, 30 May 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Fellows Fall 2018: Final projects
+link: https://openai.com/index/openai-fellows-fall-2018
+id: https://openai.com/index/openai-fellows-fall-2018
+date: Fri, 17 May 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Fellows Winter 2019 & Interns Summer 2019
+link: https://openai.com/index/openai-fellows-interns-2019
+id: https://openai.com/index/openai-fellows-interns-2019
+date: Tue, 09 Oct 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Five
+link: https://openai.com/index/openai-five
+id: https://openai.com/index/openai-five
+date: Mon, 25 Jun 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Five Benchmark
+link: https://openai.com/index/openai-five-benchmark
+id: https://openai.com/index/openai-five-benchmark
+date: Wed, 18 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Five Benchmark: Results
+link: https://openai.com/index/openai-five-benchmark-results
+id: https://openai.com/index/openai-five-benchmark-results
+date: Mon, 06 Aug 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Five defeats Dota 2 world champions
+link: https://openai.com/index/openai-five-defeats-dota-2-world-champions
+id: https://openai.com/index/openai-five-defeats-dota-2-world-champions
+date: Mon, 15 Apr 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Five Finals
+link: https://openai.com/index/openai-five-finals
+id: https://openai.com/index/openai-five-finals
+date: Tue, 26 Mar 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI for Healthcare
+link: https://openai.com/index/openai-for-healthcare
+id: https://openai.com/index/openai-for-healthcare
+date: Thu, 08 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI for Ireland
+link: https://openai.com/index/openai-for-ireland
+id: https://openai.com/index/openai-for-ireland
+date: Fri, 14 Nov 2025 04:00:00 GMT
+body:
+#ITEM
+title: Announcing OpenAI Grove Cohort 2
+link: https://openai.com/index/openai-grove
+id: https://openai.com/index/openai-grove
+date: Fri, 02 Jan 2026 10:00:00 GMT
+body:
+#ITEM
+title: Driving sales productivity and customer success at OpenAI
+link: https://openai.com/index/openai-gtm-assistant
+id: https://openai.com/index/openai-gtm-assistant
+date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI Gym Beta
+link: https://openai.com/index/openai-gym-beta
+id: https://openai.com/index/openai-gym-beta
+date: Wed, 27 Apr 2016 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI hackathon
+link: https://openai.com/index/openai-hackathon
+id: https://openai.com/index/openai-hackathon
+date: Thu, 22 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: Converting inbound leads into customers at OpenAI
+link: https://openai.com/index/openai-inbound-sales-assistant
+id: https://openai.com/index/openai-inbound-sales-assistant
+date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI licenses GPT-3 technology to Microsoft
+link: https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft
+id: https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft
+date: Tue, 22 Sep 2020 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI LP
+link: https://openai.com/index/openai-lp
+id: https://openai.com/index/openai-lp
+date: Mon, 11 Mar 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems
+link: https://openai.com/index/openai-nvidia-systems-partnership
+id: https://openai.com/index/openai-nvidia-systems-partnership
+date: Mon, 22 Sep 2025 08:45:00 GMT
+body:
+#ITEM
+title: OpenAI o1-mini
+link: https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning
+id: https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning
+date: Thu, 12 Sep 2024 10:01:00 GMT
+body:
+#ITEM
+title: OpenAI o1 System Card
+link: https://openai.com/index/openai-o1-system-card
+id: https://openai.com/index/openai-o1-system-card
+date: Thu, 05 Dec 2024 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI o1 System Card External Testers Acknowledgements
+link: https://openai.com/index/openai-o1-system-card/external-testers-acknowledgements
+id: https://openai.com/index/openai-o1-system-card/external-testers-acknowledgements
+date: Thu, 12 Sep 2024 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI o3-mini
+link: https://openai.com/index/openai-o3-mini
+id: https://openai.com/index/openai-o3-mini
+date: Fri, 31 Jan 2025 11:00:00 GMT
+body:
+#ITEM
+title: OpenAI partners with Scale to provide support for enterprises fine-tuning models
+link: https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models
+id: https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models
+date: Thu, 24 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI partners with Schibsted Media Group
+link: https://openai.com/index/openai-partners-with-schibsted-media-group
+id: https://openai.com/index/openai-partners-with-schibsted-media-group
+date: Mon, 10 Feb 2025 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI Pioneers Program
+link: https://openai.com/index/openai-pioneers-program
+id: https://openai.com/index/openai-pioneers-program
+date: Wed, 09 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI standardizes on PyTorch
+link: https://openai.com/index/openai-pytorch
+id: https://openai.com/index/openai-pytorch
+date: Thu, 30 Jan 2020 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI’s Raising Concerns Policy
+link: https://openai.com/index/openai-raising-concerns-policy
+id: https://openai.com/index/openai-raising-concerns-policy
+date: Mon, 12 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Empowering teams to unlock insights faster at OpenAI
+link: https://openai.com/index/openai-research-assistant
+id: https://openai.com/index/openai-research-assistant
+date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI Residency
+link: https://openai.com/index/openai-residency
+id: https://openai.com/index/openai-residency
+date: Tue, 30 Nov 2021 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI safety practices
+link: https://openai.com/index/openai-safety-update
+id: https://openai.com/index/openai-safety-update
+date: Tue, 21 May 2024 06:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars
+link: https://openai.com/index/openai-scholars
+id: https://openai.com/index/openai-scholars
+date: Tue, 06 Mar 2018 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2018: Final projects
+link: https://openai.com/index/openai-scholars-2018-final-projects
+id: https://openai.com/index/openai-scholars-2018-final-projects
+date: Mon, 10 Sep 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2018: Meet our Scholars
+link: https://openai.com/index/openai-scholars-2018-meet-our-scholars
+id: https://openai.com/index/openai-scholars-2018-meet-our-scholars
+date: Wed, 25 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2019: Applications open
+link: https://openai.com/index/openai-scholars-2019
+id: https://openai.com/index/openai-scholars-2019
+date: Thu, 11 Oct 2018 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2019: Final projects
+link: https://openai.com/index/openai-scholars-2019-final-projects
+id: https://openai.com/index/openai-scholars-2019-final-projects
+date: Thu, 23 May 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2019: Meet our Scholars
+link: https://openai.com/index/openai-scholars-2019-meet-our-scholars
+id: https://openai.com/index/openai-scholars-2019-meet-our-scholars
+date: Wed, 13 Mar 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2020: Applications open
+link: https://openai.com/index/openai-scholars-2020
+id: https://openai.com/index/openai-scholars-2020
+date: Fri, 11 Oct 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2020: Final projects
+link: https://openai.com/index/openai-scholars-2020-final-projects
+id: https://openai.com/index/openai-scholars-2020-final-projects
+date: Thu, 09 Jul 2020 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Scholars 2021: Final projects
+link: https://openai.com/index/openai-scholars-2021-final-projects
+id: https://openai.com/index/openai-scholars-2021-final-projects
+date: Mon, 10 May 2021 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI Fellows Summer 2018: Final projects
+link: https://openai.com/index/openai-summer-fellows-2018
+id: https://openai.com/index/openai-summer-fellows-2018
+date: Wed, 19 Dec 2018 08:00:00 GMT
+body:
+#ITEM
+title: Improving support with every interaction at OpenAI
+link: https://openai.com/index/openai-support-model
+id: https://openai.com/index/openai-support-model
+date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI supporters
+link: https://openai.com/index/openai-supporters
+id: https://openai.com/index/openai-supporters
+date: Tue, 20 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI technical goals
+link: https://openai.com/index/openai-technical-goals
+id: https://openai.com/index/openai-technical-goals
+date: Mon, 20 Jun 2016 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI to acquire Neptune
+link: https://openai.com/index/openai-to-acquire-neptune
+id: https://openai.com/index/openai-to-acquire-neptune
+date: Wed, 03 Dec 2025 10:00:00 GMT
+body:
+#ITEM
+title: OpenAI welcomes Sarah Friar (CFO) and Kevin Weil (CPO)
+link: https://openai.com/index/openai-welcomes-cfo-cpo
+id: https://openai.com/index/openai-welcomes-cfo-cpo
+date: Mon, 10 Jun 2024 10:30:00 GMT
+body:
+#ITEM
+title: Operator System Card
+link: https://openai.com/index/operator-system-card
+id: https://openai.com/index/operator-system-card
+date: Thu, 23 Jan 2025 10:00:00 GMT
+body:
+#ITEM
+title: What we’re optimizing ChatGPT for
+link: https://openai.com/index/optimizing-chatgpt
+id: https://openai.com/index/optimizing-chatgpt
+date: Mon, 04 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Organizational update from OpenAI
+link: https://openai.com/index/organizational-update
+id: https://openai.com/index/organizational-update
+date: Tue, 29 Dec 2020 08:00:00 GMT
+body:
+#ITEM
+title: Reducing health insurance costs and improving care
+link: https://openai.com/index/oscar
+id: https://openai.com/index/oscar
+date: Mon, 01 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Our approach to advertising and expanding access to ChatGPT
+link: https://openai.com/index/our-approach-to-advertising-and-expanding-access
+id: https://openai.com/index/our-approach-to-advertising-and-expanding-access
+date: Fri, 16 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Our approach to age prediction
+link: https://openai.com/index/our-approach-to-age-prediction
+id: https://openai.com/index/our-approach-to-age-prediction
+date: Tue, 20 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Our approach to AI safety
+link: https://openai.com/index/our-approach-to-ai-safety
+id: https://openai.com/index/our-approach-to-ai-safety
+date: Wed, 05 Apr 2023 07:00:00 GMT
+body:
+#ITEM
+title: Our approach to alignment research
+link: https://openai.com/index/our-approach-to-alignment-research
+id: https://openai.com/index/our-approach-to-alignment-research
+date: Wed, 24 Aug 2022 07:00:00 GMT
+body:
+#ITEM
+title: Resolving digital threats 100x faster with OpenAI
+link: https://openai.com/index/outtake
+id: https://openai.com/index/outtake
+date: Thu, 24 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Surging developer productivity with custom GPTs
+link: https://openai.com/index/paf
+id: https://openai.com/index/paf
+date: Tue, 18 Jun 2024 08:45:00 GMT
+body:
+#ITEM
+title: PaperBench: Evaluating AI’s Ability to Replicate AI Research
+link: https://openai.com/index/paperbench
+id: https://openai.com/index/paperbench
+date: Wed, 02 Apr 2025 10:15:00 GMT
+body:
+#ITEM
+title: Using AI to improve patient access to clinical trials
+link: https://openai.com/index/paradigm
+id: https://openai.com/index/paradigm
+date: Wed, 06 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: Partnering with Axios expands OpenAI’s work with the news industry
+link: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
+id: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
+date: Wed, 15 Jan 2025 03:00:00 GMT
+body:
+#ITEM
+title: Partnership with American Journalism Project to support local news
+link: https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news
+id: https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news
+date: Tue, 18 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: A People-First AI Fund: $50M to support nonprofits
+link: https://openai.com/index/people-first-ai-fund
+id: https://openai.com/index/people-first-ai-fund
+date: Mon, 08 Sep 2025 14:00:00 GMT
+body:
+#ITEM
+title: Announcing the initial People-First AI Fund grantees
+link: https://openai.com/index/people-first-ai-fund-grantees
+id: https://openai.com/index/people-first-ai-fund-grantees
+date: Wed, 03 Dec 2025 08:00:00 GMT
+body:
+#ITEM
+title: How Philips is scaling AI literacy across 70,000 employees
+link: https://openai.com/index/philips
+id: https://openai.com/index/philips
+date: Thu, 13 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications
+link: https://openai.com/index/pixelcnn-plus-plus
+id: https://openai.com/index/pixelcnn-plus-plus
+date: Thu, 19 Jan 2017 08:00:00 GMT
+body:
+#ITEM
+title: Plan online, learn offline: Efficient learning and exploration via model-based control
+link: https://openai.com/index/plan-online-learn-offline
+id: https://openai.com/index/plan-online-learn-offline
+date: Mon, 05 Nov 2018 08:00:00 GMT
+body:
+#ITEM
+title: Planning for AGI and beyond
+link: https://openai.com/index/planning-for-agi-and-beyond
+id: https://openai.com/index/planning-for-agi-and-beyond
+date: Fri, 24 Feb 2023 08:00:00 GMT
+body:
+#ITEM
+title: Plex Coffee delivers fast service and personal connections with ChatGPT Business
+link: https://openai.com/index/plex-coffee
+id: https://openai.com/index/plex-coffee
+date: Wed, 15 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Increasing revenue 300% by bringing AI to SMBs
+link: https://openai.com/index/podium
+id: https://openai.com/index/podium
+date: Thu, 11 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Point-E: A system for generating 3D point clouds from complex prompts
+link: https://openai.com/index/point-e
+id: https://openai.com/index/point-e
+date: Fri, 16 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: Practices for Governing Agentic AI Systems
+link: https://openai.com/index/practices-for-governing-agentic-ai-systems
+id: https://openai.com/index/practices-for-governing-agentic-ai-systems
+date: Thu, 14 Dec 2023 08:00:00 GMT
+body:
+#ITEM
+title: Inside Praktika's conversational approach to language learning
+link: https://openai.com/index/praktika
+id: https://openai.com/index/praktika
+date: Thu, 22 Jan 2026 05:00:00 GMT
+body:
+#ITEM
+title: Prediction and control with temporal segment models
+link: https://openai.com/index/prediction-and-control-with-temporal-segment-models
+id: https://openai.com/index/prediction-and-control-with-temporal-segment-models
+date: Sun, 12 Mar 2017 08:00:00 GMT
+body:
+#ITEM
+title: Preparing for future AI risks in biology
+link: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology
+id: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology
+date: Wed, 18 Jun 2025 10:00:00 GMT
+body:
+#ITEM
+title: Preparing for malicious uses of AI
+link: https://openai.com/index/preparing-for-malicious-uses-of-ai
+id: https://openai.com/index/preparing-for-malicious-uses-of-ai
+date: Tue, 20 Feb 2018 08:00:00 GMT
+body:
+#ITEM
+title: Procgen Benchmark
+link: https://openai.com/index/procgen-benchmark
+id: https://openai.com/index/procgen-benchmark
+date: Tue, 03 Dec 2019 08:00:00 GMT
+body:
+#ITEM
+title: Procgen and MineRL Competitions
+link: https://openai.com/index/procgen-minerl-competitions
+id: https://openai.com/index/procgen-minerl-competitions
+date: Sat, 20 Jun 2020 07:00:00 GMT
+body:
+#ITEM
+title: Promega’s top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing
+link: https://openai.com/index/promega
+id: https://openai.com/index/promega
+date: Thu, 31 Oct 2024 08:00:00 GMT
+body:
+#ITEM
+title: Understanding prompt injections: a frontier security challenge
+link: https://openai.com/index/prompt-injections
+id: https://openai.com/index/prompt-injections
+date: Fri, 07 Nov 2025 11:30:00 GMT
+body:
+#ITEM
+title: Prover-Verifier Games improve legibility of language model outputs
+link: https://openai.com/index/prover-verifier-games-improve-legibility
+id: https://openai.com/index/prover-verifier-games-improve-legibility
+date: Wed, 17 Jul 2024 10:00:00 GMT
+body:
+#ITEM
+title: Providing ChatGPT to the Entire U.S. Federal Workforce
+link: https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce
+id: https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce
+date: Wed, 06 Aug 2025 00:00:00 GMT
+body:
+#ITEM
+title: Put AI to work for your product team
+link: https://openai.com/index/put-ai-to-work-for-your-product-team
+id: https://openai.com/index/put-ai-to-work-for-your-product-team
+date: Mon, 09 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Quantifying generalization in reinforcement learning
+link: https://openai.com/index/quantifying-generalization-in-reinforcement-learning
+id: https://openai.com/index/quantifying-generalization-in-reinforcement-learning
+date: Thu, 06 Dec 2018 08:00:00 GMT
+body:
+#ITEM
+title: Pairing data with APIs to unlock customer value
+link: https://openai.com/index/rakuten
+id: https://openai.com/index/rakuten
+date: Wed, 07 Aug 2024 16:00:00 GMT
+body:
+#ITEM
+title: OpenAI Red Teaming Network
+link: https://openai.com/index/red-teaming-network
+id: https://openai.com/index/red-teaming-network
+date: Tue, 19 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: Reducing bias and improving safety in DALL·E 2
+link: https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2
+id: https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2
+date: Mon, 18 Jul 2022 07:00:00 GMT
+body:
+#ITEM
+title: Reinforcement learning with prediction-based rewards
+link: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
+id: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
+date: Wed, 31 Oct 2018 07:00:00 GMT
+body:
+#ITEM
+title: Report from the self-organizing conference
+link: https://openai.com/index/report-from-the-self-organizing-conference
+id: https://openai.com/index/report-from-the-self-organizing-conference
+date: Thu, 13 Oct 2016 07:00:00 GMT
+body:
+#ITEM
+title: Reptile: A scalable meta-learning algorithm
+link: https://openai.com/index/reptile
+id: https://openai.com/index/reptile
+date: Wed, 07 Mar 2018 08:00:00 GMT
+body:
+#ITEM
+title: Requests for Research 2.0
+link: https://openai.com/index/requests-for-research-2
+id: https://openai.com/index/requests-for-research-2
+date: Wed, 31 Jan 2018 08:00:00 GMT
+body:
+#ITEM
+title: How we’re responding to The New York Times’ data demands in order to protect user privacy
+link: https://openai.com/index/response-to-nyt-data-demands
+id: https://openai.com/index/response-to-nyt-data-demands
+date: Thu, 05 Jun 2025 16:30:00 GMT
+body:
+#ITEM
+title: Customizable, no-code voice agent automation with GPT-4o
+link: https://openai.com/index/retell-ai
+id: https://openai.com/index/retell-ai
+date: Thu, 26 Jun 2025 10:00:00 GMT
+body:
+#ITEM
+title: Building AI-powered apps for business
+link: https://openai.com/index/retool
+id: https://openai.com/index/retool
+date: Wed, 11 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: Retro Contest
+link: https://openai.com/index/retro-contest
+id: https://openai.com/index/retro-contest
+date: Thu, 05 Apr 2018 07:00:00 GMT
+body:
+#ITEM
+title: Retro Contest: Results
+link: https://openai.com/index/retro-contest-results
+id: https://openai.com/index/retro-contest-results
+date: Fri, 22 Jun 2018 07:00:00 GMT
+body:
+#ITEM
+title: Review completed & Altman, Brockman to continue to lead OpenAI
+link: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
+id: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
+date: Fri, 08 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: RL²: Fast reinforcement learning via slow reinforcement learning
+link: https://openai.com/index/rl2
+id: https://openai.com/index/rl2
+date: Wed, 09 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: Roboschool
+link: https://openai.com/index/roboschool
+id: https://openai.com/index/roboschool
+date: Mon, 15 May 2017 07:00:00 GMT
+body:
+#ITEM
+title: Robots that learn
+link: https://openai.com/index/robots-that-learn
+id: https://openai.com/index/robots-that-learn
+date: Tue, 16 May 2017 07:00:00 GMT
+body:
+#ITEM
+title: Robust adversarial inputs
+link: https://openai.com/index/robust-adversarial-inputs
+id: https://openai.com/index/robust-adversarial-inputs
+date: Mon, 17 Jul 2017 07:00:00 GMT
+body:
+#ITEM
+title: Using OpenAI o1 for financial analysis
+link: https://openai.com/index/rogo
+id: https://openai.com/index/rogo
+date: Thu, 13 Feb 2025 07:00:00 GMT
+body:
+#ITEM
+title: Rox goes “all in” on OpenAI
+link: https://openai.com/index/rox
+id: https://openai.com/index/rox
+date: Tue, 19 Nov 2024 07:00:00 GMT
+body:
+#ITEM
+title: Safety Gym
+link: https://openai.com/index/safety-gym
+id: https://openai.com/index/safety-gym
+date: Thu, 21 Nov 2019 08:00:00 GMT
+body:
+#ITEM
+title: Shipping smarter agents with every new model
+link: https://openai.com/index/safetykit
+id: https://openai.com/index/safetykit
+date: Tue, 09 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: Enterprise-ready trust and safety
+link: https://openai.com/index/salesforce
+id: https://openai.com/index/salesforce
+date: Mon, 18 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: Sam Altman returns as CEO, OpenAI has a new initial board
+link: https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board
+id: https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board
+date: Wed, 29 Nov 2023 08:00:00 GMT
+body:
+#ITEM
+title: Samsung and SK join OpenAI’s Stargate initiative to advance global AI infrastructure
+link: https://openai.com/index/samsung-and-sk-join-stargate
+id: https://openai.com/index/samsung-and-sk-join-stargate
+date: Wed, 01 Oct 2025 03:00:00 GMT
+body:
+#ITEM
+title: The San Antonio Spurs use ChatGPT to scale impact on and off the court
+link: https://openai.com/index/san-antonio-spurs
+id: https://openai.com/index/san-antonio-spurs
+date: Wed, 07 May 2025 09:00:00 GMT
+body:
+#ITEM
+title: New funding to scale the benefits of AI
+link: https://openai.com/index/scale-the-benefits-of-ai
+id: https://openai.com/index/scale-the-benefits-of-ai
+date: Wed, 02 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Scaling security with responsible disclosure
+link: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
+id: https://openai.com/index/scaling-coordinated-vulnerability-disclosure
+date: Mon, 09 Jun 2025 10:00:00 GMT
+body:
+#ITEM
+title: Scaling Kubernetes to 2,500 nodes
+link: https://openai.com/index/scaling-kubernetes-to-2500-nodes
+id: https://openai.com/index/scaling-kubernetes-to-2500-nodes
+date: Thu, 18 Jan 2018 08:00:00 GMT
+body:
+#ITEM
+title: Scaling Kubernetes to 7,500 nodes
+link: https://openai.com/index/scaling-kubernetes-to-7500-nodes
+id: https://openai.com/index/scaling-kubernetes-to-7500-nodes
+date: Mon, 25 Jan 2021 08:00:00 GMT
+body:
+#ITEM
+title: Scaling laws for neural language models
+link: https://openai.com/index/scaling-laws-for-neural-language-models
+id: https://openai.com/index/scaling-laws-for-neural-language-models
+date: Thu, 23 Jan 2020 08:00:00 GMT
+body:
+#ITEM
+title: Scaling laws for reward model overoptimization
+link: https://openai.com/index/scaling-laws-for-reward-model-overoptimization
+id: https://openai.com/index/scaling-laws-for-reward-model-overoptimization
+date: Wed, 19 Oct 2022 07:00:00 GMT
+body:
+#ITEM
+title: Scaling PostgreSQL to power 800 million ChatGPT users
+link: https://openai.com/index/scaling-postgresql
+id: https://openai.com/index/scaling-postgresql
+date: Thu, 22 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: How Scania is accelerating work with AI across its global workforce
+link: https://openai.com/index/scania
+id: https://openai.com/index/scania
+date: Wed, 19 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Creating a safe, observable AI infrastructure for 1 million classrooms
+link: https://openai.com/index/schoolai
+id: https://openai.com/index/schoolai
+date: Mon, 22 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: How Scout24 is building the next generation of real-estate search with AI
+link: https://openai.com/index/scout24
+id: https://openai.com/index/scout24
+date: Tue, 09 Dec 2025 16:00:00 GMT
+body:
+#ITEM
+title: SearchGPT is a prototype of new AI search features
+link: https://openai.com/index/searchgpt-prototype
+id: https://openai.com/index/searchgpt-prototype
+date: Thu, 25 Jul 2024 00:00:00 GMT
+body:
+#ITEM
+title: Security on the path to AGI
+link: https://openai.com/index/security-on-the-path-to-agi
+id: https://openai.com/index/security-on-the-path-to-agi
+date: Wed, 26 Mar 2025 10:00:00 GMT
+body:
+#ITEM
+title: Semi-supervised knowledge transfer for deep learning from private training data
+link: https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data
+id: https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data
+date: Tue, 18 Oct 2016 07:00:00 GMT
+body:
+#ITEM
+title: ServiceNow powers actionable enterprise AI with OpenAI
+link: https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai
+id: https://openai.com/index/servicenow-powers-actionable-enterprise-ai-with-openai
+date: Tue, 20 Jan 2026 05:45:00 GMT
+body:
+#ITEM
+title: Sharing the latest Model Spec
+link: https://openai.com/index/sharing-the-latest-model-spec
+id: https://openai.com/index/sharing-the-latest-model-spec
+date: Wed, 12 Feb 2025 13:00:00 GMT
+body:
+#ITEM
+title: How We Used Codex to Ship Sora for Android in 28 Days
+link: https://openai.com/index/shipping-sora-for-android-with-codex
+id: https://openai.com/index/shipping-sora-for-android-with-codex
+date: Fri, 12 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Sim-to-real transfer of robotic control with dynamics randomization
+link: https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization
+id: https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization
+date: Wed, 18 Oct 2017 07:00:00 GMT
+body:
+#ITEM
+title: Simplifying, stabilizing, and scaling continuous-time consistency models
+link: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
+id: https://openai.com/index/simplifying-stabilizing-and-scaling-continuous-time-consistency-models
+date: Wed, 23 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Helping 1,000 small businesses build with AI
+link: https://openai.com/index/small-business-ai-jam
+id: https://openai.com/index/small-business-ai-jam
+date: Thu, 20 Nov 2025 06:00:00 GMT
+body:
+#ITEM
+title: Solving math word problems
+link: https://openai.com/index/solving-math-word-problems
+id: https://openai.com/index/solving-math-word-problems
+date: Fri, 29 Oct 2021 07:00:00 GMT
+body:
+#ITEM
+title: Solving Rubik’s Cube with a robot hand
+link: https://openai.com/index/solving-rubiks-cube
+id: https://openai.com/index/solving-rubiks-cube
+date: Tue, 15 Oct 2019 07:00:00 GMT
+body:
+#ITEM
+title: Some considerations on learning to explore via meta-reinforcement learning
+link: https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning
+id: https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning
+date: Sat, 03 Mar 2018 08:00:00 GMT
+body:
+#ITEM
+title: Sora 2 is here
+link: https://openai.com/index/sora-2
+id: https://openai.com/index/sora-2
+date: Tue, 30 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: Sora 2 System Card
+link: https://openai.com/index/sora-2-system-card
+id: https://openai.com/index/sora-2-system-card
+date: Tue, 30 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: The Sora feed philosophy
+link: https://openai.com/index/sora-feed-philosophy
+id: https://openai.com/index/sora-feed-philosophy
+date: Tue, 30 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: Sora first impressions
+link: https://openai.com/index/sora-first-impressions
+id: https://openai.com/index/sora-first-impressions
+date: Mon, 25 Mar 2024 00:00:00 GMT
+body:
+#ITEM
+title: Sora is here
+link: https://openai.com/index/sora-is-here
+id: https://openai.com/index/sora-is-here
+date: Mon, 09 Dec 2024 10:00:00 GMT
+body:
+#ITEM
+title: Animator Lyndon Barrois creates new worlds with Sora
+link: https://openai.com/index/sora-lyndon-barrois
+id: https://openai.com/index/sora-lyndon-barrois
+date: Mon, 09 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Minne Atairu & Sora
+link: https://openai.com/index/sora-minne-atairu
+id: https://openai.com/index/sora-minne-atairu
+date: Mon, 09 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Sora System Card
+link: https://openai.com/index/sora-system-card
+id: https://openai.com/index/sora-system-card
+date: Mon, 09 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Vallée Duhamel & Sora
+link: https://openai.com/index/sora-vallee-duhamel
+id: https://openai.com/index/sora-vallee-duhamel
+date: Mon, 09 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: AI in South Korea—OpenAI’s Economic Blueprint
+link: https://openai.com/index/south-korea-economic-blueprint
+id: https://openai.com/index/south-korea-economic-blueprint
+date: Thu, 23 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Spam detection in the physical world
+link: https://openai.com/index/spam-detection-in-the-physical-world
+id: https://openai.com/index/spam-detection-in-the-physical-world
+date: Sat, 01 Apr 2017 07:00:00 GMT
+body:
+#ITEM
+title: Generative modeling with sparse transformers
+link: https://openai.com/index/sparse-transformer
+id: https://openai.com/index/sparse-transformer
+date: Tue, 23 Apr 2019 07:00:00 GMT
+body:
+#ITEM
+title: Speak is personalizing language learning with AI
+link: https://openai.com/index/speak-connor-zwick
+id: https://openai.com/index/speak-connor-zwick
+date: Tue, 22 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: Special projects
+link: https://openai.com/index/special-projects
+id: https://openai.com/index/special-projects
+date: Thu, 28 Jul 2016 07:00:00 GMT
+body:
+#ITEM
+title: Spinning Up in Deep RL
+link: https://openai.com/index/spinning-up-in-deep-rl
+id: https://openai.com/index/spinning-up-in-deep-rl
+date: Thu, 08 Nov 2018 08:00:00 GMT
+body:
+#ITEM
+title: Spinning Up in Deep RL: Workshop review
+link: https://openai.com/index/spinning-up-in-deep-rl-workshop-review
+id: https://openai.com/index/spinning-up-in-deep-rl-workshop-review
+date: Tue, 26 Feb 2019 08:00:00 GMT
+body:
+#ITEM
+title: Spring Update
+link: https://openai.com/index/spring-update
+id: https://openai.com/index/spring-update
+date: Mon, 13 May 2024 10:00:00 GMT
+body:
+#ITEM
+title: Stargate advances with 4.5 GW partnership with Oracle
+link: https://openai.com/index/stargate-advances-with-partnership-with-oracle
+id: https://openai.com/index/stargate-advances-with-partnership-with-oracle
+date: Tue, 22 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Stargate Community
+link: https://openai.com/index/stargate-community
+id: https://openai.com/index/stargate-community
+date: Tue, 20 Jan 2026 19:00:00 GMT
+body:
+#ITEM
+title: OpenAI and SoftBank Group partner with SB Energy
+link: https://openai.com/index/stargate-sb-energy-partnership
+id: https://openai.com/index/stargate-sb-energy-partnership
+date: Fri, 09 Jan 2026 11:00:00 GMT
+body:
+#ITEM
+title: Start using ChatGPT instantly
+link: https://openai.com/index/start-using-chatgpt-instantly
+id: https://openai.com/index/start-using-chatgpt-instantly
+date: Mon, 01 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps
+link: https://openai.com/index/state-of-minnesota
+id: https://openai.com/index/state-of-minnesota
+date: Thu, 26 Sep 2024 07:00:00 GMT
+body:
+#ITEM
+title: Statement on OpenAI’s Nonprofit and PBC
+link: https://openai.com/index/statement-on-openai-nonprofit-and-pbc
+id: https://openai.com/index/statement-on-openai-nonprofit-and-pbc
+date: Thu, 11 Sep 2025 14:00:00 GMT
+body:
+#ITEM
+title: A law and tax firm redefines efficiency with ChatGPT Business
+link: https://openai.com/index/steuerrecht
+id: https://openai.com/index/steuerrecht
+date: Mon, 27 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Stochastic Neural Networks for hierarchical reinforcement learning
+link: https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning
+id: https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning
+date: Mon, 10 Apr 2017 07:00:00 GMT
+body:
+#ITEM
+title: Strategic Content Partnership with TIME
+link: https://openai.com/index/strategic-content-partnership-with-time
+id: https://openai.com/index/strategic-content-partnership-with-time
+date: Thu, 27 Jun 2024 06:00:00 GMT
+body:
+#ITEM
+title: Strengthening America’s AI leadership with the U.S. National Laboratories
+link: https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories
+id: https://openai.com/index/strengthening-americas-ai-leadership-with-the-us-national-laboratories
+date: Thu, 30 Jan 2025 10:00:00 GMT
+body:
+#ITEM
+title: Strengthening ChatGPT’s responses in sensitive conversations
+link: https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations
+id: https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations
+date: Mon, 27 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: Strengthening cyber resilience as AI capabilities advance
+link: https://openai.com/index/strengthening-cyber-resilience
+id: https://openai.com/index/strengthening-cyber-resilience
+date: Wed, 10 Dec 2025 12:00:00 GMT
+body:
+#ITEM
+title: Strengthening our safety ecosystem with external testing
+link: https://openai.com/index/strengthening-safety-with-external-testing
+id: https://openai.com/index/strengthening-safety-with-external-testing
+date: Wed, 19 Nov 2025 12:00:00 GMT
+body:
+#ITEM
+title: Strengthening the U.S. AI supply chain through domestic manufacturing
+link: https://openai.com/index/strengthening-the-us-ai-supply-chain
+id: https://openai.com/index/strengthening-the-us-ai-supply-chain
+date: Thu, 15 Jan 2026 00:00:00 GMT
+body:
+#ITEM
+title: Streamlining financial solutions for safety and growth
+link: https://openai.com/index/stripe
+id: https://openai.com/index/stripe
+date: Tue, 14 Mar 2023 07:00:00 GMT
+body:
+#ITEM
+title: Summarizing books with human feedback
+link: https://openai.com/index/summarizing-books
+id: https://openai.com/index/summarizing-books
+date: Thu, 23 Sep 2021 07:00:00 GMT
+body:
+#ITEM
+title: Increasing accuracy of pediatric visit notes
+link: https://openai.com/index/summer-health
+id: https://openai.com/index/summer-health
+date: Thu, 14 Dec 2023 08:00:00 GMT
+body:
+#ITEM
+title: Superalignment Fast Grants
+link: https://openai.com/index/superalignment-fast-grants
+id: https://openai.com/index/superalignment-fast-grants
+date: Thu, 14 Dec 2023 08:00:00 GMT
+body:
+#ITEM
+title: Reimagining the email experience with AI
+link: https://openai.com/index/superhuman
+id: https://openai.com/index/superhuman
+date: Mon, 18 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: Supporting nonprofit and community innovation
+link: https://openai.com/index/supporting-nonprofit-and-community-innovation
+id: https://openai.com/index/supporting-nonprofit-and-community-innovation
+date: Thu, 28 Aug 2025 05:00:00 GMT
+body:
+#ITEM
+title: Introducing the SWE-Lancer benchmark
+link: https://openai.com/index/swe-lancer
+id: https://openai.com/index/swe-lancer
+date: Tue, 18 Feb 2025 10:00:00 GMT
+body:
+#ITEM
+title: Sycophancy in GPT-4o: what happened and what we’re doing about it
+link: https://openai.com/index/sycophancy-in-gpt-4o
+id: https://openai.com/index/sycophancy-in-gpt-4o
+date: Tue, 29 Apr 2025 18:00:00 GMT
+body:
+#ITEM
+title: OpenAI Robotics Symposium 2019
+link: https://openai.com/index/symposium-2019
+id: https://openai.com/index/symposium-2019
+date: Wed, 05 Jun 2019 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI and Target team up on new AI-powered experiences
+link: https://openai.com/index/target-partnership
+id: https://openai.com/index/target-partnership
+date: Wed, 19 Nov 2025 06:00:00 GMT
+body:
+#ITEM
+title: Teacher–student curriculum learning
+link: https://openai.com/index/teacher-student-curriculum-learning
+id: https://openai.com/index/teacher-student-curriculum-learning
+date: Sat, 01 Jul 2017 07:00:00 GMT
+body:
+#ITEM
+title: Teaching models to express their uncertainty in words
+link: https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words
+id: https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words
+date: Sat, 28 May 2022 07:00:00 GMT
+body:
+#ITEM
+title: Teaching with AI
+link: https://openai.com/index/teaching-with-ai
+id: https://openai.com/index/teaching-with-ai
+date: Thu, 31 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: Team++
+link: https://openai.com/index/team-plus-plus
+id: https://openai.com/index/team-plus-plus
+date: Thu, 31 Mar 2016 07:00:00 GMT
+body:
+#ITEM
+title: Team update
+link: https://openai.com/index/team-update
+id: https://openai.com/index/team-update
+date: Wed, 25 May 2016 07:00:00 GMT
+body:
+#ITEM
+title: Team update
+link: https://openai.com/index/team-update-august
+id: https://openai.com/index/team-update-august
+date: Tue, 16 Aug 2016 07:00:00 GMT
+body:
+#ITEM
+title: Team update
+link: https://openai.com/index/team-update-january
+id: https://openai.com/index/team-update-january
+date: Mon, 30 Jan 2017 08:00:00 GMT
+body:
+#ITEM
+title: Techniques for training large neural networks
+link: https://openai.com/index/techniques-for-training-large-neural-networks
+id: https://openai.com/index/techniques-for-training-large-neural-networks
+date: Thu, 09 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Teen safety, freedom, and privacy
+link: https://openai.com/index/teen-safety-freedom-and-privacy
+id: https://openai.com/index/teen-safety-freedom-and-privacy
+date: Tue, 16 Sep 2025 06:00:00 GMT
+body:
+#ITEM
+title: Creating nail art with ChatGPT
+link: https://openai.com/index/ten-tiny-canvases
+id: https://openai.com/index/ten-tiny-canvases
+date: Tue, 04 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Ten years
+link: https://openai.com/index/ten-years
+id: https://openai.com/index/ten-years
+date: Thu, 11 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Testing robustness against unforeseen adversaries
+link: https://openai.com/index/testing-robustness
+id: https://openai.com/index/testing-robustness
+date: Thu, 22 Aug 2019 07:00:00 GMT
+body:
+#ITEM
+title: Text and code embeddings by contrastive pre-training
+link: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
+id: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
+date: Mon, 24 Jan 2022 08:00:00 GMT
+body:
+#ITEM
+title: The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
+link: https://openai.com/index/the-instruction-hierarchy
+id: https://openai.com/index/the-instruction-hierarchy
+date: Fri, 19 Apr 2024 19:00:00 GMT
+body:
+#ITEM
+title: The International 2018: Results
+link: https://openai.com/index/the-international-2018-results
+id: https://openai.com/index/the-international-2018-results
+date: Thu, 23 Aug 2018 07:00:00 GMT
+body:
+#ITEM
+title: Awakening Sleeping Beauties at The Met
+link: https://openai.com/index/the-met-museum
+id: https://openai.com/index/the-met-museum
+date: Wed, 14 Aug 2024 10:00:00 GMT
+body:
+#ITEM
+title: The next chapter for UK sovereign AI
+link: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
+id: https://openai.com/index/the-next-chapter-for-uk-sovereign-ai
+date: Wed, 22 Oct 2025 16:00:00 GMT
+body:
+#ITEM
+title: The power of continuous learning
+link: https://openai.com/index/the-power-of-continuous-learning
+id: https://openai.com/index/the-power-of-continuous-learning
+date: Fri, 23 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: The state of enterprise AI
+link: https://openai.com/index/the-state-of-enterprise-ai-2025-report
+id: https://openai.com/index/the-state-of-enterprise-ai-2025-report
+date: Mon, 08 Dec 2025 04:00:00 GMT
+body:
+#ITEM
+title: The truth left out from Elon Musk’s recent court filing
+link: https://openai.com/index/the-truth-elon-left-out
+id: https://openai.com/index/the-truth-elon-left-out
+date: Fri, 16 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: Thinking with images
+link: https://openai.com/index/thinking-with-images
+id: https://openai.com/index/thinking-with-images
+date: Wed, 16 Apr 2025 10:00:00 GMT
+body:
+#ITEM
+title: Third-person imitation learning
+link: https://openai.com/index/third-person-imitation-learning
+id: https://openai.com/index/third-person-imitation-learning
+date: Mon, 06 Mar 2017 08:00:00 GMT
+body:
+#ITEM
+title: OpenAI takes an ownership stake in Thrive Holdings to accelerate enterprise AI adoption
+link: https://openai.com/index/thrive-holdings
+id: https://openai.com/index/thrive-holdings
+date: Mon, 01 Dec 2025 05:00:00 GMT
+body:
+#ITEM
+title: How Tolan builds voice-first AI with GPT-5.1
+link: https://openai.com/index/tolan
+id: https://openai.com/index/tolan
+date: Wed, 07 Jan 2026 10:00:00 GMT
+body:
+#ITEM
+title: Trading inference-time compute for adversarial robustness
+link: https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness
+id: https://openai.com/index/trading-inference-time-compute-for-adversarial-robustness
+date: Wed, 22 Jan 2025 10:00:00 GMT
+body:
+#ITEM
+title: Transfer from simulation to real world through learning deep inverse dynamics model
+link: https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model
+id: https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model
+date: Tue, 11 Oct 2016 07:00:00 GMT
+body:
+#ITEM
+title: Transfer of adversarial robustness between perturbation types
+link: https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types
+id: https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types
+date: Fri, 03 May 2019 07:00:00 GMT
+body:
+#ITEM
+title: Introducing Triton: Open-source GPU programming for neural networks
+link: https://openai.com/index/triton
+id: https://openai.com/index/triton
+date: Wed, 28 Jul 2021 07:00:00 GMT
+body:
+#ITEM
+title: TruthfulQA: Measuring how models mimic human falsehoods
+link: https://openai.com/index/truthfulqa
+id: https://openai.com/index/truthfulqa
+date: Wed, 08 Sep 2021 07:00:00 GMT
+body:
+#ITEM
+title: Evolving online forms into dynamic data
+link: https://openai.com/index/typeform
+id: https://openai.com/index/typeform
+date: Wed, 11 Oct 2023 07:00:00 GMT
+body:
+#ITEM
+title: Uber enables outstanding on-demand experiences with AI
+link: https://openai.com/index/uber-enables-outstanding-experiences
+id: https://openai.com/index/uber-enables-outstanding-experiences
+date: Thu, 20 Feb 2025 10:00:00 GMT
+body:
+#ITEM
+title: UCB exploration via Q-ensembles
+link: https://openai.com/index/ucb-exploration-via-q-ensembles
+id: https://openai.com/index/ucb-exploration-via-q-ensembles
+date: Mon, 05 Jun 2017 07:00:00 GMT
+body:
+#ITEM
+title: Understanding neural networks through sparse circuits
+link: https://openai.com/index/understanding-neural-networks-through-sparse-circuits
+id: https://openai.com/index/understanding-neural-networks-through-sparse-circuits
+date: Thu, 13 Nov 2025 10:00:00 GMT
+body:
+#ITEM
+title: Understanding the capabilities, limitations, and societal impact of large language models
+link: https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models
+id: https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models
+date: Thu, 04 Feb 2021 08:00:00 GMT
+body:
+#ITEM
+title: Understanding the source of what we see and hear online
+link: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online
+id: https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online
+date: Tue, 07 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Driving scalable growth with OpenAI o3, GPT-4.1, and CUA
+link: https://openai.com/index/unify
+id: https://openai.com/index/unify
+date: Tue, 24 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Universe
+link: https://openai.com/index/universe
+id: https://openai.com/index/universe
+date: Mon, 05 Dec 2016 08:00:00 GMT
+body:
+#ITEM
+title: Unrolling the Codex agent loop
+link: https://openai.com/index/unrolling-the-codex-agent-loop
+id: https://openai.com/index/unrolling-the-codex-agent-loop
+date: Fri, 23 Jan 2026 12:00:00 GMT
+body:
+#ITEM
+title: Unsupervised sentiment neuron
+link: https://openai.com/index/unsupervised-sentiment-neuron
+id: https://openai.com/index/unsupervised-sentiment-neuron
+date: Thu, 06 Apr 2017 07:00:00 GMT
+body:
+#ITEM
+title: An update on our safety & security practices
+link: https://openai.com/index/update-on-safety-and-security-practices
+id: https://openai.com/index/update-on-safety-and-security-practices
+date: Mon, 16 Sep 2024 13:00:00 GMT
+body:
+#ITEM
+title: Updating our Model Spec with teen protections
+link: https://openai.com/index/updating-model-spec-with-teen-protections
+id: https://openai.com/index/updating-model-spec-with-teen-protections
+date: Thu, 18 Dec 2025 11:00:00 GMT
+body:
+#ITEM
+title: Our updated Preparedness Framework
+link: https://openai.com/index/updating-our-preparedness-framework
+id: https://openai.com/index/updating-our-preparedness-framework
+date: Tue, 15 Apr 2025 00:00:00 GMT
+body:
+#ITEM
+title: Upgrading the Moderation API with our new multimodal moderation model
+link: https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model
+id: https://openai.com/index/upgrading-the-moderation-api-with-our-new-multimodal-moderation-model
+date: Thu, 26 Sep 2024 10:00:00 GMT
+body:
+#ITEM
+title: Putting AI to work at Upwork
+link: https://openai.com/index/upwork
+id: https://openai.com/index/upwork
+date: Tue, 20 Aug 2024 10:00:00 GMT
+body:
+#ITEM
+title: Working with US CAISI and UK AISI to build more secure AI systems
+link: https://openai.com/index/us-caisi-uk-aisi-ai-update
+id: https://openai.com/index/us-caisi-uk-aisi-ai-update
+date: Fri, 12 Sep 2025 12:00:00 GMT
+body:
+#ITEM
+title: Deepening our collaboration with the U.S. Department of Energy
+link: https://openai.com/index/us-department-of-energy-collaboration
+id: https://openai.com/index/us-department-of-energy-collaboration
+date: Thu, 18 Dec 2025 11:00:00 GMT
+body:
+#ITEM
+title: Using GPT-4 for content moderation
+link: https://openai.com/index/using-gpt-4-for-content-moderation
+id: https://openai.com/index/using-gpt-4-for-content-moderation
+date: Tue, 15 Aug 2023 07:00:00 GMT
+body:
+#ITEM
+title: Variance reduction for policy gradient with action-dependent factorized baselines
+link: https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines
+id: https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines
+date: Tue, 20 Mar 2018 07:00:00 GMT
+body:
+#ITEM
+title: Variational lossy autoencoder
+link: https://openai.com/index/variational-lossy-autoencoder
+id: https://openai.com/index/variational-lossy-autoencoder
+date: Tue, 08 Nov 2016 08:00:00 GMT
+body:
+#ITEM
+title: Variational option discovery algorithms
+link: https://openai.com/index/variational-option-discovery-algorithms
+id: https://openai.com/index/variational-option-discovery-algorithms
+date: Thu, 26 Jul 2018 07:00:00 GMT
+body:
+#ITEM
+title: Accurately analyzing large scale qualitative data
+link: https://openai.com/index/viable
+id: https://openai.com/index/viable
+date: Fri, 07 Jul 2023 07:00:00 GMT
+body:
+#ITEM
+title: Video generation models as world simulators
+link: https://openai.com/index/video-generation-models-as-world-simulators
+id: https://openai.com/index/video-generation-models-as-world-simulators
+date: Thu, 15 Feb 2024 08:00:00 GMT
+body:
+#ITEM
+title: Vijaye Raji to become CTO of Applications with acquisition of Statsig
+link: https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig
+id: https://openai.com/index/vijaye-raji-to-become-cto-of-applications-with-acquisition-of-statsig
+date: Tue, 02 Sep 2025 11:00:00 GMT
+body:
+#ITEM
+title: How Virgin Atlantic uses AI to enhance every step of travel
+link: https://openai.com/index/virgin-atlantic-oliver-byers
+id: https://openai.com/index/virgin-atlantic-oliver-byers
+date: Mon, 08 Dec 2025 00:00:00 GMT
+body:
+#ITEM
+title: Learning to play Minecraft with Video PreTraining
+link: https://openai.com/index/vpt
+id: https://openai.com/index/vpt
+date: Thu, 23 Jun 2022 07:00:00 GMT
+body:
+#ITEM
+title: Wayfair is shaping the future of retail with AI
+link: https://openai.com/index/wayfair-fiona-tan
+id: https://openai.com/index/wayfair-fiona-tan
+date: Thu, 13 Feb 2025 10:00:00 GMT
+body:
+#ITEM
+title: Fine-tuning GPT-3 to scale video creation
+link: https://openai.com/index/waymark
+id: https://openai.com/index/waymark
+date: Tue, 03 Jan 2023 08:00:00 GMT
+body:
+#ITEM
+title: Weak-to-strong generalization
+link: https://openai.com/index/weak-to-strong-generalization
+id: https://openai.com/index/weak-to-strong-generalization
+date: Thu, 14 Dec 2023 00:00:00 GMT
+body:
+#ITEM
+title: WebGPT: Improving the factual accuracy of language models through web browsing
+link: https://openai.com/index/webgpt
+id: https://openai.com/index/webgpt
+date: Thu, 16 Dec 2021 08:00:00 GMT
+body:
+#ITEM
+title: Weight normalization: A simple reparameterization to accelerate training of deep neural networks
+link: https://openai.com/index/weight-normalization
+id: https://openai.com/index/weight-normalization
+date: Thu, 25 Feb 2016 08:00:00 GMT
+body:
+#ITEM
+title: Welcome, Pieter and Shivon!
+link: https://openai.com/index/welcome-pieter-and-shivon
+id: https://openai.com/index/welcome-pieter-and-shivon
+date: Tue, 26 Apr 2016 07:00:00 GMT
+body:
+#ITEM
+title: Introducing Whisper
+link: https://openai.com/index/whisper
+id: https://openai.com/index/whisper
+date: Wed, 21 Sep 2022 07:00:00 GMT
+body:
+#ITEM
+title: Delivering LLM-powered health solutions
+link: https://openai.com/index/whoop
+id: https://openai.com/index/whoop
+date: Thu, 04 Jan 2024 08:00:00 GMT
+body:
+#ITEM
+title: Why language models hallucinate
+link: https://openai.com/index/why-language-models-hallucinate
+id: https://openai.com/index/why-language-models-hallucinate
+date: Fri, 05 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: Why OpenAI’s structure must evolve to advance our mission
+link: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission
+id: https://openai.com/index/why-our-structure-must-evolve-to-advance-our-mission
+date: Fri, 27 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Will Hurd joins OpenAI’s board of directors
+link: https://openai.com/index/will-hurd-joins
+id: https://openai.com/index/will-hurd-joins
+date: Mon, 03 May 2021 07:00:00 GMT
+body:
+#ITEM
+title: Creating websites in minutes with AI Website Builder
+link: https://openai.com/index/wix
+id: https://openai.com/index/wix
+date: Thu, 29 May 2025 00:00:00 GMT
+body:
+#ITEM
+title: With GPT-5, Wrtn builds lifestyle AI for millions in Korea
+link: https://openai.com/index/wrtn
+id: https://openai.com/index/wrtn
+date: Thu, 02 Oct 2025 10:00:00 GMT
+body:
+#ITEM
+title: Delivering nuanced insights from customer feedback
+link: https://openai.com/index/yabble
+id: https://openai.com/index/yabble
+date: Wed, 04 Jan 2023 00:00:00 GMT
+body:
+#ITEM
+title: Boosting the customer retail experience with GPT-4o mini
+link: https://openai.com/index/zalando
+id: https://openai.com/index/zalando
+date: Wed, 11 Dec 2024 06:00:00 GMT
+body:
+#ITEM
+title: Making education data accessible
+link: https://openai.com/index/zelma
+id: https://openai.com/index/zelma
+date: Thu, 28 Mar 2024 00:00:00 GMT
+body:
+#ITEM
+title: Moving from intent-based bots to proactive AI agents
+link: https://openai.com/index/zendesk
+id: https://openai.com/index/zendesk
+date: Thu, 27 Mar 2025 09:00:00 GMT
+body:
+#ITEM
+title: Zenken boosts a lean sales team with ChatGPT Enterprise
+link: https://openai.com/index/zenken
+id: https://openai.com/index/zenken
+date: Tue, 13 Jan 2026 16:00:00 GMT
+body:
+#ITEM
+title: Zico Kolter Joins OpenAI’s Board of Directors
+link: https://openai.com/index/zico-kolter-joins-openais-board-of-directors
+id: https://openai.com/index/zico-kolter-joins-openais-board-of-directors
+date: Thu, 08 Aug 2024 12:00:00 GMT
+body:
+#ITEM
+title: OpenAI o1 Contributions
+link: https://openai.com/openai-o1-contributions
+id: https://openai.com/openai-o1-contributions
+date: Thu, 12 Sep 2024 10:00:00 GMT
+body:
+#ITEM
+title: Outbound coordinated vulnerability disclosure policy
+link: https://openai.com/policies/outbound-coordinated-disclosure-policy
+id: https://openai.com/policies/outbound-coordinated-disclosure-policy
+date: Mon, 22 Sep 2025 00:00:00 GMT
+body:
+#ITEM
+title: Sam & Jony
+link: https://openai.com/sam-and-jony
+id: https://openai.com/sam-and-jony
+date: Wed, 09 Jul 2025 00:00:00 GMT
+body:

@@ -1,2 +1,12 @@
 __pycache__/
 *.pyc
+
+# Python virtual environment
+.venv/
+
+# Local snapshots/state outputs
+snapshots/
+state.json
+
+# Editor/OS
+.DS_Store

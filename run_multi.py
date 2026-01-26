@@ -11,6 +11,17 @@ from bs4 import BeautifulSoup
 from openai import OpenAI
 from targets import TARGETS
 
+from normalizers import normalize_rss_min, normalize_openapi_c14n_v1
+
+# targets.py の "normalize" キーで指定された正規化を適用する
+NORMALIZERS = {
+    # RSS/Atom: まずは本文を比較対象に入れず、メタ更新ノイズを最小化（ROI優先）
+    "rss_min": lambda text: normalize_rss_min(text, body_limit=0),
+
+    # OpenAPI: YAMLの整形/キー順の揺れによるノイズを削減（意味は保持）
+    "openapi_c14n_v1": normalize_openapi_c14n_v1,
+}
+
 
 
 SNAPSHOT_DIR = "snapshots"
@@ -165,6 +176,7 @@ def diff_snippet(old_text: str, new_text: str, max_lines: int = 40) -> str:
             break
 
     return "\n".join(snippet_lines).strip()
+
 
 def classify_impact(name: str, url: str, snippet: str, default_impact: str) -> str:
     """
@@ -335,20 +347,35 @@ def main():
         try:
             raw = fetch(url)
 
-            # XMLはRSS/Atomなら『エントリ一覧』に正規化して比較（巨大diffのノイズ削減）
-            if url.endswith(".xml"):
-                new_text = normalize_feed_xml(raw, max_items=80)
+            # 1) targets.py の normalize 指定があれば最優先で適用
+            new_text = None
+            norm_key = t.get("normalize")
+            if norm_key:
+                fn = NORMALIZERS.get(norm_key)
+                if fn:
+                    try:
+                        new_text = fn(raw)
+                    except Exception as e:
+                        if os.getenv("DEBUG_NORMALIZE", "") in ("1", "true", "TRUE"):
+                            print(f"[WARN] normalize failed: {name} ({norm_key}) -> {e}")
+                        new_text = None
 
-            # YAMLはそのまま（正規化は行末処理で最低限）
-            elif url.endswith((".yml", ".yaml")):
-                new_text = raw
+            # 2) normalize 指定が無い / 失敗した場合は従来ロジックでフォールバック
+            if new_text is None:
+                # XMLはRSS/Atomなら『エントリ一覧』に正規化して比較（巨大diffのノイズ削減）
+                if url.endswith(".xml"):
+                    new_text = normalize_feed_xml(raw, max_items=80)
 
-            else:
-                # HTMLっぽい場合だけテキスト抽出
-                if "<html" in raw.lower() or "<!doctype html" in raw.lower():
-                    new_text = extract_text(raw)
-                else:
+                # YAMLはそのまま（正規化は行末処理で最低限）
+                elif url.endswith((".yml", ".yaml")):
                     new_text = raw
+
+                else:
+                    # HTMLっぽい場合だけテキスト抽出
+                    if "<html" in raw.lower() or "<!doctype html" in raw.lower():
+                        new_text = extract_text(raw)
+                    else:
+                        new_text = raw
 
             # 全形式共通の正規化（CRLF→LF + 行末空白除去）
             new_text = "\n".join(
