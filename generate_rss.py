@@ -7,6 +7,9 @@ from datetime import datetime, timezone
 
 STATE_FILE = "state.json"
 
+# RSS内の Diff 抜粋が肥大化しないように上限を設ける（文字数）
+EXCERPT_LIMIT = int(os.environ.get("EXCERPT_LIMIT", "2000"))
+
 
 def guess_base_url() -> str:
     # GitHub Actions では GITHUB_REPOSITORY=owner/repo が入る
@@ -27,7 +30,6 @@ def load_items() -> list:
         return []
 
 
-
 def rss_escape(s: str) -> str:
     return html.escape(s, quote=True)
 
@@ -44,6 +46,14 @@ def cdata_wrap(s: str) -> str:
     """CDATAを安全に包む。本文に ']]>' が含まれるとXMLが壊れるため分割する。"""
     s = sanitize_xml_10(s or "")
     return "<![CDATA[" + s.replace("]]>", "]]]]><![CDATA[>") + "]]>"
+
+
+def truncate_excerpt(s: str, limit: int = EXCERPT_LIMIT) -> str:
+    """RSSに埋め込む差分抜粋を上限で切る（巨大diffでRSSが読めなくなるのを防ぐ）。"""
+    s = s or ""
+    if limit and len(s) > limit:
+        return s[:limit] + "\n...(truncated)"
+    return s
 
 
 def build_feed(items: list, title: str, link: str, description: str) -> str:
@@ -69,8 +79,12 @@ def build_feed(items: list, title: str, link: str, description: str) -> str:
         snippet = it.get("snippet", "").strip()
         summary_ja = (it.get("summary_ja") or "").strip()
 
+        # Diff抜粋が巨大化するとRSSが読めなくなるため上限を設ける
+        snippet_raw = snippet if snippet else "(no snippet)"
+        snippet_raw = truncate_excerpt(snippet_raw, EXCERPT_LIMIT)
+
         # RSSリーダーで改行が潰れることがあるため、表示は <br/> に統一
-        snippet_disp = (snippet if snippet else "(no snippet)").replace("\n", "<br/>")
+        snippet_disp = snippet_raw.replace("\n", "<br/>")
         summary_ja_disp = summary_ja.replace("\n", "<br/>")
 
         if summary_ja:
