@@ -960,7 +960,7 @@ def main(log_diff_stats: bool = False):
             suppressed_total += 1
             rs = " ".join(reasons or [])
             if "ウィンドウ更新" in rs:
-            sup_kind = "window_drop"
+                sup_kind = "window_drop"
                 suppressed_by_type[sup_kind] += 1
             elif "大量更新" in rs:
                 sup_kind = "bulk_update"
