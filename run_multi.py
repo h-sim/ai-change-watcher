@@ -851,6 +851,10 @@ def main(log_diff_stats: bool = False):
     added_total = 0
     added_by_impact = {"Breaking": 0, "High": 0, "Medium": 0, "Low": 0}
 
+    # 「通知抑制」した変更の件数（RSS/履歴には載せないが、snapshotは更新してノイズ再発を防ぐ）
+    suppressed_total = 0
+    suppressed_by_type = {"window_drop": 0, "bulk_update": 0, "other": 0}
+
     for t in TARGETS:
         name = t["name"]
         url = t["url"]
@@ -947,8 +951,21 @@ def main(log_diff_stats: bool = False):
             snippet_full_for_state = raw_snippet
 
         impact2, score, reasons = classify_impact(name, url, snippet, impact)
-        # 「通知抑制」扱いの Low は履歴にも残さず、スナップショットも更新しない（ノイズを残さない）
+        # 「通知抑制」扱いの Low は RSS/履歴には載せないが、snapshotは更新して同じノイズが繰り返し出ないようにする
         if impact2 == "Low" and any("通知抑制" in r for r in (reasons or [])):
+            # snapshot は更新（次回以降の差分をクリーンにする）
+            with open(snap_file, "w", encoding="utf-8") as f:
+                f.write(new_text)
+
+            suppressed_total += 1
+            rs = " ".join(reasons or [])
+            if "ウィンドウ更新" in rs:
+                suppressed_by_type["window_drop"] += 1
+            elif "大量更新" in rs:
+                suppressed_by_type["bulk_update"] += 1
+            else:
+                suppressed_by_type["other"] += 1
+
             if log_diff_stats:
                 print(
                     f"[Low] {name} : 変更あり（通知抑制, +{stats_for_state['added']}/-{stats_for_state['removed']}, churn={stats_for_state['churn']})"
@@ -1013,6 +1030,21 @@ def main(log_diff_stats: bool = False):
                 parts.append(f"{k}={v}")
         tail = (" (" + ", ".join(parts) + ")") if parts else ""
         print(f"[SUMMARY] Added {added_total} new items" + tail)
+
+
+    # 通知抑制件数のサマリ（ノイズは抑制しつつ、抑制した事実は可視化）
+    if suppressed_total == 0:
+        print("[SUMMARY] Suppressed 0 changes")
+    else:
+        parts = []
+        if suppressed_by_type.get("window_drop", 0):
+            parts.append(f"window_drop={suppressed_by_type['window_drop']}")
+        if suppressed_by_type.get("bulk_update", 0):
+            parts.append(f"bulk_update={suppressed_by_type['bulk_update']}")
+        if suppressed_by_type.get("other", 0):
+            parts.append(f"other={suppressed_by_type['other']}")
+        tail = (" (" + ", ".join(parts) + ")") if parts else ""
+        print(f"[SUMMARY] Suppressed {suppressed_total} changes" + tail)
 
 
 if __name__ == "__main__":
