@@ -1,5 +1,39 @@
 [
   {
+    "id": "3a98ce3711a8926394579769fc7a44b903290c92",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-            \"$ref\": \"#/components/schemas/Drag\"\n+            \"$ref\": \"#/components/schemas/DragParam\"\n-            \"$ref\": \"#/components/schemas/Move\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Screenshot\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Scroll\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Type\"\n-          },\n-          {\n-            \"$ref\": \"#/components/schemas/Wait\"\n+            \"$ref\": \"#/components/schemas/MoveParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/ScreenshotParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/ScrollParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/TypeParam\"\n+          },\n+          {\n+            \"$ref\": \"#/components/schemas/WaitParam\"\n+        \"type\": \"object\"\n+      },\n+      \"CoordParam\": {\n+        \"description\": \"An x/y coordinate pair, e.g. `{ x: 100, y: 200 }`.\",\n+        \"properties\": {\n+          \"x\": {\n+            \"description\": \"The x-coordinate.\",\n+            \"type\": \"integer\"\n+          },\n+          \"y\": {\n+            \"description\": \"The y-coordinate.\",\n+            \"type\": \"integer\"",
+    "snippet_full": "",
+    "diff": {
+      "added": 73,
+      "removed": 50,
+      "churn": 123
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 28 Jan 2026 01:13:16 GMT"
+  },
+  {
+    "id": "7dd29bd3fcc4ae12aadc19a6562ddf80cbef5e45",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing Prism\n+link: https://openai.com/index/introducing-prism\n+id: https://openai.com/index/introducing-prism\n+date: Tue, 27 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 28 Jan 2026 01:13:10 GMT"
+  },
+  {
     "id": "f53261ee309aa57337b1b6c1065763e21cae046d",
     "impact": "Low",
     "name": "OpenAI News (RSS)",

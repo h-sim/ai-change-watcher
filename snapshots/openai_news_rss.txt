@@ -2483,6 +2483,12 @@ id: https://openai.com/index/introducing-parental-controls
 date: Mon, 29 Sep 2025 03:00:00 GMT
 body:
 #ITEM
+title: Introducing Prism
+link: https://openai.com/index/introducing-prism
+id: https://openai.com/index/introducing-prism
+date: Tue, 27 Jan 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing SimpleQA
 link: https://openai.com/index/introducing-simpleqa
 id: https://openai.com/index/introducing-simpleqa

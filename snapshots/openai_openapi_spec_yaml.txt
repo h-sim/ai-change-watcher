@@ -5447,25 +5447,25 @@
             "$ref": "#/components/schemas/DoubleClickAction"
           },
           {
-            "$ref": "#/components/schemas/Drag"
+            "$ref": "#/components/schemas/DragParam"
           },
           {
             "$ref": "#/components/schemas/KeyPressAction"
           },
           {
-            "$ref": "#/components/schemas/Move"
+            "$ref": "#/components/schemas/MoveParam"
           },
           {
-            "$ref": "#/components/schemas/Screenshot"
+            "$ref": "#/components/schemas/ScreenshotParam"
           },
           {
-            "$ref": "#/components/schemas/Scroll"
+            "$ref": "#/components/schemas/ScrollParam"
           },
           {
-            "$ref": "#/components/schemas/Type"
+            "$ref": "#/components/schemas/TypeParam"
           },
           {
-            "$ref": "#/components/schemas/Wait"
+            "$ref": "#/components/schemas/WaitParam"
           }
         ],
         "discriminator": {
@@ -6260,6 +6260,25 @@
           "metadata",
           "created_at"
         ],
+        "type": "object"
+      },
+      "CoordParam": {
+        "description": "An x/y coordinate pair, e.g. `{ x: 100, y: 200 }`.",
+        "properties": {
+          "x": {
+            "description": "The x-coordinate.",
+            "type": "integer"
+          },
+          "y": {
+            "description": "The y-coordinate.",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "x",
+          "y"
+        ],
+        "title": "Coordinate",
         "type": "object"
       },
       "CostsResult": {
@@ -10905,15 +10924,6 @@
       "CreateVideoBody": {
         "description": "Parameters for creating a new video generation job.",
         "properties": {
-          "character_ids": {
-            "description": "Character IDs to include in the generation.",
-            "items": {
-              "example": "char_123",
-              "type": "string"
-            },
-            "maxItems": 64,
-            "type": "array"
-          },
           "input_reference": {
             "description": "Optional image reference that guides generation.",
             "format": "binary",
@@ -11671,19 +11681,19 @@
         "title": "DoubleClick",
         "type": "object"
       },
-      "Drag": {
-        "description": "A drag action.\n",
+      "DragParam": {
+        "description": "A drag action.",
         "properties": {
           "path": {
-            "description": "An array of coordinates representing the path of the drag action. Coordinates will appear as an array\nof objects, eg\n```\n[\n  { x: 100, y: 200 },\n  { x: 200, y: 300 }\n]\n```\n",
+            "description": "An array of coordinates representing the path of the drag action. Coordinates will appear as an array of objects, eg\n```\n[\n  { x: 100, y: 200 },\n  { x: 200, y: 300 }\n]\n```",
             "items": {
-              "$ref": "#/components/schemas/DragPoint"
+              "$ref": "#/components/schemas/CoordParam"
             },
             "type": "array"
           },
           "type": {
             "default": "drag",
-            "description": "Specifies the event type. For a drag action, this property is \nalways set to `drag`.\n",
+            "description": "Specifies the event type. For a drag action, this property is always set to `drag`.",
             "enum": [
               "drag"
             ],
@@ -14883,6 +14893,10 @@
             },
             "type": "array"
           },
+          "status": {
+            "$ref": "#/components/schemas/LocalShellCallOutputStatusEnum",
+            "description": "The status of the shell call output. One of `in_progress`, `completed`, or `incomplete`."
+          },
           "type": {
             "default": "shell_call_output",
             "description": "The type of the shell call output. Always `shell_call_output`.",
@@ -14897,6 +14911,7 @@
           "type",
           "id",
           "call_id",
+          "status",
           "output",
           "max_output_length"
         ],
@@ -18201,6 +18216,14 @@
           "has_more"
         ]
       },
+      "LocalShellCallOutputStatusEnum": {
+        "enum": [
+          "in_progress",
+          "completed",
+          "incomplete"
+        ],
+        "type": "string"
+      },
       "LocalShellCallStatus": {
         "enum": [
           "in_progress",
@@ -20387,12 +20410,12 @@
         },
         "type": "object"
       },
-      "Move": {
-        "description": "A mouse move action.\n",
+      "MoveParam": {
+        "description": "A mouse move action.",
         "properties": {
           "type": {
             "default": "move",
-            "description": "Specifies the event type. For a move action, this property is \nalways set to `move`.\n",
+            "description": "Specifies the event type. For a move action, this property is always set to `move`.",
             "enum": [
               "move"
             ],
@@ -20400,11 +20423,11 @@
             "x-stainless-const": true
           },
           "x": {
-            "description": "The x-coordinate to move to.\n",
+            "description": "The x-coordinate to move to.",
             "type": "integer"
           },
           "y": {
-            "description": "The y-coordinate to move to.\n",
+            "description": "The y-coordinate to move to.",
             "type": "integer"
           }
         },
@@ -34591,12 +34614,12 @@
         ],
         "type": "object"
       },
-      "Screenshot": {
-        "description": "A screenshot action.\n",
+      "ScreenshotParam": {
+        "description": "A screenshot action.",
         "properties": {
           "type": {
             "default": "screenshot",
-            "description": "Specifies the event type. For a screenshot action, this property is \nalways set to `screenshot`.\n",
+            "description": "Specifies the event type. For a screenshot action, this property is always set to `screenshot`.",
             "enum": [
               "screenshot"
             ],
@@ -34610,20 +34633,20 @@
         "title": "Screenshot",
         "type": "object"
       },
-      "Scroll": {
-        "description": "A scroll action.\n",
+      "ScrollParam": {
+        "description": "A scroll action.",
         "properties": {
           "scroll_x": {
-            "description": "The horizontal scroll distance.\n",
+            "description": "The horizontal scroll distance.",
             "type": "integer"
           },
           "scroll_y": {
-            "description": "The vertical scroll distance.\n",
+            "description": "The vertical scroll distance.",
             "type": "integer"
           },
           "type": {
             "default": "scroll",
-            "description": "Specifies the event type. For a scroll action, this property is \nalways set to `scroll`.\n",
+            "description": "Specifies the event type. For a scroll action, this property is always set to `scroll`.",
             "enum": [
               "scroll"
             ],
@@ -34631,11 +34654,11 @@
             "x-stainless-const": true
           },
           "x": {
-            "description": "The x-coordinate where the scroll occurred.\n",
+            "description": "The x-coordinate where the scroll occurred.",
             "type": "integer"
           },
           "y": {
-            "description": "The y-coordinate where the scroll occurred.\n",
+            "description": "The y-coordinate where the scroll occurred.",
             "type": "integer"
           }
         },
@@ -36458,16 +36481,16 @@
         "title": "Thread Truncation Controls",
         "type": "object"
       },
-      "Type": {
-        "description": "An action to type in text.\n",
+      "TypeParam": {
+        "description": "An action to type in text.",
         "properties": {
           "text": {
-            "description": "The text to type.\n",
+            "description": "The text to type.",
             "type": "string"
           },
           "type": {
             "default": "type",
-            "description": "Specifies the event type. For a type action, this property is \nalways set to `type`.\n",
+            "description": "Specifies the event type. For a type action, this property is always set to `type`.",
             "enum": [
               "type"
             ],
@@ -38898,12 +38921,12 @@
           "name": "The voice object"
         }
       },
-      "Wait": {
-        "description": "A wait action.\n",
+      "WaitParam": {
+        "description": "A wait action.",
         "properties": {
           "type": {
             "default": "wait",
-            "description": "Specifies the event type. For a wait action, this property is \nalways set to `wait`.\n",
+            "description": "Specifies the event type. For a wait action, this property is always set to `wait`.",
             "enum": [
               "wait"
             ],
