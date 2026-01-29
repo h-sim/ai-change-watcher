@@ -1,5 +1,4 @@
 import json
-import html
 import os
 from datetime import datetime, timezone
 
@@ -32,6 +31,18 @@ def main() -> None:
     base_url = guess_base_url()
     with open("state.json", "r", encoding="utf-8") as f:
         state = json.load(f)
+
+    # state.json は通常 list だが、将来の形式変更に備えて dict も吸収する
+    if isinstance(state, dict):
+        for k in ("items", "history", "events", "entries"):
+            v = state.get(k)
+            if isinstance(v, list):
+                state = v
+                break
+        else:
+            state = []
+    elif not isinstance(state, list):
+        state = []
 
     items = []
     for it in (state or []):
@@ -76,7 +87,9 @@ def main() -> None:
     data_json = json.dumps(
         {"items": items, "sources": sources, "base_url": base_url}, ensure_ascii=False
     )
-    data_json_escaped = html.escape(data_json)
+    # HTMLエスケープするとJSONが壊れて JSON.parse が落ちる。
+    # <script>内に埋めるので、終了タグだけ潰して安全化。
+    data_json_safe = data_json.replace("</", "<\\/")
 
     # NOTE: f-string にすると JS の `${...}` と衝突するので、プレーン文字列 + 置換で埋め込む
     out_html = """<!doctype html>
@@ -144,15 +157,26 @@ def main() -> None:
     <div class="count" id="count"></div>
 
     <div id="list"></div>
+    <div id="empty" class="small" style="margin-top:10px;"></div>
 
     <footer class="small" style="margin-top:18px; padding-top:12px; border-top:1px solid rgba(127,127,127,.25);">
       <div>※重要判断は一次情報（公式）を確認してください。</div>
     </footer>
   </div>
 
-  <script id="data" type="application/json">__DATA_JSON__</script>
+    <script id="data" type="application/json">__DATA_JSON__</script>
   <script>
-    const data = JSON.parse(document.getElementById('data').textContent);
+    const elEmpty = document.getElementById('empty');
+    let data = {};
+    try {
+      data = JSON.parse(document.getElementById('data').textContent);
+    } catch (e) {
+      if (elEmpty) {
+        elEmpty.textContent = 'ERROR: JSON parse に失敗（changes.html を再生成してください）';
+      }
+      console.error(e);
+      data = { items: [], sources: [] };
+    }
     const items = data.items || [];
     const sources = data.sources || [];
 
@@ -229,6 +253,14 @@ def main() -> None:
       }
 
       elList.innerHTML = parts.join('\n');
+      if (filtered.length === 0) {
+        const tips = [];
+        if (hideLow) tips.push('「Low を非表示」をOFFにすると表示される場合があります。');
+        tips.push('「Latest」を増やす（Latest 200/500）と過去分が出る場合があります。');
+        if (elEmpty) elEmpty.innerHTML = '表示できる項目がありません。<br>' + tips.map(t => '・' + t).join('<br>');
+      } else {
+        if (elEmpty) elEmpty.textContent = '';
+      }
     }
 
     elQ.addEventListener('input', render);
@@ -243,7 +275,7 @@ def main() -> None:
 </html>
 """
 
-    out_html = out_html.replace("__DATA_JSON__", data_json_escaped)
+    out_html = out_html.replace("__DATA_JSON__", data_json_safe)
 
     with open("changes.html", "w", encoding="utf-8") as f:
         f.write(out_html)
