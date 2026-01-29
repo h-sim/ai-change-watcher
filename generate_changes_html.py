@@ -162,6 +162,8 @@ def main() -> None:
     .small { font-size: 13px; opacity: .85; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
     .count { font-size: 13px; opacity: .85; margin: 6px 0 0; }
+    #debug_static, #debug { display: none; }
+    #debug_static.show, #debug.show { display: block; }
   </style>
 </head>
 <body>
@@ -210,7 +212,12 @@ def main() -> None:
   <script>
     const elEmpty = document.getElementById('empty');
     const elDebug = document.getElementById('debug');
-    if (elEmpty) elEmpty.textContent = 'Loading…';
+    const elDebugStatic = document.getElementById('debug_static');
+    const isDebug = new URLSearchParams(location.search).get('debug') === '1';
+    if (isDebug) {
+      if (elDebug) elDebug.classList.add('show');
+      if (elDebugStatic) elDebugStatic.classList.add('show');
+    }
     window.addEventListener('error', (e) => {
       if (elEmpty) elEmpty.textContent = 'ERROR: ' + (e && e.message ? e.message : String(e));
     });
@@ -229,7 +236,7 @@ def main() -> None:
     }
     const items = data.items || [];
     const sources = data.sources || [];
-    if (elDebug) {
+    if (isDebug && elDebug) {
       elDebug.textContent = `debug: items=${items.length}, sources=${sources.length}`;
     }
 
