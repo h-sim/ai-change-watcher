@@ -167,6 +167,12 @@ def main() -> None:
     <script id="data" type="application/json">__DATA_JSON__</script>
   <script>
     const elEmpty = document.getElementById('empty');
+    window.addEventListener('error', (e) => {
+      if (elEmpty) elEmpty.textContent = 'ERROR: ' + (e && e.message ? e.message : String(e));
+    });
+    window.addEventListener('unhandledrejection', (e) => {
+      if (elEmpty) elEmpty.textContent = 'ERROR: ' + (e && e.reason ? String(e.reason) : String(e));
+    });
     let data = {};
     try {
       data = JSON.parse(document.getElementById('data').textContent);
@@ -197,7 +203,10 @@ def main() -> None:
     }
 
     function esc(s) {
-      return (s || '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+      return (s || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
     }
 
     function match(it, q) {
