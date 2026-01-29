@@ -107,7 +107,7 @@ def main() -> None:
                 [
                     '<div class="row">',
                     '  <div class="top">',
-                    f'    <div class="meta">{esc(ts)}<br><span class="badge">{esc(impact_txt)}</span></div>',
+                    f'    <div class="meta">{esc(ts)}<br><span class="badge" data-impact="{esc(impact_txt)}">{esc(impact_txt)}</span></div>',
                     f'    <div class="meta">{esc(src)}</div>',
                     '    <div>',
                     f'      <p class="title">{esc(title)}</p>',
@@ -155,7 +155,11 @@ def main() -> None:
     .top { display: grid; grid-template-columns: 1fr; gap: 6px; }
     @media (min-width: 860px) { .top { grid-template-columns: 160px 160px 1fr; align-items: start; } }
     .meta { opacity: .85; font-size: 13px; }
-    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(127,127,127,.35); font-size: 12px; }
+    .badge { display: inline-block; padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(127,127,127,.35); font-size: 12px; font-weight: 700; }
+    .badge[data-impact="Breaking"] { border-color: rgba(255, 59, 48, .65); background: rgba(255, 59, 48, .14); color: rgb(255, 59, 48); }
+    .badge[data-impact="High"] { border-color: rgba(255, 149, 0, .65); background: rgba(255, 149, 0, .14); color: rgb(255, 149, 0); }
+    .badge[data-impact="Medium"] { border-color: rgba(10, 132, 255, .65); background: rgba(10, 132, 255, .14); color: rgb(10, 132, 255); }
+    .badge[data-impact="Low"] { border-color: rgba(142, 142, 147, .65); background: rgba(142, 142, 147, .14); color: rgb(142, 142, 147); }
     .title { font-weight: 650; margin: 0; }
     .links a { margin-right: 10px; }
     details pre { white-space: pre-wrap; overflow-wrap: anywhere; }
@@ -305,7 +309,7 @@ def main() -> None:
         parts.push(`
 <div class="row">
   <div class="top">
-    <div class="meta">${ts}<br><span class="badge">${impactTxt || '—'}</span></div>
+    <div class="meta">${ts}<br><span class="badge" data-impact="${impactTxt || ''}">${impactTxt || '—'}</span></div>
     <div class="meta">${src}</div>
     <div>
       <p class="title">${title}</p>
