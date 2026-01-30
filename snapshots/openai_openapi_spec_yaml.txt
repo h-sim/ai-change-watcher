@@ -46296,6 +46296,17 @@
       "delete": {
         "description": "Delete a certificate from the organization.\n\nThe certificate must be inactive for the organization and all projects.\n",
         "operationId": "deleteCertificate",
+        "parameters": [
+          {
+            "description": "Unique ID of the certificate to delete.",
+            "in": "path",
+            "name": "certificate_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "content": {
@@ -46384,6 +46395,17 @@
       "post": {
         "description": "Modify a certificate. Note that only the name can be modified.\n",
         "operationId": "modifyCertificate",
+        "parameters": [
+          {
+            "description": "Unique ID of the certificate to modify.",
+            "in": "path",
+            "name": "certificate_id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {

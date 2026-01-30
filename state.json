@@ -1,5 +1,56 @@
 [
   {
+    "id": "c8c3e0cadf60f9d89ff4edca11e85cacd418b1a6",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+        \"parameters\": [\n+          {\n+            \"description\": \"Unique ID of the certificate to delete.\",\n+            \"in\": \"path\",\n+            \"name\": \"certificate_id\",\n+            \"required\": true,\n+            \"schema\": {\n+              \"type\": \"string\"\n+            }\n+          }\n+        ],\n+        \"parameters\": [\n+          {\n+            \"description\": \"Unique ID of the certificate to modify.\",\n+            \"in\": \"path\",\n+            \"name\": \"certificate_id\",\n+            \"required\": true,\n+            \"schema\": {\n+              \"type\": \"string\"\n+            }\n+          }\n+        ],",
+    "snippet_full": "",
+    "diff": {
+      "added": 22,
+      "removed": 0,
+      "churn": 22
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 30 Jan 2026 01:22:58 GMT"
+  },
+  {
+    "id": "41e64cdc88817d163de1e2944a3c736e20417bcc",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Inside OpenAI’s in-house data agent\n+link: https://openai.com/index/inside-our-in-house-data-agent\n+id: https://openai.com/index/inside-our-in-house-data-agent\n+date: Thu, 29 Jan 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT\n+link: https://openai.com/index/retiring-gpt-4o-and-older-models\n+id: https://openai.com/index/retiring-gpt-4o-and-older-models\n+date: Thu, 29 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Taisei Corporation shapes the next generation of talent with ChatGPT\n+link: https://openai.com/index/taisei\n+id: https://openai.com/index/taisei\n+date: Thu, 29 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 30 Jan 2026 01:22:53 GMT"
+  },
+  {
+    "id": "960b204a40ab5a0e1b64e4d25af6c86cd5d77355",
+    "impact": "Medium",
+    "name": "OpenAI Developer Changelog (RSS)",
+    "url": "https://developers.openai.com/changelog/rss.xml",
+    "snippet": "+title: Web search is now enabled by default\n+link: https://developers.openai.com/changelog/#codex-2026-01-28-mdx\n+id: https://developers.openai.com/changelog/#codex-2026-01-28-mdx\n+date: Wed, 28 Jan 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 30 Jan 2026 01:22:53 GMT"
+  },
+  {
     "id": "cfd3812e8ad5aa8bea0be263f083708ca61915fc",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",

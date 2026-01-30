@@ -143,6 +143,12 @@ id: https://developers.openai.com/changelog/#codex-2026-01-23-mdx
 date: Fri, 23 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: Web search is now enabled by default
+link: https://developers.openai.com/changelog/#codex-2026-01-28-mdx
+id: https://developers.openai.com/changelog/#codex-2026-01-28-mdx
+date: Wed, 28 Jan 2026 00:00:00 GMT
+body:
+#ITEM
 title: Resources updates
 link: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
 id: https://developers.openai.com/changelog/#developers-2025-11-4-mdx
