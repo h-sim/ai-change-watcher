@@ -1,5 +1,24 @@
 [
   {
+    "id": "23ba22f5b2d7e64d98dc62789559bc803b01e6a0",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. See\n+) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. The exact increase depends on the content and wor\n-Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before Claude Opus 4.7, the same text produces roughly 30% more tokens. Use the\n+Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before Claude Opus 4.7, the same text produces roughly 30% more tokens. The exact increase dep",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 03 Jul 2026 02:12:46 GMT",
+    "run_at": "2026-07-03T02:12:38Z",
+    "run_id": "7d107b04ae5345ce9115d87bac3dd473"
+  },
+  {
     "id": "678b7102bc5c7e82d5785afe19aba8d9f7374d5d",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -967,24 +986,5 @@
     "pubDate": "Sat, 06 Jun 2026 02:32:09 GMT",
     "run_at": "2026-06-06T02:32:08Z",
     "run_id": "b313c0f4fa0d4452a2c5b90e15ffc4b1"
-  },
-  {
-    "id": "b3c826df18e15f5a63cc27bd1c10c60c5eaaac41",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+May 27, 2026\n+The Messages API response now includes\n+usage.output_tokens_details.thinking_tokens\n+, reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final\n+message_delta\n+event. No beta header is required.\n+May 27, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 0,
-      "churn": 7
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 05 Jun 2026 02:44:37 GMT",
-    "run_at": "2026-06-05T02:44:29Z",
-    "run_id": "e06ac6e748c946959df85df7937152ef"
   }
 ]
