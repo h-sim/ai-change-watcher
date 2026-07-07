@@ -665,6 +665,17 @@ Changelog
 Upcoming deprecations can be found on the
 deprecations page
 .
+July, 2026
+Jul 6
+Feature
+gpt-realtime-2.1
+gpt-realtime-2.1-mini
+v1/realtime
+Released
+GPT-Realtime-2.1
+, an updated realtime reasoning model with improved alphanumeric recognition, silence and noise handling, and interruption behavior. Also released
+GPT-Realtime-2.1 mini
+, a faster, lower-cost distilled reasoning model for realtime voice applications.
 June, 2026
 Jun 24
 Update

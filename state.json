@@ -1,5 +1,24 @@
 [
   {
+    "id": "6d0e80fd96879e9e15a6444f8e890aa5ce87e23d",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+July, 2026\n+Jul 6\n+Feature\n+gpt-realtime-2.1\n+gpt-realtime-2.1-mini\n+v1/realtime\n+Released\n+GPT-Realtime-2.1\n+, an updated realtime reasoning model with improved alphanumeric recognition, silence and noise handling, and interruption behavior. Also released\n+GPT-Realtime-2.1 mini\n+, a faster, lower-cost distilled reasoning model for realtime voice applications.",
+    "snippet_full": "",
+    "diff": {
+      "added": 11,
+      "removed": 0,
+      "churn": 11
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 07 Jul 2026 02:26:31 GMT",
+    "run_at": "2026-07-07T02:26:31Z",
+    "run_id": "9c6477ae4ea64a2697a806fe4a831432"
+  },
+  {
     "id": "23ba22f5b2d7e64d98dc62789559bc803b01e6a0",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -965,25 +984,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Sat, 06 Jun 2026 02:32:36 GMT",
-    "run_at": "2026-06-06T02:32:08Z",
-    "run_id": "b313c0f4fa0d4452a2c5b90e15ffc4b1"
-  },
-  {
-    "id": "c1d9b478ff641d967d321e4588156e4f18228609",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Glossary",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 06 Jun 2026 02:32:09 GMT",
     "run_at": "2026-06-06T02:32:08Z",
     "run_id": "b313c0f4fa0d4452a2c5b90e15ffc4b1"
   }
