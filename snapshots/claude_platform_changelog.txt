@@ -142,7 +142,9 @@ top_p
 top_k
 ) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. The exact increase depends on the content and workload shape. See
 What's new in Claude Sonnet 5
-for details and migration guidance.
+for details and migration guidance. For behavioral differences and model-specific prompting patterns, see
+Prompting Claude Sonnet 5
+.
 Claude Managed Agents session event streams now support
 event deltas
 . Opt in with the

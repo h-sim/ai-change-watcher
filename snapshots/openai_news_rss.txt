@@ -767,6 +767,12 @@ id: https://openai.com/index/attacking-machine-learning-with-adversarial-example
 date: Fri, 24 Feb 2017 08:00:00 GMT
 body:
 #ITEM
+title: Australian Payments Plus moves faster with ChatGPT and Codex
+link: https://openai.com/index/australian-payments-plus
+id: https://openai.com/index/australian-payments-plus
+date: Tue, 07 Jul 2026 00:00:00 GMT
+body:
+#ITEM
 title: AutoScout24 scales engineering with AI-powered workflows
 link: https://openai.com/index/autoscout24
 id: https://openai.com/index/autoscout24
@@ -3740,7 +3746,7 @@ body:
 title: MUFG aims to become AI-native with OpenAI
 link: https://openai.com/index/mufg
 id: https://openai.com/index/mufg
-date: Thu, 28 May 2026 00:00:00 GMT
+date: Tue, 07 Jul 2026 00:00:00 GMT
 body:
 #ITEM
 title: Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research

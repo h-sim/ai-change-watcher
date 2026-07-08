@@ -1,5 +1,45 @@
 [
   {
+    "id": "cb5118b21cae71ff640d7df1ff8b621aa086cce4",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-for details and migration guidance.\n+for details and migration guidance. For behavioral differences and model-specific prompting patterns, see\n+Prompting Claude Sonnet 5\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 1,
+      "churn": 4
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 08 Jul 2026 02:01:04 GMT",
+    "run_at": "2026-07-08T02:00:37Z",
+    "run_id": "d75216e986a04082ba660a770915e435"
+  },
+  {
+    "id": "f80df0917c1dd8284a813f49db55cd68e7d7d307",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Australian Payments Plus moves faster with ChatGPT and Codex\n+link: https://openai.com/index/australian-payments-plus\n+id: https://openai.com/index/australian-payments-plus\n+date: Tue, 07 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM\n-date: Thu, 28 May 2026 00:00:00 GMT\n+date: Tue, 07 Jul 2026 00:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 1,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 08 Jul 2026 02:00:38 GMT",
+    "run_at": "2026-07-08T02:00:37Z",
+    "run_id": "d75216e986a04082ba660a770915e435"
+  },
+  {
     "id": "6d0e80fd96879e9e15a6444f8e890aa5ce87e23d",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -946,45 +986,5 @@
     "pubDate": "Tue, 09 Jun 2026 02:31:05 GMT",
     "run_at": "2026-06-09T02:31:04Z",
     "run_id": "8faa52d16f784939ade78622cacf0625"
-  },
-  {
-    "id": "fde950bddf57c8ee647f626d529e1c1a64fa3a48",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+SPIFFE\n+Campaign Targeting\n+SPIFFE\n+Jun 5\n+Update\n+Released a redesigned navigation for the OpenAI API platform, visit\n+here\n+.\n-Realtime 2\n+GPT-Realtime-2\n-Realtime Translate\n+GPT-Realtime-Translate\n-Realtime Whisper\n+GPT-Realtime-Whisper\n-GPT-5.5 pro\n+GPT-5.5 Pro\n-GPT-5.4 pro\n+GPT-5.4 Pro\n-gpt-realtime-1.5\n-to the Realtime API. Read more\n-here\n-.\n+GPT-Realtime-1.5\n+to the Realtime API.\n-gpt-5-pro\n+GPT-5 Pro\n-gpt-realtime-mini\n+GPT-Realtime mini",
-    "snippet_full": "",
-    "diff": {
-      "added": 17,
-      "removed": 11,
-      "churn": 28
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 09 Jun 2026 02:31:04 GMT",
-    "run_at": "2026-06-09T02:31:04Z",
-    "run_id": "8faa52d16f784939ade78622cacf0625"
-  },
-  {
-    "id": "96ed638fd42c88ce4c6660b4b7ef5f8275bc7960",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+June 5, 2026\n+We announced the deprecation of the Claude Opus 4.1 model (\n+claude-opus-4-1-20250805\n+), with retirement on the Claude API scheduled for August 5, 2026. We recommend migrating to\n+Claude Opus 4.8\n+. Read more in\n+model deprecations\n+.\n+June 5, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 9,
-      "removed": 0,
-      "churn": 9
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 06 Jun 2026 02:32:36 GMT",
-    "run_at": "2026-06-06T02:32:08Z",
-    "run_id": "b313c0f4fa0d4452a2c5b90e15ffc4b1"
   }
 ]
