@@ -154,6 +154,7 @@ Embeddings
 Moderation
 Going live
 Production best practices
+Private Link
 Workload identity federation
 Overview
 Kubernetes
@@ -593,6 +594,7 @@ Embeddings
 Moderation
 Going live
 Production best practices
+Private Link
 Workload identity federation
 Overview
 Kubernetes
