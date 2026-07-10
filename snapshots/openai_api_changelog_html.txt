@@ -1,4 +1,5 @@
 Changelog | OpenAI API
+ChatGPT
 Home
 API
 Docs
@@ -9,7 +10,10 @@ Codex
 Docs
 Guides, concepts, and product docs for Codex
 Use cases
-Example workflows and tasks teams hand to Codex
+Example workflows and tasks teams can take on with ChatGPT or Codex
+Docs
+Use cases
+Resources
 ChatGPT
 Apps SDK
 Build apps to extend ChatGPT
@@ -32,6 +36,7 @@ Community
 Programs, meetups, and support for builders
 Start searching
 API Dashboard
+Try ChatGPT
 Search the API docs
 Search docs
 Suggested
@@ -44,6 +49,9 @@ API
 API Reference
 Codex
 ChatGPT
+Docs
+Use cases
+Resources
 Resources
 Search docs
 Suggested
@@ -60,8 +68,7 @@ SDKs and CLI
 OpenAI SDK
 Agents SDK
 OpenAI CLI
-Latest: GPT-5.5
-Prompt guidance
+Using GPT-5.6
 Core concepts
 Text generation
 Code generation
@@ -101,6 +108,7 @@ File search and retrieval
 File search
 Retrieval
 Tool search
+Programmatic tool calling
 More tools
 Apply Patch
 Local shell
@@ -111,6 +119,7 @@ Conversation state
 Background mode
 Streaming
 WebSocket mode
+Multi-agent
 Webhooks
 File inputs
 Context management
@@ -225,137 +234,20 @@ Data retrieval
 Sending files
 Docs
 Use cases
-Getting Started
-Overview
-Quickstart
-Explore use cases
-Import to Codex
-Pricing
-Concepts
-Prompting
-Customization
-Memories
-Chronicle
-Sandboxing
-Auto-review
-Subagents
-Workflows
-Models
-Cyber Safety
-Glossary
-Using Codex
-App
-Overview
-Features
-Settings
-Review
-Automations
-Worktrees
-Local Environments
-In-app browser
-Chrome extension
-Computer Use
-Appshots
-Commands
-Windows
-Troubleshooting
-IDE Extension
-Overview
-Features
-Settings
-IDE Commands
-Slash commands
-CLI
-Overview
-Features
-Command Line Options
-Slash commands
-Web
-Overview
-Environments
-Internet Access
-Integrations
-GitHub
-Slack
-Linear
-Codex Security
-Overview
-Codex Security plugin
-Quickstart
-Run a security scan
-Run a deep scan
-Review code changes
-Triage a backlog
-Fix findings
-Export and track findings
-Changelog
-Codex Security cloud
-Setup
-Improving the threat model
-FAQ
-Configuration
-Config File
-Config Basics
-Advanced Config
-Config Reference
-Environment Variables
-Sample Config
-Permissions
-Speed
-Rules
-Hooks
-AGENTS.md
-MCP
-Plugins
-Overview
-Build plugins
-Sites
-Skills
-Overview
-Record & Replay
-Subagents
-Administration
-Authentication
-Overview
-Access tokens
-Agent approvals & security
-Remote connections
-Deployment
-Amazon Bedrock
-Enterprise
-Admin Setup
-Governance
-Managed configuration
-Windows
-Automation
-Non-interactive Mode
-Codex SDK
-App Server
-MCP Server
-GitHub Action
-Learn
-Best practices
-Videos
-Community
-Blog
-Mastering Codex Remote for engineering
-Using skills to accelerate OSS maintenance
-View all
-Cookbooks
-Build an Agent Improvement Loop with Traces, Evals, and Codex
-Build iterative repair loops with Codex
-View all
-Building AI Teams
-Releases
-Changelog
-Feature Maturity
-Open Source
-Home
-Collections
+Docs
+Use cases
+Docs section
+Docs
 Apps SDK
 Workspace Agents
 Commerce
 Ads
+Apps SDK
+Workspace Agents
+Commerce
+Ads
+Docs section
+Select...
 Home
 Quickstart
 Core Concepts
@@ -425,18 +317,219 @@ Ads
 Ad Account
 Insights
 Files
+Overview
+Features
+Configuration
+Developers
+Security
+Administration
+Use Cases
+Resources
+Overview
+Features
+Configuration
+Developers
+Security
+Administration
+Use Cases
+Resources
+Docs section
+Overview
+Home
+Get started
+Quickstart
+Use ChatGPT
+Get started with Work
+Import from another agent
+Foundations
+Prompting
+Personalize ChatGPT
+Skills & Plugins
+Permissions
+Explore
+What's new
+Models
+Pricing
+Glossary
+Available on
+ChatGPT desktop app
+ChatGPT on the web
+Codex CLI
+Codex IDE extension
+Codex cloud
+Releases
+Changelog
+Feature Maturity
+Open Source
+Overview
+Workflows
+Projects, chats, and tasks
+Sites
+Visualizations
+Scheduled tasks
+Long-running work
+Notifications
+Pets
+Capabilities
+Browser
+Computer use
+Plugins
+Web search
+Image generation
+Image inputs
+Appshots
+Chrome extension
+Work with files
+Reference
+Commands
+Slash commands
+Settings
+Troubleshooting
+Overview
+Customization
+Overview
+Memories
+Chronicle
+Config file
+Config Basics
+Advanced Config
+Config Reference
+Environment Variables
+Sample Config
+Agent configuration
+AGENTS.md
+Subagents
+Speed
+Rules
+Extend ChatGPT and Codex
+Record & Replay
+MCP
+Windows
+Desktop app
+Windows sandbox
+WSL
+Overview
+Development workflows
+Code review
+Integrated terminal
+Extend and automate
+Build skills
+Build plugins
+Build an app
+Submit plugins
+Hooks
+Environments
+Modes
+Local environments
+Cloud environment
+Git worktrees
+Build with Codex
+Codex SDK
+App Server
+MCP Server
+GitHub Action
+Non-interactive mode
+Third-party integrations
+GitHub
+Slack
+Linear
+Reference
+CLI customization
+Developer commands
+Developer settings
+Overview
+Permissions
+Profiles
+Sandboxing
+Auto-review
+Agent approvals & security
+Internet access
+Codex Security
+Overview
+FAQ
+Codex Security plugin
+Quickstart
+Run a security scan
+Run a deep scan
+Review code changes
+Triage a backlog
+Fix findings
+Export and track findings
+Changelog
+Codex Security cloud setup
+Improving the threat model
+Safety
+Cyber Safety
+Overview
+Getting started
+Admin rollout guide
+ChatGPT Work Admin FAQ
+Identity and authentication
+Authentication overview
+Access tokens
+Workspace access, policy, and models
+Groups and provisioning
+Roles and workspace permissions
+Managed configuration
+HIPAA configuration
+Workspace model availability
+Plugin and connector controls
+Plugin controls
+Skill controls
+Usage, governance, and compliance
+Governance
+Workspace analytics
+Analytics API
+Compliance API and audit events
+Deployment and model providers
+Remote connections
+Amazon Bedrock
+Explore use cases
+Collections
+Home
+Videos
+Showcase
+OpenAI Academy
+Online trainings
+Community
+Codex Ambassadors
+Codex for Students
+Codex for Open Source
+Meetups
+Blog
+Company blog
+Developer blog
+Explore use cases
+Collections
+Home
+Videos
+Showcase
+OpenAI Academy
+Online trainings
+Community
+Codex Ambassadors
+Codex for Students
+Codex for Open Source
+Meetups
+Blog
+Company blog
+Developer blog
 Showcase
 Blog
 Cookbook
 Learn
 Community
-Home
-API examples
-Sites
+Showcase
+Blog
+Cookbook
+Learn
+Community
+Docs section
+Select...
 All posts
 Recent
+Mastering remote engineering work from your phone
 Making private MCP servers reachable without making them public
-Mastering Codex Remote for engineering
 How Perplexity Brought Voice Search to Millions Using the Realtime API
 Designing delightful frontends with GPT-5.4
 From prompts to products: One year of Responses
@@ -491,6 +584,7 @@ Discord
 Reddit
 X
 API Dashboard
+Try ChatGPT
 Get started
 Overview
 Quickstart
@@ -500,8 +594,7 @@ SDKs and CLI
 OpenAI SDK
 Agents SDK
 OpenAI CLI
-Latest: GPT-5.5
-Prompt guidance
+Using GPT-5.6
 Core concepts
 Text generation
 Code generation
@@ -541,6 +634,7 @@ File search and retrieval
 File search
 Retrieval
 Tool search
+Programmatic tool calling
 More tools
 Apply Patch
 Local shell
@@ -551,6 +645,7 @@ Conversation state
 Background mode
 Streaming
 WebSocket mode
+Multi-agent
 Webhooks
 File inputs
 Context management
@@ -668,6 +763,36 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 July, 2026
+Jul 9
+Feature
+gpt-5.6-sol
+gpt-5.6-terra
+gpt-5.6-luna
+v1/responses
+v1/chat/completions
+v1/batch
+Released the
+GPT-5.6 model family
+, including GPT-5.6 Sol for frontier capability, GPT-5.6 Terra for a balance of intelligence and cost, and GPT-5.6 Luna for efficient, high-volume workloads. The
+gpt-5.6
+alias routes requests to
+gpt-5.6-sol
+.
+GPT-5.6 adds
+Programmatic Tool Calling
+,
+explicit prompt caching controls
+,
+persisted reasoning,
+max
+reasoning effort, and Pro mode
+, and
+Multi-agent orchestration in beta for the Responses API
+. GPT-5.6 also accepts images at their original dimensions with
+original
+or
+auto
+image detail.
 Jul 6
 Feature
 gpt-realtime-2.1

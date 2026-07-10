@@ -11,31 +11,37 @@ id: https://openai.com/academy/brainstorming
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: ChatGPT Sites
+link: https://openai.com/academy/chatgpt-sites
+id: https://openai.com/academy/chatgpt-sites
+date: Tue, 02 Jun 2026 10:00:00 GMT
+body:
+#ITEM
 title: Automations
 link: https://openai.com/academy/codex-automations
 id: https://openai.com/academy/codex-automations
 date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
-title: How business operations teams use Codex
+title: How business operations teams use ChatGPT Work
 link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
 id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
 date: Fri, 15 May 2026 00:00:00 GMT
 body:
 #ITEM
-title: How data science teams use Codex
+title: How data science teams use ChatGPT Work
 link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
 id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
 date: Fri, 15 May 2026 00:00:00 GMT
 body:
 #ITEM
-title: How sales teams use Codex
+title: How sales teams use ChatGPT Work
 link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
 id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
 date: Fri, 15 May 2026 00:00:00 GMT
 body:
 #ITEM
-title: How to get started with Codex
+title: How to get started with ChatGPT Codex
 link: https://openai.com/academy/codex-how-to-start
 id: https://openai.com/academy/codex-how-to-start
 date: Thu, 23 Apr 2026 10:00:00 GMT
@@ -47,7 +53,7 @@ id: https://openai.com/academy/codex-plugins-and-skills
 date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
-title: Codex settings
+title: ChatGPT Codex settings
 link: https://openai.com/academy/codex-settings
 id: https://openai.com/academy/codex-settings
 date: Thu, 23 Apr 2026 10:00:00 GMT
@@ -95,15 +101,15 @@ id: https://openai.com/academy/healthcare
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: How finance teams use Codex
+title: How finance teams use ChatGPT Work
 link: https://openai.com/academy/how-finance-teams-use-codex
 id: https://openai.com/academy/how-finance-teams-use-codex
 date: Tue, 12 May 2026 15:00:00 GMT
 body:
 #ITEM
-title: How to use Codex for everyday work
-link: https://openai.com/academy/how-to-use-codex-for-everyday-work
-id: https://openai.com/academy/how-to-use-codex-for-everyday-work
+title: How to use ChatGPT Work for everyday tasks
+link: https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks
+id: https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks
 date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
@@ -185,13 +191,13 @@ id: https://openai.com/academy/what-is-ai
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: What is Codex?
+title: What is ChatGPT Codex?
 link: https://openai.com/academy/what-is-codex
 id: https://openai.com/academy/what-is-codex
 date: Thu, 23 Apr 2026 10:00:00 GMT
 body:
 #ITEM
-title: Working with Codex
+title: Working with ChatGPT Codex
 link: https://openai.com/academy/working-with-codex
 id: https://openai.com/academy/working-with-codex
 date: Thu, 23 Apr 2026 10:00:00 GMT
@@ -653,6 +659,12 @@ id: https://openai.com/index/ai-education-opportunity
 date: Thu, 05 Mar 2026 09:00:00 GMT
 body:
 #ITEM
+title: AI is becoming a first hire for small businesses
+link: https://openai.com/index/ai-first-hire-small-business
+id: https://openai.com/index/ai-first-hire-small-business
+date: Mon, 25 May 2026 00:00:00 GMT
+body:
+#ITEM
 title: AI literacy resources for teens and parents
 link: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
 id: https://openai.com/index/ai-literacy-resources-for-teens-and-parents
@@ -869,6 +881,12 @@ id: https://openai.com/index/beyond-rate-limits
 date: Fri, 13 Feb 2026 09:00:00 GMT
 body:
 #ITEM
+title: GPT-5.5 Bio Bug Bounty
+link: https://openai.com/index/bio-bug-bounty
+id: https://openai.com/index/bio-bug-bounty
+date: Thu, 09 Jul 2026 10:00:00 GMT
+body:
+#ITEM
 title: Biodefense in the Intelligence Age
 link: https://openai.com/index/biodefense-in-the-intelligence-age
 id: https://openai.com/index/biodefense-in-the-intelligence-age
@@ -1059,6 +1077,12 @@ title: Free ChatGPT for transitioning U.S. servicemembers and veterans
 link: https://openai.com/index/chatgpt-for-veterans
 id: https://openai.com/index/chatgpt-for-veterans
 date: Mon, 10 Nov 2025 02:00:00 GMT
+body:
+#ITEM
+title: ChatGPT is now a partner for your most ambitious work
+link: https://openai.com/index/chatgpt-for-your-most-ambitious-work
+id: https://openai.com/index/chatgpt-for-your-most-ambitious-work
+date: Thu, 09 Jul 2026 10:00:00 GMT
 body:
 #ITEM
 title: Dreaming: Better memory for a more helpful ChatGPT
@@ -2291,12 +2315,6 @@ id: https://openai.com/index/gpt-5-4-thinking-system-card
 date: Thu, 05 Mar 2026 10:00:00 GMT
 body:
 #ITEM
-title: GPT-5.5 Bio Bug Bounty
-link: https://openai.com/index/gpt-5-5-bio-bug-bounty
-id: https://openai.com/index/gpt-5-5-bio-bug-bounty
-date: Thu, 23 Apr 2026 00:00:00 GMT
-body:
-#ITEM
 title: GPT-5.5 Instant: smarter, clearer, and more personalized
 link: https://openai.com/index/gpt-5-5-instant
 id: https://openai.com/index/gpt-5-5-instant
@@ -2319,6 +2337,18 @@ title: Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber
 link: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
 id: https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber
 date: Thu, 07 May 2026 13:00:00 GMT
+body:
+#ITEM
+title: GPT-5.6: Frontier intelligence that scales with your ambition
+link: https://openai.com/index/gpt-5-6
+id: https://openai.com/index/gpt-5-6
+date: Thu, 09 Jul 2026 10:00:00 GMT
+body:
+#ITEM
+title: GPT-5.6 is now the preferred model in Microsoft 365 Copilot
+link: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
+id: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
+date: Thu, 09 Jul 2026 13:00:00 GMT
 body:
 #ITEM
 title: How Amgen uses GPT-5
@@ -3717,6 +3747,12 @@ title: Model ML is helping financial firms rebuild with AI from the ground up
 link: https://openai.com/index/model-ml-chaz-englander
 id: https://openai.com/index/model-ml-chaz-englander
 date: Wed, 23 Jul 2025 00:00:00 GMT
+body:
+#ITEM
+title: Modeling an AI jobs transition
+link: https://openai.com/index/modeling-ai-jobs-transition
+id: https://openai.com/index/modeling-ai-jobs-transition
+date: Sat, 25 Apr 2026 00:00:00 GMT
 body:
 #ITEM
 title: Accelerating the development of life-saving treatments
