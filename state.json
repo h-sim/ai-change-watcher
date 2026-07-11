@@ -1,5 +1,64 @@
 [
   {
+    "id": "3b4d0e82a592b58a325314f5f5a65251be8069e3",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+July 10, 2026\n+We've expanded the\n+Access Transparency\n+documentation of\n+cmek_preserve\n+events with a filter example, an example event payload, and two preservation reason codes (\n+policy_violation_investigation\n+,\n+csae_report\n+). The documentation now also clarifies that a preservation event is written whether the preservation was initiated by a human reviewer or an automated safety pipeline. See\n+CMEK content preservation\n+.\n+\n+July 10, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 0,
+      "churn": 14
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 11 Jul 2026 01:58:53 GMT",
+    "run_at": "2026-07-11T01:58:47Z",
+    "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
+  },
+  {
+    "id": "b9262c67ce1f2a48d75ae844c0b0ebdd5be52bc8",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Deutsche Telekom is rewiring telecommunications with AI\n+link: https://openai.com/index/deutsche-telekom\n+id: https://openai.com/index/deutsche-telekom\n+date: Fri, 10 Jul 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 11 Jul 2026 01:58:48 GMT",
+    "run_at": "2026-07-11T01:58:47Z",
+    "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
+  },
+  {
+    "id": "5c71f8c77a041db411f9b61309d49e6380f0c802",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Submit your app\n+Prepare your app\n-App submission guidelines\n+App guidelines",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 11 Jul 2026 01:58:47 GMT",
+    "run_at": "2026-07-11T01:58:47Z",
+    "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
+  },
+  {
     "id": "a1fb528f9b25d133ce79efc3fd5f144ac07dfa0e",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -927,68 +986,5 @@
     "pubDate": "Sat, 13 Jun 2026 02:43:48 GMT",
     "run_at": "2026-06-13T02:43:47Z",
     "run_id": "e03f40d870f44573aecd0f871be76bd4"
-  },
-  {
-    "id": "64111ff629d0784a4e96e8b9c24b1755453845d3",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+June 10, 2026\n+The\n+GET /v1/environments/{id}/work\n+endpoint, which lists pending work for a\n+self-hosted sandbox\n+, is now available on\n+Claude Platform on AWS\n+. See\n+IAM actions for Claude Platform on AWS\n+for the\n+GetEnvironment\n+action that authorizes it.\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 131,
-      "removed": 0,
-      "churn": 131
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 12 Jun 2026 02:51:41 GMT",
-    "run_at": "2026-06-12T02:51:11Z",
-    "run_id": "eb38c92a921b41ac8421677a27d454b0"
-  },
-  {
-    "id": "e2774cc54200506d65cfdf4bfc71d45a300c9022",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: BBVA puts AI at the core of banking with OpenAI\n+link: https://openai.com/index/bbva\n+id: https://openai.com/index/bbva\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI to acquire Ona\n+link: https://openai.com/index/openai-to-acquire-ona\n+id: https://openai.com/index/openai-to-acquire-ona\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Supporting Europe’s work in ensuring a trustworthy AI ecosystem\n+link: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem\n+id: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem\n+date: Thu, 11 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 12 Jun 2026 02:51:33 GMT",
-    "run_at": "2026-06-12T02:51:11Z",
-    "run_id": "eb38c92a921b41ac8421677a27d454b0"
-  },
-  {
-    "id": "5814f3718e6c7b1d7da013eb2db390ca7a045eea",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Workspace Agents\n+Trigger published ChatGPT workspace agents\n+Workspace Agents\n+Home\n+Get started\n+Trigger workspace agent runs\n+Authenticate with Workspace Agent access tokens",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 0,
-      "churn": 7
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 12 Jun 2026 02:51:11 GMT",
-    "run_at": "2026-06-12T02:51:11Z",
-    "run_id": "eb38c92a921b41ac8421677a27d454b0"
   }
 ]

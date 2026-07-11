@@ -270,7 +270,7 @@ Deploy
 Deploy your app
 Connect from ChatGPT
 Test your integration
-Submit your app
+Prepare your app
 Conversion apps
 Restaurant reservation spec
 Product checkout spec
@@ -280,7 +280,7 @@ Security & Privacy
 Troubleshooting
 Resources
 Changelog
-App submission guidelines
+App guidelines
 Reference
 Home
 Get started

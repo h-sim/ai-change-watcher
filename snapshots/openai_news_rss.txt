@@ -1553,6 +1553,12 @@ id: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models
 date: Wed, 17 Sep 2025 00:00:00 GMT
 body:
 #ITEM
+title: How Deutsche Telekom is rewiring telecommunications with AI
+link: https://openai.com/index/deutsche-telekom
+id: https://openai.com/index/deutsche-telekom
+date: Fri, 10 Jul 2026 07:00:00 GMT
+body:
+#ITEM
 title: Bringing powerful AI to millions across Europe with Deutsche Telekom
 link: https://openai.com/index/deutsche-telekom-collaboration
 id: https://openai.com/index/deutsche-telekom-collaboration

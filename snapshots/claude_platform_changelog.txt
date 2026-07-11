@@ -116,6 +116,19 @@ in the
 claude-code
 repository.
 
+July 10, 2026
+We've expanded the
+Access Transparency
+documentation of
+cmek_preserve
+events with a filter example, an example event payload, and two preservation reason codes (
+policy_violation_investigation
+,
+csae_report
+). The documentation now also clarifies that a preservation event is written whether the preservation was initiated by a human reviewer or an automated safety pipeline. See
+CMEK content preservation
+.
+
 July 8, 2026
 You can now set an expiration when you create an API key or an Admin API key in the
 Claude Console
@@ -1588,6 +1601,7 @@ blog post
 このページは役に立ちましたか？
 
 
+July 10, 2026
 July 8, 2026
 July 2, 2026
 July 1, 2026
