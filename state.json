@@ -1,5 +1,65 @@
 [
   {
+    "id": "d7d2479d6ab5b0953161454be5ee4f3b466325c7",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Claude Platform - Claude Platform Docs\n+Claude Platform release notes - Claude Platform Docs\n-Claude Platform\n+Claude Platform release notes\n+Dreams\n+(research preview) now supports Claude Fable 5 and Claude Sonnet 5. See\n+Supported models\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 2,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 14 Jul 2026 01:50:20 GMT",
+    "run_at": "2026-07-14T01:50:06Z",
+    "run_id": "a6ba85d623e641d4b25996c22af3f017"
+  },
+  {
+    "id": "a7282bfda0da801689a8b747c8cfad1b72aee6dd",
+    "impact": "Medium",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+        - name: owner_project_access\n+          in: query\n+          description: >\n+            Filter API keys by whether the owner currently has effective access\n+            to the project. Use `active` for owners with access, `inactive` for\n+            owners without access, or `any` for all enabled project API keys. If\n+            omitted, the endpoint applies its existing membership-based\n+            visibility rules, which may exclude some enabled keys.\n+          required: false\n+          schema:\n+            type: string\n+            enum:\n+              - active\n+              - inactive\n+              - any\n-              https://api.openai.com/v1/organization/projects/proj_abc/api_keys?after=key_abc&limit=20\n+              https://api.openai.com/v1/organization/projects/proj_abc/api_keys?after=key_abc&limit=20&owner_project_access=any\n+                        \"owner_project_access\": \"active\",\n+                \"owner_project_access\": \"active\",\n-      responses:\n-        '200':\n-          description: >\n-            Return a 200 status code to acknowledge receipt of the event.\n-            Non-200\n-\n-            status codes will be retried.\n-  safety_identifier_blocked:\n-    post:\n-      description: >\n-        Sent when a request associated with a safety identifier has been\n-        blocked.\n-      requestBody:\n-        description: The event payload sent by the API.\n-        content:\n-          application/json:\n-            schema:\n-              $ref: '#/components/schemas/WebhookSafetyIdentifierBlocked'\n+        owner_project_access:\n+          type: string\n+          enum:",
+    "snippet_full": "",
+    "diff": {
+      "added": 42,
+      "removed": 114,
+      "churn": 156
+    },
+    "score": 40,
+    "reasons": [
+      "OpenAPI: servers.url変更",
+      "OpenAPI: tags増減（軽微）"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 14 Jul 2026 01:50:20 GMT",
+    "run_at": "2026-07-14T01:50:06Z",
+    "run_id": "a6ba85d623e641d4b25996c22af3f017"
+  },
+  {
+    "id": "f6a6ffeed85c64893765668935c7251581acd2db",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-date: Fri, 10 Apr 2026 00:00:00 GMT\n+date: Fri, 10 Jul 2026 00:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 14 Jul 2026 01:50:07 GMT",
+    "run_at": "2026-07-14T01:50:06Z",
+    "run_id": "a6ba85d623e641d4b25996c22af3f017"
+  },
+  {
     "id": "3b4d0e82a592b58a325314f5f5a65251be8069e3",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -927,64 +987,5 @@
     "pubDate": "Mon, 15 Jun 2026 03:27:52 GMT",
     "run_at": "2026-06-15T03:27:52Z",
     "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
-  },
-  {
-    "id": "e9babca77e463311f526cbacfd90200055a715a1",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Migrate\n+Import to Codex",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 15 Jun 2026 03:27:52 GMT",
-    "run_at": "2026-06-15T03:27:52Z",
-    "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
-  },
-  {
-    "id": "d644904093a8b71510738f762659d2ee8c0aec25",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-On Claude Opus 4.8, the\n-effort parameter\n-defaults to\n-high\n-across all surfaces, including Claude Code and the Messages API.\n-On Claude Opus 4.8, the minimum cacheable prompt length for\n-prompt caching\n-is 1,024 tokens, lower than on Claude Opus 4.7.\n-With\n-adaptive thinking\n-enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.\n-Claude Opus 4.8 supports\n-high-resolution image input\n-(up to 2576 pixels on the long edge), same as Claude Opus 4.7.\n-Task budgets\n-now support Claude Opus 4.8.\n-The\n-advisor tool\n-now supports Claude Opus 4.8.\n-Computer use\n-now supports Claude Opus 4.8.\n-Fast mode\n-for Claude Opus 4.8 is available as a research preview on the Claude API only.\n-Setting the sampling parameters\n-temperature\n-,\n-top_p\n-, or\n-top_k\n-to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the\n-migration guide\n-for details.\n-In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the\n-Claude Code documentation\n-.\n-In Claude Code, Max plan users now default to\n-fast mode\n-on Claude Opus 4.8. See the\n-Claude Code documentation\n-.",
-    "snippet_full": "",
-    "diff": {
-      "added": 74,
-      "removed": 74,
-      "churn": 148
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sun, 14 Jun 2026 02:55:31 GMT",
-    "run_at": "2026-06-14T02:55:04Z",
-    "run_id": "83511b7c591041d7bd917ad71ac2ae39"
-  },
-  {
-    "id": "786882f1741b829d151b2d5ab9b901673af99a90",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: New OpenAI Academy courses for the next era of work\n+link: https://openai.com/index/academy-courses-applying-ai-at-work\n+id: https://openai.com/index/academy-courses-applying-ai-at-work\n+date: Fri, 12 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How Preply combines AI and human tutors to personalize learning\n+link: https://openai.com/index/preply\n+id: https://openai.com/index/preply\n+date: Fri, 12 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 13 Jun 2026 02:43:48 GMT",
-    "run_at": "2026-06-13T02:43:47Z",
-    "run_id": "e03f40d870f44573aecd0f871be76bd4"
   }
 ]

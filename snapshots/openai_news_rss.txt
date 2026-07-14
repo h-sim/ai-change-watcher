@@ -92,7 +92,7 @@ body:
 title: Getting started with ChatGPT
 link: https://openai.com/academy/getting-started
 id: https://openai.com/academy/getting-started
-date: Fri, 10 Apr 2026 00:00:00 GMT
+date: Fri, 10 Jul 2026 00:00:00 GMT
 body:
 #ITEM
 title: Healthcare
