@@ -116,6 +116,21 @@ in the
 claude-code
 repository.
 
+July 14, 2026
+You can now manage the people in your
+Claude Enterprise
+(claude.ai) organization with the
+Admin API
+, in beta for all Claude Enterprise organizations: list members and look them up by email address, change a member's role, remove members, send and withdraw invites, manage groups and their membership, and read custom roles. Group and custom-role requests require the
+anthropic-beta: ce-user-management-2026-07-13
+beta header; member and invite requests take no beta header. An Admin API key with the
+read:org_audit
+scope can also call every user-management
+GET
+endpoint. See
+User management
+.
+
 July 10, 2026
 Dreams
 (research preview) now supports Claude Fable 5 and Claude Sonnet 5. See
@@ -432,7 +447,7 @@ The
 session.thread_*
 webhook events now include a
 session_thread_id
-field identifying the multi-agent thread that triggered the event.
+field identifying the multiagent thread that triggered the event.
 We've released a
 Swift package
 in beta that adds Claude as a server-side
@@ -470,7 +485,7 @@ May 29, 2026
 Claude Managed Agents
 webhooks
 ,
-multi-agent orchestration
+multiagent orchestration
 , and
 self-hosted sandboxes
 are now available on
@@ -553,7 +568,7 @@ fast mode
 on Claude Opus 4.8. See the
 Claude Code documentation
 .
-In Claude Code, Workflows are available as a research preview, letting you define and run multi-step agentic plans. See the
+In Claude Code, Workflows are available as a research preview, letting you define and run multistep agentic plans. See the
 Claude Code documentation
 .
 We've deprecated
@@ -619,7 +634,7 @@ Claude Platform on AWS
 .
 
 May 6, 2026
-Multi-agent sessions
+Multiagent orchestration
 and
 Outcomes
 are now in public beta under the standard
@@ -1605,6 +1620,7 @@ blog post
 このページは役に立ちましたか？
 
 
+July 14, 2026
 July 10, 2026
 July 8, 2026
 July 2, 2026

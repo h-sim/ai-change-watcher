@@ -1,5 +1,46 @@
 [
   {
+    "id": "aeb958cf8938a7140846672c2d951fd4d94f5e25",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+July 14, 2026\n+You can now manage the people in your\n+Claude Enterprise\n+(claude.ai) organization with the\n+Admin API\n+, in beta for all Claude Enterprise organizations: list members and look them up by email address, change a member's role, remove members, send and withdraw invites, manage groups and their membershi\n+anthropic-beta: ce-user-management-2026-07-13\n+beta header; member and invite requests take no beta header. An Admin API key with the\n+read:org_audit\n+scope can also call every user-management\n+GET\n+endpoint. See\n+User management\n+.\n+\n-field identifying the multi-agent thread that triggered the event.\n+field identifying the multiagent thread that triggered the event.\n-multi-agent orchestration\n+multiagent orchestration\n-In Claude Code, Workflows are available as a research preview, letting you define and run multi-step agentic plans. See the\n+In Claude Code, Workflows are available as a research preview, letting you define and run multistep agentic plans. See the\n-Multi-agent sessions\n+Multiagent orchestration\n+July 14, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 20,
+      "removed": 4,
+      "churn": 24
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 15 Jul 2026 01:47:07 GMT",
+    "run_at": "2026-07-15T01:46:34Z",
+    "run_id": "6325346884b04317b43d2e68dfef1b05"
+  },
+  {
+    "id": "6e20623b10ab5be5847effb817f3c5126a3c9331",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: Automations\n-link: https://openai.com/academy/codex-automations\n-id: https://openai.com/academy/codex-automations\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM\n-date: Fri, 15 May 2026 00:00:00 GMT\n+date: Tue, 14 Jul 2026 00:00:00 GMT\n-title: How to get started with ChatGPT Codex\n-link: https://openai.com/academy/codex-how-to-start\n-id: https://openai.com/academy/codex-how-to-start\n-title: ChatGPT Codex settings",
+    "snippet_full": "-title: Automations\n-link: https://openai.com/academy/codex-automations\n-id: https://openai.com/academy/codex-automations\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM\n-date: Fri, 15 May 2026 00:00:00 GMT\n+date: Tue, 14 Jul 2026 00:00:00 GMT\n-date: Fri, 15 May 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: How to get started with ChatGPT Codex\n-link: https://openai.com/academy/codex-how-to-start\n-id: https://openai.com/academy/codex-how-to-start\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n+date: Tue, 14 Jul 2026 00:00:00 GMT\n-title: ChatGPT Codex settings\n-link: https://openai.com/academy/codex-settings\n-id: https://openai.com/academy/codex-settings\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM\n-title: Prompting fundamentals\n-link: https://openai.com/academy/prompting\n-id: https://openai.com/academy/prompting\n-date: Fri, 10 Apr 2026 00:00:00 GMT\n-body:\n-#ITEM\n-title: What is ChatGPT Codex?\n-link: https://openai.com/academy/what-is-codex\n-id: https://openai.com/academy/what-is-codex\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM\n-title: Working with ChatGPT Codex\n-link: https://openai.com/academy/working-with-codex\n-id: https://openai.com/academy/working-with-codex\n-date: Thu, 23 Apr 2026 10:00:00 GMT\n-body:\n-#ITEM",
+    "diff": {
+      "added": 8,
+      "removed": 38,
+      "churn": 46
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 15 Jul 2026 01:46:35 GMT",
+    "run_at": "2026-07-15T01:46:34Z",
+    "run_id": "6325346884b04317b43d2e68dfef1b05"
+  },
+  {
     "id": "d7d2479d6ab5b0953161454be5ee4f3b466325c7",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -947,45 +988,5 @@
     "pubDate": "Tue, 16 Jun 2026 03:25:39 GMT",
     "run_at": "2026-06-16T03:25:30Z",
     "run_id": "d3758a6224af4cbdb5b4b83d4e694c82"
-  },
-  {
-    "id": "c5fec1eedeaa7c99a6bf75f555fd6944d501864b",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+On Claude Opus 4.8, the\n+effort parameter\n+defaults to\n+high\n+across all surfaces, including Claude Code and the Messages API.\n+On Claude Opus 4.8, the minimum cacheable prompt length for\n+prompt caching\n+is 1,024 tokens, lower than on Claude Opus 4.7.\n+With\n+adaptive thinking\n+enabled, Claude Opus 4.8 triggers reasoning only when a turn needs it, reducing wasted thinking tokens compared to Claude Opus 4.7 at the same effort level.\n+Claude Opus 4.8 supports\n+high-resolution image input\n+(up to 2576 pixels on the long edge), same as Claude Opus 4.7.\n+Task budgets\n+now support Claude Opus 4.8.\n+The\n+advisor tool\n+now supports Claude Opus 4.8.\n+Computer use\n+now supports Claude Opus 4.8.\n+Fast mode\n+for Claude Opus 4.8 is available as a research preview on the Claude API only.\n+Setting the sampling parameters\n+temperature\n+,\n+top_p\n+, or\n+top_k\n+to a non-default value returns a 400 error on Claude Opus 4.8, same as on Claude Opus 4.7. See the\n+migration guide\n+for details.\n+In Claude Code, we've expanded Auto mode to more users for long-running tasks. See the\n+Claude Code documentation\n+.\n+In Claude Code, Max plan users now default to\n+fast mode\n+on Claude Opus 4.8. See the\n+Claude Code documentation\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 74,
-      "removed": 74,
-      "churn": 148
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Mon, 15 Jun 2026 03:28:20 GMT",
-    "run_at": "2026-06-15T03:27:52Z",
-    "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
-  },
-  {
-    "id": "8122176e98c7b10322e60f9d90bbe707e3d6665b",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Introducing the OpenAI Partner Network\n+link: https://openai.com/index/introducing-openai-partner-network\n+id: https://openai.com/index/introducing-openai-partner-network\n+date: Sun, 14 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 15 Jun 2026 03:27:52 GMT",
-    "run_at": "2026-06-15T03:27:52Z",
-    "run_id": "299fed1f782547c7a71b4e5d22adcd7a"
   }
 ]
