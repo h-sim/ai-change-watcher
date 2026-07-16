@@ -35,12 +35,6 @@ id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
 date: Tue, 14 Jul 2026 00:00:00 GMT
 body:
 #ITEM
-title: Plugins and skills
-link: https://openai.com/academy/codex-plugins-and-skills
-id: https://openai.com/academy/codex-plugins-and-skills
-date: Thu, 23 Apr 2026 10:00:00 GMT
-body:
-#ITEM
 title: Using custom GPTs
 link: https://openai.com/academy/custom-gpts
 id: https://openai.com/academy/custom-gpts
@@ -513,6 +507,12 @@ title: Introducing Advanced Account Security
 link: https://openai.com/index/advanced-account-security
 id: https://openai.com/index/advanced-account-security
 date: Thu, 30 Apr 2026 00:00:00 GMT
+body:
+#ITEM
+title: The US is advancing AI safety through state and federal action
+link: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
+id: https://openai.com/index/advancing-ai-safety-through-state-and-federal-action
+date: Wed, 15 Jul 2026 12:00:00 GMT
 body:
 #ITEM
 title: Advancing content provenance for a safer, more transparent AI ecosystem
@@ -5895,6 +5895,12 @@ title: Universe
 link: https://openai.com/index/universe
 id: https://openai.com/index/universe
 date: Mon, 05 Dec 2016 08:00:00 GMT
+body:
+#ITEM
+title: GPT-Red: Unlocking Self-Improvement for Robustness
+link: https://openai.com/index/unlocking-self-improvement-gpt-red
+id: https://openai.com/index/unlocking-self-improvement-gpt-red
+date: Wed, 15 Jul 2026 10:00:00 GMT
 body:
 #ITEM
 title: Unlocking the Codex harness: how we built the App Server

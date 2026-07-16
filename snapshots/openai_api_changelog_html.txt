@@ -2,10 +2,6 @@ Changelog | OpenAI API
 ChatGPT
 Home
 API
-Docs
-Guides and concepts for the OpenAI API
-API reference
-Endpoints, parameters, and responses
 Codex
 Docs
 Guides, concepts, and product docs for Codex
@@ -37,6 +33,13 @@ Programs, meetups, and support for builders
 Start searching
 API Dashboard
 Try ChatGPT
+Overview
+Models
+Agents
+Tools
+Voice & Audio
+Production
+API reference
 Search the API docs
 Search docs
 Suggested
@@ -46,7 +49,6 @@ realtime
 prompt caching
 Primary navigation
 API
-API Reference
 Codex
 ChatGPT
 Docs
@@ -59,62 +61,29 @@ responses create
 reasoning_effort
 realtime
 prompt caching
-Get started
 Overview
-Quickstart
 Models
-Pricing
-SDKs and CLI
-OpenAI SDK
-Agents SDK
-OpenAI CLI
-Using GPT-5.6
-Core concepts
-Text generation
-Code generation
-Images and vision
-Audio and speech
-Structured output
-Function calling
-Responses API
-Using tools
-Agents SDK
-Overview
-Quickstart
-Agent definitions
-Models and providers
-Running agents
-Sandbox agents
-Orchestration
-Guardrails
-Results and state
-Integrations and observability
-Evaluate agent workflows
-Voice agents
-ChatKit
-Overview
-Customize
-Widgets
-Actions
-Advanced integrations
+Agents
 Tools
-Web search
-MCP and Connectors
-Secure MCP Tunnel
-Skills
-Shell
-Computer use
-File search and retrieval
-File search
-Retrieval
-Tool search
-Programmatic tool calling
-More tools
-Apply Patch
-Local shell
-Image generation
-Code interpreter
-Run and scale
+Voice & Audio
+Production
+API reference
+Overview
+Models
+Agents
+Tools
+Voice & Audio
+Production
+API reference
+Docs section
+Overview
+Home
+Get started
+Quickstart
+Using GPT-5.6
+Key concepts
+Core concepts
+Responses API
 Conversation state
 Background mode
 Streaming
@@ -122,72 +91,17 @@ WebSocket mode
 Multi-agent
 Webhooks
 File inputs
-Context management
 Compaction
 Counting tokens
-Prompt caching
-Prompting
-Overview
-Prompt engineering
-Citation formatting
-Migration guide
-Reasoning
-Reasoning models
-Reasoning best practices
-Evaluation
-Red teaming
-Realtime and audio
-Overview
-Voice agents
-Live translation
-Transcription
-Realtime transcription
-Speech to text
-Speech generation
-Realtime prompting guide
-Connection methods
-WebRTC
-WebSocket
-SIP
-Realtime sessions
-Managing conversations
-Voice activity detection
-Realtime with tools
-Webhooks and server-side controls
-Managing costs
-Specialized models
-Image generation
-Video generation
-Deep research
-Embeddings
-Moderation
-Going live
-Production best practices
-Private Link
-Workload identity federation
-Overview
-Kubernetes
-AWS
-Microsoft Azure
-Google Cloud
-GitHub Actions
-SPIFFE
-Deployment checklist
-Amazon Bedrock
-Latency optimization
-Overview
-Predicted Outputs
-Priority processing
-Cost optimization
-Overview
-Batch
-Flex processing
-Accuracy optimization
-Safety
-Safety best practices
-Safety checks
-Cybersecurity checks
-Under 18 API Guidance
+SDKs and CLI
+OpenAI SDK
+OpenAI CLI
+Resources
+Changelog
+Deprecations
+Supported countries
+OpenAI Crawlers
+Terms and policies
 Legacy APIs
 Agent Builder
 Overview
@@ -213,25 +127,131 @@ Assistants API
 Migration guide
 Deep dive
 Tools
-Resources
-Terms and policies
-Changelog
+Model catalog
+Choose a model
+Pricing
+Model selection
+Text and code
+Text generation
+Code generation
+Structured output
+Prompting
+Overview
+Prompt engineering
+Citation formatting
+Migration guide
+Prompt generation
+Frontend prompting
+Reasoning
+Reasoning models
+Reasoning best practices
+Images and video
+Images and vision
+Image generation
+Video generation
+Realtime and audio
+Audio and speech
+Overview
+Voice agents
+Specialized models
+Deep research
+Embeddings
+Moderation
+Overview
+Agents SDK
+Quickstart
+Agent definitions
+Models and providers
+Running agents
+Sandbox agents
+Orchestration
+Guardrails
+Results and state
+Integrations and observability
+Evaluate agent workflows
+ChatKit
+Overview
+Customize
+Widgets
+Actions
+Advanced integrations
+Overview
+Function calling
+Search and retrieval
+Web search
+File search
+Retrieval
+Connect tools and data
+MCP and Connectors
+Secure MCP Tunnel
+Build tool workflows
+Skills
+Tool search
+Programmatic tool calling
+Computer and code
+Shell
+Computer use
+Apply Patch
+Local shell
+Code interpreter
+Media
+Image generation
+Overview
+Get started
+Voice agents
+Live translation
+Realtime prompting guide
+Audio
+Audio and speech
+Realtime transcription
+Speech to text
+Speech generation
+Connection methods
+WebRTC
+WebSocket
+SIP
+Sessions and operations
+Managing conversations
+Voice activity detection
+Realtime with tools
+Webhooks and server-side controls
+Managing costs
+Go live
+Production best practices
+Deployment checklist
+Performance and quality
+Latency optimization
+Predicted Outputs
+Priority processing
+Accuracy optimization
+Cost and throughput
+Cost optimization
+Prompt caching
+Batch
+Flex processing
+Safety and governance
+Safety best practices
+Red teaming
+Safety checks
+Cybersecurity checks
+Under 18 API Guidance
 Your data
 Permissions
-Rate limits
+Infrastructure and access
+Private Link
+Workload identity federation
+Kubernetes
+AWS
+Microsoft Azure
+Google Cloud
+GitHub Actions
+SPIFFE
 IP egress ranges
+Amazon Bedrock
+Operations
+Rate limits
 Admin APIs
-Deprecations
-MCP for deep research
-Developer mode
-ChatGPT Actions
-Introduction
-Getting started
-Actions library
-Authentication
-Production
-Data retrieval
-Sending files
+Error codes
 Docs
 Use cases
 Docs
@@ -370,6 +390,7 @@ Scheduled tasks
 Long-running work
 Notifications
 Pets
+Codex Micro
 Capabilities
 Browser
 Computer use
@@ -482,6 +503,7 @@ Workspace analytics
 Analytics API
 Compliance API and audit events
 Deployment and model providers
+Windows app deployment
 Remote connections
 Amazon Bedrock
 Explore use cases
@@ -585,62 +607,13 @@ Reddit
 X
 API Dashboard
 Try ChatGPT
+Home
 Get started
-Overview
 Quickstart
-Models
-Pricing
-SDKs and CLI
-OpenAI SDK
-Agents SDK
-OpenAI CLI
 Using GPT-5.6
+Key concepts
 Core concepts
-Text generation
-Code generation
-Images and vision
-Audio and speech
-Structured output
-Function calling
 Responses API
-Using tools
-Agents SDK
-Overview
-Quickstart
-Agent definitions
-Models and providers
-Running agents
-Sandbox agents
-Orchestration
-Guardrails
-Results and state
-Integrations and observability
-Evaluate agent workflows
-Voice agents
-ChatKit
-Overview
-Customize
-Widgets
-Actions
-Advanced integrations
-Tools
-Web search
-MCP and Connectors
-Secure MCP Tunnel
-Skills
-Shell
-Computer use
-File search and retrieval
-File search
-Retrieval
-Tool search
-Programmatic tool calling
-More tools
-Apply Patch
-Local shell
-Image generation
-Code interpreter
-Run and scale
 Conversation state
 Background mode
 Streaming
@@ -648,72 +621,17 @@ WebSocket mode
 Multi-agent
 Webhooks
 File inputs
-Context management
 Compaction
 Counting tokens
-Prompt caching
-Prompting
-Overview
-Prompt engineering
-Citation formatting
-Migration guide
-Reasoning
-Reasoning models
-Reasoning best practices
-Evaluation
-Red teaming
-Realtime and audio
-Overview
-Voice agents
-Live translation
-Transcription
-Realtime transcription
-Speech to text
-Speech generation
-Realtime prompting guide
-Connection methods
-WebRTC
-WebSocket
-SIP
-Realtime sessions
-Managing conversations
-Voice activity detection
-Realtime with tools
-Webhooks and server-side controls
-Managing costs
-Specialized models
-Image generation
-Video generation
-Deep research
-Embeddings
-Moderation
-Going live
-Production best practices
-Private Link
-Workload identity federation
-Overview
-Kubernetes
-AWS
-Microsoft Azure
-Google Cloud
-GitHub Actions
-SPIFFE
-Deployment checklist
-Amazon Bedrock
-Latency optimization
-Overview
-Predicted Outputs
-Priority processing
-Cost optimization
-Overview
-Batch
-Flex processing
-Accuracy optimization
-Safety
-Safety best practices
-Safety checks
-Cybersecurity checks
-Under 18 API Guidance
+SDKs and CLI
+OpenAI SDK
+OpenAI CLI
+Resources
+Changelog
+Deprecations
+Supported countries
+OpenAI Crawlers
+Terms and policies
 Legacy APIs
 Agent Builder
 Overview
@@ -739,25 +657,6 @@ Assistants API
 Migration guide
 Deep dive
 Tools
-Resources
-Terms and policies
-Changelog
-Your data
-Permissions
-Rate limits
-IP egress ranges
-Admin APIs
-Deprecations
-MCP for deep research
-Developer mode
-ChatGPT Actions
-Introduction
-Getting started
-Actions library
-Authentication
-Production
-Data retrieval
-Sending files
 Changelog
 Upcoming deprecations can be found on the
 deprecations page
