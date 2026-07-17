@@ -1,5 +1,62 @@
 [
   {
+    "id": "f10c4033a40ad29e3e0f5f2591e7486bfae9fdab",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+July 15, 2026\n+Mid-conversation system messages\n+are available on Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, on the Claude API,\n+Claude in Amazon Bedrock\n+, and\n+Google Cloud\n+. No beta header is required. This corrects earlier availability notes.\n+\n+July 15, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 0,
+      "churn": 9
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 17 Jul 2026 02:00:59 GMT",
+    "run_at": "2026-07-17T02:00:48Z",
+    "run_id": "975b5d321c7c4601a00885e69476b834"
+  },
+  {
+    "id": "e6fe96792eb13658429c4b1962802a104c6e15a5",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-              type: object\n-              required:\n-                - input_file_id\n-                - endpoint\n-                - completion_window\n-              properties:\n-                input_file_id:\n-                  type: string\n-                  description: >\n-                    The ID of an uploaded file that contains requests for the\n-                    new batch.\n-\n-\n-                    See [upload file](/docs/api-reference/files/create) for how\n-                    to upload a file.\n-\n-\n-                    Your input file must be formatted as a [JSONL\n-                    file](/docs/api-reference/batch/request-input), and must be\n-                    uploaded with the purpose `batch`. The file can contain up\n-                    to 50,000 requests, and can be up to 200 MB in size.\n-                endpoint:\n-                  type: string\n-                  enum:\n-                    - /v1/responses\n-                    - /v1/chat/completions\n-                    - /v1/embeddings\n-                    - /v1/completions\n-                    - /v1/moderations\n-                    - /v1/images/generations\n-                    - /v1/images/edits\n-                    - /v1/videos\n-                  description: >-\n-                    The endpoint to be used for all requests in the batch.\n-                    Currently `/v1/responses`, `/v1/chat/completions`,\n-                    `/v1/embeddings`, `/v1/completions`, `/v1/moderations`,\n-                    `/v1/images/generations`, `/v1/images/edits`, and\n-                    `/v1/videos` are supported. Note that `/v1/embeddings`\n-                    batches are also restricted to a maximum of 50,000 embedding\n-                    inputs across all requests in the batch.",
+    "snippet_full": "",
+    "diff": {
+      "added": 271,
+      "removed": 238,
+      "churn": 509
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 17 Jul 2026 02:00:58 GMT",
+    "run_at": "2026-07-17T02:00:48Z",
+    "run_id": "975b5d321c7c4601a00885e69476b834"
+  },
+  {
+    "id": "6756b871bc5c5ec6d31c2aa5716e68de4053c192",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Cars24 scales conversations and builds faster with OpenAI\n+link: https://openai.com/index/cars24\n+id: https://openai.com/index/cars24\n+date: Thu, 16 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Why teens deserve access to safe AI\n+link: https://openai.com/index/why-teens-deserve-access-safe-ai\n+id: https://openai.com/index/why-teens-deserve-access-safe-ai\n+date: Thu, 16 Jul 2026 16:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 17 Jul 2026 02:00:48 GMT",
+    "run_at": "2026-07-17T02:00:48Z",
+    "run_id": "975b5d321c7c4601a00885e69476b834"
+  },
+  {
     "id": "b9b810b251c3341ef46d80b7fdd81ccb8452b8bf",
     "impact": "Medium",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -935,62 +992,5 @@
     "pubDate": "Thu, 18 Jun 2026 02:52:20 GMT",
     "run_at": "2026-06-18T02:52:10Z",
     "run_id": "ceb00154950241b0b0da9f0caba043cc"
-  },
-  {
-    "id": "4315c4933ee656ae05cc5a201d0862243a3458e5",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry\n+link: https://openai.com/index/ai-chemist-improves-reaction\n+id: https://openai.com/index/ai-chemist-improves-reaction\n+date: Wed, 17 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing LifeSciBench\n+link: https://openai.com/index/introducing-life-sci-bench\n+id: https://openai.com/index/introducing-life-sci-bench\n+date: Wed, 17 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 18 Jun 2026 02:52:11 GMT",
-    "run_at": "2026-06-18T02:52:10Z",
-    "run_id": "ceb00154950241b0b0da9f0caba043cc"
-  },
-  {
-    "id": "370f7369f27c05debe687f5fcb0d2d7dbba0751f",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Product feeds",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 18 Jun 2026 02:52:11 GMT",
-    "run_at": "2026-06-18T02:52:10Z",
-    "run_id": "ceb00154950241b0b0da9f0caba043cc"
-  },
-  {
-    "id": "71f8ef234fd074b36341b98a8cd5b7fc2a72ff1c",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Amazon Bedrock\n+Claude on AWS\n+\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 1,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 17 Jun 2026 02:57:46 GMT",
-    "run_at": "2026-06-17T02:57:30Z",
-    "run_id": "8cf5173ba9ea4557926be1d00a19b0e1"
   }
 ]
