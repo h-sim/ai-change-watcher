@@ -1,5 +1,102 @@
 [
   {
+    "id": "86a48ef7156646645b1aaa17a0d23b0c0a3e12b7",
+    "impact": "Medium",
+    "name": "Google Vertex AI Release Notes (RSS)",
+    "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml",
+    "snippet": "-#ITEM\n-title: April 16, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_16_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#April_16_2025\n-date: 2025-04-16T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 06, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_06_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_06_2025\n-date: 2025-08-06T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 13, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_13_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_13_2025\n-date: 2025-08-13T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 14, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_14_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_14_2025\n-date: 2025-08-14T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 21, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_21_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_21_2025\n-date: 2025-08-21T00:00:00-07:00\n-body:\n-#ITEM\n-title: December 02, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#December_02_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#December_02_2024\n-date: 2024-12-02T00:00:00-08:00\n-body:\n-#ITEM\n-title: December 17, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#December_17_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#December_17_2024",
+    "snippet_full": "",
+    "diff": {
+      "added": 0,
+      "removed": 180,
+      "churn": 180
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 18 Jul 2026 01:50:23 GMT",
+    "run_at": "2026-07-18T01:50:09Z",
+    "run_id": "f9d95bf4aff54454811785703ef89120"
+  },
+  {
+    "id": "7fe79275ecbacc800f5475f4ea09c02cdbd554ee",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Search...\n+Search",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 1,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 18 Jul 2026 01:50:23 GMT",
+    "run_at": "2026-07-18T01:50:09Z",
+    "run_id": "f9d95bf4aff54454811785703ef89120"
+  },
+  {
+    "id": "9be3882c643b234f94afc52ad9f6b51e32572bed",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-              const response = await\n-              client.admin.organization.projects.serviceAccounts.createAPIKey(\n+              const apiKey = await\n+              client.admin.organization.projects.serviceAccounts.apiKeys.create(\n-              console.log(response.id);\n+              console.log(apiKey.id);\n-              response =\n-              client.admin.organization.projects.service_accounts.create_api_key(\n+              api_key =\n+              client.admin.organization.projects.service_accounts.api_keys.create(\n-              print(response.id)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+              print(api_key.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n-              com.openai.models.admin.organization.projects.serviceaccounts.ServiceAccountCreateApiKeyParams;\n+              com.openai.models.admin.organization.projects.serviceaccounts.apikeys.ApiKeyCreateParams;\n-              com.openai.models.admin.organization.projects.serviceaccounts.ServiceAccountCreateApiKeyResponse;\n+              com.openai.models.admin.organization.projects.serviceaccounts.apikeys.ApiKeyCreateResponse;\n-                      ServiceAccountCreateApiKeyParams params = ServiceAccountCreateApiKeyParams.builder()\n+                      ApiKeyCreateParams params = ApiKeyCreateParams.builder()\n-                      ServiceAccountCreateApiKeyResponse response = client.admin().organization().projects().serviceAccounts().createApiKey(params);\n+                      ApiKeyCreateResponse apiKey = client.admin().organization().projects().serviceAccounts().apiKeys().create(params);\n-              response =\n-              openai.admin.organization.projects.service_accounts.create_api_key(\n+              api_key =\n+              openai.admin.organization.projects.service_accounts.api_keys.create(\n-              puts(response)\n+              puts(api_key)\n-          default: eval",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 15,
+      "churn": 29
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 18 Jul 2026 01:50:22 GMT",
+    "run_at": "2026-07-18T01:50:09Z",
+    "run_id": "f9d95bf4aff54454811785703ef89120"
+  },
+  {
+    "id": "789bf51a47d9d0c0fcd60d0c08b48e5aa7372559",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: A scorecard for the AI age\n+link: https://openai.com/index/a-scorecard-for-the-ai-age\n+id: https://openai.com/index/a-scorecard-for-the-ai-age\n+date: Fri, 17 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 18 Jul 2026 01:50:10 GMT",
+    "run_at": "2026-07-18T01:50:09Z",
+    "run_id": "f9d95bf4aff54454811785703ef89120"
+  },
+  {
+    "id": "2a6af96a2d373e0e38a8eb88d7ef4e533c170bc3",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+API partner setup\n+Conversion setup\n-Projects, chats, and tasks\n+Projects and chats\n-FAQ\n+Cloud FAQ\n+Write vulnerability reports\n+Propose security hardening\n-ChatGPT Work Admin FAQ\n+Work mode admin FAQ",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 3,
+      "churn": 10
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 18 Jul 2026 01:50:10 GMT",
+    "run_at": "2026-07-18T01:50:09Z",
+    "run_id": "f9d95bf4aff54454811785703ef89120"
+  },
+  {
     "id": "f10c4033a40ad29e3e0f5f2591e7486bfae9fdab",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -891,106 +988,5 @@
     "pubDate": "Mon, 22 Jun 2026 03:29:07 GMT",
     "run_at": "2026-06-22T03:29:07Z",
     "run_id": "34f7cece579d46fdbf14f190a5315fe1"
-  },
-  {
-    "id": "a1d941da60e018cb200b6506b3246e60bb7e82a8",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+June 11, 2026\n+The\n+code execution tool\n+now supports\n+code_execution_20260521\n+, which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required.\n+The\n+web search tool\n+and\n+web fetch tool\n+now support\n+web_search_20260318\n+and\n+web_fetch_20260318\n+, adding a\n+response_inclusion\n+parameter to drop consumed result blocks from the API response for agentic workflows. No beta header is required.\n+\n-stop_details.category\n-\"reasoning_extraction\"\n-\"cyber\"\n-and\n-\"bio\"\n+and\n-On Claude Fable 5 and Claude Mythos 5,\n-adaptive thinking\n-is the only thinking mode:\n-thinking: {\"type\": \"disabled\"}\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n-On Claude Fable 5 and Claude Mythos 5,\n-thinking.display\n-defaults to\n-\"omitted\"\n-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n-display: \"summarized\"\n-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n-Thinking output on Claude Fable 5 and Claude Mythos 5\n-.",
-    "snippet_full": "",
-    "diff": {
-      "added": 128,
-      "removed": 109,
-      "churn": 237
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 19 Jun 2026 03:38:40 GMT",
-    "run_at": "2026-06-19T03:38:32Z",
-    "run_id": "8df1a262c7bf43bd87821a413821ff02"
-  },
-  {
-    "id": "c52bba596c7acf1487dc35be2f6760239e35ab64",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: New usage analytics and updated spend controls for enterprises\n+link: https://openai.com/index/chatgpt-enterprise-spend-controls\n+id: https://openai.com/index/chatgpt-enterprise-spend-controls\n+date: Thu, 18 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Using AI to help physicians diagnose rare genetic diseases affecting children\n+link: https://openai.com/index/diagnose-rare-childhood-diseases\n+id: https://openai.com/index/diagnose-rare-childhood-diseases\n+date: Thu, 18 Jun 2026 08:00:00 GMT\n+body:\n+#ITEM\n+title: Improving health intelligence in ChatGPT\n+link: https://openai.com/index/improving-health-intelligence-in-chatgpt\n+id: https://openai.com/index/improving-health-intelligence-in-chatgpt\n+date: Thu, 18 Jun 2026 11:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 19 Jun 2026 03:38:33 GMT",
-    "run_at": "2026-06-19T03:38:32Z",
-    "run_id": "8df1a262c7bf43bd87821a413821ff02"
-  },
-  {
-    "id": "a2f5a44ecc398187febef3891ac3a9a893abd566",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Quickstart\n+Run a security scan\n+Run a deep scan\n+Review code changes\n+Triage a backlog\n+Fix findings\n+Export and track findings\n+Changelog\n+Overview\n+Record & Replay",
-    "snippet_full": "",
-    "diff": {
-      "added": 10,
-      "removed": 0,
-      "churn": 10
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 19 Jun 2026 03:38:33 GMT",
-    "run_at": "2026-06-19T03:38:32Z",
-    "run_id": "8df1a262c7bf43bd87821a413821ff02"
-  },
-  {
-    "id": "ea12706f3cf6474136a3371bb5d5bc3c693aa7c0",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+stop_details.category\n+\"reasoning_extraction\"\n-and\n+\"cyber\"\n+and\n+\"bio\"\n+On Claude Fable 5 and Claude Mythos 5,\n+adaptive thinking\n+is the only thinking mode:\n+thinking: {\"type\": \"disabled\"}\n+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n+Migrating from Claude Mythos Preview to Claude Mythos 5\n+.\n+On Claude Fable 5 and Claude Mythos 5,\n+thinking.display\n+defaults to\n+\"omitted\"\n+, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n+display: \"summarized\"\n+to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n+Thinking output on Claude Fable 5 and Claude Mythos 5\n+.\n+Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n+Model-specific data retention requirements\n+.\n+Claude Managed Agents now supports\n+scheduled deployments\n+, letting you run sessions on a cron schedule without managing your own scheduler.\n+Claude Managed Agents vaults now support\n+environment variable credentials\n+, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.\n+The\n+session.thread_*\n+webhook events now include a\n+session_thread_id\n+field identifying the multi-agent thread that triggered the event.\n+On Claude Opus 4.8, the\n+effort parameter\n+defaults to\n+high",
-    "snippet_full": "",
-    "diff": {
-      "added": 109,
-      "removed": 109,
-      "churn": 218
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 18 Jun 2026 02:52:21 GMT",
-    "run_at": "2026-06-18T02:52:10Z",
-    "run_id": "ceb00154950241b0b0da9f0caba043cc"
-  },
-  {
-    "id": "e321f2fa86c0a39f1d639a0129e95b47fd09e13d",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-          description: >\n-            The URL for the MCP server. One of `server_url` or `connector_id`\n-            must be\n-\n-            provided.\n+          description: |\n+            The URL for the MCP server. One of `server_url`, `connector_id`, or\n+            `tunnel_id` must be provided.\n-            `server_url` or `connector_id` must be provided. Learn more about\n-            service\n-\n-            connectors [here](/docs/guides/tools-remote-mcp#connectors).\n+            `server_url`, `connector_id`, or `tunnel_id` must be provided. Learn\n+            more\n+\n+            about service connectors\n+            [here](/docs/guides/tools-remote-mcp#connectors).\n+        tunnel_id:\n+          type: string\n+          pattern: ^tunnel_[a-z0-9]{32}$\n+          description: >\n+            The Secure MCP Tunnel ID to use instead of a direct server URL. One\n+            of\n+\n+            `server_url`, `connector_id`, or `tunnel_id` must be provided.\n+              description: >-\n+                Optional reference asset upload or reference object that guides\n+                generation. Provide exactly one of `image_url` or `file_id` when\n+                using an object.\n+              description: Reference to the completed video to edit.\n+              description: Reference to the completed video to extend.",
-    "snippet_full": "",
-    "diff": {
-      "added": 22,
-      "removed": 9,
-      "churn": 31
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 18 Jun 2026 02:52:20 GMT",
-    "run_at": "2026-06-18T02:52:10Z",
-    "run_id": "ceb00154950241b0b0da9f0caba043cc"
   }
 ]

@@ -443,6 +443,12 @@ id: https://openai.com/index/a-holistic-approach-to-undesired-content-detection-
 date: Thu, 20 Jun 2024 00:00:00 GMT
 body:
 #ITEM
+title: A scorecard for the AI age
+link: https://openai.com/index/a-scorecard-for-the-ai-age
+id: https://openai.com/index/a-scorecard-for-the-ai-age
+date: Fri, 17 Jul 2026 10:00:00 GMT
+body:
+#ITEM
 title: Partnering with AARP to help keep older adults safe online
 link: https://openai.com/index/aarp-partnership-older-adults-online-safety
 id: https://openai.com/index/aarp-partnership-older-adults-online-safety

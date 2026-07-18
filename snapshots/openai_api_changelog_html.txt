@@ -326,11 +326,13 @@ Conversions API
 Supported events
 Advertiser API
 Overview
+API partner setup
 Quickstart
 Product feeds
 Campaign Targeting
 API Reference
 Authentication
+Conversion setup
 Campaigns
 Ad Groups
 Ads
@@ -383,7 +385,7 @@ Feature Maturity
 Open Source
 Overview
 Workflows
-Projects, chats, and tasks
+Projects and chats
 Sites
 Visualizations
 Scheduled tasks
@@ -467,7 +469,7 @@ Agent approvals & security
 Internet access
 Codex Security
 Overview
-FAQ
+Cloud FAQ
 Codex Security plugin
 Quickstart
 Run a security scan
@@ -476,6 +478,8 @@ Review code changes
 Triage a backlog
 Fix findings
 Export and track findings
+Write vulnerability reports
+Propose security hardening
 Changelog
 Codex Security cloud setup
 Improving the threat model
@@ -484,7 +488,7 @@ Cyber Safety
 Overview
 Getting started
 Admin rollout guide
-ChatGPT Work Admin FAQ
+Work mode admin FAQ
 Identity and authentication
 Authentication overview
 Access tokens
