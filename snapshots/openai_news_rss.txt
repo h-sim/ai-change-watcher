@@ -5105,6 +5105,12 @@ id: https://openai.com/index/running-codex-safely
 date: Fri, 08 May 2026 12:30:00 GMT
 body:
 #ITEM
+title: Safety and alignment in an era of long-horizon models
+link: https://openai.com/index/safety-alignment-long-horizon-models
+id: https://openai.com/index/safety-alignment-long-horizon-models
+date: Mon, 20 Jul 2026 10:00:00 GMT
+body:
+#ITEM
 title: Introducing the OpenAI Safety Bug Bounty program
 link: https://openai.com/index/safety-bug-bounty
 id: https://openai.com/index/safety-bug-bounty

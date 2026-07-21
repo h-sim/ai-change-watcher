@@ -1,5 +1,47 @@
 [
   {
+    "id": "9add9cad8f75b5940b1f672b897d0d358111a090",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+July 17, 2026\n+The legacy\n+Workbench\n+(\n+platform.claude.com/workbench\n+) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated\n+Workbench\n+. You can export any data you want to keep from the banner and under your\n+Organizational Settings\n+. For more, see\n+How do I use the Workbench?\n+in the Claude Help Center.\n+The experimental prompt tools APIs for generating, improving, and templatizing prompts (\n+/v1/experimental/generate_prompt\n+,\n+/v1/experimental/improve_prompt\n+, and\n+/v1/experimental/templatize_prompt\n+) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error.\n+\n+July 17, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 21,
+      "removed": 0,
+      "churn": 21
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 21 Jul 2026 01:59:43 GMT",
+    "run_at": "2026-07-21T01:58:58Z",
+    "run_id": "71feb454c0a446cc8a62b11332305f92"
+  },
+  {
+    "id": "6c4ec16dd4a0e8e7cbda648fc2611c0157f6eb3d",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Safety and alignment in an era of long-horizon models\n+link: https://openai.com/index/safety-alignment-long-horizon-models\n+id: https://openai.com/index/safety-alignment-long-horizon-models\n+date: Mon, 20 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 21 Jul 2026 01:59:18 GMT",
+    "run_at": "2026-07-21T01:58:58Z",
+    "run_id": "71feb454c0a446cc8a62b11332305f92"
+  },
+  {
     "id": "86a48ef7156646645b1aaa17a0d23b0c0a3e12b7",
     "impact": "Medium",
     "name": "Google Vertex AI Release Notes (RSS)",
@@ -948,45 +990,5 @@
     "pubDate": "Tue, 23 Jun 2026 02:36:27 GMT",
     "run_at": "2026-06-23T02:36:26Z",
     "run_id": "b228a0751aac4a98abaaf8ebeaad6473"
-  },
-  {
-    "id": "52caaaa2b72f06cc615924023f4883fbe285d3f6",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-stop_details.category\n-\"reasoning_extraction\"\n-\"cyber\"\n-and\n-\"bio\"\n+and\n-On Claude Fable 5 and Claude Mythos 5,\n-adaptive thinking\n-is the only thinking mode:\n-thinking: {\"type\": \"disabled\"}\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n-On Claude Fable 5 and Claude Mythos 5,\n-thinking.display\n-defaults to\n-\"omitted\"\n-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n-display: \"summarized\"\n-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n-Thinking output on Claude Fable 5 and Claude Mythos 5\n-.\n-Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n-Model-specific data retention requirements\n-.\n-Claude Managed Agents now supports\n-scheduled deployments\n-, letting you run sessions on a cron schedule without managing your own scheduler.\n-Claude Managed Agents vaults now support\n-environment variable credentials\n-, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.\n-The\n-session.thread_*\n-webhook events now include a\n-session_thread_id\n-field identifying the multi-agent thread that triggered the event.\n-On Claude Opus 4.8, the\n-effort parameter\n-defaults to\n-high",
-    "snippet_full": "",
-    "diff": {
-      "added": 109,
-      "removed": 109,
-      "churn": 218
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Mon, 22 Jun 2026 03:29:15 GMT",
-    "run_at": "2026-06-22T03:29:07Z",
-    "run_id": "34f7cece579d46fdbf14f190a5315fe1"
-  },
-  {
-    "id": "4cf1a3f3d4681c67f4a7ca04673da7834ca51f31",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Samsung Electronics brings ChatGPT and Codex to employees\n+link: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment\n+id: https://openai.com/index/samsung-electronics-chatgpt-codex-deployment\n+date: Sun, 21 Jun 2026 23:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 22 Jun 2026 03:29:07 GMT",
-    "run_at": "2026-06-22T03:29:07Z",
-    "run_id": "34f7cece579d46fdbf14f190a5315fe1"
   }
 ]

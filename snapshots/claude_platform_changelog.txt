@@ -116,6 +116,26 @@ in the
 claude-code
 repository.
 
+July 17, 2026
+The legacy
+Workbench
+(
+platform.claude.com/workbench
+) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated
+Workbench
+. You can export any data you want to keep from the banner and under your
+Organizational Settings
+. For more, see
+How do I use the Workbench?
+in the Claude Help Center.
+The experimental prompt tools APIs for generating, improving, and templatizing prompts (
+/v1/experimental/generate_prompt
+,
+/v1/experimental/improve_prompt
+, and
+/v1/experimental/templatize_prompt
+) are being retired along with the Workbench on August 17, 2026. After removal, requests to these endpoints will return an error.
+
 July 15, 2026
 Mid-conversation system messages
 are available on Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, on the Claude API,
@@ -1628,6 +1648,7 @@ blog post
 このページは役に立ちましたか？
 
 
+July 17, 2026
 July 15, 2026
 July 14, 2026
 July 10, 2026
