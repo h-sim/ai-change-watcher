@@ -1433,6 +1433,12 @@ id: https://openai.com/index/datadog
 date: Fri, 09 Jan 2026 00:00:00 GMT
 body:
 #ITEM
+title: David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC
+link: https://openai.com/index/david-velez-robin-vince-join-openai-boards
+id: https://openai.com/index/david-velez-robin-vince-join-openai-boards
+date: Tue, 21 Jul 2026 00:00:00 GMT
+body:
+#ITEM
 title: Daybreak: Tools for securing every organization in the world
 link: https://openai.com/index/daybreak-securing-the-world
 id: https://openai.com/index/daybreak-securing-the-world
@@ -2663,6 +2669,12 @@ id: https://openai.com/index/hp-frontier-partnership
 date: Sun, 28 Jun 2026 17:00:00 GMT
 body:
 #ITEM
+title: OpenAI and Hugging Face partner to address security incident during model evaluation
+link: https://openai.com/index/hugging-face-model-evaluation-security-incident
+id: https://openai.com/index/hugging-face-model-evaluation-security-incident
+date: Tue, 21 Jul 2026 07:00:00 GMT
+body:
+#ITEM
 title: OpenAI helps Hyatt advance AI among colleagues
 link: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
 id: https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise
@@ -2925,6 +2937,12 @@ title: Introducing ChatGPT search
 link: https://openai.com/index/introducing-chatgpt-search
 id: https://openai.com/index/introducing-chatgpt-search
 date: Thu, 31 Oct 2024 10:00:00 GMT
+body:
+#ITEM
+title: Introducing the ChatGPT for small business program
+link: https://openai.com/index/introducing-chatgpt-small-business-program
+id: https://openai.com/index/introducing-chatgpt-small-business-program
+date: Tue, 21 Jul 2026 17:00:00 GMT
 body:
 #ITEM
 title: Introducing ChatGPT Team

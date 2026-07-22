@@ -101,9 +101,11 @@ Terms of service: Consumer
 Usage policy
 Release notes
 Claude Platform release notes
+Subscribe
 Copy page
 
 Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.
+Subscribe
 Copy page
 
 

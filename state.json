@@ -1,5 +1,64 @@
 [
   {
+    "id": "2fda2fc4468533c667310e67503b8457550fd975",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Subscribe\n+Subscribe",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 22 Jul 2026 01:58:15 GMT",
+    "run_at": "2026-07-22T01:57:46Z",
+    "run_id": "11f30b3ed6f04adfb477eb8d3b85f49a"
+  },
+  {
+    "id": "9ae811740149b17fbb7bdedf151ce09c7933a804",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC\n+link: https://openai.com/index/david-velez-robin-vince-join-openai-boards\n+id: https://openai.com/index/david-velez-robin-vince-join-openai-boards\n+date: Tue, 21 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI and Hugging Face partner to address security incident during model evaluation\n+link: https://openai.com/index/hugging-face-model-evaluation-security-incident\n+id: https://openai.com/index/hugging-face-model-evaluation-security-incident\n+date: Tue, 21 Jul 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the ChatGPT for small business program\n+link: https://openai.com/index/introducing-chatgpt-small-business-program\n+id: https://openai.com/index/introducing-chatgpt-small-business-program\n+date: Tue, 21 Jul 2026 17:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 22 Jul 2026 01:58:08 GMT",
+    "run_at": "2026-07-22T01:57:46Z",
+    "run_id": "11f30b3ed6f04adfb477eb8d3b85f49a"
+  },
+  {
+    "id": "d2d5dc20e496a225386ddd8d283f91e9fd669c26",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Bulk API\n+Conversion-optimized campaigns\n+Plugin submission errors\n+Custom Code Review rules for Codex\n-From prompts to products: One year of Responses",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 1,
+      "churn": 5
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 22 Jul 2026 01:57:46 GMT",
+    "run_at": "2026-07-22T01:57:46Z",
+    "run_id": "11f30b3ed6f04adfb477eb8d3b85f49a"
+  },
+  {
     "id": "9add9cad8f75b5940b1f672b897d0d358111a090",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -933,62 +992,5 @@
     "pubDate": "Wed, 24 Jun 2026 02:37:13 GMT",
     "run_at": "2026-06-24T02:37:05Z",
     "run_id": "ed5e92f9cc444c9a93a60b510f223035"
-  },
-  {
-    "id": "cff6987317110500ee9ca7beffb5bb753c3a00b6",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery\n+link: https://openai.com/index/gpt-5-immunology-mystery\n+id: https://openai.com/index/gpt-5-immunology-mystery\n+date: Tue, 23 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Helping build shared standards for advanced AI\n+link: https://openai.com/index/helping-build-shared-standards-for-advanced-ai\n+id: https://openai.com/index/helping-build-shared-standards-for-advanced-ai\n+date: Tue, 23 Jun 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: How Omio is building the future of conversational travel\n+link: https://openai.com/index/omio\n+id: https://openai.com/index/omio\n+date: Tue, 23 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 24 Jun 2026 02:37:06 GMT",
-    "run_at": "2026-06-24T02:37:05Z",
-    "run_id": "ed5e92f9cc444c9a93a60b510f223035"
-  },
-  {
-    "id": "d433b7a38462480c38c5669e7b329b017eb4d1cd",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Mastering Codex Remote for engineering\n-Building frontend UIs with Codex and Figma\n+Mastering Codex Remote for engineering\n-Building frontend UIs with Codex and Figma",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 24 Jun 2026 02:37:05 GMT",
-    "run_at": "2026-06-24T02:37:05Z",
-    "run_id": "ed5e92f9cc444c9a93a60b510f223035"
-  },
-  {
-    "id": "1320a5ba6061340b25c23b0001ffc4e2d6c02b23",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Codex-maxxing for long-running work\n+link: https://openai.com/index/codex-maxxing-long-running-work\n+id: https://openai.com/index/codex-maxxing-long-running-work\n+date: Mon, 22 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Daybreak: Tools for securing every organization in the world\n+link: https://openai.com/index/daybreak-securing-the-world\n+id: https://openai.com/index/daybreak-securing-the-world\n+date: Mon, 22 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Patch the Planet: a Daybreak initiative to support open source maintainers\n+link: https://openai.com/index/patch-the-planet\n+id: https://openai.com/index/patch-the-planet\n+date: Mon, 22 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 23 Jun 2026 02:36:27 GMT",
-    "run_at": "2026-06-23T02:36:26Z",
-    "run_id": "b228a0751aac4a98abaaf8ebeaad6473"
   }
 ]

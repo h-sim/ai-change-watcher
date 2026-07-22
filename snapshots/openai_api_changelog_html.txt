@@ -328,8 +328,10 @@ Advertiser API
 Overview
 API partner setup
 Quickstart
+Bulk API
 Product feeds
 Campaign Targeting
+Conversion-optimized campaigns
 API Reference
 Authentication
 Conversion setup
@@ -460,6 +462,7 @@ Reference
 CLI customization
 Developer commands
 Developer settings
+Plugin submission errors
 Overview
 Permissions
 Profiles
@@ -554,11 +557,11 @@ Docs section
 Select...
 All posts
 Recent
+Custom Code Review rules for Codex
 Mastering remote engineering work from your phone
 Making private MCP servers reachable without making them public
 How Perplexity Brought Voice Search to Millions Using the Realtime API
 Designing delightful frontends with GPT-5.4
-From prompts to products: One year of Responses
 Topics
 General
 API
