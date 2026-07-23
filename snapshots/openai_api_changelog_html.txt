@@ -99,6 +99,7 @@ OpenAI CLI
 Resources
 Changelog
 Deprecations
+Spend limits
 Supported countries
 OpenAI Crawlers
 Terms and policies
@@ -636,6 +637,7 @@ OpenAI CLI
 Resources
 Changelog
 Deprecations
+Spend limits
 Supported countries
 OpenAI Crawlers
 Terms and policies
@@ -669,6 +671,13 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 July, 2026
+Jul 22
+Feature
+Added hard spend limits for organizations and projects on the OpenAI API platform. Set a monthly cap that causes affected API requests to return a
+429
+error when tracked spend reaches the limit. Use spend alerts for notification before traffic is interrupted. Read more in the
+spend limits guide
+.
 Jul 9
 Feature
 gpt-5.6-sol

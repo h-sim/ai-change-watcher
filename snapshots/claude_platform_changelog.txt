@@ -118,6 +118,53 @@ in the
 claude-code
 repository.
 
+July 22, 2026
+You can now set an
+effort
+level on a Claude Managed Agents agent's model configuration. Pass
+effort
+inside the
+model
+object when you
+create the agent
+. See
+Effort levels
+for what each level does.
+Webhooks for Claude Managed Agents now cover the environment and memory store lifecycle: four
+environment.*
+event types and three
+memory_store.*
+event types. You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in
+Subscribe to webhooks
+.
+When creating a Claude Managed Agents session, you can now
+seed it with initial events
+. Pass
+initial_events
+on
+POST /v1/sessions
+with up to 50
+user.message
+and
+user.define_outcome
+events. A non-empty list starts the agent loop in the same call, so you don't need a separate send-events request to start work.
+The
+version
+field is now optional when
+updating a Claude Managed Agents agent
+. Supply it for optimistic concurrency (a mismatch returns a 409 error), or omit it to apply the update unconditionally. See
+Update semantics
+.
+Claude Managed Agents session thread event streams now support
+event deltas
+.
+GET /v1/sessions/{session_id}/threads/{thread_id}/stream
+accepts the same
+event_deltas[]
+query parameter as the session-level stream, so you can preview a subagent's text as the model generates it. A connection previews only the thread it's reading. See
+Preview session thread events
+.
+
 July 17, 2026
 The legacy
 Workbench
@@ -626,7 +673,7 @@ Self-hosted sandboxes
 With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session.
 With Claude Managed Agents, large outputs from
 agent_toolset
-and MCP tools exceeding 100K tokens are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.
+and MCP tools exceeding 100K characters (about 25K tokens) are now automatically spilled to a file in the sandbox. The model receives a truncated preview with the file path and can read the full content from there.
 
 May 18, 2026
 The
@@ -680,11 +727,9 @@ Subscribe to webhooks
 .
 Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtered by status, and events can be filtered by type. Events can now be filtered by creation time.
 Dreams
-for Claude Managed Agents are now available as a research preview. A dream reads an existing memory store alongside past session transcripts and produces a reorganized output memory store with duplicates merged, stale entries replaced, and new insights surfaced. Dreams require the
+for Claude Managed Agents are now available as a research preview. A dream reads an existing memory store alongside past session transcripts and produces a reorganized output memory store with duplicates merged, stale entries replaced, and new insights surfaced. Dream endpoints are gated by the
 dreaming-2026-04-21
-beta header in addition to the standard
-managed-agents-2026-04-01
-header.
+beta header.
 Request access
 to try it.
 
@@ -1650,6 +1695,7 @@ blog post
 このページは役に立ちましたか？
 
 
+July 22, 2026
 July 17, 2026
 July 15, 2026
 July 14, 2026

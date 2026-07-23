@@ -1,5 +1,83 @@
 [
   {
+    "id": "1875f690cc439e27a7b5039510a6e82ea83f2eb1",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+July 22, 2026\n+You can now set an\n+effort\n+level on a Claude Managed Agents agent's model configuration. Pass\n+effort\n+inside the\n+model\n+object when you\n+create the agent\n+. See\n+Effort levels\n+for what each level does.\n+Webhooks for Claude Managed Agents now cover the environment and memory store lifecycle: four\n+environment.*\n+event types and three\n+memory_store.*\n+event types. You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in\n+Subscribe to webhooks\n+.\n+When creating a Claude Managed Agents session, you can now\n+seed it with initial events\n+. Pass\n+initial_events\n+on\n+POST /v1/sessions\n+with up to 50\n+user.message\n+and\n+user.define_outcome\n+events. A non-empty list starts the agent loop in the same call, so you don't need a separate send-events request to start work.\n+The\n+version\n+field is now optional when\n+updating a Claude Managed Agents agent\n+. Supply it for optimistic concurrency (a mismatch returns a 409 error), or omit it to apply the update unconditionally. See\n+Update semantics\n+.\n+Claude Managed Agents session thread event streams now support\n+event deltas\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 51,
+      "removed": 5,
+      "churn": 56
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 23 Jul 2026 02:05:30 GMT",
+    "run_at": "2026-07-23T02:05:16Z",
+    "run_id": "5440bac4e5eb4b1da699fb2d1752a74c"
+  },
+  {
+    "id": "ed16ca7bbcbfb8f8ccb31bea7e5eac42d2167abf",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                  \"cached_tokens\": 0\n+                  \"cached_tokens\": 0,\n+                  \"cache_write_tokens\": 0\n-                  \"cached_tokens\": 0\n+                  \"cached_tokens\": 0,\n+                  \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0\n+                    \"cached_tokens\": 0,\n+                    \"cache_write_tokens\": 0\n-                    \"cached_tokens\": 0",
+    "snippet_full": "",
+    "diff": {
+      "added": 106,
+      "removed": 54,
+      "churn": 160
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 23 Jul 2026 02:05:29 GMT",
+    "run_at": "2026-07-23T02:05:16Z",
+    "run_id": "5440bac4e5eb4b1da699fb2d1752a74c"
+  },
+  {
+    "id": "1048d1557f5c4de5b42607545d523bd842c4bf93",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing the next era of national science\n+link: https://openai.com/index/advancing-the-next-era-of-national-science\n+id: https://openai.com/index/advancing-the-next-era-of-national-science\n+date: Wed, 22 Jul 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Building AI infrastructure with the Effingham County community\n+link: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community\n+id: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community\n+date: Wed, 22 Jul 2026 13:00:00 GMT\n+title: How news organizations are using AI to advance their vital missions\n+link: https://openai.com/index/how-news-organizations-are-using-ai",
+    "snippet_full": "+title: Advancing the next era of national science\n+link: https://openai.com/index/advancing-the-next-era-of-national-science\n+id: https://openai.com/index/advancing-the-next-era-of-national-science\n+date: Wed, 22 Jul 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Building AI infrastructure with the Effingham County community\n+link: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community\n+id: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community\n+date: Wed, 22 Jul 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: How news organizations are using AI to advance their vital missions\n+link: https://openai.com/index/how-news-organizations-are-using-ai\n+id: https://openai.com/index/how-news-organizations-are-using-ai\n+date: Wed, 22 Jul 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing OpenAI Presence\n+link: https://openai.com/index/introducing-openai-presence\n+id: https://openai.com/index/introducing-openai-presence\n+date: Wed, 22 Jul 2026 05:30:00 GMT\n+body:\n+#ITEM\n+title: NTT DATA Group cuts incident analysis to 30 minutes with Codex\n+link: https://openai.com/index/ntt-data\n+id: https://openai.com/index/ntt-data\n+date: Wed, 22 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 23 Jul 2026 02:05:16 GMT",
+    "run_at": "2026-07-23T02:05:16Z",
+    "run_id": "5440bac4e5eb4b1da699fb2d1752a74c"
+  },
+  {
+    "id": "20590f32bafd24e00f0799dc9a8dab44972405d6",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Spend limits\n+Spend limits\n+Jul 22\n+Feature\n+Added hard spend limits for organizations and projects on the OpenAI API platform. Set a monthly cap that causes affected API requests to return a\n+429\n+error when tracked spend reaches the limit. Use spend alerts for notification before traffic is interrupted. Read more in the\n+spend limits guide\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 9,
+      "removed": 0,
+      "churn": 9
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 23 Jul 2026 02:05:16 GMT",
+    "run_at": "2026-07-23T02:05:16Z",
+    "run_id": "5440bac4e5eb4b1da699fb2d1752a74c"
+  },
+  {
     "id": "2fda2fc4468533c667310e67503b8457550fd975",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -912,85 +990,5 @@
     "pubDate": "Fri, 26 Jun 2026 02:41:34 GMT",
     "run_at": "2026-06-26T02:41:33Z",
     "run_id": "06aaa91766c24319a87eb53d20f0e8c3"
-  },
-  {
-    "id": "13846a767129dd7c63707c3ef1df6d1c65643b51",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-stop_details.category\n-\"reasoning_extraction\"\n-\"cyber\"\n-and\n-\"bio\"\n+and\n-On Claude Fable 5 and Claude Mythos 5,\n-adaptive thinking\n-is the only thinking mode:\n-thinking: {\"type\": \"disabled\"}\n-is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n-Migrating from Claude Mythos Preview to Claude Mythos 5\n-.\n-On Claude Fable 5 and Claude Mythos 5,\n-thinking.display\n-defaults to\n-\"omitted\"\n-, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n-display: \"summarized\"\n-to receive readable thinking summaries. The raw chain of thought is never returned; pass thinking blocks back unchanged in multi-turn conversations on the same model. See\n-Thinking output on Claude Fable 5 and Claude Mythos 5\n-.\n-Claude Fable 5 requires 30-day data retention on the Claude API and is not available under zero data retention. See\n-Model-specific data retention requirements\n-.\n-Claude Managed Agents now supports\n-scheduled deployments\n-, letting you run sessions on a cron schedule without managing your own scheduler.\n-Claude Managed Agents vaults now support\n-environment variable credentials\n-, so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.\n-The\n-session.thread_*\n-webhook events now include a\n-session_thread_id\n-field identifying the multi-agent thread that triggered the event.\n-We've released a\n-Swift package\n-in beta that adds Claude as a server-side\n-LanguageModel",
-    "snippet_full": "",
-    "diff": {
-      "added": 122,
-      "removed": 122,
-      "churn": 244
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 25 Jun 2026 02:38:13 GMT",
-    "run_at": "2026-06-25T02:38:04Z",
-    "run_id": "4c44cbdf138f4ec8bfc966b84b001ab5"
-  },
-  {
-    "id": "dba37b620c94bb975eabe557ca4561128bb684e4",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: OpenAI and Broadcom unveil LLM-optimized inference chip\n+link: https://openai.com/index/openai-broadcom-jalapeno-inference-chip\n+id: https://openai.com/index/openai-broadcom-jalapeno-inference-chip\n+date: Wed, 24 Jun 2026 06:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 25 Jun 2026 02:38:05 GMT",
-    "run_at": "2026-06-25T02:38:04Z",
-    "run_id": "4c44cbdf138f4ec8bfc966b84b001ab5"
-  },
-  {
-    "id": "695932bc5734d36bc7b2b951fbc1405bad402810",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Image tag\n+Jun 24\n+Update\n+chat-latest\n+Updated the\n+chat-latest\n+snapshot, which points to the latest Instant model currently used in ChatGPT. We recommend leveraging\n+GPT-5.5\n+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more\n+here\n+.\n+Jun 23\n+Feature\n+Released the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on\n+safety_identifier\n+values sent on requests to identify end users. Visit the\n+Safety dashboard\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 25 Jun 2026 02:38:04 GMT",
-    "run_at": "2026-06-25T02:38:04Z",
-    "run_id": "4c44cbdf138f4ec8bfc966b84b001ab5"
-  },
-  {
-    "id": "ea42e76d685f3943455d60667fedf6785c753ee7",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+We've released a\n+Swift package\n+in beta that adds Claude as a server-side\n+LanguageModel\n+in Apple's Foundation Models framework. Call Claude through the same\n+LanguageModelSession\n+API as Apple's on-device model on iOS 27, macOS 27, visionOS 27, and watchOS 27 (beta).\n+Dreams\n+for Claude Managed Agents are now available as a research preview. A dream reads an existing memory store alongside past session transcripts and produces a reorganized output memory store with duplic\n+dreaming-2026-04-21\n+beta header in addition to the standard\n+managed-agents-2026-04-01\n+header.\n+Request access\n+to try it.\n+\n+May 4, 2026\n+Workload Identity Federation\n+is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra I\n+Authentication\n+.\n+\n+April 29, 2026\n+We've released the\n+Claude API skill\n+, an open-source\n+Agent Skill\n+that gives Claude up-to-date reference material for building on the Messages API and Claude Managed Agents across 8 languages. The skill is bundled with Claude Code and available in the\n+Anthropic skills repository\n+.\n+We've launched\n+task budgets\n+in beta on Claude Opus 4.7. Give Claude an advisory token budget for a full agentic loop (thinking, tool calls, tool results, and output) and the model sees a running countdown, using it to prioritiz\n+task-budgets-2026-03-13\n+beta header in your requests.\n+Claude Opus 4.7 supports\n+high-resolution image input\n+, raising the maximum image resolution from 1568 to 2576 pixels on the long edge for improved performance on computer use, screenshot understanding, and document analysis. High-resolution support is \n+We've added the\n+xhigh",
-    "snippet_full": "",
-    "diff": {
-      "added": 50,
-      "removed": 0,
-      "churn": 50
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 24 Jun 2026 02:37:13 GMT",
-    "run_at": "2026-06-24T02:37:05Z",
-    "run_id": "ed5e92f9cc444c9a93a60b510f223035"
   }
 ]

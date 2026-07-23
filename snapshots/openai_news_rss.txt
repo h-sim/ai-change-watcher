@@ -539,6 +539,12 @@ id: https://openai.com/index/advancing-red-teaming-with-people-and-ai
 date: Thu, 21 Nov 2024 10:30:00 GMT
 body:
 #ITEM
+title: Advancing the next era of national science
+link: https://openai.com/index/advancing-the-next-era-of-national-science
+id: https://openai.com/index/advancing-the-next-era-of-national-science
+date: Wed, 22 Jul 2026 12:00:00 GMT
+body:
+#ITEM
 title: Advancing voice intelligence with new models in the API
 link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
 id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
@@ -915,6 +921,12 @@ title: Announcing OpenAI’s Bug Bounty Program
 link: https://openai.com/index/bug-bounty-program
 id: https://openai.com/index/bug-bounty-program
 date: Tue, 11 Apr 2023 07:00:00 GMT
+body:
+#ITEM
+title: Building AI infrastructure with the Effingham County community
+link: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
+id: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
+date: Wed, 22 Jul 2026 13:00:00 GMT
 body:
 #ITEM
 title: Building an early warning system for LLM-aided biological threat creation
@@ -2633,6 +2645,12 @@ id: https://openai.com/index/how-countries-can-end-the-capability-overhang
 date: Wed, 21 Jan 2026 01:00:00 GMT
 body:
 #ITEM
+title: How news organizations are using AI to advance their vital missions
+link: https://openai.com/index/how-news-organizations-are-using-ai
+id: https://openai.com/index/how-news-organizations-are-using-ai
+date: Wed, 22 Jul 2026 13:00:00 GMT
+body:
+#ITEM
 title: How OpenAI is approaching 2024 worldwide elections
 link: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
 id: https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections
@@ -3183,6 +3201,12 @@ title: Introducing the OpenAI Partner Network
 link: https://openai.com/index/introducing-openai-partner-network
 id: https://openai.com/index/introducing-openai-partner-network
 date: Sun, 14 Jun 2026 17:00:00 GMT
+body:
+#ITEM
+title: Introducing OpenAI Presence
+link: https://openai.com/index/introducing-openai-presence
+id: https://openai.com/index/introducing-openai-presence
+date: Wed, 22 Jul 2026 05:30:00 GMT
 body:
 #ITEM
 title: Introducing OpenAI Privacy Filter
@@ -4011,6 +4035,12 @@ title: What Codex unlocks for Notion
 link: https://openai.com/index/notion
 id: https://openai.com/index/notion
 date: Tue, 09 Jun 2026 10:00:00 GMT
+body:
+#ITEM
+title: NTT DATA Group cuts incident analysis to 30 minutes with Codex
+link: https://openai.com/index/ntt-data
+id: https://openai.com/index/ntt-data
+date: Wed, 22 Jul 2026 00:00:00 GMT
 body:
 #ITEM
 title: Nubank elevates customer experiences with OpenAI
