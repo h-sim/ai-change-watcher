@@ -1,5 +1,85 @@
 [
   {
+    "id": "68662aefa101456c0e726bca3b8b83226cf407e0",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+Best practices\n+Models & pricing\n+CLI, SDKs, and libraries\n+Claude API skill\n+Release notes\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Jul 2026 02:00:48 GMT",
+    "run_at": "2026-07-24T02:00:35Z",
+    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
+  },
+  {
+    "id": "879c01e53f78eaf71c6a8b97c047e5b0449dabdb",
+    "impact": "Medium",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+  /organization/spend_limit:\n+    get:\n+      summary: Get the organization's hard spend limit.\n+      operationId: Getorganizationspendlimit\n+      parameters: []\n+      responses:\n+        '200':\n+          description: Hard spend limit retrieved successfully.\n+          content:\n+            application/json:\n+              schema:\n+                $ref: '#/components/schemas/OrganizationSpendLimitResource'\n+      x-oaiMeta:\n+        name: Retrieve organization spend limit\n+        group: administration\n+        examples:\n+          request:\n+            curl: |\n+              curl https://api.openai.com/v1/organization/spend_limit \\\n+                -H \"Authorization: Bearer $OPENAI_ADMIN_KEY\" \\\n+                -H \"Content-Type: application/json\"\n+            node.js: >-\n+              import OpenAI from 'openai';\n+\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+\n+              const organizationSpendLimit = await\n+              client.admin.organization.spendLimit.retrieve();\n+\n+\n+              console.log(organizationSpendLimit.currency);\n+            python: >-\n+              import os\n+\n+              from openai import OpenAI\n+",
+    "snippet_full": "",
+    "diff": {
+      "added": 848,
+      "removed": 0,
+      "churn": 848
+    },
+    "score": 40,
+    "reasons": [
+      "OpenAPI: servers.url変更"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Jul 2026 02:00:47 GMT",
+    "run_at": "2026-07-24T02:00:35Z",
+    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
+  },
+  {
+    "id": "45d118d5ae9c3423bda322c4935cbcbadcc3dad6",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How Codex became a collaborator for OpenAI’s creative team\n+link: https://openai.com/index/codex-collaborator-creative-team\n+id: https://openai.com/index/codex-collaborator-creative-team\n+date: Thu, 16 Jul 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Launching Health in ChatGPT\n+link: https://openai.com/index/health-in-chatgpt\n+id: https://openai.com/index/health-in-chatgpt\n+date: Thu, 23 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Jul 2026 02:00:36 GMT",
+    "run_at": "2026-07-24T02:00:35Z",
+    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
+  },
+  {
+    "id": "f5e9aeaa4026532a1c116acf022a9aa4731e2c55",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Voice\n-Work mode admin FAQ\n+ChatGPT Work admin FAQ",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 1,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 24 Jul 2026 02:00:36 GMT",
+    "run_at": "2026-07-24T02:00:35Z",
+    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
+  },
+  {
     "id": "1875f690cc439e27a7b5039510a6e82ea83f2eb1",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -914,81 +994,5 @@
     "pubDate": "Sat, 27 Jun 2026 02:34:05 GMT",
     "run_at": "2026-06-27T02:33:36Z",
     "run_id": "385c1b03c7454c618689609f74ddc5fb"
-  },
-  {
-    "id": "b523a04607f5bd0c2988feaf719547e15e64cb92",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Previewing GPT-5.6 Sol: a next-generation model\n+link: https://openai.com/index/previewing-gpt-5-6-sol\n+id: https://openai.com/index/previewing-gpt-5-6-sol\n+date: Fri, 26 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 27 Jun 2026 02:33:37 GMT",
-    "run_at": "2026-06-27T02:33:36Z",
-    "run_id": "385c1b03c7454c618689609f74ddc5fb"
-  },
-  {
-    "id": "094fd8c6f6bf9685d3f01873597c920edc12b5b7",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Making private MCP servers reachable without making them public\n-Using skills to accelerate OSS maintenance\n+OpenAI for Startups\n-Hackathon Support\n-Forum\n+Spaces\n+Developer Forum\n+Reddit\n+X",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 3,
-      "churn": 9
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 27 Jun 2026 02:33:37 GMT",
-    "run_at": "2026-06-27T02:33:36Z",
-    "run_id": "385c1b03c7454c618689609f74ddc5fb"
-  },
-  {
-    "id": "72bc5625f1bbedebb66cbc1520c55629a4b2085e",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Claude Platform - Claude API Docs\n+Claude Platform - Claude Platform Docs\n+Claude Platform Docs\n+Claude Platform Docs\n-Google Cloud's Vertex AI\n+Claude on Google Cloud\n+June 18, 2026\n+The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for\n+code_execution_20260120\n+, the\n+code execution tool\n+version that adds REPL state persistence and is the minimum version for\n+programmatic tool calling\n+. To adopt it, set the tool's\n+type\n+to\n+code_execution_20260120\n+; no beta header is required. It's available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the\n+model compatibility table\n+.\n+\n+stop_details.category\n+\"reasoning_extraction\"\n-and\n+\"cyber\"\n+and\n+\"bio\"\n+On Claude Fable 5 and Claude Mythos 5,\n+adaptive thinking\n+is the only thinking mode:\n+thinking: {\"type\": \"disabled\"}\n+is not supported, and manual extended thinking budgets and assistant prefill are not supported (both return a 400 error). See\n+Migrating from Claude Mythos Preview to Claude Mythos 5\n+.\n+On Claude Fable 5 and Claude Mythos 5,\n+thinking.display\n+defaults to\n+\"omitted\"\n+, the same as Claude Opus 4.8, Claude Opus 4.7, and Claude Mythos Preview; set\n+display: \"summarized\"",
-    "snippet_full": "",
-    "diff": {
-      "added": 142,
-      "removed": 124,
-      "churn": 266
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 26 Jun 2026 02:41:41 GMT",
-    "run_at": "2026-06-26T02:41:33Z",
-    "run_id": "06aaa91766c24319a87eb53d20f0e8c3"
-  },
-  {
-    "id": "20f84718740ac63a18b09d589d5cf720d4c81ed4",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How agents are transforming work\n+link: https://openai.com/index/how-agents-are-transforming-work\n+id: https://openai.com/index/how-agents-are-transforming-work\n+date: Thu, 25 Jun 2026 02:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 26 Jun 2026 02:41:34 GMT",
-    "run_at": "2026-06-26T02:41:33Z",
-    "run_id": "06aaa91766c24319a87eb53d20f0e8c3"
   }
 ]

@@ -399,6 +399,7 @@ Codex Micro
 Capabilities
 Browser
 Computer use
+Voice
 Plugins
 Web search
 Image generation
@@ -492,7 +493,7 @@ Cyber Safety
 Overview
 Getting started
 Admin rollout guide
-Work mode admin FAQ
+ChatGPT Work admin FAQ
 Identity and authentication
 Authentication overview
 Access tokens

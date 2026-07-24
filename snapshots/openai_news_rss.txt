@@ -1175,6 +1175,12 @@ id: https://openai.com/index/codex-apps
 date: Tue, 24 May 2022 07:00:00 GMT
 body:
 #ITEM
+title: How Codex became a collaborator for OpenAI’s creative team
+link: https://openai.com/index/codex-collaborator-creative-team
+id: https://openai.com/index/codex-collaborator-creative-team
+date: Thu, 16 Jul 2026 07:00:00 GMT
+body:
+#ITEM
 title: Codex now offers more flexible pricing for teams
 link: https://openai.com/index/codex-flexible-pricing-for-teams
 id: https://openai.com/index/codex-flexible-pricing-for-teams
@@ -2517,6 +2523,12 @@ title: Customizing models for legal professionals
 link: https://openai.com/index/harvey
 id: https://openai.com/index/harvey
 date: Tue, 02 Apr 2024 00:00:00 GMT
+body:
+#ITEM
+title: Launching Health in ChatGPT
+link: https://openai.com/index/health-in-chatgpt
+id: https://openai.com/index/health-in-chatgpt
+date: Thu, 23 Jul 2026 00:00:00 GMT
 body:
 #ITEM
 title: Introducing HealthBench

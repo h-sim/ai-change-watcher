@@ -5,6 +5,12 @@ Managed Agents
 Admin
 Resources
 
+Best practices
+Models & pricing
+CLI, SDKs, and libraries
+Claude API skill
+Release notes
+
 
 API reference
 English
