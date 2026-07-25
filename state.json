@@ -1,5 +1,48 @@
 [
   {
+    "id": "b7a80aca8b62984c30b1b12c4122a3fff58f3e05",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-Education\n+Higher education\n+K-12 teachers\n+July 24, 2026\n+We've launched\n+Claude Opus 5\n+(\n+claude-opus-5\n+), a step-change improvement over Claude Opus 4.8. Claude Opus 5 supports a\n+1M token context window\n+(both the default and the maximum), 128k max output tokens, and\n+thinking\n+on by default, at $5 / $25 per MTok, the same pricing as Claude Opus 4.8. It's available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. See\n+What's new in Claude Opus 5\n+for new features, behavior changes, and migration guidance, and the\n+models overview\n+for complete specs.\n+On Claude Opus 5, disabling thinking is allowed only at effort\n+high\n+or below:\n+thinking: {\"type\": \"disabled\"}\n+with effort\n+xhigh\n+or\n+max\n+returns a 400 error, a breaking change from Claude Opus 4.8. See\n+What's new in Claude Opus 5\n+.\n+Effort\n+is the primary control for steering Claude Opus 5: the model supports the full ladder (\n+low\n+,\n+medium\n+,",
+    "snippet_full": "",
+    "diff": {
+      "added": 80,
+      "removed": 7,
+      "churn": 87
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 25 Jul 2026 02:00:37 GMT",
+    "run_at": "2026-07-25T02:00:01Z",
+    "run_id": "4ddcf06194d145ef9720f1c0be301e08"
+  },
+  {
+    "id": "53679653e98265a8b6fcef0efabc2b43179d01a5",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Apps SDK\n-Build apps to extend ChatGPT\n+Plugins\n+Extend ChatGPT and Codex\n-Spend limits\n+Spend limits\n-Apps SDK\n+Plugins\n-Apps SDK\n+Plugins\n-Core Concepts\n-MCP Apps in ChatGPT\n-MCP Server\n-UX principles\n-UI guidelines\n+Core concepts\n+Plugin architecture\n+Skills\n+MCP server\n-Research use cases\n+Brainstorm use cases\n-Design components\n-Set up your server\n-Build your ChatGPT UI\n+Build an MCP server\n+Add UI to your MCP server (optional)\n-Manage state\n-Monetize your app\n+Build skills\n+Package your plugin\n-Deploy\n-Deploy your app\n-Connect from ChatGPT\n-Test your integration\n-Prepare your app\n-Conversion apps\n+Test and publish\n+Connect and test your plugin\n+Submit and publish\n+Submission error reference",
+    "snippet_full": "",
+    "diff": {
+      "added": 24,
+      "removed": 28,
+      "churn": 52
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Sat, 25 Jul 2026 02:00:01 GMT",
+    "run_at": "2026-07-25T02:00:01Z",
+    "run_id": "4ddcf06194d145ef9720f1c0be301e08"
+  },
+  {
     "id": "68662aefa101456c0e726bca3b8b83226cf407e0",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -953,46 +996,5 @@
     "pubDate": "Mon, 29 Jun 2026 02:47:15 GMT",
     "run_at": "2026-06-29T02:47:14Z",
     "run_id": "76f5dc0ae5b045ba8541e130e5122f67"
-  },
-  {
-    "id": "a08d8c089f6c5e6641b79ee0a2c70be52a0ceb0a",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: Shaping the future of financial services\n+title: Morgan Stanley is shaping the future of financial services",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sun, 28 Jun 2026 02:46:48 GMT",
-    "run_at": "2026-06-28T02:46:47Z",
-    "run_id": "d72c59bb1a644ff19dec5a23d3566043"
-  },
-  {
-    "id": "c0ccb98fc2bf2f8996139b2d5cf528a339d1848a",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+June 26, 2026\n+We've raised\n+rate limits\n+across the Claude API. Claude Sonnet and Claude Haiku rate limits now match Claude Opus at every usage tier, and usage tiers have been consolidated into three: Start, Build, and Scale. Most organizat\n+Claude Console\n+.\n+\n+June 25, 2026\n+We've deprecated\n+fast mode\n+for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to\n+claude-opus-4-7\n+with\n+speed: \"fast\"\n+will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in\n+Fast mode\n+.\n+\n+June 26, 2026\n+June 25, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 20,
-      "removed": 0,
-      "churn": 20
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 27 Jun 2026 02:34:05 GMT",
-    "run_at": "2026-06-27T02:33:36Z",
-    "run_id": "385c1b03c7454c618689609f74ddc5fb"
   }
 ]

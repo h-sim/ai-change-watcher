@@ -11,8 +11,8 @@ Docs
 Use cases
 Resources
 ChatGPT
-Apps SDK
-Build apps to extend ChatGPT
+Plugins
+Extend ChatGPT and Codex
 Workspace Agents
 Trigger published ChatGPT workspace agents
 Commerce
@@ -99,7 +99,6 @@ OpenAI CLI
 Resources
 Changelog
 Deprecations
-Spend limits
 Supported countries
 OpenAI Crawlers
 Terms and policies
@@ -251,6 +250,7 @@ IP egress ranges
 Amazon Bedrock
 Operations
 Rate limits
+Spend limits
 Admin APIs
 Error codes
 Docs
@@ -259,11 +259,11 @@ Docs
 Use cases
 Docs section
 Docs
-Apps SDK
+Plugins
 Workspace Agents
 Commerce
 Ads
-Apps SDK
+Plugins
 Workspace Agents
 Commerce
 Ads
@@ -271,38 +271,38 @@ Docs section
 Select...
 Home
 Quickstart
-Core Concepts
-MCP Apps in ChatGPT
-MCP Server
-UX principles
-UI guidelines
+Core concepts
+Plugin architecture
+Skills
+MCP server
 Plan
-Research use cases
+Brainstorm use cases
 Define tools
-Design components
 Build
-Set up your server
-Build your ChatGPT UI
+Build an MCP server
+Add UI to your MCP server (optional)
 Authenticate users
-Manage state
-Monetize your app
+Build skills
+Package your plugin
 Examples
-Deploy
-Deploy your app
-Connect from ChatGPT
-Test your integration
-Prepare your app
-Conversion apps
+Test and publish
+Connect and test your plugin
+Submit and publish
+Submission error reference
+Conversion specs
 Restaurant reservation spec
 Product checkout spec
 Guides
+UI guidelines
 Optimize Metadata
 Security & Privacy
 Troubleshooting
 Resources
 Changelog
-App guidelines
-Reference
+Plugin guidelines
+MCP server review requirements
+Plugin UI reference
+Checkout API reference
 Home
 Get started
 Trigger workspace agent runs
@@ -442,8 +442,6 @@ Integrated terminal
 Extend and automate
 Build skills
 Build plugins
-Build an app
-Submit plugins
 Hooks
 Environments
 Modes
@@ -464,7 +462,6 @@ Reference
 CLI customization
 Developer commands
 Developer settings
-Plugin submission errors
 Overview
 Permissions
 Profiles
@@ -638,7 +635,6 @@ OpenAI CLI
 Resources
 Changelog
 Deprecations
-Spend limits
 Supported countries
 OpenAI Crawlers
 Terms and policies
