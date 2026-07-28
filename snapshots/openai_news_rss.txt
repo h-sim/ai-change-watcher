@@ -2627,6 +2627,12 @@ id: https://openai.com/index/how-agents-are-transforming-work
 date: Thu, 25 Jun 2026 02:00:00 GMT
 body:
 #ITEM
+title: How AI is expanding what people do at work
+link: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+id: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work
+date: Mon, 27 Jul 2026 03:30:00 GMT
+body:
+#ITEM
 title: How AI training scales
 link: https://openai.com/index/how-ai-training-scales
 id: https://openai.com/index/how-ai-training-scales

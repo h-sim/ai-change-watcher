@@ -1,5 +1,43 @@
 [
   {
+    "id": "39ff640d08e69d6235c1490b71df7ca602c0a813",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: How AI is expanding what people do at work\n+link: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\n+id: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\n+date: Mon, 27 Jul 2026 03:30:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 28 Jul 2026 01:52:45 GMT",
+    "run_at": "2026-07-28T01:52:44Z",
+    "run_id": "0b31eb09099a4bfa8bfc31179ca9272d"
+  },
+  {
+    "id": "a9c303de8ab9b81ea9c3c00cf6c13f49db2fdac4",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+For the complete documentation index, see\n+llms.txt\n+. Markdown versions of documentation pages are available by appending\n+.md\n+to the page URL.\n+Oracle Cloud Infrastructure",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 28 Jul 2026 01:52:44 GMT",
+    "run_at": "2026-07-28T01:52:44Z",
+    "run_id": "0b31eb09099a4bfa8bfc31179ca9272d"
+  },
+  {
     "id": "b7a80aca8b62984c30b1b12c4122a3fff58f3e05",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -958,43 +996,5 @@
     "pubDate": "Tue, 30 Jun 2026 02:41:59 GMT",
     "run_at": "2026-06-30T02:41:30Z",
     "run_id": "ce5867402d5d4fd4b120a28bd75445f7"
-  },
-  {
-    "id": "b91bdc31347c633b4804b00312003ef6b229a876",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Mapping Europe’s AI Workforce Opportunity\n+link: https://openai.com/index/mapping-ai-jobs-transition-eu\n+id: https://openai.com/index/mapping-ai-jobs-transition-eu\n+date: Mon, 29 Jun 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 30 Jun 2026 02:41:31 GMT",
-    "run_at": "2026-06-30T02:41:30Z",
-    "run_id": "ce5867402d5d4fd4b120a28bd75445f7"
-  },
-  {
-    "id": "765cfc6c15316ce1b0cdb00e1e79b569eda84d4b",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: HP Inc. launches Frontier strategic partnership with OpenAI\n+link: https://openai.com/index/hp-frontier-partnership\n+id: https://openai.com/index/hp-frontier-partnership\n+date: Sun, 28 Jun 2026 17:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Mon, 29 Jun 2026 02:47:15 GMT",
-    "run_at": "2026-06-29T02:47:14Z",
-    "run_id": "76f5dc0ae5b045ba8541e130e5122f67"
   }
 ]

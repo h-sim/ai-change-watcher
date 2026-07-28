@@ -1,4 +1,9 @@
 Changelog | OpenAI API
+For the complete documentation index, see
+llms.txt
+. Markdown versions of documentation pages are available by appending
+.md
+to the page URL.
 ChatGPT
 Home
 API
@@ -244,6 +249,7 @@ Kubernetes
 AWS
 Microsoft Azure
 Google Cloud
+Oracle Cloud Infrastructure
 GitHub Actions
 SPIFFE
 IP egress ranges
