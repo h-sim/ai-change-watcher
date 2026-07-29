@@ -137,7 +137,7 @@ id: https://openai.com/academy/responsible-and-safe-use
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: ChatGPT for sales teams
+title: Learn ChatGPT for Sales Teams
 link: https://openai.com/academy/sales
 id: https://openai.com/academy/sales
 date: Fri, 10 Apr 2026 00:00:00 GMT
@@ -5301,6 +5301,12 @@ title: SchoolAI builds an AI platform that empowers teachers
 link: https://openai.com/index/schoolai
 id: https://openai.com/index/schoolai
 date: Mon, 22 Sep 2025 10:00:00 GMT
+body:
+#ITEM
+title: Scientific computing in the age of agentic AI
+link: https://openai.com/index/scientific-computing-agentic-ai
+id: https://openai.com/index/scientific-computing-agentic-ai
+date: Tue, 28 Jul 2026 17:00:00 GMT
 body:
 #ITEM
 title: How Scout24 is building the next generation of real-estate search with AI

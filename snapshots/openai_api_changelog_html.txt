@@ -208,8 +208,9 @@ Live translation
 Realtime prompting guide
 Audio
 Audio and speech
+Transcription
+File transcription
 Realtime transcription
-Speech to text
 Speech generation
 Connection methods
 WebRTC
@@ -243,6 +244,13 @@ Under 18 API Guidance
 Your data
 Permissions
 Infrastructure and access
+Terraform provider
+Overview
+Projects and access
+Service accounts
+Rate limits and spend
+Model, tool, and data controls
+Import and reconciliation
 Private Link
 Workload identity federation
 Kubernetes
@@ -297,6 +305,7 @@ Submit and publish
 Submission error reference
 Conversion specs
 Restaurant reservation spec
+Get Quote spec
 Product checkout spec
 Guides
 UI guidelines
@@ -477,7 +486,6 @@ Agent approvals & security
 Internet access
 Codex Security
 Overview
-Cloud FAQ
 Codex Security plugin
 Quickstart
 Run a security scan
@@ -489,8 +497,17 @@ Export and track findings
 Write vulnerability reports
 Propose security hardening
 Changelog
-Codex Security cloud setup
+Codex Security cloud
+Setup
 Improving the threat model
+FAQ
+CLI and SDK
+CLI quickstart
+Run bulk scans
+CLI reference
+Run scans in CI
+CLI FAQ
+TypeScript SDK
 Safety
 Cyber Safety
 Overview
@@ -674,6 +691,20 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 July, 2026
+Jul 28
+Feature
+gpt-transcribe
+gpt-live-transcribe
+v1/audio/transcriptions
+v1/realtime
+Released
+GPT Transcribe
+for accurate file transcription and final transcripts of committed Realtime turns, along with
+GPT Live Transcribe
+for low-latency streaming transcription.
+Both models support free-form transcription context, keyword hints, and multiple expected input languages. Compare supported outputs and workflows in the
+transcription guide
+.
 Jul 22
 Feature
 Added hard spend limits for organizations and projects on the OpenAI API platform. Set a monthly cap that causes affected API requests to return a

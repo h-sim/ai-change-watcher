@@ -1,5 +1,65 @@
 [
   {
+    "id": "4ebd6741c2dcb84436c820163c38e3fa0dc89928",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "+  live_call_incoming:\n+    post:\n+      description: |\n+        Sent when an incoming API SIP session is available for Live acceptance.\n+      requestBody:\n+        description: The event payload sent by the API.\n+        content:\n+          application/json:\n+            schema:\n+              $ref: '#/components/schemas/WebhookLiveCallIncoming'\n+      responses:\n+        '200':\n+          description: >\n+            Return a 200 status code to acknowledge receipt of the event.\n+            Non-200\n+\n+            status codes will be retried.\n-      description: |\n-        Sent when Realtime API Receives a incoming SIP call.\n+      description: >\n+        Sent when an incoming API SIP session is available for Realtime\n+        acceptance.\n-            `gpt-4o-mini-transcribe`, `gpt-4o-mini-transcribe-2025-12-15`,\n-            `gpt-4o-transcribe`, `gpt-4o-transcribe-diarize`, and\n-            `gpt-realtime-whisper`. Use `gpt-4o-transcribe-diarize` when you\n-            need diarization with speaker labels.\n+            `gpt-transcribe`, `gpt-live-transcribe`, `gpt-4o-mini-transcribe`,\n+            `gpt-4o-mini-transcribe-2025-12-15`, `gpt-4o-transcribe`,\n+            `gpt-4o-transcribe-diarize`, and `gpt-realtime-whisper`. Use\n+            `gpt-4o-transcribe-diarize` when you need diarization with speaker\n+            labels.\n+                - gpt-transcribe\n+                - gpt-live-transcribe\n+        languages:\n+          type: array\n+          description: >\n+            Possible languages of the input audio, in\n+            [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)\n+            format. Supported by `gpt-transcribe` and `gpt-live-transcribe`.\n+          minItems: 1",
+    "snippet_full": "",
+    "diff": {
+      "added": 226,
+      "removed": 17,
+      "churn": 243
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 29 Jul 2026 01:56:33 GMT",
+    "run_at": "2026-07-29T01:55:58Z",
+    "run_id": "2d35ab3b55bb4513956b66804ec96e70"
+  },
+  {
+    "id": "ba3e1c2c6f345f8c93d4cce05171fcd71e37c87a",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-title: ChatGPT for sales teams\n+title: Learn ChatGPT for Sales Teams\n+title: Scientific computing in the age of agentic AI\n+link: https://openai.com/index/scientific-computing-agentic-ai\n+id: https://openai.com/index/scientific-computing-agentic-ai\n+date: Tue, 28 Jul 2026 17:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 1,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 29 Jul 2026 01:56:20 GMT",
+    "run_at": "2026-07-29T01:55:58Z",
+    "run_id": "2d35ab3b55bb4513956b66804ec96e70"
+  },
+  {
+    "id": "0384d3a2b54d7f5f4da31ac0a8af9a9e9c92f50b",
+    "impact": "High",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Transcription\n+File transcription\n-Speech to text\n+Terraform provider\n+Overview\n+Projects and access\n+Service accounts\n+Rate limits and spend\n+Model, tool, and data controls\n+Import and reconciliation\n+Get Quote spec\n-Cloud FAQ\n-Codex Security cloud setup\n+Codex Security cloud\n+Setup\n+FAQ\n+CLI and SDK\n+CLI quickstart\n+Run bulk scans\n+CLI reference\n+Run scans in CI\n+CLI FAQ\n+TypeScript SDK\n+Jul 28\n+Feature\n+gpt-transcribe\n+gpt-live-transcribe\n+v1/audio/transcriptions\n+v1/realtime\n+Released\n+GPT Transcribe\n+for accurate file transcription and final transcripts of committed Realtime turns, along with\n+GPT Live Transcribe\n+for low-latency streaming transcription.\n+Both models support free-form transcription context, keyword hints, and multiple expected input languages. Compare supported outputs and workflows in the\n+transcription guide\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 34,
+      "removed": 3,
+      "churn": 37
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 29 Jul 2026 01:56:19 GMT",
+    "run_at": "2026-07-29T01:55:58Z",
+    "run_id": "2d35ab3b55bb4513956b66804ec96e70"
+  },
+  {
     "id": "39ff640d08e69d6235c1490b71df7ca602c0a813",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -933,68 +993,5 @@
     "pubDate": "Thu, 02 Jul 2026 02:37:11 GMT",
     "run_at": "2026-07-02T02:37:04Z",
     "run_id": "94875fc24f874033a06dab46cc7a975b"
-  },
-  {
-    "id": "078b0cd1195f5ad7480d033febcfd9df65842b75",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+June 30, 2026\n+We've launched\n+Claude Sonnet 5\n+(\n+claude-sonnet-5\n+), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok through August 31, 2026 (standard $3 / $15 thereafter). Claude Sonnet 5 supports a\n+1M token context window\n+, 128k max output tokens, and the same set of tools and platform features as Claude Sonnet 4.6, except\n+Priority Tier\n+, which is not available on Claude Sonnet 5. Three behavior changes apply when migrating:\n+adaptive thinking\n+is now on by default; manual extended thinking (\n+thinking: {type: \"enabled\", budget_tokens: N}\n+) is removed and returns a 400 error (it was deprecated on Sonnet 4.6); and setting sampling parameters (\n+temperature\n+,\n+top_p\n+,\n+top_k\n+) to non-default values returns a 400 error. Claude Sonnet 5 also uses a new tokenizer that produces approximately 30% more tokens for the same text. See\n+What's new in Claude Sonnet 5\n+for details and migration guidance.\n+Claude Managed Agents session event streams now support\n+event deltas\n+. Opt in with the\n+event_deltas[]\n+query parameter on\n+GET /v1/sessions/{session_id}/events/stream\n+. The\n+event_start\n+and\n+event_delta\n+events preview an agent message's text as it's generated, before the complete\n+agent.message\n+event arrives.\n+Listing sessions\n+for Claude Managed Agents now supports backward pagination.\n+GET /v1/sessions\n+returns a\n+prev_page",
-    "snippet_full": "",
-    "diff": {
-      "added": 83,
-      "removed": 4,
-      "churn": 87
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 01 Jul 2026 02:48:00 GMT",
-    "run_at": "2026-07-01T02:47:35Z",
-    "run_id": "d48221429e1e48919be8930715c15255"
-  },
-  {
-    "id": "83d2ad00e6f5e393bbde724c24b321ceb18ed5d4",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Core dump epidemiology: fixing an 18-year-old bug\n+link: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+id: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Inside Genebench-Pro\n+link: https://openai.com/index/genebench-pro/case-studies\n+id: https://openai.com/index/genebench-pro/case-studies\n+title: How ChatGPT adoption has expanded\n+link: https://openai.com/index/how-chatgpt-adoption-has-expanded\n+id: https://openai.com/index/how-chatgpt-adoption-has-expanded",
-    "snippet_full": "+title: Core dump epidemiology: fixing an 18-year-old bug\n+link: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+id: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Inside Genebench-Pro\n+link: https://openai.com/index/genebench-pro/case-studies\n+id: https://openai.com/index/genebench-pro/case-studies\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How ChatGPT adoption has expanded\n+link: https://openai.com/index/how-chatgpt-adoption-has-expanded\n+id: https://openai.com/index/how-chatgpt-adoption-has-expanded\n+date: Tue, 30 Jun 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing GeneBench-Pro\n+link: https://openai.com/index/introducing-genebench-pro\n+id: https://openai.com/index/introducing-genebench-pro\n+date: Tue, 30 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 0,
-      "churn": 24
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 01 Jul 2026 02:47:36 GMT",
-    "run_at": "2026-07-01T02:47:35Z",
-    "run_id": "d48221429e1e48919be8930715c15255"
-  },
-  {
-    "id": "9e090103ab157007e7e7ed8acded97045d066785",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+June 29, 2026\n+We've removed\n+fast mode\n+for Claude Opus 4.6. Requests to\n+claude-opus-4-6\n+with\n+speed: \"fast\"\n+no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's\n+usage.speed\n+field reports the speed used. To continue using fast mode, migrate to\n+Claude Opus 4.8\n+. Read more in\n+Fast mode\n+.\n+\n-by default on the Claude API, Amazon Bedrock, and Vertex AI (200k on Microsoft Foundry), 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See\n+June 29, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 17,
-      "removed": 1,
-      "churn": 18
-    },
-    "score": 110,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 30 Jun 2026 02:41:59 GMT",
-    "run_at": "2026-06-30T02:41:30Z",
-    "run_id": "ce5867402d5d4fd4b120a28bd75445f7"
   }
 ]
