@@ -1049,6 +1049,12 @@ id: https://openai.com/index/chatgpt-enterprise-spend-controls
 date: Thu, 18 Jun 2026 17:00:00 GMT
 body:
 #ITEM
+title: Accelerating scientific discovery with ChatGPT for Academic Researchers
+link: https://openai.com/index/chatgpt-for-academic-researchers
+id: https://openai.com/index/chatgpt-for-academic-researchers
+date: Wed, 29 Jul 2026 10:00:00 GMT
+body:
+#ITEM
 title: Introducing ChatGPT for Excel and new financial data integrations
 link: https://openai.com/index/chatgpt-for-excel
 id: https://openai.com/index/chatgpt-for-excel
@@ -2351,6 +2357,12 @@ id: https://openai.com/index/gpt-5-6
 date: Thu, 09 Jul 2026 10:00:00 GMT
 body:
 #ITEM
+title: How GPT-5.6 fuses frontier intelligence with frontier efficiency
+link: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+id: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency
+date: Wed, 29 Jul 2026 00:00:00 GMT
+body:
+#ITEM
 title: GPT-5.6 is now the preferred model in Microsoft 365 Copilot
 link: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
 id: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
@@ -2691,6 +2703,12 @@ title: How the voices for ChatGPT were chosen
 link: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
 id: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
 date: Sun, 19 May 2024 23:30:00 GMT
+body:
+#ITEM
+title: How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
+link: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
+id: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
+date: Wed, 29 Jul 2026 15:00:00 GMT
 body:
 #ITEM
 title: How we monitor internal coding agents for misalignment
