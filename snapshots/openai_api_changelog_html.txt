@@ -228,7 +228,7 @@ Deployment checklist
 Performance and quality
 Latency optimization
 Predicted Outputs
-Priority processing
+Fast mode
 Accuracy optimization
 Cost and throughput
 Cost optimization
@@ -488,6 +488,7 @@ Codex Security
 Overview
 Codex Security plugin
 Quickstart
+Use the Security workbench
 Run a security scan
 Run a deep scan
 Review code changes
@@ -691,6 +692,19 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 July, 2026
+Jul 30
+Update
+gpt-5.6-sol
+gpt-5.6-terra
+gpt-5.6-luna
+v1/responses
+v1/chat/completions
+Starting July 30, GPT-5.6 Luna costs 80% less, while GPT-5.6 Terra costs 20% less. See
+pricing details
+.
+We're also introducing
+Fast mode
+in the API, which replaces our Priority Processing offering. For GPT-5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than standard processing at twice the price. This change is backward compatible: requests tagged priority will automatically use Fast mode.
 Jul 29
 Feature
 Released the official

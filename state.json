@@ -1,5 +1,67 @@
 [
   {
+    "id": "1bda4a50281b33b521dce309c306c164e02c6801",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-              - If set to '[flex](/docs/guides/flex-processing)' or '[priority](https://openai.com/api-priority-processing/)', then the request will be processed with the corresponding service tier.\n+              - If set to '[flex](/docs/guides/flex-processing)', then the request will be processed with the Flex Processing service tier.\n+              - To opt-in to [Fast mode](/api/docs/guides/fast-mode) at the request level, include the `service_tier=fast` or `service_tier=priority` parameter for Responses or Chat Completions. The \n+            - fast\n-              - If set to '[flex](/docs/guides/flex-processing)' or '[priority](https://openai.com/api-priority-processing/)', then the request will be processed with the corresponding service tier.\n+              - If set to '[flex](/docs/guides/flex-processing)', then the request will be processed with the Flex Processing service tier.\n+              - To opt-in to [Fast mode](/api/docs/guides/fast-mode) at the request level, include the `service_tier=fast` or `service_tier=priority` parameter for Responses or Chat Completions. The \n+            - fast",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 2,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 31 Jul 2026 02:06:35 GMT",
+    "run_at": "2026-07-31T02:05:48Z",
+    "run_id": "dce439f1637241e589818dd5b330968d"
+  },
+  {
+    "id": "6c4b335728b6aebb63e0e6ba3cd777e6d2baba5a",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing the price-performance frontier with GPT-5.6\n+link: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6\n+id: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6\n+date: Thu, 30 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How avatarin built a 24/7 retail agent with GPT-Realtime\n+link: https://openai.com/index/avatarin\n+id: https://openai.com/index/avatarin\n+date: Thu, 30 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 31 Jul 2026 02:06:24 GMT",
+    "run_at": "2026-07-31T02:05:48Z",
+    "run_id": "dce439f1637241e589818dd5b330968d"
+  },
+  {
+    "id": "3db2bbff868dbdbb9ad84086dd9879cb80c0cac4",
+    "impact": "High",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Priority processing\n+Fast mode\n+Use the Security workbench\n+Jul 30\n+Update\n+gpt-5.6-sol\n+gpt-5.6-terra\n+gpt-5.6-luna\n+v1/responses\n+v1/chat/completions\n+Starting July 30, GPT-5.6 Luna costs 80% less, while GPT-5.6 Terra costs 20% less. See\n+pricing details\n+.\n+We're also introducing\n+Fast mode\n+in the API, which replaces our Priority Processing offering. For GPT-5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than standard processing at twice the price. This change is backward comp",
+    "snippet_full": "",
+    "diff": {
+      "added": 15,
+      "removed": 1,
+      "churn": 16
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 31 Jul 2026 02:06:08 GMT",
+    "run_at": "2026-07-31T02:05:48Z",
+    "run_id": "dce439f1637241e589818dd5b330968d"
+  },
+  {
     "id": "6c6a30c41fcb2e40cc3e60851b71166b727b3f1d",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -936,64 +998,5 @@
     "pubDate": "Thu, 09 Jul 2026 02:13:08 GMT",
     "run_at": "2026-07-09T02:13:08Z",
     "run_id": "2f4fbbf0a0ad4881993cae9f21f52e75"
-  },
-  {
-    "id": "cb5118b21cae71ff640d7df1ff8b621aa086cce4",
-    "impact": "Breaking",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-for details and migration guidance.\n+for details and migration guidance. For behavioral differences and model-specific prompting patterns, see\n+Prompting Claude Sonnet 5\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 3,
-      "removed": 1,
-      "churn": 4
-    },
-    "score": 80,
-    "reasons": [
-      "Changelog: breaking/deprecate/removed"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 08 Jul 2026 02:01:04 GMT",
-    "run_at": "2026-07-08T02:00:37Z",
-    "run_id": "d75216e986a04082ba660a770915e435"
-  },
-  {
-    "id": "f80df0917c1dd8284a813f49db55cd68e7d7d307",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Australian Payments Plus moves faster with ChatGPT and Codex\n+link: https://openai.com/index/australian-payments-plus\n+id: https://openai.com/index/australian-payments-plus\n+date: Tue, 07 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM\n-date: Thu, 28 May 2026 00:00:00 GMT\n+date: Tue, 07 Jul 2026 00:00:00 GMT",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 1,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 08 Jul 2026 02:00:38 GMT",
-    "run_at": "2026-07-08T02:00:37Z",
-    "run_id": "d75216e986a04082ba660a770915e435"
-  },
-  {
-    "id": "6d0e80fd96879e9e15a6444f8e890aa5ce87e23d",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+July, 2026\n+Jul 6\n+Feature\n+gpt-realtime-2.1\n+gpt-realtime-2.1-mini\n+v1/realtime\n+Released\n+GPT-Realtime-2.1\n+, an updated realtime reasoning model with improved alphanumeric recognition, silence and noise handling, and interruption behavior. Also released\n+GPT-Realtime-2.1 mini\n+, a faster, lower-cost distilled reasoning model for realtime voice applications.",
-    "snippet_full": "",
-    "diff": {
-      "added": 11,
-      "removed": 0,
-      "churn": 11
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 07 Jul 2026 02:26:31 GMT",
-    "run_at": "2026-07-07T02:26:31Z",
-    "run_id": "9c6477ae4ea64a2697a806fe4a831432"
   }
 ]

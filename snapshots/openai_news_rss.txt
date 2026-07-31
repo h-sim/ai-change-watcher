@@ -545,6 +545,12 @@ id: https://openai.com/index/advancing-the-next-era-of-national-science
 date: Wed, 22 Jul 2026 12:00:00 GMT
 body:
 #ITEM
+title: Advancing the price-performance frontier with GPT-5.6
+link: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+id: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6
+date: Thu, 30 Jul 2026 10:00:00 GMT
+body:
+#ITEM
 title: Advancing voice intelligence with new models in the API
 link: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
 id: https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api
@@ -765,6 +771,12 @@ title: AutoScout24 scales engineering with AI-powered workflows
 link: https://openai.com/index/autoscout24
 id: https://openai.com/index/autoscout24
 date: Tue, 12 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: How avatarin built a 24/7 retail agent with GPT-Realtime
+link: https://openai.com/index/avatarin
+id: https://openai.com/index/avatarin
+date: Thu, 30 Jul 2026 00:00:00 GMT
 body:
 #ITEM
 title: AWS and OpenAI announce multi-year strategic partnership
