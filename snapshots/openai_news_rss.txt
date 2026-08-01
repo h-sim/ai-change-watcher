@@ -539,6 +539,12 @@ id: https://openai.com/index/advancing-red-teaming-with-people-and-ai
 date: Thu, 21 Nov 2024 10:30:00 GMT
 body:
 #ITEM
+title: Advancing responsible AI across Europe
+link: https://openai.com/index/advancing-responsible-ai-across-europe
+id: https://openai.com/index/advancing-responsible-ai-across-europe
+date: Fri, 31 Jul 2026 15:00:00 GMT
+body:
+#ITEM
 title: Advancing the next era of national science
 link: https://openai.com/index/advancing-the-next-era-of-national-science
 id: https://openai.com/index/advancing-the-next-era-of-national-science
@@ -933,6 +939,12 @@ title: Announcing OpenAI’s Bug Bounty Program
 link: https://openai.com/index/bug-bounty-program
 id: https://openai.com/index/bug-bounty-program
 date: Tue, 11 Apr 2023 07:00:00 GMT
+body:
+#ITEM
+title: Building abundant intelligence
+link: https://openai.com/index/building-abundant-intelligence
+id: https://openai.com/index/building-abundant-intelligence
+date: Fri, 31 Jul 2026 15:00:00 GMT
 body:
 #ITEM
 title: Building AI infrastructure with the Effingham County community
@@ -1637,10 +1649,274 @@ id: https://openai.com/index/disrupting-malicious-ai-uses
 date: Wed, 25 Feb 2026 00:00:00 GMT
 body:
 #ITEM
+title: Operation “A2Z”: Multilingual influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-a2z
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-a2z
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: "Bad Grammar": Russian-linked Telegram comment activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-bad-grammar
+date: Wed, 01 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Bet Bot: Gambling spam network
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-bet-bot
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
 title: Disrupting malicious uses of AI by state-affiliated threat actors
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors
 date: Wed, 14 Feb 2024 08:00:00 GMT
+body:
+#ITEM
+title: Corrupt Comment: Anti-corruption foundation criticism
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Disrupting a Criminal Scam Operation
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation
+date: Fri, 31 Jul 2026 00:00:00 GMT
+body:
+#ITEM
+title: Cyber threat actors: AI-assisted intrusion research
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: CyberAv3ngers: Iran-linked cyber research activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: “Data Center Bandwagon” Campaign: US-targeted influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon
+date: Mon, 01 Jun 2026 00:00:00 GMT
+body:
+#ITEM
+title: Deceptive Employment Scheme: AI-assisted hiring deception
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-deceptive-employment-scheme
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation "Doppelganger": Russian influence activity targeting Ukraine
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-doppelganger
+date: Wed, 01 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Covert influence operation: Ghana election activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-ghana-election
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Helgoland Bite”: German-language influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “High Five”: Philippines political comments
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-high-five
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-high-five
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Hoax: Fake Russian “troll” error message
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Iranian influence nexus: Cross-platform activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Deceptive Employment Scheme: IT worker activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: IUVM: Iran-linked influence content network
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm
+date: Wed, 01 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Cyber Operation: Korean-language malware support
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-korean-language-malware-support
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Nine–emdash Line”: Regional influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Peer Review”: AI-assisted surveillance planning
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-peer-review
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Cyber Operation: Phishing and scripting support
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: PRC-linked abuse: Surveillance and influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-prc-linked-abuse
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Romance-baiting scam: AI-assisted pig butchering workflows
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Cyber Operation: Russian-speaking malware tooling
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-russian-speaking-malware-tooling
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Rwandan election content: Political commenting network
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Scam operations: Online fraud networks
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “ScopeCreep”: Russian-speaking malware development
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Sneer Review”: China-origin influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation "Spamouflage": China-linked influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage
+date: Wed, 01 May 2024 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Sponsored Discontent”: Influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Stop News”: Russia-origin influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Stop News”: Recidivist influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2025
+date: Wed, 01 Oct 2025 00:00:00 GMT
+body:
+#ITEM
+title: STORM-0817: Iran-linked malware and scraping activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Operation “STORM-2035”: Iran-origin influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: STORM-2035: Recidivist influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2025
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: SweetSpecter: China-linked cyber activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Task scam: AI-assisted fake review jobs
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam
+date: Sat, 01 Feb 2025 00:00:00 GMT
+body:
+#ITEM
+title: “Tech and Tariffs” Campaign: Influence activity targeting US tech policy
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs
+date: Mon, 01 Jun 2026 00:00:00 GMT
+body:
+#ITEM
+title: Tort Report: Abusive reporting activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report
+date: Tue, 01 Oct 2024 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Uncle Spam”: US polarization influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-uncle-spam
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “VAGue Focus”: Social engineering and influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Vixen and Keyhole Panda: China-linked cyber operations
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation “Wrong Number”: AI-assisted task scam
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number
+date: Sun, 01 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Operation "Zero Zeno": Israel-linked influence activity
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-zero-zeno
+date: Wed, 01 May 2024 00:00:00 GMT
 body:
 #ITEM
 title: Distill
@@ -6009,6 +6285,12 @@ title: Driving scalable growth with OpenAI o3, GPT-4.1, and CUA
 link: https://openai.com/index/unify
 id: https://openai.com/index/unify
 date: Tue, 24 Jun 2025 00:00:00 GMT
+body:
+#ITEM
+title: Univé builds an AI-ready workforce
+link: https://openai.com/index/unive
+id: https://openai.com/index/unive
+date: Fri, 31 Jul 2026 07:00:00 GMT
 body:
 #ITEM
 title: Universe
