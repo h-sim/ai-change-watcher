@@ -6065,6 +6065,12 @@ id: https://openai.com/index/teen-safety-policies-gpt-oss-safeguard
 date: Tue, 24 Mar 2026 11:00:00 GMT
 body:
 #ITEM
+title: Ten advances in mathematics and theoretical computer science
+link: https://openai.com/index/ten-advances-in-mathematics
+id: https://openai.com/index/ten-advances-in-mathematics
+date: Sat, 01 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: Creating nail art with ChatGPT
 link: https://openai.com/index/ten-tiny-canvases
 id: https://openai.com/index/ten-tiny-canvases

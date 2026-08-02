@@ -1,5 +1,24 @@
 [
   {
+    "id": "81574e220f46a4aaf6ecf26c5af479fd2e40940e",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Ten advances in mathematics and theoretical computer science\n+link: https://openai.com/index/ten-advances-in-mathematics\n+id: https://openai.com/index/ten-advances-in-mathematics\n+date: Sat, 01 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sun, 02 Aug 2026 02:03:43 GMT",
+    "run_at": "2026-08-02T02:03:42Z",
+    "run_id": "d3372edf13f84f129bccea9c13b7b948"
+  },
+  {
     "id": "cfbd7ece35cf72aed3f1f904b5b87b1fbf1f5da5",
     "impact": "Low",
     "name": "OpenAI OpenAPI Spec (YAML)",
@@ -973,25 +992,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Fri, 10 Jul 2026 02:13:23 GMT",
-    "run_at": "2026-07-10T02:13:08Z",
-    "run_id": "ae96fb7ce82b425f8248b552f8f57c6d"
-  },
-  {
-    "id": "3e8a77e18394c7308b92bb175f044f82ab05ae7c",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: ChatGPT Sites\n+link: https://openai.com/academy/chatgpt-sites\n+id: https://openai.com/academy/chatgpt-sites\n+date: Tue, 02 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: How business operations teams use Codex\n+title: How business operations teams use ChatGPT Work\n-title: How data science teams use Codex\n+title: How data science teams use ChatGPT Work\n-title: How sales teams use Codex\n+title: How sales teams use ChatGPT Work",
-    "snippet_full": "+title: ChatGPT Sites\n+link: https://openai.com/academy/chatgpt-sites\n+id: https://openai.com/academy/chatgpt-sites\n+date: Tue, 02 Jun 2026 10:00:00 GMT\n+body:\n+#ITEM\n-title: How business operations teams use Codex\n+title: How business operations teams use ChatGPT Work\n-title: How data science teams use Codex\n+title: How data science teams use ChatGPT Work\n-title: How sales teams use Codex\n+title: How sales teams use ChatGPT Work\n-title: How to get started with Codex\n+title: How to get started with ChatGPT Codex\n-title: Codex settings\n+title: ChatGPT Codex settings\n-title: How finance teams use Codex\n+title: How finance teams use ChatGPT Work\n-title: How to use Codex for everyday work\n-link: https://openai.com/academy/how-to-use-codex-for-everyday-work\n-id: https://openai.com/academy/how-to-use-codex-for-everyday-work\n+title: How to use ChatGPT Work for everyday tasks\n+link: https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks\n+id: https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks\n-title: What is Codex?\n+title: What is ChatGPT Codex?\n-title: Working with Codex\n+title: Working with ChatGPT Codex\n+title: AI is becoming a first hire for small businesses\n+link: https://openai.com/index/ai-first-hire-small-business\n+id: https://openai.com/index/ai-first-hire-small-business\n+date: Mon, 25 May 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: GPT-5.5 Bio Bug Bounty\n+link: https://openai.com/index/bio-bug-bounty\n+id: https://openai.com/index/bio-bug-bounty\n+date: Thu, 09 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 53,
-      "removed": 17,
-      "churn": 70
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 10 Jul 2026 02:13:09 GMT",
     "run_at": "2026-07-10T02:13:08Z",
     "run_id": "ae96fb7ce82b425f8248b552f8f57c6d"
   }
