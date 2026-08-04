@@ -338,6 +338,7 @@ Promotions
 Ads Overview
 Measurement
 JavaScript Pixel
+Multiple pixels (advanced)
 Image tag
 Conversions API
 Supported events

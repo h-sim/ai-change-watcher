@@ -1163,6 +1163,12 @@ id: https://openai.com/index/choco
 date: Mon, 27 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Circles powers telco personalization with OpenAI technology
+link: https://openai.com/index/circles
+id: https://openai.com/index/circles
+date: Mon, 03 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: Cisco and OpenAI redefine enterprise engineering with Codex
 link: https://openai.com/index/cisco
 id: https://openai.com/index/cisco
@@ -1335,6 +1341,12 @@ title: Joint Statement from OpenAI and Microsoft
 link: https://openai.com/index/continuing-microsoft-partnership
 id: https://openai.com/index/continuing-microsoft-partnership
 date: Fri, 27 Feb 2026 05:30:00 GMT
+body:
+#ITEM
+title: How we built a realtime system for responsive voice AI in six months
+link: https://openai.com/index/continuous-voice-interaction-with-gpt-live
+id: https://openai.com/index/continuous-voice-interaction-with-gpt-live
+date: Mon, 03 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: Why responsible AI development needs cooperation on safety

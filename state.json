@@ -1,5 +1,81 @@
 [
   {
+    "id": "90cb0606ffbf751f7345fa42d754250c9af4ab0a",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n-読み込み中...\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+読み込み中\n+August 1, 2026\n+Dreams\n+(research preview) now supports Claude Opus 5. See\n+Supported models\n+.\n+\n+The\n+Compliance API",
+    "snippet_full": "",
+    "diff": {
+      "added": 35,
+      "removed": 16,
+      "churn": 51
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 04 Aug 2026 01:51:36 GMT",
+    "run_at": "2026-08-04T01:51:22Z",
+    "run_id": "4656f492d35b44618e3cd13222ec67ce"
+  },
+  {
+    "id": "d60e95739f83366b41774a4bd1d0f2e6206dd9c9",
+    "impact": "Low",
+    "name": "OpenAI OpenAPI Spec (YAML)",
+    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
+    "snippet": "-        examples:\n-          response: ''\n-          request:\n-            node.js: >-\n-              import fs from 'fs';\n-\n-              import OpenAI from 'openai';\n-\n-\n-              const client = new OpenAI({\n-                apiKey: process.env['OPENAI_API_KEY'], // This is the default and can be omitted\n-              });\n-\n-\n-              const contentProvenanceCheck = await\n-              client.contentProvenanceChecks.create({\n-                file: fs.createReadStream('path/to/file'),\n-              });\n-\n-\n-              console.log(contentProvenanceCheck.created_at);\n-            python: >-\n-              import os\n-\n-              from openai import OpenAI\n-\n-\n-              client = OpenAI(\n-                  api_key=os.environ.get(\"OPENAI_API_KEY\"),  # This is the default and can be omitted\n-              )\n-\n-              content_provenance_check =\n-              client.content_provenance_checks.create(\n-                  file=b\"Example data\",\n-              )\n-\n-              print(content_provenance_check.created_at)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"bytes\\\"\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\t\\\"io\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient\n-            java: >-\n-              package com.openai.example;",
+    "snippet_full": "",
+    "diff": {
+      "added": 54,
+      "removed": 84,
+      "churn": 138
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 04 Aug 2026 01:51:35 GMT",
+    "run_at": "2026-08-04T01:51:22Z",
+    "run_id": "4656f492d35b44618e3cd13222ec67ce"
+  },
+  {
+    "id": "66332440f1fed2e9719f6681cf571901cce585e8",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Circles powers telco personalization with OpenAI technology\n+link: https://openai.com/index/circles\n+id: https://openai.com/index/circles\n+date: Mon, 03 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How we built a realtime system for responsive voice AI in six months\n+link: https://openai.com/index/continuous-voice-interaction-with-gpt-live\n+id: https://openai.com/index/continuous-voice-interaction-with-gpt-live\n+date: Mon, 03 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 04 Aug 2026 01:51:22 GMT",
+    "run_at": "2026-08-04T01:51:22Z",
+    "run_id": "4656f492d35b44618e3cd13222ec67ce"
+  },
+  {
+    "id": "d138685d12489cc73ea6736e13b8da445ceed32c",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Multiple pixels (advanced)",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Tue, 04 Aug 2026 01:51:22 GMT",
+    "run_at": "2026-08-04T01:51:22Z",
+    "run_id": "4656f492d35b44618e3cd13222ec67ce"
+  },
+  {
     "id": "81574e220f46a4aaf6ecf26c5af479fd2e40940e",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -916,83 +992,5 @@
     "pubDate": "Sat, 11 Jul 2026 01:58:53 GMT",
     "run_at": "2026-07-11T01:58:47Z",
     "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
-  },
-  {
-    "id": "b9262c67ce1f2a48d75ae844c0b0ebdd5be52bc8",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Deutsche Telekom is rewiring telecommunications with AI\n+link: https://openai.com/index/deutsche-telekom\n+id: https://openai.com/index/deutsche-telekom\n+date: Fri, 10 Jul 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 11 Jul 2026 01:58:48 GMT",
-    "run_at": "2026-07-11T01:58:47Z",
-    "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
-  },
-  {
-    "id": "5c71f8c77a041db411f9b61309d49e6380f0c802",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Submit your app\n+Prepare your app\n-App submission guidelines\n+App guidelines",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 2,
-      "churn": 4
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 11 Jul 2026 01:58:47 GMT",
-    "run_at": "2026-07-11T01:58:47Z",
-    "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
-  },
-  {
-    "id": "a1fb528f9b25d133ce79efc3fd5f144ac07dfa0e",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+July 8, 2026\n+You can now set an expiration when you create an API key or an Admin API key in the\n+Claude Console\n+. Choose a preset, a custom duration, or\n+Never\n+. For keys with a lifetime of at least 7 days, Anthropic emails the creator before expiration. Existing keys are unaffected. The Admin API reports each key's expiration in the\n+expires_at\n+field. See\n+Authentication\n+.\n+\n+July 2, 2026\n+We've added the\n+agent-memory-2026-07-22\n+beta header, which changes how\n+listing memories\n+(\n+GET /v1/memory_stores/{memory_store_id}/memories\n+) behaves: results are returned in a stable, server-defined order and the\n+order_by\n+and\n+order\n+parameters are ignored;\n+depth\n+accepts only\n+0\n+,\n+1\n+, or being omitted (other values return a\n+400\n+error); and\n+path_prefix\n+must end with\n+/\n+and matches whole path segments instead of a substring. Page cursors issued without the header aren't valid with it, so restart from the first page when you adopt it. On memory store endpoints,\n+agent-memory-2026-07-22\n+replaces\n+managed-agents-2026-04-01\n+; sending both returns a\n+400",
-    "snippet_full": "",
-    "diff": {
-      "added": 59,
-      "removed": 0,
-      "churn": 59
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 10 Jul 2026 02:13:24 GMT",
-    "run_at": "2026-07-10T02:13:08Z",
-    "run_id": "ae96fb7ce82b425f8248b552f8f57c6d"
-  },
-  {
-    "id": "526a23f17401ac2b93c006d533fe2506ea4f2b66",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-                            \"file_url\": \"https://www.berkshirehathaway.com/letters/2024ltr.pdf\"\n+                            \"file_url\": \"https://www.berkshirehathaway.com/letters/2024ltr.pdf\",\n+                            \"detail\": \"auto\"\n+                                    detail: \"auto\",\n-                  model=\"gpt-5.4\",\n+                  model=\"gpt-5.6-sol\",\n-              'gpt-5.4' });\n+              'gpt-5.6-sol' });\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n\\t\\\"github.com/openai/openai-go/responses\\\"\\n)\\n\\nf\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n\\t\\\"github.com/openai/openai-go/responses\\\"\\n)\\n\\nf\n-                          .model(ResponseCompactParams.Model.GPT_5_4)\n+                          .model(ResponseCompactParams.Model.GPT_5_6_SOL)\n-            ruby: |-\n+            ruby: >-\n+\n-              compacted_response = openai.responses.compact(model: :\"gpt-5.4\")\n+\n+              compacted_response = openai.responses.compact(model:\n+              :\"gpt-5.6-sol\")\n+\n+  /responses?beta=true:\n+    post:\n+      operationId: beta_createResponse\n+      tags:\n+        - Responses\n+      summary: >\n+        Creates a model response. Provide [text](/docs/guides/text) or\n+\n+        [image](/docs/guides/images) inputs to generate\n+        [text](/docs/guides/text)\n+\n+        or [JSON](/docs/guides/structured-outputs) outputs. Have the model call\n+\n+        your own [custom code](/docs/guides/function-calling) or use built-in\n+\n+        [tools](/docs/guides/tools) like [web\n+        search](/docs/guides/tools-web-search)\n+\n+        or [file search](/docs/guides/tools-file-search) to use your own data\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 14778,
-      "removed": 44,
-      "churn": 14822
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 10 Jul 2026 02:13:23 GMT",
-    "run_at": "2026-07-10T02:13:08Z",
-    "run_id": "ae96fb7ce82b425f8248b552f8f57c6d"
   }
 ]

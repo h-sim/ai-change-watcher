@@ -34,22 +34,22 @@ Log in
 Release notes
 
 Overview
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
-読み込み中...
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
+読み込み中
 Claude Platform Docs
 Solutions
 AI agents
@@ -124,6 +124,12 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+
+August 1, 2026
+Dreams
+(research preview) now supports Claude Opus 5. See
+Supported models
+.
 
 July 24, 2026
 We've launched
@@ -598,6 +604,18 @@ scheduled deployments
 Claude Managed Agents vaults now support
 environment variable credentials
 , so you can securely inject secrets into the agent's sandbox for CLIs, SDKs, and other services that authenticate through environment variables.
+The
+Compliance API
+Activity Feed
+(
+GET /v1/compliance/activities
+) is now available on
+Claude Platform on AWS
+. See
+IAM actions for Claude Platform on AWS
+for the
+ListComplianceActivities
+action that authorizes it.
 The
 session.thread_*
 webhook events now include a
@@ -1773,6 +1791,7 @@ blog post
 このページは役に立ちましたか？
 
 
+August 1, 2026
 July 24, 2026
 July 22, 2026
 July 17, 2026
