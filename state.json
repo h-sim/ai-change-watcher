@@ -1,5 +1,43 @@
 [
   {
+    "id": "4559c6b07c2b2d0b4fb181a5a39d732c0f32ef9f",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Apple is getting this wrong\n+link: https://openai.com/index/apple-is-getting-this-wrong\n+id: https://openai.com/index/apple-is-getting-this-wrong\n+date: Mon, 03 Aug 2026 22:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing the OpenAI Economic Research Exchange\n-link: https://openai.com/index/economic-research-exchange\n-id: https://openai.com/index/economic-research-exchange\n-date: Mon, 08 Jun 2026 00:00:00 GMT\n-body:\n-#ITEM",
+    "snippet_full": "+title: Apple is getting this wrong\n+link: https://openai.com/index/apple-is-getting-this-wrong\n+id: https://openai.com/index/apple-is-getting-this-wrong\n+date: Mon, 03 Aug 2026 22:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing the OpenAI Economic Research Exchange\n-link: https://openai.com/index/economic-research-exchange\n-id: https://openai.com/index/economic-research-exchange\n-date: Mon, 08 Jun 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: Introducing the OpenAI Economic Research Exchange\n+link: https://openai.com/index/introducing-the-openai-economic-research-exchange\n+id: https://openai.com/index/introducing-the-openai-economic-research-exchange\n+date: Mon, 08 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: New ways to learn and teach with ChatGPT Work and Codex\n+link: https://openai.com/index/learn-teach-chatgpt-work-codex\n+id: https://openai.com/index/learn-teach-chatgpt-work-codex\n+date: Tue, 04 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Third-party cyber evaluations involving OpenAI models\n+link: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\n+id: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\n+date: Tue, 04 Aug 2026 19:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 6,
+      "churn": 30
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 05 Aug 2026 01:52:00 GMT",
+    "run_at": "2026-08-05T01:51:59Z",
+    "run_id": "e2ddaab34a3d405990d01f37adda3fdd"
+  },
+  {
+    "id": "ba22b5ee698fe9224a919d0f6fc5ceef625f8477",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Manage app updates",
+    "snippet_full": "",
+    "diff": {
+      "added": 1,
+      "removed": 0,
+      "churn": 1
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 05 Aug 2026 01:52:00 GMT",
+    "run_at": "2026-08-05T01:51:59Z",
+    "run_id": "e2ddaab34a3d405990d01f37adda3fdd"
+  },
+  {
     "id": "90cb0606ffbf751f7345fa42d754250c9af4ab0a",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -952,45 +990,5 @@
     "pubDate": "Tue, 14 Jul 2026 01:50:20 GMT",
     "run_at": "2026-07-14T01:50:06Z",
     "run_id": "a6ba85d623e641d4b25996c22af3f017"
-  },
-  {
-    "id": "f6a6ffeed85c64893765668935c7251581acd2db",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-date: Fri, 10 Apr 2026 00:00:00 GMT\n+date: Fri, 10 Jul 2026 00:00:00 GMT",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 14 Jul 2026 01:50:07 GMT",
-    "run_at": "2026-07-14T01:50:06Z",
-    "run_id": "a6ba85d623e641d4b25996c22af3f017"
-  },
-  {
-    "id": "3b4d0e82a592b58a325314f5f5a65251be8069e3",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+July 10, 2026\n+We've expanded the\n+Access Transparency\n+documentation of\n+cmek_preserve\n+events with a filter example, an example event payload, and two preservation reason codes (\n+policy_violation_investigation\n+,\n+csae_report\n+). The documentation now also clarifies that a preservation event is written whether the preservation was initiated by a human reviewer or an automated safety pipeline. See\n+CMEK content preservation\n+.\n+\n+July 10, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 14,
-      "removed": 0,
-      "churn": 14
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 11 Jul 2026 01:58:53 GMT",
-    "run_at": "2026-07-11T01:58:47Z",
-    "run_id": "4a37e5e36a5f400ab7a5aa7cbe169d54"
   }
 ]
