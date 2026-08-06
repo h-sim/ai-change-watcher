@@ -1,5 +1,47 @@
 [
   {
+    "id": "f020c92f4c65ccc37bb3f98bbfbcc99a6693f909",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+August 5, 2026\n+Inference hooks\n+are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server'\n+Activity Feed\n+. See\n+Inference hooks\n+.\n+We've retired the Claude Opus 4.1 model (\n+claude-opus-4-1-20250805\n+). All requests to this model will now return an error. We recommend upgrading to\n+Claude Opus 5\n+. Researchers can request ongoing access through the\n+External Researcher Access Program\n+.\n+\n+August 5, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 16,
+      "removed": 0,
+      "churn": 16
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 06 Aug 2026 01:53:47 GMT",
+    "run_at": "2026-08-06T01:53:38Z",
+    "run_id": "1c04391ee96f4a2aab65b1e3b9d7e770"
+  },
+  {
+    "id": "c3eb542e105e43b07a935430bb682125e21c0abd",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Multiple pixels (advanced)\n-Image tag\n+Multiple Pixels (Advanced)\n+Image Tag\n-Supported events\n+Supported Events\n-API partner setup\n+API Partner Setup\n-Product feeds\n+Product Feeds\n-Conversion-optimized campaigns\n+Conversion-Optimized Campaigns\n-Conversion setup\n+Ad Account\n-Ad Account\n+Conversion Setup\n+August, 2026\n+Aug 5\n+Update\n+gpt-5.6-sol\n+gpt-5.6-terra\n+gpt-5.6-luna\n+Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in\n+Fast mode\n+, delivering speeds up to 2.5× faster than the Standard tier. See\n+pricing details\n+.\n+Aug 4\n+Feature\n+Customers can now filter and group data by API key in the\n+Usage and Costs dashboards\n+. The\n+Usage API\n+and\n+Costs API\n+also support the API key dimension for programmatic reporting and analysis.",
+    "snippet_full": "",
+    "diff": {
+      "added": 28,
+      "removed": 8,
+      "churn": 36
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 06 Aug 2026 01:53:38 GMT",
+    "run_at": "2026-08-06T01:53:38Z",
+    "run_id": "1c04391ee96f4a2aab65b1e3b9d7e770"
+  },
+  {
     "id": "4559c6b07c2b2d0b4fb181a5a39d732c0f32ef9f",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -949,46 +991,5 @@
     "pubDate": "Wed, 15 Jul 2026 01:46:35 GMT",
     "run_at": "2026-07-15T01:46:34Z",
     "run_id": "6325346884b04317b43d2e68dfef1b05"
-  },
-  {
-    "id": "d7d2479d6ab5b0953161454be5ee4f3b466325c7",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Claude Platform - Claude Platform Docs\n+Claude Platform release notes - Claude Platform Docs\n-Claude Platform\n+Claude Platform release notes\n+Dreams\n+(research preview) now supports Claude Fable 5 and Claude Sonnet 5. See\n+Supported models\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 2,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 14 Jul 2026 01:50:20 GMT",
-    "run_at": "2026-07-14T01:50:06Z",
-    "run_id": "a6ba85d623e641d4b25996c22af3f017"
-  },
-  {
-    "id": "a7282bfda0da801689a8b747c8cfad1b72aee6dd",
-    "impact": "Medium",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+        - name: owner_project_access\n+          in: query\n+          description: >\n+            Filter API keys by whether the owner currently has effective access\n+            to the project. Use `active` for owners with access, `inactive` for\n+            owners without access, or `any` for all enabled project API keys. If\n+            omitted, the endpoint applies its existing membership-based\n+            visibility rules, which may exclude some enabled keys.\n+          required: false\n+          schema:\n+            type: string\n+            enum:\n+              - active\n+              - inactive\n+              - any\n-              https://api.openai.com/v1/organization/projects/proj_abc/api_keys?after=key_abc&limit=20\n+              https://api.openai.com/v1/organization/projects/proj_abc/api_keys?after=key_abc&limit=20&owner_project_access=any\n+                        \"owner_project_access\": \"active\",\n+                \"owner_project_access\": \"active\",\n-      responses:\n-        '200':\n-          description: >\n-            Return a 200 status code to acknowledge receipt of the event.\n-            Non-200\n-\n-            status codes will be retried.\n-  safety_identifier_blocked:\n-    post:\n-      description: >\n-        Sent when a request associated with a safety identifier has been\n-        blocked.\n-      requestBody:\n-        description: The event payload sent by the API.\n-        content:\n-          application/json:\n-            schema:\n-              $ref: '#/components/schemas/WebhookSafetyIdentifierBlocked'\n+        owner_project_access:\n+          type: string\n+          enum:",
-    "snippet_full": "",
-    "diff": {
-      "added": 42,
-      "removed": 114,
-      "churn": 156
-    },
-    "score": 40,
-    "reasons": [
-      "OpenAPI: servers.url変更",
-      "OpenAPI: tags増減（軽微）"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 14 Jul 2026 01:50:20 GMT",
-    "run_at": "2026-07-14T01:50:06Z",
-    "run_id": "a6ba85d623e641d4b25996c22af3f017"
   }
 ]

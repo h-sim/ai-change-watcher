@@ -125,6 +125,21 @@ in the
 claude-code
 repository.
 
+August 5, 2026
+Inference hooks
+are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance
+Activity Feed
+. See
+Inference hooks
+.
+We've retired the Claude Opus 4.1 model (
+claude-opus-4-1-20250805
+). All requests to this model will now return an error. We recommend upgrading to
+Claude Opus 5
+. Researchers can request ongoing access through the
+External Researcher Access Program
+.
+
 August 1, 2026
 Dreams
 (research preview) now supports Claude Opus 5. See
@@ -1791,6 +1806,7 @@ blog post
 このページは役に立ちましたか？
 
 
+August 5, 2026
 August 1, 2026
 July 24, 2026
 July 22, 2026

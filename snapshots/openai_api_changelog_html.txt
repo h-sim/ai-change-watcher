@@ -338,27 +338,27 @@ Promotions
 Ads Overview
 Measurement
 JavaScript Pixel
-Multiple pixels (advanced)
-Image tag
+Multiple Pixels (Advanced)
+Image Tag
 Conversions API
-Supported events
+Supported Events
 Advertiser API
 Overview
-API partner setup
+API Partner Setup
 Quickstart
 Bulk API
-Product feeds
+Product Feeds
 Campaign Targeting
-Conversion-optimized campaigns
+Conversion-Optimized Campaigns
 API Reference
 Authentication
-Conversion setup
+Ad Account
 Campaigns
 Ad Groups
 Ads
-Ad Account
 Insights
 Files
+Conversion Setup
 Overview
 Features
 Configuration
@@ -694,6 +694,26 @@ Changelog
 Upcoming deprecations can be found on the
 deprecations page
 .
+August, 2026
+Aug 5
+Update
+gpt-5.6-sol
+gpt-5.6-terra
+gpt-5.6-luna
+Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in
+Fast mode
+, delivering speeds up to 2.5× faster than the Standard tier. See
+pricing details
+.
+Aug 4
+Feature
+Customers can now filter and group data by API key in the
+Usage and Costs dashboards
+. The
+Usage API
+and
+Costs API
+also support the API key dimension for programmatic reporting and analysis.
 July, 2026
 Jul 30
 Update
