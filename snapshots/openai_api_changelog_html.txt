@@ -254,6 +254,7 @@ Model, tool, and data controls
 Import and reconciliation
 Private Link
 Workload identity federation
+X.509 certificates (beta)
 Kubernetes
 AWS
 Microsoft Azure
@@ -337,7 +338,7 @@ Products
 Promotions
 Ads Overview
 Measurement
-JavaScript Pixel
+Measurement Pixel
 Multiple Pixels (Advanced)
 Image Tag
 Conversions API
@@ -395,6 +396,7 @@ Pricing
 Glossary
 Available on
 ChatGPT desktop app
+Remote
 ChatGPT on the web
 Codex CLI
 Codex IDE extension
@@ -502,6 +504,7 @@ Propose security hardening
 Changelog
 Codex Security cloud
 Setup
+Security Review
 Improving the threat model
 FAQ
 CLI and SDK

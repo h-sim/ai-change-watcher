@@ -3005,6 +3005,12 @@ id: https://openai.com/index/how-the-voices-for-chatgpt-were-chosen
 date: Sun, 19 May 2024 23:30:00 GMT
 body:
 #ITEM
+title: From asking to doing: How the world is putting ChatGPT to work
+link: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
+id: https://openai.com/index/how-the-world-is-putting-chatgpt-to-work
+date: Thu, 06 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: How enabling two settings tripled our scores on the ARC-AGI-3 benchmark
 link: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
 id: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores
@@ -3069,6 +3075,12 @@ title: Improving GANs using optimal transport
 link: https://openai.com/index/improving-gans-using-optimal-transport
 id: https://openai.com/index/improving-gans-using-optimal-transport
 date: Thu, 15 Mar 2018 07:00:00 GMT
+body:
+#ITEM
+title: Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users
+link: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
+id: https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt
+date: Thu, 06 Aug 2026 10:00:00 GMT
 body:
 #ITEM
 title: Improving health intelligence in ChatGPT
@@ -4527,6 +4539,12 @@ title: AMD and OpenAI announce strategic partnership to deploy 6 gigawatts of AM
 link: https://openai.com/index/openai-amd-strategic-partnership
 id: https://openai.com/index/openai-amd-strategic-partnership
 date: Mon, 06 Oct 2025 06:00:00 GMT
+body:
+#ITEM
+title: Working with the American Psychological Association on youth mental health and AI
+link: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai
+id: https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai
+date: Thu, 06 Aug 2026 06:00:00 GMT
 body:
 #ITEM
 title: OpenAI and Apple announce partnership
