@@ -349,6 +349,7 @@ API Partner Setup
 Quickstart
 Bulk API
 Product Feeds
+Delta Feeds API
 Campaign Targeting
 Conversion-Optimized Campaigns
 API Reference
@@ -492,28 +493,28 @@ Codex Security
 Overview
 Codex Security plugin
 Quickstart
-Use the Security workbench
 Run a security scan
 Run a deep scan
 Review code changes
+Use the Security workbench
 Triage a backlog
 Fix findings
-Export and track findings
-Write vulnerability reports
 Propose security hardening
+Write vulnerability reports
+Export and track findings
 Changelog
+Codex Security CLI
+Quickstart
+Run bulk scans
+Run scans in CI
+Reference
+FAQ
+TypeScript SDK
 Codex Security cloud
 Setup
 Security Review
 Improving the threat model
 FAQ
-CLI and SDK
-CLI quickstart
-Run bulk scans
-CLI reference
-Run scans in CI
-CLI FAQ
-TypeScript SDK
 Safety
 Cyber Safety
 Overview
@@ -527,6 +528,7 @@ Workspace access, policy, and models
 Groups and provisioning
 Roles and workspace permissions
 Managed configuration
+Prisma AIRS
 HIPAA configuration
 Workspace model availability
 Plugin and connector controls

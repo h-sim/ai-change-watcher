@@ -3029,6 +3029,12 @@ id: https://openai.com/index/hp-frontier-partnership
 date: Sun, 28 Jun 2026 17:00:00 GMT
 body:
 #ITEM
+title: How HSP GRUPPE builds AI capabilities for tax advisory
+link: https://openai.com/index/hsp-gruppe
+id: https://openai.com/index/hsp-gruppe
+date: Fri, 07 Aug 2026 09:00:00 GMT
+body:
+#ITEM
 title: OpenAI and Hugging Face partner to address security incident during model evaluation
 link: https://openai.com/index/hugging-face-model-evaluation-security-incident
 id: https://openai.com/index/hugging-face-model-evaluation-security-incident
@@ -5433,6 +5439,12 @@ title: Requests for Research 2.0
 link: https://openai.com/index/requests-for-research-2
 id: https://openai.com/index/requests-for-research-2
 date: Wed, 31 Jan 2018 08:00:00 GMT
+body:
+#ITEM
+title: Responding to the next frontier of critical cyber capabilities
+link: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
+id: https://openai.com/index/responding-next-frontier-critical-cyber-capabilities
+date: Fri, 07 Aug 2026 15:20:00 GMT
 body:
 #ITEM
 title: How we’re responding to The New York Times’ data demands in order to protect user privacy
