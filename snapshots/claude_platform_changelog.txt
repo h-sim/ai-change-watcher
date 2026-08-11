@@ -50,62 +50,6 @@ Overview
 読み込み中
 読み込み中
 読み込み中
-Claude Platform Docs
-Solutions
-AI agents
-Code modernization
-Coding
-Customer support
-Financial services
-Government
-Higher education
-K-12 teachers
-Life sciences
-Partners
-Claude on AWS
-Claude on Google Cloud
-Learn
-Blog
-Courses
-Use cases
-Connectors
-Customer stories
-Engineering at Anthropic
-Events
-Powered by Claude
-Service partners
-Startups program
-Company
-Anthropic
-Careers
-Economic Futures
-Research
-News
-Responsible Scaling Policy
-Security and compliance
-Transparency
-Learn
-Blog
-Courses
-Use cases
-Connectors
-Customer stories
-Engineering at Anthropic
-Events
-Powered by Claude
-Service partners
-Startups program
-Help and security
-Availability
-Status
-Support
-Discord
-Terms and policies
-Privacy policy
-Responsible disclosure policy
-Terms of service: Commercial
-Terms of service: Consumer
-Usage policy
 Release notes
 Claude Platform release notes
 Subscribe
@@ -185,7 +129,7 @@ claude-opus-5
 1M token context window
 (both the default and the maximum), 128k max output tokens, and
 thinking
-on by default, at $5 / $25 per MTok, the same pricing as Claude Opus 4.8. It's available on the Claude API,
+on by default, at $5 / $25 USD per MTok, the same pricing as Claude Opus 4.8. It's available on the Claude API,
 Claude in Amazon Bedrock
 ,
 Claude on Google Cloud

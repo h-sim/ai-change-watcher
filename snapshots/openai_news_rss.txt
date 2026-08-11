@@ -959,6 +959,12 @@ id: https://openai.com/index/building-ai-infrastructure-with-the-effingham-count
 date: Wed, 22 Jul 2026 13:00:00 GMT
 body:
 #ITEM
+title: What building an AI-native finance function taught me
+link: https://openai.com/index/building-an-ai-native-finance-function
+id: https://openai.com/index/building-an-ai-native-finance-function
+date: Mon, 10 Aug 2026 17:00:00 GMT
+body:
+#ITEM
 title: Building an early warning system for LLM-aided biological threat creation
 link: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
 id: https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation
@@ -2169,6 +2175,12 @@ title: Expanding data residency access to business customers worldwide
 link: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
 id: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
 date: Tue, 25 Nov 2025 22:00:00 GMT
+body:
+#ITEM
+title: Expanding Daybreak as the Cyber Defense Window Narrows
+link: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
+id: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows
+date: Mon, 10 Aug 2026 10:00:00 GMT
 body:
 #ITEM
 title: Expanding economic opportunity with AI
@@ -4139,6 +4151,12 @@ id: https://openai.com/index/model-disproves-discrete-geometry-conjecture
 date: Wed, 20 May 2026 00:00:00 GMT
 body:
 #ITEM
+title: Model ML completes finance work more efficiently with GPT-5.6 Sol
+link: https://openai.com/index/model-ml
+id: https://openai.com/index/model-ml
+date: Mon, 10 Aug 2026 12:00:00 GMT
+body:
+#ITEM
 title: Model ML is helping financial firms rebuild with AI from the ground up
 link: https://openai.com/index/model-ml-chaz-englander
 id: https://openai.com/index/model-ml-chaz-englander
@@ -5297,6 +5315,12 @@ id: https://openai.com/index/prediction-and-control-with-temporal-segment-models
 date: Sun, 12 Mar 2017 08:00:00 GMT
 body:
 #ITEM
+title: Premium seats are coming to ChatGPT Business
+link: https://openai.com/index/premium-seats-chatgpt-business
+id: https://openai.com/index/premium-seats-chatgpt-business
+date: Mon, 10 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: Preparing for future AI risks in biology
 link: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology
 id: https://openai.com/index/preparing-for-future-ai-capabilities-in-biology
@@ -5367,6 +5391,12 @@ title: Put AI to work for your product team
 link: https://openai.com/index/put-ai-to-work-for-your-product-team
 id: https://openai.com/index/put-ai-to-work-for-your-product-team
 date: Mon, 09 Dec 2024 00:00:00 GMT
+body:
+#ITEM
+title: Putting frontier cyber models in more trusted hands
+link: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands
+id: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands
+date: Mon, 10 Aug 2026 10:00:00 GMT
 body:
 #ITEM
 title: PVH reimagines the future of fashion with OpenAI
@@ -5451,6 +5481,12 @@ title: How we’re responding to The New York Times’ data demands in order to 
 link: https://openai.com/index/response-to-nyt-data-demands
 id: https://openai.com/index/response-to-nyt-data-demands
 date: Thu, 05 Jun 2025 16:30:00 GMT
+body:
+#ITEM
+title: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas
+link: https://openai.com/index/responsible-ai-infrastructure-texas
+id: https://openai.com/index/responsible-ai-infrastructure-texas
+date: Mon, 10 Aug 2026 14:00:00 GMT
 body:
 #ITEM
 title: Customizable, no-code voice agent automation with GPT-4o
@@ -6509,6 +6545,12 @@ id: https://openai.com/index/virgin-atlantic-oliver-byers
 date: Mon, 08 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: Virgin Atlantic sharpens customer journeys with ChatGPT Work
+link: https://openai.com/index/virgin-atlantic/chatgpt-work
+id: https://openai.com/index/virgin-atlantic/chatgpt-work
+date: Mon, 10 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: Learning to play Minecraft with Video PreTraining
 link: https://openai.com/index/vpt
 id: https://openai.com/index/vpt
@@ -6651,6 +6693,12 @@ title: Delivering nuanced insights from customer feedback
 link: https://openai.com/index/yabble
 id: https://openai.com/index/yabble
 date: Wed, 04 Jan 2023 00:00:00 GMT
+body:
+#ITEM
+title: How Zapier transformed core marketing processes with ChatGPT Work
+link: https://openai.com/index/zapier
+id: https://openai.com/index/zapier
+date: Mon, 10 Aug 2026 00:00:00 GMT
 body:
 #ITEM
 title: Making education data accessible

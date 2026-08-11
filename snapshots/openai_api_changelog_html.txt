@@ -253,6 +253,7 @@ Rate limits and spend
 Model, tool, and data controls
 Import and reconciliation
 Private Link
+IP allowlist
 Workload identity federation
 X.509 certificates (beta)
 Kubernetes
@@ -700,6 +701,34 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 August, 2026
+Aug 7
+Feature
+gpt-5.6-cyber
+daybreak-red-latest
+daybreak-blue-latest
+v1/responses
+Daybreak now offers two access tiers for approved defenders: Daybreak Blue and Daybreak Red. Use them to move from security findings to validated fixes in explicitly authorized engagements.
+Start with Daybreak Blue for most defensive security work. It provides access to general-purpose models such as GPT-5.6 Sol for vulnerability discovery, secure code review, detection engineering, incident response, malware analysis, and patch validation. Read more
+here
+.
+Daybreak Red provides separately approved access to purpose-trained models such as
+GPT-5.6 Cyber
+for authorized vulnerability reproduction, exploit validation, penetration testing, red teaming, and complex system analysis.
+These models require separate approval and provisioning. You can apply to join the Daybreak program
+here
+. More details on pricing
+here
+.
+Aug 6
+Update
+chat-latest
+Updated the
+chat-latest
+snapshot, which points to the latest model available in ChatGPT for Plus and Pro users. We recommend leveraging
+GPT-5.6 Sol
+for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more
+here
+.
 Aug 5
 Update
 gpt-5.6-sol
