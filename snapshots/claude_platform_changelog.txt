@@ -13,6 +13,7 @@ Release notes
 
 
 API reference
+
 English
 
 
@@ -50,6 +51,62 @@ Overview
 読み込み中
 読み込み中
 読み込み中
+Claude Platform Docs
+Solutions
+AI agents
+Code modernization
+Coding
+Customer support
+Financial services
+Government
+Higher education
+K-12 teachers
+Life sciences
+Partners
+Claude on AWS
+Claude on Google Cloud
+Learn
+Blog
+Courses
+Use cases
+Connectors
+Customer stories
+Engineering at Anthropic
+Events
+Powered by Claude
+Service partners
+Startups program
+Company
+Anthropic
+Careers
+Economic Futures
+Research
+News
+Responsible Scaling Policy
+Security and compliance
+Transparency
+Learn
+Blog
+Courses
+Use cases
+Connectors
+Customer stories
+Engineering at Anthropic
+Events
+Powered by Claude
+Service partners
+Startups program
+Help and security
+Availability
+Status
+Support
+Discord
+Terms and policies
+Privacy policy
+Responsible disclosure policy
+Terms of service: Commercial
+Terms of service: Consumer
+Usage policy
 Release notes
 Claude Platform release notes
 Subscribe
@@ -68,6 +125,28 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+
+August 11, 2026
+The
+Compliance API
+now returns transcripts of Cowork and Claude Code sessions that run on your users' machines, in beta for Claude Enterprise organizations.
+GET /v1/compliance/apps/sessions/local
+lists sessions across your organization,
+GET /v1/compliance/apps/sessions/local/{session_id}
+retrieves one session's metadata, and
+GET /v1/compliance/apps/sessions/local/{session_id}/messages
+returns its transcript, all with your existing Compliance Access Key and the
+read:compliance_user_data
+scope. See
+Retrieve local sessions
+.
+
+August 10, 2026
+The introductory pricing for
+Claude Sonnet 5
+($2 / $10 per MTok) is now the standard price: the previously scheduled increase to $3 / $15 per MTok on September 1, 2026 will not occur. See
+Pricing
+.
 
 August 7, 2026
 You can now set a budget on a Claude Managed Agents session: a hard cap on the session's spend, priced at public list rates. A session that reaches its budget pauses with the
@@ -112,6 +191,19 @@ claude-opus-4-1-20250805
 Claude Opus 5
 . Researchers can request ongoing access through the
 External Researcher Access Program
+.
+
+August 3, 2026
+The
+Compliance API
+now returns transcripts of Cowork sessions started on claude.ai web or mobile, in beta for Claude Enterprise organizations.
+GET /v1/compliance/apps/sessions/remote
+lists sessions and
+GET /v1/compliance/apps/sessions/remote/{session_id}/messages
+returns one session's transcript, using your existing Compliance Access Key with the
+read:compliance_user_data
+scope. See
+Retrieve remote sessions
 .
 
 August 1, 2026
@@ -365,7 +457,7 @@ We've launched
 Claude Sonnet 5
 (
 claude-sonnet-5
-), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok through August 31, 2026 (standard $3 / $15 thereafter). Claude Sonnet 5 supports a
+), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok (made the standard price on August 10, 2026). Claude Sonnet 5 supports a
 1M token context window
 , 128k max output tokens, and the same set of tools and platform features as Claude Sonnet 4.6, except
 Priority Tier
@@ -1780,8 +1872,11 @@ blog post
 このページは役に立ちましたか？
 
 
+August 11, 2026
+August 10, 2026
 August 7, 2026
 August 5, 2026
+August 3, 2026
 August 1, 2026
 July 24, 2026
 July 22, 2026

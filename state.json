@@ -1,5 +1,64 @@
 [
   {
+    "id": "6bf174dc058c79990d290a167c14c9b536a33c83",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+\n+Claude Platform Docs\n+Solutions\n+AI agents\n+Code modernization\n+Coding\n+Customer support\n+Financial services\n+Government\n+Higher education\n+K-12 teachers\n+Life sciences\n+Partners\n+Claude on AWS\n+Claude on Google Cloud\n+Learn\n+Blog\n+Courses\n+Use cases\n+Connectors\n+Customer stories\n+Engineering at Anthropic\n+Events\n+Powered by Claude\n+Service partners\n+Startups program\n+Company\n+Anthropic\n+Careers\n+Economic Futures\n+Research\n+News\n+Responsible Scaling Policy\n+Security and compliance\n+Transparency\n+Learn\n+Blog\n+Courses\n+Use cases\n+Connectors",
+    "snippet_full": "",
+    "diff": {
+      "added": 96,
+      "removed": 1,
+      "churn": 97
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 12 Aug 2026 01:16:52 GMT",
+    "run_at": "2026-08-12T01:16:43Z",
+    "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
+  },
+  {
+    "id": "a205533536b5b19f9821fb916446273b7b06afdf",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Daybreak models are now available on AWS\n+link: https://openai.com/index/daybreak-models-are-now-available-on-aws\n+id: https://openai.com/index/daybreak-models-are-now-available-on-aws\n+date: Tue, 11 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n-date: Thu, 07 May 2026 00:00:00 GMT\n+date: Tue, 11 Aug 2026 10:00:00 GMT",
+    "snippet_full": "",
+    "diff": {
+      "added": 7,
+      "removed": 1,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 12 Aug 2026 01:16:43 GMT",
+    "run_at": "2026-08-12T01:16:43Z",
+    "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
+  },
+  {
+    "id": "37444cb955a2cfc9d63724c0e0807e95f4b01ef7",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Safety\n-Cyber Safety\n+Cyber safety\n+Models & Trusted Access\n+Recommended configuration",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 2,
+      "churn": 5
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 12 Aug 2026 01:16:43 GMT",
+    "run_at": "2026-08-12T01:16:43Z",
+    "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
+  },
+  {
     "id": "985e00c21fb54b091006809106f359338df45b35",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -933,65 +992,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Sat, 18 Jul 2026 01:50:23 GMT",
-    "run_at": "2026-07-18T01:50:09Z",
-    "run_id": "f9d95bf4aff54454811785703ef89120"
-  },
-  {
-    "id": "9be3882c643b234f94afc52ad9f6b51e32572bed",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-              const response = await\n-              client.admin.organization.projects.serviceAccounts.createAPIKey(\n+              const apiKey = await\n+              client.admin.organization.projects.serviceAccounts.apiKeys.create(\n-              console.log(response.id);\n+              console.log(apiKey.id);\n-              response =\n-              client.admin.organization.projects.service_accounts.create_api_key(\n+              api_key =\n+              client.admin.organization.projects.service_accounts.api_keys.create(\n-              print(response.id)\n-            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n+              print(api_key.id)\n+            go: \"package main\\n\\nimport (\\n\\t\\\"context\\\"\\n\\t\\\"fmt\\\"\\n\\n\\t\\\"github.com/openai/openai-go\\\"\\n\\t\\\"github.com/openai/openai-go/option\\\"\\n)\\n\\nfunc main() {\\n\\tclient := openai.NewClient(\\n\n-              com.openai.models.admin.organization.projects.serviceaccounts.ServiceAccountCreateApiKeyParams;\n+              com.openai.models.admin.organization.projects.serviceaccounts.apikeys.ApiKeyCreateParams;\n-              com.openai.models.admin.organization.projects.serviceaccounts.ServiceAccountCreateApiKeyResponse;\n+              com.openai.models.admin.organization.projects.serviceaccounts.apikeys.ApiKeyCreateResponse;\n-                      ServiceAccountCreateApiKeyParams params = ServiceAccountCreateApiKeyParams.builder()\n+                      ApiKeyCreateParams params = ApiKeyCreateParams.builder()\n-                      ServiceAccountCreateApiKeyResponse response = client.admin().organization().projects().serviceAccounts().createApiKey(params);\n+                      ApiKeyCreateResponse apiKey = client.admin().organization().projects().serviceAccounts().apiKeys().create(params);\n-              response =\n-              openai.admin.organization.projects.service_accounts.create_api_key(\n+              api_key =\n+              openai.admin.organization.projects.service_accounts.api_keys.create(\n-              puts(response)\n+              puts(api_key)\n-          default: eval",
-    "snippet_full": "",
-    "diff": {
-      "added": 14,
-      "removed": 15,
-      "churn": 29
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 18 Jul 2026 01:50:22 GMT",
-    "run_at": "2026-07-18T01:50:09Z",
-    "run_id": "f9d95bf4aff54454811785703ef89120"
-  },
-  {
-    "id": "789bf51a47d9d0c0fcd60d0c08b48e5aa7372559",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: A scorecard for the AI age\n+link: https://openai.com/index/a-scorecard-for-the-ai-age\n+id: https://openai.com/index/a-scorecard-for-the-ai-age\n+date: Fri, 17 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 18 Jul 2026 01:50:10 GMT",
-    "run_at": "2026-07-18T01:50:09Z",
-    "run_id": "f9d95bf4aff54454811785703ef89120"
-  },
-  {
-    "id": "2a6af96a2d373e0e38a8eb88d7ef4e533c170bc3",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+API partner setup\n+Conversion setup\n-Projects, chats, and tasks\n+Projects and chats\n-FAQ\n+Cloud FAQ\n+Write vulnerability reports\n+Propose security hardening\n-ChatGPT Work Admin FAQ\n+Work mode admin FAQ",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 3,
-      "churn": 10
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 18 Jul 2026 01:50:10 GMT",
     "run_at": "2026-07-18T01:50:09Z",
     "run_id": "f9d95bf4aff54454811785703ef89120"
   }

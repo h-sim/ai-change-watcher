@@ -516,8 +516,9 @@ Setup
 Security Review
 Improving the threat model
 FAQ
-Safety
-Cyber Safety
+Cyber safety
+Models & Trusted Access
+Recommended configuration
 Overview
 Getting started
 Admin rollout guide
