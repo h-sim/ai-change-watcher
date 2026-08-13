@@ -23,7 +23,8 @@ Log in
 
 
 Search
-⌘K
+Ctrl
+K
 Release notes
 Overview
 System prompts
@@ -110,10 +111,12 @@ Usage policy
 Release notes
 Claude Platform release notes
 Subscribe
+
 Copy page
 
 Updates to the Claude Platform, including the Claude API, client SDKs, and the Claude Console.
 Subscribe
+
 Copy page
 
 
@@ -139,6 +142,13 @@ returns its transcript, all with your existing Compliance Access Key and the
 read:compliance_user_data
 scope. See
 Retrieve local sessions
+.
+We've added the
+anthropic-workspace-id
+response header to the Claude API. It carries the
+wrkspc_
+-prefixed ID of the workspace that the request's API key or access token resolved to, including your organization's Default Workspace. See
+Identify the workspace behind an API response
 .
 
 August 10, 2026
@@ -167,7 +177,9 @@ inside the
 model
 object when you
 create the agent
-, or override it for a single session. See
+, or
+override it for a single session
+. See
 Data residency
 for the available geos and pricing.
 Claude Managed Agents sessions can now
@@ -187,7 +199,7 @@ Inference hooks
 .
 We've retired the Claude Opus 4.1 model (
 claude-opus-4-1-20250805
-). All requests to this model will now return an error. We recommend upgrading to
+). All requests to this model on the Claude API will now return an error. We recommend upgrading to
 Claude Opus 5
 . Researchers can request ongoing access through the
 External Researcher Access Program
@@ -584,7 +596,7 @@ We've retired the Claude Sonnet 4 model (
 claude-sonnet-4-20250514
 ) and the Claude Opus 4 model (
 claude-opus-4-20250514
-). All requests to these models will now return an error. We recommend upgrading to
+). All requests to these models on the Claude API will now return an error. We recommend upgrading to
 Claude Sonnet 4.6
 and
 Claude Opus 4.8
@@ -716,7 +728,7 @@ claude-opus-4-1-20250805
 ), with retirement on the Claude API scheduled for August 5, 2026. We recommend migrating to
 Claude Opus 4.8
 . Read more in
-model deprecations
+Model deprecations
 .
 
 June 2, 2026
@@ -994,7 +1006,7 @@ Claude Sonnet 4.6
 and
 Claude Opus 4.8
 respectively. Read more in
-model deprecations
+Model deprecations
 .
 
 April 9, 2026
@@ -1100,7 +1112,7 @@ We've retired the Claude Sonnet 3.7 model (
 claude-3-7-sonnet-20250219
 ) and the Claude Haiku 3.5 model (
 claude-3-5-haiku-20241022
-). All requests to these models will now return an error. We recommend upgrading to
+). All requests to Claude Sonnet 3.7 will now return an error. Requests to Claude Haiku 3.5 on the Claude API will now return an error; it remains available on Amazon Bedrock and Google Cloud. We recommend upgrading to
 Claude Sonnet 4.6
 and
 Claude Haiku 4.5

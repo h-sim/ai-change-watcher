@@ -18,20 +18,20 @@ date: Tue, 02 Jun 2026 10:00:00 GMT
 body:
 #ITEM
 title: How business operations teams use ChatGPT Work
-link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
-id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex
+link: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex
+id: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex
 date: Fri, 15 May 2026 00:00:00 GMT
 body:
 #ITEM
 title: How data science teams use ChatGPT Work
-link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
-id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex
+link: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex
+id: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex
 date: Tue, 14 Jul 2026 00:00:00 GMT
 body:
 #ITEM
 title: How sales teams use ChatGPT Work
-link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
-id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex
+link: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex
+id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex
 date: Tue, 14 Jul 2026 00:00:00 GMT
 body:
 #ITEM
@@ -2993,6 +2993,12 @@ id: https://openai.com/index/how-countries-can-end-the-capability-overhang
 date: Wed, 21 Jan 2026 01:00:00 GMT
 body:
 #ITEM
+title: From assistance to execution: How enterprises put AI to work
+link: https://openai.com/index/how-enterprises-put-ai-to-work
+id: https://openai.com/index/how-enterprises-put-ai-to-work
+date: Wed, 12 Aug 2026 06:00:00 GMT
+body:
+#ITEM
 title: How news organizations are using AI to advance their vital missions
 link: https://openai.com/index/how-news-organizations-are-using-ai
 id: https://openai.com/index/how-news-organizations-are-using-ai
@@ -5529,6 +5535,12 @@ title: Review completed & Altman, Brockman to continue to lead OpenAI
 link: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
 id: https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai
 date: Fri, 08 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: How RingCentral builds AI-native work from engineering to ops
+link: https://openai.com/index/ringcentral
+id: https://openai.com/index/ringcentral
+date: Wed, 12 Aug 2026 00:00:00 GMT
 body:
 #ITEM
 title: RL²: Fast reinforcement learning via slow reinforcement learning

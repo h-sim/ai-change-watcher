@@ -313,6 +313,7 @@ Product checkout spec
 Guides
 UI guidelines
 Optimize Metadata
+Submit a Claude Code plugin
 Security & Privacy
 Troubleshooting
 Resources
@@ -452,6 +453,8 @@ Rules
 Extend ChatGPT and Codex
 Record & Replay
 MCP
+Linux
+Desktop app
 Windows
 Desktop app
 Windows sandbox

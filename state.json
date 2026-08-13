@@ -1,5 +1,64 @@
 [
   {
+    "id": "9234aaa1fce587c5db76ad5ea3b62f7abf613c5d",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "-⌘K\n+Ctrl\n+K\n+\n+\n+We've added the\n+anthropic-workspace-id\n+response header to the Claude API. It carries the\n+wrkspc_\n+-prefixed ID of the workspace that the request's API key or access token resolved to, including your organization's Default Workspace. See\n+Identify the workspace behind an API response\n+.\n-, or override it for a single session. See\n+, or\n+override it for a single session\n+. See\n-). All requests to this model will now return an error. We recommend upgrading to\n+). All requests to this model on the Claude API will now return an error. We recommend upgrading to\n-). All requests to these models will now return an error. We recommend upgrading to\n+). All requests to these models on the Claude API will now return an error. We recommend upgrading to\n-model deprecations\n+Model deprecations\n-model deprecations\n+Model deprecations\n-). All requests to these models will now return an error. We recommend upgrading to\n+). All requests to Claude Sonnet 3.7 will now return an error. Requests to Claude Haiku 3.5 on the Claude API will now return an error; it remains available on Amazon Bedrock and Google Cloud. We rec",
+    "snippet_full": "",
+    "diff": {
+      "added": 19,
+      "removed": 7,
+      "churn": 26
+    },
+    "score": 80,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 13 Aug 2026 01:18:37 GMT",
+    "run_at": "2026-08-13T01:18:05Z",
+    "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
+  },
+  {
+    "id": "24134aa2e26f3e4c8a0a85826cd27d2947bc0e31",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "-link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+    "snippet_full": "-link: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex\n-link: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n-id: https://openai.com/academy/codex-for-work/how-sales-teams-use-codex\n+link: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex\n+id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex\n+title: From assistance to execution: How enterprises put AI to work\n+link: https://openai.com/index/how-enterprises-put-ai-to-work\n+id: https://openai.com/index/how-enterprises-put-ai-to-work\n+date: Wed, 12 Aug 2026 06:00:00 GMT\n+body:\n+#ITEM\n+title: How RingCentral builds AI-native work from engineering to ops\n+link: https://openai.com/index/ringcentral\n+id: https://openai.com/index/ringcentral\n+date: Wed, 12 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 18,
+      "removed": 6,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 13 Aug 2026 01:18:06 GMT",
+    "run_at": "2026-08-13T01:18:05Z",
+    "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
+  },
+  {
+    "id": "ea342cc80b9618cc2ad328ffc31484fcbc458492",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Submit a Claude Code plugin\n+Linux\n+Desktop app",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 0,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 13 Aug 2026 01:18:05 GMT",
+    "run_at": "2026-08-13T01:18:05Z",
+    "run_id": "692894e78a4c420da1e1c0d2fef4aadc"
+  },
+  {
     "id": "6bf174dc058c79990d290a167c14c9b536a33c83",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -935,64 +994,5 @@
     "pubDate": "Tue, 21 Jul 2026 01:59:43 GMT",
     "run_at": "2026-07-21T01:58:58Z",
     "run_id": "71feb454c0a446cc8a62b11332305f92"
-  },
-  {
-    "id": "6c4ec16dd4a0e8e7cbda648fc2611c0157f6eb3d",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Safety and alignment in an era of long-horizon models\n+link: https://openai.com/index/safety-alignment-long-horizon-models\n+id: https://openai.com/index/safety-alignment-long-horizon-models\n+date: Mon, 20 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 21 Jul 2026 01:59:18 GMT",
-    "run_at": "2026-07-21T01:58:58Z",
-    "run_id": "71feb454c0a446cc8a62b11332305f92"
-  },
-  {
-    "id": "86a48ef7156646645b1aaa17a0d23b0c0a3e12b7",
-    "impact": "Medium",
-    "name": "Google Vertex AI Release Notes (RSS)",
-    "url": "https://cloud.google.com/feeds/vertex-ai-release-notes.xml",
-    "snippet": "-#ITEM\n-title: April 16, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#April_16_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#April_16_2025\n-date: 2025-04-16T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 06, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_06_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_06_2025\n-date: 2025-08-06T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 13, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_13_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_13_2025\n-date: 2025-08-13T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 14, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_14_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_14_2025\n-date: 2025-08-14T00:00:00-07:00\n-body:\n-#ITEM\n-title: August 21, 2025\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#August_21_2025\n-id: tag:google.com,2016:vertex-ai-release-notes#August_21_2025\n-date: 2025-08-21T00:00:00-07:00\n-body:\n-#ITEM\n-title: December 02, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#December_02_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#December_02_2024\n-date: 2024-12-02T00:00:00-08:00\n-body:\n-#ITEM\n-title: December 17, 2024\n-link: https://docs.cloud.google.com/vertex-ai/docs/release-notes#December_17_2024\n-id: tag:google.com,2016:vertex-ai-release-notes#December_17_2024",
-    "snippet_full": "",
-    "diff": {
-      "added": 0,
-      "removed": 180,
-      "churn": 180
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 18 Jul 2026 01:50:23 GMT",
-    "run_at": "2026-07-18T01:50:09Z",
-    "run_id": "f9d95bf4aff54454811785703ef89120"
-  },
-  {
-    "id": "7fe79275ecbacc800f5475f4ea09c02cdbd554ee",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Search...\n+Search",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 1,
-      "churn": 2
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 18 Jul 2026 01:50:23 GMT",
-    "run_at": "2026-07-18T01:50:09Z",
-    "run_id": "f9d95bf4aff54454811785703ef89120"
   }
 ]
