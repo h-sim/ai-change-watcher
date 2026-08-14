@@ -947,6 +947,12 @@ id: https://openai.com/index/bug-bounty-program
 date: Tue, 11 Apr 2023 07:00:00 GMT
 body:
 #ITEM
+title: The builder’s guide to GPT‑5.6
+link: https://openai.com/index/builders-guide-to-gpt-5-6
+id: https://openai.com/index/builders-guide-to-gpt-5-6
+date: Thu, 13 Aug 2026 11:00:00 GMT
+body:
+#ITEM
 title: Building abundant intelligence
 link: https://openai.com/index/building-abundant-intelligence
 id: https://openai.com/index/building-abundant-intelligence
@@ -1425,6 +1431,12 @@ title: Advancing organizational transformation for business innovation
 link: https://openai.com/index/dai-nippon-printing
 id: https://openai.com/index/dai-nippon-printing
 date: Tue, 28 Oct 2025 17:00:00 GMT
+body:
+#ITEM
+title: OpenAI appoints Dali Rajic as Chief Revenue Officer
+link: https://openai.com/index/dali-rajic-chief-revenue-officer
+id: https://openai.com/index/dali-rajic-chief-revenue-officer
+date: Thu, 13 Aug 2026 09:00:00 GMT
 body:
 #ITEM
 title: DALL·E: Creating images from text
@@ -5355,6 +5367,12 @@ title: Previewing GPT-5.6 Sol: a next-generation model
 link: https://openai.com/index/previewing-gpt-5-6-sol
 id: https://openai.com/index/previewing-gpt-5-6-sol
 date: Fri, 26 Jun 2026 10:00:00 GMT
+body:
+#ITEM
+title: Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed
+link: https://openai.com/index/previewing-ultrafast
+id: https://openai.com/index/previewing-ultrafast
+date: Thu, 13 Aug 2026 10:00:00 GMT
 body:
 #ITEM
 title: Procgen Benchmark

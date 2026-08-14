@@ -438,7 +438,7 @@ Overview
 Customization
 Overview
 Memories
-Chronicle
+Computer History
 Config file
 Config Basics
 Advanced Config
@@ -528,7 +528,8 @@ Admin rollout guide
 ChatGPT Work admin FAQ
 Identity and authentication
 Authentication overview
-Access tokens
+Personal Access Tokens
+Service accounts
 Workspace access, policy, and models
 Groups and provisioning
 Roles and workspace permissions
