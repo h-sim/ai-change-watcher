@@ -525,6 +525,7 @@ Recommended configuration
 Overview
 Getting started
 Admin rollout guide
+ChatGPT Work Overview
 ChatGPT Work admin FAQ
 Identity and authentication
 Authentication overview
@@ -533,6 +534,7 @@ Service accounts
 Workspace access, policy, and models
 Groups and provisioning
 Roles and workspace permissions
+GPTs and Sharing
 Managed configuration
 Prisma AIRS
 HIPAA configuration
@@ -706,6 +708,11 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 August, 2026
+Aug 13
+Announcement
+Announced Ultrafast mode, a new API service tier for GPT-5.6 Sol that runs up to 14x faster than Standard processing. Available in limited preview to select customers. Sign up to receive updates on Ultrafast mode
+here
+.
 Aug 7
 Feature
 gpt-5.6-cyber
