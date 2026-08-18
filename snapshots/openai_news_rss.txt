@@ -17,19 +17,19 @@ id: https://openai.com/academy/chatgpt-sites
 date: Tue, 02 Jun 2026 10:00:00 GMT
 body:
 #ITEM
-title: How business operations teams use ChatGPT Work
+title: Operations workflows with ChatGPT Work
 link: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex
 id: https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex
 date: Fri, 15 May 2026 00:00:00 GMT
 body:
 #ITEM
-title: How data science teams use ChatGPT Work
+title: Data science workflows with ChatGPT Work
 link: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex
 id: https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex
 date: Tue, 14 Jul 2026 00:00:00 GMT
 body:
 #ITEM
-title: How sales teams use ChatGPT Work
+title: Sales workflows with ChatGPT Work
 link: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex
 id: https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex
 date: Tue, 14 Jul 2026 00:00:00 GMT
@@ -53,7 +53,7 @@ id: https://openai.com/academy/data-analysis
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: ChatGPT for finance teams
+title: Learn ChatGPT workflows for finance teams
 link: https://openai.com/academy/finance
 id: https://openai.com/academy/finance
 date: Fri, 10 Apr 2026 00:00:00 GMT
@@ -77,13 +77,13 @@ id: https://openai.com/academy/healthcare
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: How finance teams use ChatGPT Work
+title: Finance workflows with ChatGPT Work
 link: https://openai.com/academy/how-finance-teams-use-codex
 id: https://openai.com/academy/how-finance-teams-use-codex
 date: Tue, 12 May 2026 15:00:00 GMT
 body:
 #ITEM
-title: How to use ChatGPT Work for everyday tasks
+title: Everyday work with ChatGPT Work
 link: https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks
 id: https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks
 date: Thu, 23 Apr 2026 10:00:00 GMT
@@ -101,7 +101,7 @@ id: https://openai.com/academy/managers
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: ChatGPT for marketing teams
+title: Learn ChatGPT workflows for marketing teams
 link: https://openai.com/academy/marketing
 id: https://openai.com/academy/marketing
 date: Fri, 10 Apr 2026 00:00:00 GMT
@@ -137,7 +137,7 @@ id: https://openai.com/academy/responsible-and-safe-use
 date: Fri, 10 Apr 2026 00:00:00 GMT
 body:
 #ITEM
-title: Learn ChatGPT for Sales Teams
+title: Learn ChatGPT workflows for sales teams
 link: https://openai.com/academy/sales
 id: https://openai.com/academy/sales
 date: Fri, 10 Apr 2026 00:00:00 GMT
@@ -899,7 +899,7 @@ id: https://openai.com/index/block-sparse-gpu-kernels
 date: Wed, 06 Dec 2017 08:00:00 GMT
 body:
 #ITEM
-title: Scaling domain expertise in complex, regulated domains
+title: Blue J’s approach for scaling fast in complex, regulated domains
 link: https://openai.com/index/blue-j
 id: https://openai.com/index/blue-j
 date: Thu, 21 Aug 2025 10:00:00 GMT
@@ -4331,6 +4331,12 @@ id: https://openai.com/index/new-models-and-developer-products-announced-at-devd
 date: Mon, 06 Nov 2023 08:00:00 GMT
 body:
 #ITEM
+title: New policy ideas for the Intelligence Age
+link: https://openai.com/index/new-policy-ideas-for-the-intelligence-age
+id: https://openai.com/index/new-policy-ideas-for-the-intelligence-age
+date: Mon, 17 Aug 2026 03:15:00 GMT
+body:
+#ITEM
 title: GPT-5.2 derives a new result in theoretical physics
 link: https://openai.com/index/new-result-theoretical-physics
 id: https://openai.com/index/new-result-theoretical-physics
@@ -4887,6 +4893,12 @@ title: Converting inbound leads into customers at OpenAI
 link: https://openai.com/index/openai-inbound-sales-assistant
 id: https://openai.com/index/openai-inbound-sales-assistant
 date: Mon, 29 Sep 2025 13:30:00 GMT
+body:
+#ITEM
+title: OpenAI joins PORTS-Pike project
+link: https://openai.com/index/openai-joins-ports-pike-project
+id: https://openai.com/index/openai-joins-ports-pike-project
+date: Mon, 17 Aug 2026 05:00:00 GMT
 body:
 #ITEM
 title: OpenAI launches DeployCo to help businesses build around intelligence
@@ -6225,6 +6237,12 @@ title: Text and code embeddings by contrastive pre-training
 link: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
 id: https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training
 date: Mon, 24 Jan 2022 08:00:00 GMT
+body:
+#ITEM
+title: The Defender’s Window
+link: https://openai.com/index/the-defenders-window
+id: https://openai.com/index/the-defenders-window
+date: Mon, 17 Aug 2026 05:30:00 GMT
 body:
 #ITEM
 title: The five AI value models driving business reinvention
