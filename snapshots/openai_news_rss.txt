@@ -755,6 +755,12 @@ id: https://openai.com/index/arvind-kc-chief-people-officer
 date: Tue, 24 Feb 2026 13:40:00 GMT
 body:
 #ITEM
+title: Asana cleared 5 years of engineering work in 2 weeks with Codex
+link: https://openai.com/index/asana
+id: https://openai.com/index/asana
+date: Tue, 18 Aug 2026 07:00:00 GMT
+body:
+#ITEM
 title: Personalizing education with ChatGPT
 link: https://openai.com/index/asu
 id: https://openai.com/index/asu
@@ -1107,6 +1113,12 @@ title: A free version of ChatGPT built for teachers
 link: https://openai.com/index/chatgpt-for-teachers
 id: https://openai.com/index/chatgpt-for-teachers
 date: Wed, 19 Nov 2025 00:00:00 GMT
+body:
+#ITEM
+title: Introducing ChatGPT for Teens: Built for learning, backed by protections
+link: https://openai.com/index/chatgpt-for-teens
+id: https://openai.com/index/chatgpt-for-teens
+date: Tue, 18 Aug 2026 11:00:00 GMT
 body:
 #ITEM
 title: Free ChatGPT for transitioning U.S. servicemembers and veterans
@@ -4469,6 +4481,12 @@ id: https://openai.com/index/nvidia
 date: Tue, 12 May 2026 00:00:00 GMT
 body:
 #ITEM
+title: How NVIDIA scales expertise with ChatGPT Work
+link: https://openai.com/index/nvidia/chatgpt-work
+id: https://openai.com/index/nvidia/chatgpt-work
+date: Tue, 18 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI o1 and new tools for developers
 link: https://openai.com/index/o1-and-new-tools-for-developers
 id: https://openai.com/index/o1-and-new-tools-for-developers
@@ -5219,6 +5237,12 @@ id: https://openai.com/index/pacific-northwest-national-laboratory
 date: Thu, 26 Feb 2026 10:00:00 GMT
 body:
 #ITEM
+title: Pacing model development in an era of cyber-critical capabilities
+link: https://openai.com/index/pacing-model-development-cyber-capabilities
+id: https://openai.com/index/pacing-model-development-cyber-capabilities
+date: Tue, 18 Aug 2026 11:00:00 GMT
+body:
+#ITEM
 title: Surging developer productivity with custom GPTs
 link: https://openai.com/index/paf
 id: https://openai.com/index/paf
@@ -5247,6 +5271,12 @@ title: Partnering with Axios expands OpenAI’s work with the news industry
 link: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
 id: https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry
 date: Wed, 15 Jan 2025 03:00:00 GMT
+body:
+#ITEM
+title: Partnering with CodeAI to prepare the first AI generation
+link: https://openai.com/index/partnering-with-codeai
+id: https://openai.com/index/partnering-with-codeai
+date: Tue, 18 Aug 2026 11:00:00 GMT
 body:
 #ITEM
 title: Partnership with American Journalism Project to support local news
@@ -6051,6 +6081,12 @@ title: Strengthening cyber resilience as AI capabilities advance
 link: https://openai.com/index/strengthening-cyber-resilience
 id: https://openai.com/index/strengthening-cyber-resilience
 date: Wed, 10 Dec 2025 12:00:00 GMT
+body:
+#ITEM
+title: Strengthening democratic oversight in national security
+link: https://openai.com/index/strengthening-democratic-oversight-in-national-security
+id: https://openai.com/index/strengthening-democratic-oversight-in-national-security
+date: Tue, 18 Aug 2026 19:00:00 GMT
 body:
 #ITEM
 title: Strengthening our safety ecosystem with external testing

@@ -126,6 +126,15 @@ in the
 claude-code
 repository.
 
+August 18, 2026
+Workbench is now
+Playground
+in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the
+Claude Help Center
+or try it at
+platform.claude.com/playground
+.
+
 August 11, 2026
 The
 Compliance API
@@ -1881,6 +1890,7 @@ blog post
 このページは役に立ちましたか？
 
 
+August 18, 2026
 August 11, 2026
 August 10, 2026
 August 7, 2026
