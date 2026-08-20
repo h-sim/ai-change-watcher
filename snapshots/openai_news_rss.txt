@@ -1079,6 +1079,12 @@ id: https://openai.com/index/chatgpt
 date: Wed, 30 Nov 2022 08:00:00 GMT
 body:
 #ITEM
+title: ChatGPT Ads expands across Europe
+link: https://openai.com/index/chatgpt-ads-expands-across-europe
+id: https://openai.com/index/chatgpt-ads-expands-across-europe
+date: Tue, 18 Aug 2026 22:00:00 GMT
+body:
+#ITEM
 title: ChatGPT agent System Card
 link: https://openai.com/index/chatgpt-agent-system-card
 id: https://openai.com/index/chatgpt-agent-system-card
@@ -4541,6 +4547,12 @@ id: https://openai.com/index/o3-o4-mini-system-card-addendum-operator-o3
 date: Fri, 23 May 2025 00:00:00 GMT
 body:
 #ITEM
+title: Offering Zero Data Retention for frontier models
+link: https://openai.com/index/offering-zero-data-retention-for-frontier-models
+id: https://openai.com/index/offering-zero-data-retention-for-frontier-models
+date: Wed, 19 Aug 2026 19:00:00 GMT
+body:
+#ITEM
 title: How Omio is building the future of conversational travel
 link: https://openai.com/index/omio
 id: https://openai.com/index/omio
@@ -5523,6 +5535,12 @@ title: Reinforcement learning with prediction-based rewards
 link: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
 id: https://openai.com/index/reinforcement-learning-with-prediction-based-rewards
 date: Wed, 31 Oct 2018 07:00:00 GMT
+body:
+#ITEM
+title: Replit expands access to software creation with GPT-5.6 Luna
+link: https://openai.com/index/replit
+id: https://openai.com/index/replit
+date: Wed, 19 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: Report from the self-organizing conference

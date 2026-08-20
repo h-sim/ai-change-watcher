@@ -241,6 +241,7 @@ Red teaming
 Safety checks
 Cybersecurity checks
 Under 18 API Guidance
+CSAM guidance
 Content provenance
 Your data
 Permissions
@@ -596,11 +597,11 @@ Docs section
 Select...
 All posts
 Recent
+Codex as a platform: build on the open agent harness
 Custom Code Review rules for Codex
 Mastering remote engineering work from your phone
 Making private MCP servers reachable without making them public
 How Perplexity Brought Voice Search to Millions Using the Realtime API
-Designing delightful frontends with GPT-5.4
 Topics
 General
 API

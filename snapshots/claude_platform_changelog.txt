@@ -126,6 +126,99 @@ in the
 claude-code
 repository.
 
+August 19, 2026
+The
+Admin API
+user-management endpoints for
+Claude Enterprise
+(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The
+anthropic-beta: ce-user-management-2026-07-13
+header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See
+User management
+.
+The
+Files API
+is now generally available on the Claude API. Requests to the
+/v1/files
+endpoints, and Messages API requests that reference an uploaded file, no longer require the
+files-api-2025-04-14
+beta header. Requests sent without the header use the GA response format:
+file expiration
+(set
+expires_in_seconds
+when you upload a file; file objects report
+expires_at
+), and
+page
+and
+next_page
+pagination
+plus an
+ids[]
+filter when you
+list files
+. Storage is 1 TB per organization and the rate limit is 500 requests per minute.
+/v1/files
+requests that still send the beta header keep working and return the previous response format.
+Agent Skills
+and the Skills API (
+/v1/skills
+) are now generally available on the Claude API. Requests no longer require the
+skills-2025-10-02
+beta header, including Messages API requests that load Skills through the
+container
+parameter. Requests that still send the header continue to work unchanged. See
+Using Agent Skills with the API
+.
+You can now restrict which sites a Claude Managed Agents agent's
+web_search
+and
+web_fetch
+tools can reach. Set
+allowed_domains
+or
+blocked_domains
+on the tool's entry in the
+agent_toolset_20260401
+configs
+array;
+web_fetch
+also accepts
+max_content_tokens
+and
+web_search
+accepts
+user_location
+. Each
+configs
+entry is identified by its
+name
+and typed by an optional
+type
+, and requests that pass only
+name
+,
+enabled
+, and
+permission_policy
+continue to work; in the typed SDKs,
+configs
+entries become per-tool types. See
+Restrict web search and web fetch domains
+.
+Claude Managed Agents sessions that run in a
+self-hosted sandbox
+can now attach
+memory stores
+. The Python, TypeScript, and Go SDK workers download each attached store into the sandbox at its
+mount_path
+and sync the agent's changes back to the store. See
+Use memory stores
+.
+The session viewer in the Claude Console has been redesigned with a timeline minimap, a transcript grouped by model request, and an Inspector panel for session details and cost, raw events, per-tool statistics, mounted resources, and per-thread activity. See
+Console observability
+.
+
 August 18, 2026
 Workbench is now
 Playground
@@ -1890,6 +1983,7 @@ blog post
 このページは役に立ちましたか？
 
 
+August 19, 2026
 August 18, 2026
 August 11, 2026
 August 10, 2026

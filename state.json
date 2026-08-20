@@ -1,5 +1,64 @@
 [
   {
+    "id": "c009664228bb01b36d94ebf7451d389a4770a62b",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+August 19, 2026\n+The\n+Admin API\n+user-management endpoints for\n+Claude Enterprise\n+(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The\n+anthropic-beta: ce-user-management-2026-07-13\n+header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See\n+User management\n+.\n+The\n+Files API\n+is now generally available on the Claude API. Requests to the\n+/v1/files\n+endpoints, and Messages API requests that reference an uploaded file, no longer require the\n+files-api-2025-04-14\n+beta header. Requests sent without the header use the GA response format:\n+file expiration\n+(set\n+expires_in_seconds\n+when you upload a file; file objects report\n+expires_at\n+), and\n+page\n+and\n+next_page\n+pagination\n+plus an\n+ids[]\n+filter when you\n+list files\n+. Storage is 1 TB per organization and the rate limit is 500 requests per minute.\n+/v1/files\n+requests that still send the beta header keep working and return the previous response format.\n+Agent Skills\n+and the Skills API (\n+/v1/skills\n+) are now generally available on the Claude API. Requests no longer require the\n+skills-2025-10-02\n+beta header, including Messages API requests that load Skills through the",
+    "snippet_full": "",
+    "diff": {
+      "added": 94,
+      "removed": 0,
+      "churn": 94
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 20 Aug 2026 00:48:54 GMT",
+    "run_at": "2026-08-20T00:48:46Z",
+    "run_id": "966f2dc758e74b98a8a0737e182dd169"
+  },
+  {
+    "id": "cda7298300dcaf5e02a7c53698e85a15825b892a",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: ChatGPT Ads expands across Europe\n+link: https://openai.com/index/chatgpt-ads-expands-across-europe\n+id: https://openai.com/index/chatgpt-ads-expands-across-europe\n+date: Tue, 18 Aug 2026 22:00:00 GMT\n+body:\n+#ITEM\n+title: Offering Zero Data Retention for frontier models\n+link: https://openai.com/index/offering-zero-data-retention-for-frontier-models\n+id: https://openai.com/index/offering-zero-data-retention-for-frontier-models\n+date: Wed, 19 Aug 2026 19:00:00 GMT\n+body:\n+#ITEM\n+title: Replit expands access to software creation with GPT-5.6 Luna\n+link: https://openai.com/index/replit\n+id: https://openai.com/index/replit\n+date: Wed, 19 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 18,
+      "removed": 0,
+      "churn": 18
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 20 Aug 2026 00:48:47 GMT",
+    "run_at": "2026-08-20T00:48:46Z",
+    "run_id": "966f2dc758e74b98a8a0737e182dd169"
+  },
+  {
+    "id": "24846b6bd2a44b5ed512eff8c8d81cdde0dd63d4",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+CSAM guidance\n+Codex as a platform: build on the open agent harness\n-Designing delightful frontends with GPT-5.4",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 1,
+      "churn": 3
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 20 Aug 2026 00:48:46 GMT",
+    "run_at": "2026-08-20T00:48:46Z",
+    "run_id": "966f2dc758e74b98a8a0737e182dd169"
+  },
+  {
     "id": "f28c975676143c92d4029b05314ebf2092581d3d",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -937,62 +996,5 @@
     "pubDate": "Fri, 24 Jul 2026 02:00:47 GMT",
     "run_at": "2026-07-24T02:00:35Z",
     "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
-  },
-  {
-    "id": "45d118d5ae9c3423bda322c4935cbcbadcc3dad6",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How Codex became a collaborator for OpenAI’s creative team\n+link: https://openai.com/index/codex-collaborator-creative-team\n+id: https://openai.com/index/codex-collaborator-creative-team\n+date: Thu, 16 Jul 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Launching Health in ChatGPT\n+link: https://openai.com/index/health-in-chatgpt\n+id: https://openai.com/index/health-in-chatgpt\n+date: Thu, 23 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Jul 2026 02:00:36 GMT",
-    "run_at": "2026-07-24T02:00:35Z",
-    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
-  },
-  {
-    "id": "f5e9aeaa4026532a1c116acf022a9aa4731e2c55",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Voice\n-Work mode admin FAQ\n+ChatGPT Work admin FAQ",
-    "snippet_full": "",
-    "diff": {
-      "added": 2,
-      "removed": 1,
-      "churn": 3
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Jul 2026 02:00:36 GMT",
-    "run_at": "2026-07-24T02:00:35Z",
-    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
-  },
-  {
-    "id": "1875f690cc439e27a7b5039510a6e82ea83f2eb1",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+July 22, 2026\n+You can now set an\n+effort\n+level on a Claude Managed Agents agent's model configuration. Pass\n+effort\n+inside the\n+model\n+object when you\n+create the agent\n+. See\n+Effort levels\n+for what each level does.\n+Webhooks for Claude Managed Agents now cover the environment and memory store lifecycle: four\n+environment.*\n+event types and three\n+memory_store.*\n+event types. You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in\n+Subscribe to webhooks\n+.\n+When creating a Claude Managed Agents session, you can now\n+seed it with initial events\n+. Pass\n+initial_events\n+on\n+POST /v1/sessions\n+with up to 50\n+user.message\n+and\n+user.define_outcome\n+events. A non-empty list starts the agent loop in the same call, so you don't need a separate send-events request to start work.\n+The\n+version\n+field is now optional when\n+updating a Claude Managed Agents agent\n+. Supply it for optimistic concurrency (a mismatch returns a 409 error), or omit it to apply the update unconditionally. See\n+Update semantics\n+.\n+Claude Managed Agents session thread event streams now support\n+event deltas\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 51,
-      "removed": 5,
-      "churn": 56
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 23 Jul 2026 02:05:30 GMT",
-    "run_at": "2026-07-23T02:05:16Z",
-    "run_id": "5440bac4e5eb4b1da699fb2d1752a74c"
   }
 ]
