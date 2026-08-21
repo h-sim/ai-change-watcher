@@ -1,5 +1,64 @@
 [
   {
+    "id": "2d197fc171885769bcf49409007f7e53135f39ea",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+The Claude Platform release notes list changes to the Claude API, the client SDKs, and the Claude Console, newest first.\n-Admin API\n-user-management endpoints for\n-Claude Enterprise\n-(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The\n-anthropic-beta: ce-user-management-2026-07-13\n-header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See\n-User management\n-.\n+computer use tool\n+is now generally available on the Claude API as the\n+computer_toolset_20260801\n+toolset: no beta header, batch actions (several actions in one turn),\n+zoom\n+enabled by default, and per-member configuration through\n+configs\n+. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see\n+Migrate from\n+computer_20251124\n+.\n+We've launched the\n+browser use tool\n+(\n+browser_toolset_20260801\n+), a client toolset for driving a browser that your application hosts. It works inside a browser viewport rather than a whole desktop, reading the page itself (its accessibility tree, elements, forms\n+Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API.\n-. Storage is 1 TB per organization and the rate limit is 500 requests per minute.\n+.\n+.\n+The\n+Admin API\n+user-management endpoints for\n+Claude Enterprise\n+(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The\n+anthropic-beta: ce-user-management-2026-07-13\n+header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See\n+User management",
+    "snippet_full": "",
+    "diff": {
+      "added": 28,
+      "removed": 9,
+      "churn": 37
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 21 Aug 2026 00:53:18 GMT",
+    "run_at": "2026-08-21T00:53:10Z",
+    "run_id": "8f7e041144b14b248f6720d7762b6762"
+  },
+  {
+    "id": "ae171f1a2a615bb813f1ba4d38ba99ead037d800",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Introducing AI Futures\n+link: https://openai.com/index/introducing-ai-futures\n+id: https://openai.com/index/introducing-ai-futures\n+date: Thu, 20 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Stampli cuts launch hours by 68% using ChatGPT Work\n+link: https://openai.com/index/stampli\n+id: https://openai.com/index/stampli\n+date: Thu, 20 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 21 Aug 2026 00:53:11 GMT",
+    "run_at": "2026-08-21T00:53:10Z",
+    "run_id": "8f7e041144b14b248f6720d7762b6762"
+  },
+  {
+    "id": "f6a64b06ed0240c40d9b212779376912072c1714",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Codex setup\n+Federation rules\n+Admin API\n+GitLab (Beta)\n+Workload identity\n+Aug 20\n+Feature\n+Released the\n+Prompt Caching dashboard\n+on the OpenAI API platform. Track your cache hit rate over time, cache reads per write, and the breakdown of cache-read, cache-write, and uncached tokens to understand your caching efficiency and ide\n+Aug 20\n+Update\n+gpt-image-2\n+gpt-image-2-2026-04-21\n+v1/images/generations\n+v1/images/edits\n+v1/responses\n+Transparent backgrounds are now available in preview for\n+gpt-image-2\n+and\n+gpt-image-2-2026-04-21\n+in the Images API and the Responses API image generation tool. Set\n+background\n+to\n+transparent\n+and use\n+png\n+or\n+webp\n+output;\n+jpeg\n+does not support transparent backgrounds. Learn more in the\n+image generation guide\n+.",
+    "snippet_full": "",
+    "diff": {
+      "added": 34,
+      "removed": 0,
+      "churn": 34
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 21 Aug 2026 00:53:11 GMT",
+    "run_at": "2026-08-21T00:53:10Z",
+    "run_id": "8f7e041144b14b248f6720d7762b6762"
+  },
+  {
     "id": "c009664228bb01b36d94ebf7451d389a4770a62b",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -933,68 +992,5 @@
     "pubDate": "Sat, 25 Jul 2026 02:00:37 GMT",
     "run_at": "2026-07-25T02:00:01Z",
     "run_id": "4ddcf06194d145ef9720f1c0be301e08"
-  },
-  {
-    "id": "53679653e98265a8b6fcef0efabc2b43179d01a5",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Apps SDK\n-Build apps to extend ChatGPT\n+Plugins\n+Extend ChatGPT and Codex\n-Spend limits\n+Spend limits\n-Apps SDK\n+Plugins\n-Apps SDK\n+Plugins\n-Core Concepts\n-MCP Apps in ChatGPT\n-MCP Server\n-UX principles\n-UI guidelines\n+Core concepts\n+Plugin architecture\n+Skills\n+MCP server\n-Research use cases\n+Brainstorm use cases\n-Design components\n-Set up your server\n-Build your ChatGPT UI\n+Build an MCP server\n+Add UI to your MCP server (optional)\n-Manage state\n-Monetize your app\n+Build skills\n+Package your plugin\n-Deploy\n-Deploy your app\n-Connect from ChatGPT\n-Test your integration\n-Prepare your app\n-Conversion apps\n+Test and publish\n+Connect and test your plugin\n+Submit and publish\n+Submission error reference",
-    "snippet_full": "",
-    "diff": {
-      "added": 24,
-      "removed": 28,
-      "churn": 52
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Sat, 25 Jul 2026 02:00:01 GMT",
-    "run_at": "2026-07-25T02:00:01Z",
-    "run_id": "4ddcf06194d145ef9720f1c0be301e08"
-  },
-  {
-    "id": "68662aefa101456c0e726bca3b8b83226cf407e0",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+Best practices\n+Models & pricing\n+CLI, SDKs, and libraries\n+Claude API skill\n+Release notes\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Jul 2026 02:00:48 GMT",
-    "run_at": "2026-07-24T02:00:35Z",
-    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
-  },
-  {
-    "id": "879c01e53f78eaf71c6a8b97c047e5b0449dabdb",
-    "impact": "Medium",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+  /organization/spend_limit:\n+    get:\n+      summary: Get the organization's hard spend limit.\n+      operationId: Getorganizationspendlimit\n+      parameters: []\n+      responses:\n+        '200':\n+          description: Hard spend limit retrieved successfully.\n+          content:\n+            application/json:\n+              schema:\n+                $ref: '#/components/schemas/OrganizationSpendLimitResource'\n+      x-oaiMeta:\n+        name: Retrieve organization spend limit\n+        group: administration\n+        examples:\n+          request:\n+            curl: |\n+              curl https://api.openai.com/v1/organization/spend_limit \\\n+                -H \"Authorization: Bearer $OPENAI_ADMIN_KEY\" \\\n+                -H \"Content-Type: application/json\"\n+            node.js: >-\n+              import OpenAI from 'openai';\n+\n+\n+              const client = new OpenAI({\n+                adminAPIKey: process.env['OPENAI_ADMIN_KEY'], // This is the default and can be omitted\n+              });\n+\n+\n+              const organizationSpendLimit = await\n+              client.admin.organization.spendLimit.retrieve();\n+\n+\n+              console.log(organizationSpendLimit.currency);\n+            python: >-\n+              import os\n+\n+              from openai import OpenAI\n+",
-    "snippet_full": "",
-    "diff": {
-      "added": 848,
-      "removed": 0,
-      "churn": 848
-    },
-    "score": 40,
-    "reasons": [
-      "OpenAPI: servers.url変更"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 24 Jul 2026 02:00:47 GMT",
-    "run_at": "2026-07-24T02:00:35Z",
-    "run_id": "1f9a86ab6a0b4f7785a961dfbc7f1219"
   }
 ]

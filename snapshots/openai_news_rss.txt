@@ -3275,6 +3275,12 @@ id: https://openai.com/index/introducing-agentkit
 date: Mon, 06 Oct 2025 00:00:00 GMT
 body:
 #ITEM
+title: Introducing AI Futures
+link: https://openai.com/index/introducing-ai-futures
+id: https://openai.com/index/introducing-ai-futures
+date: Thu, 20 Aug 2026 07:00:00 GMT
+body:
+#ITEM
 title: Introducing apps in ChatGPT and the new Apps SDK
 link: https://openai.com/index/introducing-apps-in-chatgpt
 id: https://openai.com/index/introducing-apps-in-chatgpt
@@ -6021,6 +6027,12 @@ title: STADLER reshapes knowledge work at a 230-year-old company
 link: https://openai.com/index/stadler
 id: https://openai.com/index/stadler
 date: Fri, 27 Mar 2026 22:00:00 GMT
+body:
+#ITEM
+title: Stampli cuts launch hours by 68% using ChatGPT Work
+link: https://openai.com/index/stampli
+id: https://openai.com/index/stampli
+date: Thu, 20 Aug 2026 00:00:00 GMT
 body:
 #ITEM
 title: Stargate advances with 4.5 GW partnership with Oracle

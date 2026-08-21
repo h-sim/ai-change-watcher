@@ -256,6 +256,9 @@ Import and reconciliation
 Private Link
 IP allowlist
 Workload identity federation
+Codex setup
+Federation rules
+Admin API
 X.509 certificates (beta)
 Kubernetes
 AWS
@@ -481,6 +484,7 @@ GitHub Action
 Non-interactive mode
 Third-party integrations
 GitHub
+GitLab (Beta)
 Slack
 Linear
 Reference
@@ -530,6 +534,7 @@ ChatGPT Work Overview
 ChatGPT Work admin FAQ
 Identity and authentication
 Authentication overview
+Workload identity
 Personal Access Tokens
 Service accounts
 Workspace access, policy, and models
@@ -709,6 +714,35 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 August, 2026
+Aug 20
+Feature
+Released the
+Prompt Caching dashboard
+on the OpenAI API platform. Track your cache hit rate over time, cache reads per write, and the breakdown of cache-read, cache-write, and uncached tokens to understand your caching efficiency and identify opportunities to improve. Filter metrics by model and service tier.
+Aug 20
+Update
+gpt-image-2
+gpt-image-2-2026-04-21
+v1/images/generations
+v1/images/edits
+v1/responses
+Transparent backgrounds are now available in preview for
+gpt-image-2
+and
+gpt-image-2-2026-04-21
+in the Images API and the Responses API image generation tool. Set
+background
+to
+transparent
+and use
+png
+or
+webp
+output;
+jpeg
+does not support transparent backgrounds. Learn more in the
+image generation guide
+.
 Aug 13
 Announcement
 Announced Ultrafast mode, a new API service tier for GPT-5.6 Sol that runs up to 14x faster than Standard processing. Available in limited preview to select customers. Sign up to receive updates on Ultrafast mode

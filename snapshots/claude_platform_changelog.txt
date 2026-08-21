@@ -116,6 +116,7 @@ Subscribe
 
 Copy page
 
+The Claude Platform release notes list changes to the Claude API, the client SDKs, and the Claude Console, newest first.
 
 For release notes on Claude Apps, see the
 Release notes for Claude Apps in the Claude Help Center
@@ -128,14 +129,23 @@ repository.
 
 August 19, 2026
 The
-Admin API
-user-management endpoints for
-Claude Enterprise
-(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The
-anthropic-beta: ce-user-management-2026-07-13
-header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See
-User management
+computer use tool
+is now generally available on the Claude API as the
+computer_toolset_20260801
+toolset: no beta header, batch actions (several actions in one turn),
+zoom
+enabled by default, and per-member configuration through
+configs
+. Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see
+Migrate from
+computer_20251124
 .
+We've launched the
+browser use tool
+(
+browser_toolset_20260801
+), a client toolset for driving a browser that your application hosts. It works inside a browser viewport rather than a whole desktop, reading the page itself (its accessibility tree, elements, forms, and tabs) and adding element references, form input, tab management, download reporting, and opt-in file upload on top of screenshot-and-click control.
+Both toolsets are available for Claude Fable 5, Claude Mythos 5, Claude Opus 5, Claude Sonnet 5, and Claude Opus 4.8 on the Claude API.
 The
 Files API
 is now generally available on the Claude API. Requests to the
@@ -157,7 +167,7 @@ plus an
 ids[]
 filter when you
 list files
-. Storage is 1 TB per organization and the rate limit is 500 requests per minute.
+.
 /v1/files
 requests that still send the beta header keep working and return the previous response format.
 Agent Skills
@@ -169,6 +179,15 @@ beta header, including Messages API requests that load Skills through the
 container
 parameter. Requests that still send the header continue to work unchanged. See
 Using Agent Skills with the API
+.
+The
+Admin API
+user-management endpoints for
+Claude Enterprise
+(claude.ai) organizations (members, invites, groups, and custom roles) are now generally available. The
+anthropic-beta: ce-user-management-2026-07-13
+header is no longer required on group and custom-role requests; requests that still send it are accepted unchanged. See
+User management
 .
 You can now restrict which sites a Claude Managed Agents agent's
 web_search
