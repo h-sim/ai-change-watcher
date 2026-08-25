@@ -1,5 +1,47 @@
 [
   {
+    "id": "8816f2f1ad4683a07596b9c46153c1b15242ebc9",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Advancing price-performance for developers with GPT‑5.6 in Kiro\n+link: https://openai.com/index/gpt-5-6-in-kiro\n+id: https://openai.com/index/gpt-5-6-in-kiro\n+date: Mon, 24 Aug 2026 12:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 6,
+      "removed": 0,
+      "churn": 6
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 25 Aug 2026 00:51:43 GMT",
+    "run_at": "2026-08-25T00:51:21Z",
+    "run_id": "42150c348bea406c95cf5f4ba5970e07"
+  },
+  {
+    "id": "5e90a0373ece1378316ee73cefd07118d173842f",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Mutual TLS\n-X.509 certificates (beta)\n+X.509 certificates\n+ChatGPT Work cloud security",
+    "snippet_full": "",
+    "diff": {
+      "added": 3,
+      "removed": 1,
+      "churn": 4
+    },
+    "score": 30,
+    "reasons": [
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Tue, 25 Aug 2026 00:51:21 GMT",
+    "run_at": "2026-08-25T00:51:21Z",
+    "run_id": "42150c348bea406c95cf5f4ba5970e07"
+  },
+  {
     "id": "e6713806d8e46c244158271e2eb46627b2629304",
     "impact": "Breaking",
     "name": "Claude Platform Changelog",
@@ -952,46 +994,5 @@
     "pubDate": "Wed, 29 Jul 2026 01:56:20 GMT",
     "run_at": "2026-07-29T01:55:58Z",
     "run_id": "2d35ab3b55bb4513956b66804ec96e70"
-  },
-  {
-    "id": "0384d3a2b54d7f5f4da31ac0a8af9a9e9c92f50b",
-    "impact": "High",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Transcription\n+File transcription\n-Speech to text\n+Terraform provider\n+Overview\n+Projects and access\n+Service accounts\n+Rate limits and spend\n+Model, tool, and data controls\n+Import and reconciliation\n+Get Quote spec\n-Cloud FAQ\n-Codex Security cloud setup\n+Codex Security cloud\n+Setup\n+FAQ\n+CLI and SDK\n+CLI quickstart\n+Run bulk scans\n+CLI reference\n+Run scans in CI\n+CLI FAQ\n+TypeScript SDK\n+Jul 28\n+Feature\n+gpt-transcribe\n+gpt-live-transcribe\n+v1/audio/transcriptions\n+v1/realtime\n+Released\n+GPT Transcribe\n+for accurate file transcription and final transcripts of committed Realtime turns, along with\n+GPT Live Transcribe\n+for low-latency streaming transcription.\n+Both models support free-form transcription context, keyword hints, and multiple expected input languages. Compare supported outputs and workflows in the\n+transcription guide\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 34,
-      "removed": 3,
-      "churn": 37
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Wed, 29 Jul 2026 01:56:19 GMT",
-    "run_at": "2026-07-29T01:55:58Z",
-    "run_id": "2d35ab3b55bb4513956b66804ec96e70"
-  },
-  {
-    "id": "39ff640d08e69d6235c1490b71df7ca602c0a813",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: How AI is expanding what people do at work\n+link: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\n+id: https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\n+date: Mon, 27 Jul 2026 03:30:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 0,
-      "churn": 6
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 28 Jul 2026 01:52:45 GMT",
-    "run_at": "2026-07-28T01:52:44Z",
-    "run_id": "0b31eb09099a4bfa8bfc31179ca9272d"
   }
 ]

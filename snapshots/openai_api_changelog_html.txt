@@ -255,11 +255,12 @@ Model, tool, and data controls
 Import and reconciliation
 Private Link
 IP allowlist
+Mutual TLS
 Workload identity federation
 Codex setup
 Federation rules
 Admin API
-X.509 certificates (beta)
+X.509 certificates
 Kubernetes
 AWS
 Microsoft Azure
@@ -532,6 +533,7 @@ Overview
 Getting started
 Admin rollout guide
 ChatGPT Work Overview
+ChatGPT Work cloud security
 ChatGPT Work admin FAQ
 Identity and authentication
 Authentication overview

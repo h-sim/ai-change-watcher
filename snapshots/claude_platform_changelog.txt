@@ -26,7 +26,6 @@ Ctrl
 K
 Release notes
 Overview
-System prompts
 Migration guides
 Migrating to Managed Agents
 
