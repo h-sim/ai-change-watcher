@@ -1,5 +1,43 @@
 [
   {
+    "id": "ee1fd0ffda1b8791473864d8f115c9975b44a730",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Disrupting a new covert influence campaign from Russia\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+date: Tue, 25 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Admin plugin for ChatGPT Work and Codex\n+link: https://openai.com/index/introducing-admin-plugin\n+id: https://openai.com/index/introducing-admin-plugin\n+title: Jalapeño’s first results show industry-leading speed and efficiency in AI inference\n+link: https://openai.com/index/jalapeno-first-results\n+id: https://openai.com/index/jalapeno-first-results",
+    "snippet_full": "+title: Disrupting a new covert influence campaign from Russia\n+link: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+id: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia\n+date: Tue, 25 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Introducing the Admin plugin for ChatGPT Work and Codex\n+link: https://openai.com/index/introducing-admin-plugin\n+id: https://openai.com/index/introducing-admin-plugin\n+date: Tue, 25 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Jalapeño’s first results show industry-leading speed and efficiency in AI inference\n+link: https://openai.com/index/jalapeno-first-results\n+id: https://openai.com/index/jalapeno-first-results\n+date: Tue, 25 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: The full stack behind abundant intelligence\n+link: https://openai.com/index/the-full-stack-behind-abundant-intelligence\n+id: https://openai.com/index/the-full-stack-behind-abundant-intelligence\n+date: Tue, 25 Aug 2026 07:05:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 24,
+      "removed": 0,
+      "churn": 24
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 26 Aug 2026 00:52:13 GMT",
+    "run_at": "2026-08-26T00:52:13Z",
+    "run_id": "e1e92ea414654857a5e85c8fed9fbbb4"
+  },
+  {
+    "id": "0b738d544e4b54691834e85c43f6a6f2c599bab1",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Chrome extension\n+Browser extension\n+Site tools (WebMCP)\n+Automating repetitive work at OpenAI with Codex\n+Meet the winners of OpenAI Build Week\n-Mastering remote engineering work from your phone\n-Making private MCP servers reachable without making them public",
+    "snippet_full": "",
+    "diff": {
+      "added": 4,
+      "removed": 3,
+      "churn": 7
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 26 Aug 2026 00:52:13 GMT",
+    "run_at": "2026-08-26T00:52:13Z",
+    "run_id": "e1e92ea414654857a5e85c8fed9fbbb4"
+  },
+  {
     "id": "8816f2f1ad4683a07596b9c46153c1b15242ebc9",
     "impact": "High",
     "name": "OpenAI News (RSS)",
@@ -956,43 +994,5 @@
     "pubDate": "Thu, 30 Jul 2026 01:47:47 GMT",
     "run_at": "2026-07-30T01:47:47Z",
     "run_id": "122bbcd3802d4d09a4a73abf84dbe435"
-  },
-  {
-    "id": "4ebd6741c2dcb84436c820163c38e3fa0dc89928",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "+  live_call_incoming:\n+    post:\n+      description: |\n+        Sent when an incoming API SIP session is available for Live acceptance.\n+      requestBody:\n+        description: The event payload sent by the API.\n+        content:\n+          application/json:\n+            schema:\n+              $ref: '#/components/schemas/WebhookLiveCallIncoming'\n+      responses:\n+        '200':\n+          description: >\n+            Return a 200 status code to acknowledge receipt of the event.\n+            Non-200\n+\n+            status codes will be retried.\n-      description: |\n-        Sent when Realtime API Receives a incoming SIP call.\n+      description: >\n+        Sent when an incoming API SIP session is available for Realtime\n+        acceptance.\n-            `gpt-4o-mini-transcribe`, `gpt-4o-mini-transcribe-2025-12-15`,\n-            `gpt-4o-transcribe`, `gpt-4o-transcribe-diarize`, and\n-            `gpt-realtime-whisper`. Use `gpt-4o-transcribe-diarize` when you\n-            need diarization with speaker labels.\n+            `gpt-transcribe`, `gpt-live-transcribe`, `gpt-4o-mini-transcribe`,\n+            `gpt-4o-mini-transcribe-2025-12-15`, `gpt-4o-transcribe`,\n+            `gpt-4o-transcribe-diarize`, and `gpt-realtime-whisper`. Use\n+            `gpt-4o-transcribe-diarize` when you need diarization with speaker\n+            labels.\n+                - gpt-transcribe\n+                - gpt-live-transcribe\n+        languages:\n+          type: array\n+          description: >\n+            Possible languages of the input audio, in\n+            [ISO-639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)\n+            format. Supported by `gpt-transcribe` and `gpt-live-transcribe`.\n+          minItems: 1",
-    "snippet_full": "",
-    "diff": {
-      "added": 226,
-      "removed": 17,
-      "churn": 243
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 29 Jul 2026 01:56:33 GMT",
-    "run_at": "2026-07-29T01:55:58Z",
-    "run_id": "2d35ab3b55bb4513956b66804ec96e70"
-  },
-  {
-    "id": "ba3e1c2c6f345f8c93d4cce05171fcd71e37c87a",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "-title: ChatGPT for sales teams\n+title: Learn ChatGPT for Sales Teams\n+title: Scientific computing in the age of agentic AI\n+link: https://openai.com/index/scientific-computing-agentic-ai\n+id: https://openai.com/index/scientific-computing-agentic-ai\n+date: Tue, 28 Jul 2026 17:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 1,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 29 Jul 2026 01:56:20 GMT",
-    "run_at": "2026-07-29T01:55:58Z",
-    "run_id": "2d35ab3b55bb4513956b66804ec96e70"
   }
 ]

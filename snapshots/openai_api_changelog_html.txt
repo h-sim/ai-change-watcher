@@ -433,7 +433,7 @@ Web search
 Image generation
 Image inputs
 Appshots
-Chrome extension
+Browser extension
 Work with files
 Reference
 Commands
@@ -472,6 +472,7 @@ Integrated terminal
 Extend and automate
 Build skills
 Build plugins
+Site tools (WebMCP)
 Hooks
 Environments
 Modes
@@ -605,11 +606,11 @@ Docs section
 Select...
 All posts
 Recent
+Automating repetitive work at OpenAI with Codex
+Meet the winners of OpenAI Build Week
 Scaling cyber defenders with Daybreak
 Codex as a platform: build on the open agent harness
 Custom Code Review rules for Codex
-Mastering remote engineering work from your phone
-Making private MCP servers reachable without making them public
 Topics
 General
 API

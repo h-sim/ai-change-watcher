@@ -1799,6 +1799,12 @@ id: https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll
 date: Tue, 01 Oct 2024 00:00:00 GMT
 body:
 #ITEM
+title: Disrupting a new covert influence campaign from Russia
+link: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia
+id: https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia
+date: Tue, 25 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: Iranian influence nexus: Cross-platform activity
 link: https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus
 id: https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus
@@ -3275,6 +3281,12 @@ id: https://openai.com/index/introducing-activation-atlases
 date: Wed, 06 Mar 2019 08:00:00 GMT
 body:
 #ITEM
+title: Introducing the Admin plugin for ChatGPT Work and Codex
+link: https://openai.com/index/introducing-admin-plugin
+id: https://openai.com/index/introducing-admin-plugin
+date: Tue, 25 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: Introducing AgentKit, new Evals, and RFT for agents
 link: https://openai.com/index/introducing-agentkit
 id: https://openai.com/index/introducing-agentkit
@@ -3819,6 +3831,12 @@ title: Ilya Sutskever to leave OpenAI, Jakub Pachocki announced as Chief Scienti
 link: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
 id: https://openai.com/index/jakub-pachocki-announced-as-chief-scientist
 date: Tue, 14 May 2024 18:00:00 GMT
+body:
+#ITEM
+title: Jalapeño’s first results show industry-leading speed and efficiency in AI inference
+link: https://openai.com/index/jalapeno-first-results
+id: https://openai.com/index/jalapeno-first-results
+date: Tue, 25 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: AI in Japan—OpenAI’s Japan Economic Blueprint
@@ -6321,6 +6339,12 @@ title: The five AI value models driving business reinvention
 link: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention
 id: https://openai.com/index/the-five-ai-value-models-driving-business-reinvention
 date: Thu, 05 Mar 2026 00:00:00 GMT
+body:
+#ITEM
+title: The full stack behind abundant intelligence
+link: https://openai.com/index/the-full-stack-behind-abundant-intelligence
+id: https://openai.com/index/the-full-stack-behind-abundant-intelligence
+date: Tue, 25 Aug 2026 07:05:00 GMT
 body:
 #ITEM
 title: The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
