@@ -152,6 +152,7 @@ Reasoning models
 Reasoning best practices
 Images and video
 Images and vision
+Image input cost calculator
 Image generation
 Video generation
 Realtime and audio
@@ -519,6 +520,7 @@ Codex Security CLI
 Quickstart
 Run bulk scans
 Run scans in CI
+GitLab CI/CD
 Reference
 FAQ
 TypeScript SDK

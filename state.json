@@ -1,5 +1,65 @@
 [
   {
+    "id": "8138411e7abb3e66df5d5ef78ef60982f53965cf",
+    "impact": "High",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+August 26, 2026\n+The\n+Compliance API\n+session endpoints are out of beta for Cowork and Claude Code sessions. See\n+Retrieve session transcripts\n+.\n+The\n+Compliance API\n+local session endpoints now also return transcripts of Claude Science sessions (\n+product_surface\n+value\n+claude_science\n+) and Claude for Microsoft 365 sessions in Excel, PowerPoint, Word, and Outlook (\n+product_surface\n+values beginning with\n+office_agents\n+), in beta for Claude Enterprise organizations, with your existing Compliance Access Key and the\n+read:compliance_user_data\n+scope. See\n+Sessions on users' machines\n+.\n+The\n+Admin API\n+is now available in the\n+ant\n+CLI and the Python, TypeScript, C#, Go, Java, PHP, and Ruby SDKs under\n+client.beta.organization\n+. They cover organization info, members, invites, workspaces and workspace members, API keys, rate limits, service accounts, workload identity federation issuers and rules, and customer-managed encry\n+ANTHROPIC_API_KEY\n+or an\n+org:admin\n+OAuth token from\n+ANTHROPIC_AUTH_TOKEN\n+.\n+\n+The\n+computer use\n+and\n+browser use\n+toolsets (",
+    "snippet_full": "",
+    "diff": {
+      "added": 50,
+      "removed": 1,
+      "churn": 51
+    },
+    "score": 60,
+    "reasons": [
+      "Changelog: security/auth/policy",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Thu, 27 Aug 2026 06:32:20 GMT",
+    "run_at": "2026-08-27T06:31:52Z",
+    "run_id": "d4693fd2d08e47628951965f7f861f09"
+  },
+  {
+    "id": "d4bddf2671bb8d542705df6921fc99962ecd117f",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Bringing ChatGPT for Teachers to more U.S. school districts\n+link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+id: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+date: Wed, 26 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: The Hugging Face incident and the road ahead\n+link: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+id: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+date: Wed, 26 Aug 2026 00:00:00 GMT\n-title: Introducing AI Futures\n+title: Introducing Intelligence Age",
+    "snippet_full": "+title: Bringing ChatGPT for Teachers to more U.S. school districts\n+link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+id: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts\n+date: Wed, 26 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: The Hugging Face incident and the road ahead\n+link: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+id: https://openai.com/index/hugging-face-incident-and-the-road-ahead\n+date: Wed, 26 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing AI Futures\n+title: Introducing Intelligence Age\n+title: Introducing Intelligence Age\n+link: https://openai.com/index/introducing-intelligence-age\n+id: https://openai.com/index/introducing-intelligence-age\n+date: Thu, 20 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM\n+title: Learning never stops: How AI makes learning continuous\n+link: https://openai.com/index/learning-never-stops\n+id: https://openai.com/index/learning-never-stops\n+date: Wed, 26 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How loveholidays is making everyone a builder with Codex\n+link: https://openai.com/index/loveholidays\n+id: https://openai.com/index/loveholidays\n+date: Wed, 26 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 31,
+      "removed": 1,
+      "churn": 32
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 27 Aug 2026 06:31:52 GMT",
+    "run_at": "2026-08-27T06:31:52Z",
+    "run_id": "d4693fd2d08e47628951965f7f861f09"
+  },
+  {
+    "id": "abf1744c8f1e31b08c2ce4acaa31c2b07ac8ffb0",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Image input cost calculator\n+GitLab CI/CD",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Thu, 27 Aug 2026 06:31:52 GMT",
+    "run_at": "2026-08-27T06:31:52Z",
+    "run_id": "d4693fd2d08e47628951965f7f861f09"
+  },
+  {
     "id": "ee1fd0ffda1b8791473864d8f115c9975b44a730",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -932,67 +992,5 @@
     "pubDate": "Fri, 31 Jul 2026 02:06:24 GMT",
     "run_at": "2026-07-31T02:05:48Z",
     "run_id": "dce439f1637241e589818dd5b330968d"
-  },
-  {
-    "id": "3db2bbff868dbdbb9ad84086dd9879cb80c0cac4",
-    "impact": "High",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Priority processing\n+Fast mode\n+Use the Security workbench\n+Jul 30\n+Update\n+gpt-5.6-sol\n+gpt-5.6-terra\n+gpt-5.6-luna\n+v1/responses\n+v1/chat/completions\n+Starting July 30, GPT-5.6 Luna costs 80% less, while GPT-5.6 Terra costs 20% less. See\n+pricing details\n+.\n+We're also introducing\n+Fast mode\n+in the API, which replaces our Priority Processing offering. For GPT-5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than standard processing at twice the price. This change is backward comp",
-    "snippet_full": "",
-    "diff": {
-      "added": 15,
-      "removed": 1,
-      "churn": 16
-    },
-    "score": 60,
-    "reasons": [
-      "Changelog: security/auth/policy",
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 31 Jul 2026 02:06:08 GMT",
-    "run_at": "2026-07-31T02:05:48Z",
-    "run_id": "dce439f1637241e589818dd5b330968d"
-  },
-  {
-    "id": "6c6a30c41fcb2e40cc3e60851b71166b727b3f1d",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Accelerating scientific discovery with ChatGPT for Academic Researchers\n+link: https://openai.com/index/chatgpt-for-academic-researchers\n+id: https://openai.com/index/chatgpt-for-academic-researchers\n+date: Wed, 29 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How GPT-5.6 fuses frontier intelligence with frontier efficiency\n+link: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency\n+id: https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency\n+date: Wed, 29 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How enabling two settings tripled our scores on the ARC-AGI-3 benchmark\n+link: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores\n+id: https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores\n+date: Wed, 29 Jul 2026 15:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 18,
-      "removed": 0,
-      "churn": 18
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Thu, 30 Jul 2026 01:47:47 GMT",
-    "run_at": "2026-07-30T01:47:47Z",
-    "run_id": "122bbcd3802d4d09a4a73abf84dbe435"
-  },
-  {
-    "id": "0a21a4e52714539e2943f8cb99607a1a0b4d8b03",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Jul 29\n+Feature\n+Released the official\n+OpenAI Terraform provider\n+for managing OpenAI API Platform resources as infrastructure as code.\n+Provision and manage projects, users, groups, roles, access assignments, service accounts, certificates, invitations, and project-level rate limits. Use standard Terraform workflows to review and app\n+Terraform Registry\n+.",
-    "snippet_full": "",
-    "diff": {
-      "added": 8,
-      "removed": 0,
-      "churn": 8
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 30 Jul 2026 01:47:47 GMT",
-    "run_at": "2026-07-30T01:47:47Z",
-    "run_id": "122bbcd3802d4d09a4a73abf84dbe435"
   }
 ]

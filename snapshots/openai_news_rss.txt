@@ -935,6 +935,12 @@ id: https://openai.com/index/braintrust
 date: Fri, 29 May 2026 12:00:00 GMT
 body:
 #ITEM
+title: Bringing ChatGPT for Teachers to more U.S. school districts
+link: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
+id: https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts
+date: Wed, 26 Aug 2026 10:00:00 GMT
+body:
+#ITEM
 title: Bringing ChatGPT to GenAI.mil
 link: https://openai.com/index/bringing-chatgpt-to-genaimil
 id: https://openai.com/index/bringing-chatgpt-to-genaimil
@@ -3101,6 +3107,12 @@ id: https://openai.com/index/hsp-gruppe
 date: Fri, 07 Aug 2026 09:00:00 GMT
 body:
 #ITEM
+title: The Hugging Face incident and the road ahead
+link: https://openai.com/index/hugging-face-incident-and-the-road-ahead
+id: https://openai.com/index/hugging-face-incident-and-the-road-ahead
+date: Wed, 26 Aug 2026 00:00:00 GMT
+body:
+#ITEM
 title: OpenAI and Hugging Face partner to address security incident during model evaluation
 link: https://openai.com/index/hugging-face-model-evaluation-security-incident
 id: https://openai.com/index/hugging-face-model-evaluation-security-incident
@@ -3293,7 +3305,7 @@ id: https://openai.com/index/introducing-agentkit
 date: Mon, 06 Oct 2025 00:00:00 GMT
 body:
 #ITEM
-title: Introducing AI Futures
+title: Introducing Intelligence Age
 link: https://openai.com/index/introducing-ai-futures
 id: https://openai.com/index/introducing-ai-futures
 date: Thu, 20 Aug 2026 07:00:00 GMT
@@ -3549,6 +3561,12 @@ title: Introducing IndQA
 link: https://openai.com/index/introducing-indqa
 id: https://openai.com/index/introducing-indqa
 date: Mon, 03 Nov 2025 22:30:00 GMT
+body:
+#ITEM
+title: Introducing Intelligence Age
+link: https://openai.com/index/introducing-intelligence-age
+id: https://openai.com/index/introducing-intelligence-age
+date: Thu, 20 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: Introducing LifeSciBench
@@ -4007,6 +4025,12 @@ id: https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstra
 date: Wed, 04 Jul 2018 07:00:00 GMT
 body:
 #ITEM
+title: Learning never stops: How AI makes learning continuous
+link: https://openai.com/index/learning-never-stops
+id: https://openai.com/index/learning-never-stops
+date: Wed, 26 Aug 2026 10:00:00 GMT
+body:
+#ITEM
 title: Learning policy representations in multiagent systems
 link: https://openai.com/index/learning-policy-representations-in-multiagent-systems
 id: https://openai.com/index/learning-policy-representations-in-multiagent-systems
@@ -4065,6 +4089,12 @@ title: Improving health literacy and patient well-being
 link: https://openai.com/index/lifespan
 id: https://openai.com/index/lifespan
 date: Wed, 06 Mar 2024 08:00:00 GMT
+body:
+#ITEM
+title: How loveholidays is making everyone a builder with Codex
+link: https://openai.com/index/loveholidays
+id: https://openai.com/index/loveholidays
+date: Wed, 26 Aug 2026 00:00:00 GMT
 body:
 #ITEM
 title: Lowe’s puts project expertise into every hand
