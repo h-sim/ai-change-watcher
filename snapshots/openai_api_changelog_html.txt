@@ -130,8 +130,6 @@ RFT use cases
 Best practices
 Assistants API
 Migration guide
-Deep dive
-Tools
 Model catalog
 Choose a model
 Pricing
@@ -713,8 +711,6 @@ RFT use cases
 Best practices
 Assistants API
 Migration guide
-Deep dive
-Tools
 Changelog
 Upcoming deprecations can be found on the
 deprecations page
@@ -768,8 +764,8 @@ here
 Aug 7
 Feature
 gpt-5.6-cyber
-daybreak-red-latest
-daybreak-blue-latest
+gpt-daybreak-red-latest
+gpt-daybreak-blue-latest
 v1/responses
 Daybreak now offers two access tiers for approved defenders: Daybreak Blue and Daybreak Red. Use them to move from security findings to validated fixes in explicitly authorized engagements.
 Start with Daybreak Blue for most defensive security work. It provides access to general-purpose models such as GPT-5.6 Sol for vulnerability discovery, secure code review, detection engineering, incident response, malware analysis, and patch validation. Read more

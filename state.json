@@ -1,5 +1,65 @@
 [
   {
+    "id": "869ad47fb2b6d4f822b8ce610e72cbe953de5f1b",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+August 27, 2026\n+In Python SDK 1.2.0, TypeScript SDK 0.122.0, Go SDK 1.68.0, Java SDK 2.59.0, Ruby SDK 1.67.0, and C# SDK 12.44.0,\n+client.beta.files\n+and\n+client.beta.skills\n+no longer send the\n+files-api-2025-04-14\n+and\n+skills-2025-10-02\n+beta headers and return the same shapes as\n+client.files\n+and\n+client.skills\n+. With this change,\n+client.beta.skills.delete()\n+deletes a Skill together with all of its versions, and the beta Messages type\n+BetaSkill\n+(the container Skill reference) is renamed\n+BetaContainerSkill\n+. Requests that still send the beta headers keep receiving the beta shapes. See\n+Migrate from\n+files-api-2025-04-14\n+and\n+Migrate from\n+skills-2025-10-02\n+.\n+You can now create\n+personal keys\n+and\n+service account keys\n+in the Claude Console. They act as you or as a\n+service account\n+, with the same permissions, and stop working when the linked account is removed from an organization. This lets organization admins more easily track usage for each account, and ensure key usage is \n+work on admin endpoints and across any workspace\n+the account has access to. Workspace API keys remain supported as a legacy option. See\n+API keys\n+for more information.\n+\n+To move an existing integration off the header, see\n+Migrate from",
+    "snippet_full": "",
+    "diff": {
+      "added": 47,
+      "removed": 0,
+      "churn": 47
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: security/auth/policy"
+    ],
+    "summary_ja": "",
+    "pubDate": "Fri, 28 Aug 2026 08:22:53 GMT",
+    "run_at": "2026-08-28T08:22:20Z",
+    "run_id": "f27757b61218460baa987f123dcdc12d"
+  },
+  {
+    "id": "d4d72381379be71e0247c8fbd5a5a419eafe44b4",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: Expanding OpenAI’s presence in Brazil\n+link: https://openai.com/index/expanding-our-presence-in-brazil\n+id: https://openai.com/index/expanding-our-presence-in-brazil\n+date: Thu, 27 Aug 2026 03:00:00 GMT\n+body:\n+#ITEM\n+title: Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training\n+link: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training\n+id: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training\n+date: Thu, 27 Aug 2026 09:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 28 Aug 2026 08:22:21 GMT",
+    "run_at": "2026-08-28T08:22:20Z",
+    "run_id": "f27757b61218460baa987f123dcdc12d"
+  },
+  {
+    "id": "eb0b64bc2ff15cee6190afe372753ec01165d09b",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Deep dive\n-Tools\n-Deep dive\n-Tools\n-daybreak-red-latest\n-daybreak-blue-latest\n+gpt-daybreak-red-latest\n+gpt-daybreak-blue-latest",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 6,
+      "churn": 8
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Fri, 28 Aug 2026 08:22:21 GMT",
+    "run_at": "2026-08-28T08:22:20Z",
+    "run_id": "f27757b61218460baa987f123dcdc12d"
+  },
+  {
     "id": "8138411e7abb3e66df5d5ef78ef60982f53965cf",
     "impact": "High",
     "name": "Claude Platform Changelog",
@@ -933,64 +993,5 @@
     "pubDate": "Sat, 01 Aug 2026 02:06:44 GMT",
     "run_at": "2026-08-01T02:06:43Z",
     "run_id": "77fe6cb0e38948f397e782c89f8ccdcb"
-  },
-  {
-    "id": "d0cd3c53598578aad4647208f6c98d988eab5b7f",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "+Content provenance",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 0,
-      "churn": 1
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Sat, 01 Aug 2026 02:06:44 GMT",
-    "run_at": "2026-08-01T02:06:43Z",
-    "run_id": "77fe6cb0e38948f397e782c89f8ccdcb"
-  },
-  {
-    "id": "1bda4a50281b33b521dce309c306c164e02c6801",
-    "impact": "Low",
-    "name": "OpenAI OpenAPI Spec (YAML)",
-    "url": "https://app.stainless.com/api/spec/documented/openai/openapi.documented.yml",
-    "snippet": "-              - If set to '[flex](/docs/guides/flex-processing)' or '[priority](https://openai.com/api-priority-processing/)', then the request will be processed with the corresponding service tier.\n+              - If set to '[flex](/docs/guides/flex-processing)', then the request will be processed with the Flex Processing service tier.\n+              - To opt-in to [Fast mode](/api/docs/guides/fast-mode) at the request level, include the `service_tier=fast` or `service_tier=priority` parameter for Responses or Chat Completions. The \n+            - fast\n-              - If set to '[flex](/docs/guides/flex-processing)' or '[priority](https://openai.com/api-priority-processing/)', then the request will be processed with the corresponding service tier.\n+              - If set to '[flex](/docs/guides/flex-processing)', then the request will be processed with the Flex Processing service tier.\n+              - To opt-in to [Fast mode](/api/docs/guides/fast-mode) at the request level, include the `service_tier=fast` or `service_tier=priority` parameter for Responses or Chat Completions. The \n+            - fast",
-    "snippet_full": "",
-    "diff": {
-      "added": 6,
-      "removed": 2,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Fri, 31 Jul 2026 02:06:35 GMT",
-    "run_at": "2026-07-31T02:05:48Z",
-    "run_id": "dce439f1637241e589818dd5b330968d"
-  },
-  {
-    "id": "6c4b335728b6aebb63e0e6ba3cd777e6d2baba5a",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Advancing the price-performance frontier with GPT-5.6\n+link: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6\n+id: https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6\n+date: Thu, 30 Jul 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: How avatarin built a 24/7 retail agent with GPT-Realtime\n+link: https://openai.com/index/avatarin\n+id: https://openai.com/index/avatarin\n+date: Thu, 30 Jul 2026 00:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Fri, 31 Jul 2026 02:06:24 GMT",
-    "run_at": "2026-07-31T02:05:48Z",
-    "run_id": "dce439f1637241e589818dd5b330968d"
   }
 ]

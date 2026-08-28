@@ -126,6 +126,44 @@ in the
 claude-code
 repository.
 
+August 27, 2026
+In Python SDK 1.2.0, TypeScript SDK 0.122.0, Go SDK 1.68.0, Java SDK 2.59.0, Ruby SDK 1.67.0, and C# SDK 12.44.0,
+client.beta.files
+and
+client.beta.skills
+no longer send the
+files-api-2025-04-14
+and
+skills-2025-10-02
+beta headers and return the same shapes as
+client.files
+and
+client.skills
+. With this change,
+client.beta.skills.delete()
+deletes a Skill together with all of its versions, and the beta Messages type
+BetaSkill
+(the container Skill reference) is renamed
+BetaContainerSkill
+. Requests that still send the beta headers keep receiving the beta shapes. See
+Migrate from
+files-api-2025-04-14
+and
+Migrate from
+skills-2025-10-02
+.
+You can now create
+personal keys
+and
+service account keys
+in the Claude Console. They act as you or as a
+service account
+, with the same permissions, and stop working when the linked account is removed from an organization. This lets organization admins more easily track usage for each account, and ensure key usage is legitimate. These API keys can be scoped to a specific workspace or
+work on admin endpoints and across any workspace
+the account has access to. Workspace API keys remain supported as a legacy option. See
+API keys
+for more information.
+
 August 26, 2026
 The
 Compliance API
@@ -257,6 +295,10 @@ list files
 .
 /v1/files
 requests that still send the beta header keep working and return the previous response format.
+To move an existing integration off the header, see
+Migrate from
+files-api-2025-04-14
+.
 Agent Skills
 and the Skills API (
 /v1/skills
@@ -266,6 +308,10 @@ beta header, including Messages API requests that load Skills through the
 container
 parameter. Requests that still send the header continue to work unchanged. See
 Using Agent Skills with the API
+.
+To move an existing integration off the header, see
+Migrate from
+skills-2025-10-02
 .
 The
 Admin API
@@ -2094,6 +2140,7 @@ blog post
 このページは役に立ちましたか？
 
 
+August 27, 2026
 August 26, 2026
 August 20, 2026
 August 19, 2026

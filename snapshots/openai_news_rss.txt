@@ -2249,6 +2249,12 @@ id: https://openai.com/index/expanding-on-sycophancy
 date: Fri, 02 May 2025 08:00:00 GMT
 body:
 #ITEM
+title: Expanding OpenAI’s presence in Brazil
+link: https://openai.com/index/expanding-our-presence-in-brazil
+id: https://openai.com/index/expanding-our-presence-in-brazil
+date: Thu, 27 Aug 2026 03:00:00 GMT
+body:
+#ITEM
 title: Expanding Stargate to Michigan
 link: https://openai.com/index/expanding-stargate-to-michigan
 id: https://openai.com/index/expanding-stargate-to-michigan
@@ -6795,6 +6801,12 @@ title: What Parameter Golf taught us about AI-assisted research
 link: https://openai.com/index/what-parameter-golf-taught-us
 id: https://openai.com/index/what-parameter-golf-taught-us
 date: Tue, 12 May 2026 00:00:00 GMT
+body:
+#ITEM
+title: Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training
+link: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+id: https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training
+date: Thu, 27 Aug 2026 09:00:00 GMT
 body:
 #ITEM
 title: Where the goblins came from
