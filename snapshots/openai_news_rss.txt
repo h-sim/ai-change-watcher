@@ -5285,6 +5285,12 @@ id: https://openai.com/index/our-commitment-to-community-safety
 date: Tue, 28 Apr 2026 00:00:00 GMT
 body:
 #ITEM
+title: Our decision on Cursor following its acquisition by SpaceX
+link: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+id: https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex
+date: Fri, 28 Aug 2026 06:00:00 GMT
+body:
+#ITEM
 title: Our principles
 link: https://openai.com/index/our-principles
 id: https://openai.com/index/our-principles
@@ -6231,6 +6237,12 @@ title: Supporting Europe’s work in ensuring a trustworthy AI ecosystem
 link: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
 id: https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem
 date: Thu, 11 Jun 2026 00:00:00 GMT
+body:
+#ITEM
+title: Supporting Thailand’s next generation of AI startups
+link: https://openai.com/index/supporting-next-generation-ai-startups-thailand
+id: https://openai.com/index/supporting-next-generation-ai-startups-thailand
+date: Fri, 28 Aug 2026 02:00:00 GMT
 body:
 #ITEM
 title: Supporting nonprofit and community innovation

@@ -606,17 +606,18 @@ Docs section
 Select...
 All posts
 Recent
+Meet Rosalind Workbench: Empowering every scientist to be their own research team
 Automating repetitive work at OpenAI with Codex
 Meet the winners of OpenAI Build Week
 Scaling cyber defenders with Daybreak
 Codex as a platform: build on the open agent harness
-Custom Code Review rules for Codex
 Topics
 General
 API
 Apps SDK
 Audio
 Codex
+Life sciences
 Home
 Topics
 Agents
