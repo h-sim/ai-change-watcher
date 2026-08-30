@@ -14,6 +14,7 @@ Use cases
 Example workflows and tasks teams can take on with ChatGPT or Codex
 Docs
 Use cases
+Training
 Resources
 ChatGPT
 Plugins
@@ -58,6 +59,7 @@ Codex
 ChatGPT
 Docs
 Use cases
+Training
 Resources
 Resources
 Search docs
@@ -535,7 +537,9 @@ Getting started
 Admin rollout guide
 ChatGPT Work Overview
 ChatGPT Work cloud security
+ChatGPT Work local security
 ChatGPT Work admin FAQ
+ChatGPT Work: usage and cost
 Identity and authentication
 Authentication overview
 Workload identity
@@ -551,9 +555,11 @@ HIPAA configuration
 Workspace model availability
 Plugin and connector controls
 Plugin controls
+Plugin management
 Skill controls
 Usage, governance, and compliance
 Governance
+Admin plugin
 Workspace analytics
 Analytics API
 Compliance API and audit events
