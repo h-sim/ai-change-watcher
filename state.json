@@ -1,5 +1,24 @@
 [
   {
+    "id": "fa00ed189dee885009b53897e2472bb91f7410f7",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "-Docs section\n+Docs\n-Docs section\n+Docs\n-Docs section\n+Docs\n-Docs section\n+Docs\n-Docs section\n+Docs",
+    "snippet_full": "",
+    "diff": {
+      "added": 5,
+      "removed": 5,
+      "churn": 10
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 31 Aug 2026 02:46:01 GMT",
+    "run_at": "2026-08-31T02:46:00Z",
+    "run_id": "b55dd861ef6b487b8a5023094514b5d5"
+  },
+  {
     "id": "96e973dfa6dcfcf604384f9e83286d925e38359a",
     "impact": "Medium",
     "name": "OpenAI API Changelog (HTML)",
@@ -974,25 +993,6 @@
     "reasons": [],
     "summary_ja": "",
     "pubDate": "Tue, 04 Aug 2026 01:51:35 GMT",
-    "run_at": "2026-08-04T01:51:22Z",
-    "run_id": "4656f492d35b44618e3cd13222ec67ce"
-  },
-  {
-    "id": "66332440f1fed2e9719f6681cf571901cce585e8",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Circles powers telco personalization with OpenAI technology\n+link: https://openai.com/index/circles\n+id: https://openai.com/index/circles\n+date: Mon, 03 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: How we built a realtime system for responsive voice AI in six months\n+link: https://openai.com/index/continuous-voice-interaction-with-gpt-live\n+id: https://openai.com/index/continuous-voice-interaction-with-gpt-live\n+date: Mon, 03 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
-    "snippet_full": "",
-    "diff": {
-      "added": 12,
-      "removed": 0,
-      "churn": 12
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Tue, 04 Aug 2026 01:51:22 GMT",
     "run_at": "2026-08-04T01:51:22Z",
     "run_id": "4656f492d35b44618e3cd13222ec67ce"
   }

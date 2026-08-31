@@ -82,7 +82,7 @@ Tools
 Voice & Audio
 Production
 API reference
-Docs section
+Docs
 Overview
 Home
 Get started
@@ -280,7 +280,7 @@ Docs
 Use cases
 Docs
 Use cases
-Docs section
+Docs
 Docs
 Plugins
 Workspace Agents
@@ -290,7 +290,7 @@ Plugins
 Workspace Agents
 Commerce
 Ads
-Docs section
+Docs
 Select...
 Home
 Quickstart
@@ -386,7 +386,7 @@ Security
 Administration
 Use Cases
 Resources
-Docs section
+Docs
 Overview
 Home
 Get started
@@ -608,7 +608,7 @@ Blog
 Cookbook
 Learn
 Community
-Docs section
+Docs
 Select...
 All posts
 Recent
