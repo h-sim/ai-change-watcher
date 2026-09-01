@@ -2219,6 +2219,12 @@ id: https://openai.com/index/evolving-our-structure
 date: Mon, 05 May 2025 11:00:00 GMT
 body:
 #ITEM
+title: A milestone in expanding access to AI
+link: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
+id: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
+date: Mon, 31 Aug 2026 04:00:00 GMT
+body:
+#ITEM
 title: Expanding data residency access to business customers worldwide
 link: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
 id: https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide
@@ -3309,12 +3315,6 @@ title: Introducing AgentKit, new Evals, and RFT for agents
 link: https://openai.com/index/introducing-agentkit
 id: https://openai.com/index/introducing-agentkit
 date: Mon, 06 Oct 2025 00:00:00 GMT
-body:
-#ITEM
-title: Introducing Intelligence Age
-link: https://openai.com/index/introducing-ai-futures
-id: https://openai.com/index/introducing-ai-futures
-date: Thu, 20 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: Introducing apps in ChatGPT and the new Apps SDK
@@ -5433,6 +5433,12 @@ title: Point-E: A system for generating 3D point clouds from complex prompts
 link: https://openai.com/index/point-e
 id: https://openai.com/index/point-e
 date: Fri, 16 Dec 2022 08:00:00 GMT
+body:
+#ITEM
+title: Polimill builds Japan's next-generation public AI infrastructure
+link: https://openai.com/index/polimill
+id: https://openai.com/index/polimill
+date: Mon, 31 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: Powering product discovery in ChatGPT
