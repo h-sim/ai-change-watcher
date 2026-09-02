@@ -665,6 +665,12 @@ id: https://openai.com/index/ai-mental-health-research-grants
 date: Mon, 01 Dec 2025 12:00:00 GMT
 body:
 #ITEM
+title: How AI-native companies turn workflows into operating capability
+link: https://openai.com/index/ai-native-company-workflows
+id: https://openai.com/index/ai-native-company-workflows
+date: Tue, 01 Sep 2026 17:00:00 GMT
+body:
+#ITEM
 title: AI progress and recommendations
 link: https://openai.com/index/ai-progress-and-recommendations
 id: https://openai.com/index/ai-progress-and-recommendations
@@ -1101,6 +1107,12 @@ title: ChatGPT can now see, hear, and speak
 link: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
 id: https://openai.com/index/chatgpt-can-now-see-hear-and-speak
 date: Mon, 25 Sep 2023 07:00:00 GMT
+body:
+#ITEM
+title: Healthcare organizations can now connect EHR and additional industry data to ChatGPT
+link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
+id: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
+date: Tue, 01 Sep 2026 12:00:00 GMT
 body:
 #ITEM
 title: New usage analytics and updated spend controls for enterprises
@@ -2511,6 +2523,12 @@ title: No-code personal agents, powered by GPT-4.1 and Realtime API
 link: https://openai.com/index/genspark
 id: https://openai.com/index/genspark
 date: Tue, 01 Jul 2025 10:00:00 GMT
+body:
+#ITEM
+title: How law firm Gilbert + Tobin governs and scales AI with OpenAI
+link: https://openai.com/index/gilbert-tobin
+id: https://openai.com/index/gilbert-tobin
+date: Tue, 01 Sep 2026 01:00:00 GMT
 body:
 #ITEM
 title: Global news partnerships: Le Monde and Prisa Media
@@ -5375,6 +5393,12 @@ id: https://openai.com/index/patch-the-planet
 date: Mon, 22 Jun 2026 10:00:00 GMT
 body:
 #ITEM
+title: Path to Astra: critical capabilities and frontier safeguards
+link: https://openai.com/index/path-to-astra
+id: https://openai.com/index/path-to-astra
+date: Tue, 01 Sep 2026 13:00:00 GMT
+body:
+#ITEM
 title: A People-First AI Fund: $50M to support nonprofits
 link: https://openai.com/index/people-first-ai-fund
 id: https://openai.com/index/people-first-ai-fund
@@ -6237,6 +6261,12 @@ title: Reimagining the email experience with AI
 link: https://openai.com/index/superhuman
 id: https://openai.com/index/superhuman
 date: Mon, 18 Mar 2024 07:00:00 GMT
+body:
+#ITEM
+title: OpenAI supports California’s bill to advance youth AI safety
+link: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety
+id: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety
+date: Mon, 31 Aug 2026 07:00:00 GMT
 body:
 #ITEM
 title: Supporting Europe’s work in ensuring a trustworthy AI ecosystem

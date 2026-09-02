@@ -1,5 +1,67 @@
 [
   {
+    "id": "d24e707af3bfdc43f6337bb740ee3e2769839bcf",
+    "impact": "Breaking",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 1, 2026\n+\n+We've launched\n+Claude Fable 5.1\n+(\n+claude-fable-5-1\n+), the successor to Claude Fable 5 for long-running agentic coding, knowledge work, and research, alongside\n+Claude Mythos 5.1\n+(\n+claude-mythos-5-1\n+) for Project Glasswing participants. Both models support a\n+1M token context window\n+by default, 128k max output tokens, and always-on\n+adaptive thinking\n+, at $10 / $50 USD per MTok, the same as Claude Fable 5, with cache reads cut to $0.25 per MTok. Claude Fable 5.1 is available on the Claude API,\n+Claude in Amazon Bedrock\n+,\n+Claude Platform on AWS\n+,\n+Claude on Google Cloud\n+, and\n+Claude in Microsoft Foundry\n+. See\n+What's new in Claude Fable 5.1\n+for capabilities, API changes, and migration guidance.\n+Prompt cache reads on Claude Fable 5.1 and Claude Mythos 5.1 cost $0.25 USD per million tokens: 0.025x the base input price, compared with 0.1x on other models. Cache writes are unchanged. See\n+Prompt caching pricing\n+.\n+On Claude Fable 5.1 and Claude Mythos 5.1,\n+tool_choice\n+types\n+any\n+and\n+tool\n+aren't supported and return a 400 error.\n+auto\n+and\n+none\n+are unchanged. To guarantee schema-conformant tool inputs, use\n+strict tool use",
+    "snippet_full": "",
+    "diff": {
+      "added": 100,
+      "removed": 0,
+      "churn": 100
+    },
+    "score": 110,
+    "reasons": [
+      "Changelog: breaking/deprecate/removed",
+      "Changelog: pricing/quota"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 02 Sep 2026 02:18:30 GMT",
+    "run_at": "2026-09-02T02:17:40Z",
+    "run_id": "53b3019508b34c41b3a6219170b947e9"
+  },
+  {
+    "id": "fa019d4d5253b4c157094a91f0223aabc2df66bd",
+    "impact": "High",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: OpenAI supports California’s bill to advance youth AI safety\n+link: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+id: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+title: How AI-native companies turn workflows into operating capability\n+link: https://openai.com/index/ai-native-company-workflows\n+id: https://openai.com/index/ai-native-company-workflows\n+date: Tue, 01 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Healthcare organizations can now connect EHR and additional industry data to ChatGPT\n+link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\n+id: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+    "snippet_full": "+title: How AI-native companies turn workflows into operating capability\n+link: https://openai.com/index/ai-native-company-workflows\n+id: https://openai.com/index/ai-native-company-workflows\n+date: Tue, 01 Sep 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Healthcare organizations can now connect EHR and additional industry data to ChatGPT\n+link: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\n+id: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\n+date: Tue, 01 Sep 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: How law firm Gilbert + Tobin governs and scales AI with OpenAI\n+link: https://openai.com/index/gilbert-tobin\n+id: https://openai.com/index/gilbert-tobin\n+date: Tue, 01 Sep 2026 01:00:00 GMT\n+body:\n+#ITEM\n+title: Path to Astra: critical capabilities and frontier safeguards\n+link: https://openai.com/index/path-to-astra\n+id: https://openai.com/index/path-to-astra\n+date: Tue, 01 Sep 2026 13:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI supports California’s bill to advance youth AI safety\n+link: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+id: https://openai.com/index/supporting-california-bill-advance-ai-youth-safety\n+date: Mon, 31 Aug 2026 07:00:00 GMT\n+body:\n+#ITEM",
+    "diff": {
+      "added": 30,
+      "removed": 0,
+      "churn": 30
+    },
+    "score": 50,
+    "reasons": [
+      "News: policy/terms/pricing/security"
+    ],
+    "summary_ja": "",
+    "pubDate": "Wed, 02 Sep 2026 02:18:06 GMT",
+    "run_at": "2026-09-02T02:17:40Z",
+    "run_id": "53b3019508b34c41b3a6219170b947e9"
+  },
+  {
+    "id": "323753446105f05ebb5fa652eec30ce227797269",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+ChatGPT Work\n+User lifecycle management",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 0,
+      "churn": 2
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Wed, 02 Sep 2026 02:17:40 GMT",
+    "run_at": "2026-09-02T02:17:40Z",
+    "run_id": "53b3019508b34c41b3a6219170b947e9"
+  },
+  {
     "id": "8ca0c36623ef05bf73a1da27158f99a970805b26",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -937,66 +999,5 @@
     "pubDate": "Fri, 07 Aug 2026 02:15:51 GMT",
     "run_at": "2026-08-07T02:15:51Z",
     "run_id": "1d5c98f5c3f94369b307f0af3f01f8c2"
-  },
-  {
-    "id": "f020c92f4c65ccc37bb3f98bbfbcc99a6693f909",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "+August 5, 2026\n+Inference hooks\n+are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server'\n+Activity Feed\n+. See\n+Inference hooks\n+.\n+We've retired the Claude Opus 4.1 model (\n+claude-opus-4-1-20250805\n+). All requests to this model will now return an error. We recommend upgrading to\n+Claude Opus 5\n+. Researchers can request ongoing access through the\n+External Researcher Access Program\n+.\n+\n+August 5, 2026",
-    "snippet_full": "",
-    "diff": {
-      "added": 16,
-      "removed": 0,
-      "churn": 16
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 06 Aug 2026 01:53:47 GMT",
-    "run_at": "2026-08-06T01:53:38Z",
-    "run_id": "1c04391ee96f4a2aab65b1e3b9d7e770"
-  },
-  {
-    "id": "c3eb542e105e43b07a935430bb682125e21c0abd",
-    "impact": "Medium",
-    "name": "OpenAI API Changelog (HTML)",
-    "url": "https://developers.openai.com/api/docs/changelog",
-    "snippet": "-Multiple pixels (advanced)\n-Image tag\n+Multiple Pixels (Advanced)\n+Image Tag\n-Supported events\n+Supported Events\n-API partner setup\n+API Partner Setup\n-Product feeds\n+Product Feeds\n-Conversion-optimized campaigns\n+Conversion-Optimized Campaigns\n-Conversion setup\n+Ad Account\n-Ad Account\n+Conversion Setup\n+August, 2026\n+Aug 5\n+Update\n+gpt-5.6-sol\n+gpt-5.6-terra\n+gpt-5.6-luna\n+Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in\n+Fast mode\n+, delivering speeds up to 2.5× faster than the Standard tier. See\n+pricing details\n+.\n+Aug 4\n+Feature\n+Customers can now filter and group data by API key in the\n+Usage and Costs dashboards\n+. The\n+Usage API\n+and\n+Costs API\n+also support the API key dimension for programmatic reporting and analysis.",
-    "snippet_full": "",
-    "diff": {
-      "added": 28,
-      "removed": 8,
-      "churn": 36
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: pricing/quota"
-    ],
-    "summary_ja": "",
-    "pubDate": "Thu, 06 Aug 2026 01:53:38 GMT",
-    "run_at": "2026-08-06T01:53:38Z",
-    "run_id": "1c04391ee96f4a2aab65b1e3b9d7e770"
-  },
-  {
-    "id": "4559c6b07c2b2d0b4fb181a5a39d732c0f32ef9f",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Apple is getting this wrong\n+link: https://openai.com/index/apple-is-getting-this-wrong\n+id: https://openai.com/index/apple-is-getting-this-wrong\n+date: Mon, 03 Aug 2026 22:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing the OpenAI Economic Research Exchange\n-link: https://openai.com/index/economic-research-exchange\n-id: https://openai.com/index/economic-research-exchange\n-date: Mon, 08 Jun 2026 00:00:00 GMT\n-body:\n-#ITEM",
-    "snippet_full": "+title: Apple is getting this wrong\n+link: https://openai.com/index/apple-is-getting-this-wrong\n+id: https://openai.com/index/apple-is-getting-this-wrong\n+date: Mon, 03 Aug 2026 22:00:00 GMT\n+body:\n+#ITEM\n-title: Introducing the OpenAI Economic Research Exchange\n-link: https://openai.com/index/economic-research-exchange\n-id: https://openai.com/index/economic-research-exchange\n-date: Mon, 08 Jun 2026 00:00:00 GMT\n-body:\n-#ITEM\n+title: Introducing the OpenAI Economic Research Exchange\n+link: https://openai.com/index/introducing-the-openai-economic-research-exchange\n+id: https://openai.com/index/introducing-the-openai-economic-research-exchange\n+date: Mon, 08 Jun 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: New ways to learn and teach with ChatGPT Work and Codex\n+link: https://openai.com/index/learn-teach-chatgpt-work-codex\n+id: https://openai.com/index/learn-teach-chatgpt-work-codex\n+date: Tue, 04 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Third-party cyber evaluations involving OpenAI models\n+link: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\n+id: https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\n+date: Tue, 04 Aug 2026 19:00:00 GMT\n+body:\n+#ITEM",
-    "diff": {
-      "added": 24,
-      "removed": 6,
-      "churn": 30
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 05 Aug 2026 01:52:00 GMT",
-    "run_at": "2026-08-05T01:51:59Z",
-    "run_id": "e2ddaab34a3d405990d01f37adda3fdd"
   }
 ]
