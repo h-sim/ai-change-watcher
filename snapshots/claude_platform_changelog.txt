@@ -30,82 +30,6 @@ Migration guides
 Migrating to Managed Agents
 
 Console
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-読み込み中
-Claude Platform Docs
-
-
-Solutions
-AI agents
-Code modernization
-Coding
-Customer support
-Financial services
-Government
-Higher education
-K-12 teachers
-Life sciences
-Partners
-Claude on AWS
-Claude on Google Cloud
-Learn
-Blog
-Courses
-Use cases
-Connectors
-Customer stories
-Engineering at Anthropic
-Events
-Powered by Claude
-Service partners
-Startups program
-Company
-Anthropic
-Careers
-Economic Futures
-Research
-News
-Responsible Scaling Policy
-Security and compliance
-Transparency
-Learn
-Blog
-Courses
-Use cases
-Connectors
-Customer stories
-Engineering at Anthropic
-Events
-Powered by Claude
-Service partners
-Startups program
-Help and security
-Availability
-Status
-Support
-Discord
-Terms and policies
-Privacy policy
-Responsible disclosure policy
-Terms of service: Commercial
-Terms of service: Consumer
-Usage policy
-Ask Docs
-
 Release notes
 Claude Platform release notes
 Subscribe
@@ -225,6 +149,21 @@ Files API
 on the Claude API. Marking requires no changes to your requests or response handling.
 Like Claude Fable 5, both models require 30-day data retention and aren't available under zero data retention unless expressly authorized by Anthropic. See
 Model-specific data retention requirements
+.
+The guides for the Claude Enterprise endpoints of the
+Admin API
+(
+user management
+and
+spend limits
+), the
+Claude Enterprise Analytics API
+, and the
+Compliance API
+now show the
+anthropic-version
+header; send it on every request to these endpoints, as in the rest of the Claude API. See
+API versions
 .
 August 27, 2026
 
@@ -2377,3 +2316,63 @@ June 27th, 2024
 June 20th, 2024
 May 30th, 2024
 May 10th, 2024
+Claude Platform Docs
+
+
+Solutions
+AI agents
+Code modernization
+Coding
+Customer support
+Financial services
+Government
+Higher education
+K-12 teachers
+Life sciences
+Partners
+Claude on AWS
+Claude on Google Cloud
+Learn
+Blog
+Courses
+Use cases
+Connectors
+Customer stories
+Engineering at Anthropic
+Events
+Powered by Claude
+Service partners
+Startups program
+Company
+Anthropic
+Careers
+Economic Futures
+Research
+News
+Responsible Scaling Policy
+Security and compliance
+Transparency
+Learn
+Blog
+Courses
+Use cases
+Connectors
+Customer stories
+Engineering at Anthropic
+Events
+Powered by Claude
+Service partners
+Startups program
+Help and security
+Availability
+Status
+Support
+Discord
+Terms and policies
+Privacy policy
+Responsible disclosure policy
+Terms of service: Commercial
+Terms of service: Consumer
+Usage policy
+Ask Docs
+

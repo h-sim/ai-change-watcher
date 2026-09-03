@@ -785,6 +785,12 @@ id: https://openai.com/index/attacking-machine-learning-with-adversarial-example
 date: Fri, 24 Feb 2017 08:00:00 GMT
 body:
 #ITEM
+title: ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT
+link: https://openai.com/index/atv-big-air-tour
+id: https://openai.com/index/atv-big-air-tour
+date: Wed, 02 Sep 2026 12:00:00 GMT
+body:
+#ITEM
 title: Australian Payments Plus moves faster with ChatGPT and Codex
 link: https://openai.com/index/australian-payments-plus
 id: https://openai.com/index/australian-payments-plus
