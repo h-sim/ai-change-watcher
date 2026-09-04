@@ -87,7 +87,7 @@ Overview
 Home
 Get started
 Quickstart
-Using GPT-5.6
+Using GPT-6 Astra
 Key concepts
 Core concepts
 Responses API
@@ -95,6 +95,7 @@ Conversation state
 Background mode
 Streaming
 WebSocket mode
+Mid-turn steering
 Multi-agent
 Webhooks
 File inputs
@@ -194,6 +195,7 @@ Build tool workflows
 Skills
 Tool search
 Programmatic tool calling
+Async tool calling
 Computer and code
 Shell
 Computer use
@@ -240,8 +242,10 @@ Safety and governance
 Safety best practices
 Red teaming
 Safety checks
+Safety classifiers
 Cybersecurity checks
-Under 18 API Guidance
+Misalignment monitoring
+Under-18 guidance
 CSAM guidance
 Content provenance
 Your data
@@ -675,7 +679,7 @@ Try ChatGPT
 Home
 Get started
 Quickstart
-Using GPT-5.6
+Using GPT-6 Astra
 Key concepts
 Core concepts
 Responses API
@@ -683,6 +687,7 @@ Conversation state
 Background mode
 Streaming
 WebSocket mode
+Mid-turn steering
 Multi-agent
 Webhooks
 File inputs
@@ -725,6 +730,48 @@ Upcoming deprecations can be found on the
 deprecations page
 .
 September, 2026
+Sep 3
+Feature
+gpt-6-astra
+v1/responses
+v1/chat/completions
+Released
+GPT-6 Astra
+, our most capable model, built for the hardest end-to-end work.
+Use GPT-6 Astra for reasoning, coding, computer use, research, and document creation. It combines these capabilities to carry complex tasks from an initial request to a finished result, using the context and tools you provide.
+Key changes to consider when migrating:
+GPT-6 Astra does not support the
+none
+reasoning effort level.
+GPT-6 Astra does not support custom
+temperature
+or
+top_p
+values or log probabilities (
+logprobs
+).
+Tool calling requires the Responses API. If you use tools with Chat Completions, follow the
+Responses migration guide
+.
+Misalignment monitoring
+asynchronously checks for potential issues during agent work in supported Responses API requests. Checks can trigger safety alerts or stop a conversation for review.
+Start with
+Using GPT-6 Astra
+for capabilities, prompting, and migration guidance. Explore
+computer use
+for browser and desktop workflows, and see
+pricing
+for available inference tiers.
+Sep 3
+Feature
+v1/responses
+Added new controls for long-running work with GPT-6 Astra in the Responses API:
+Async tool calling
+: Let the model continue working while your application runs function or custom tools, then return results as they become available.
+Mid-turn steering
+: Send additional instructions while a response is in progress over WebSockets, so the model can incorporate corrections or changing requirements.
+Change reasoning effort mid-conversation
+: Increase effort for difficult work or reduce it for routine follow-ups while preserving the cached prompt prefix.
 Sep 2
 Update
 Updated API errors so applications can distinguish traffic that increases too quickly from temporary model overload.
@@ -743,6 +790,11 @@ error codes guide
 and
 rate limits guide
 .
+Sep 1
+Update
+Connections to
+api.openai.com
+can now use IPv6.
 August, 2026
 Aug 29
 Feature
