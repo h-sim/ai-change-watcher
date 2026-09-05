@@ -1,5 +1,43 @@
 [
   {
+    "id": "068d54b953dbb996e9b8d0d307fe1ee223197ed7",
+    "impact": "Medium",
+    "name": "Claude Platform Changelog",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "snippet": "+September 3, 2026\n+\n+Version 1.30.0 of the\n+ant\n+CLI adds\n+ant apply\n+, which creates and updates agents, environments, skills, memory stores, and deployments from files in your repository. Describe each resource in a file, run\n+ant apply\n+, and approve the plan it prints. Commit the\n+claude-lock.json\n+lockfile it writes so that later runs, on your machine or in CI, update the same resources instead of creating new ones. See\n+Manage resources as code with ant apply\n+.\n+September 3, 2026",
+    "snippet_full": "",
+    "diff": {
+      "added": 14,
+      "removed": 0,
+      "churn": 14
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 05 Sep 2026 02:20:36 GMT",
+    "run_at": "2026-09-05T02:20:28Z",
+    "run_id": "31d4edcaa29649878607bbd786a1c738"
+  },
+  {
+    "id": "1c63c62b124a5fc9976607756e1f766b3038510e",
+    "impact": "Medium",
+    "name": "OpenAI API Changelog (HTML)",
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "snippet": "+Architectural visualization with Astra\n+Building games with Astra\n-Scaling cyber defenders with Daybreak\n-Codex as a platform: build on the open agent harness",
+    "snippet_full": "",
+    "diff": {
+      "added": 2,
+      "removed": 2,
+      "churn": 4
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Sat, 05 Sep 2026 02:20:28 GMT",
+    "run_at": "2026-09-05T02:20:28Z",
+    "run_id": "31d4edcaa29649878607bbd786a1c738"
+  },
+  {
     "id": "f36dbc983a8ea13e7b868fcfb99793e2b3f3ec96",
     "impact": "Medium",
     "name": "Claude Platform Changelog",
@@ -954,47 +992,5 @@
     "pubDate": "Wed, 12 Aug 2026 01:16:43 GMT",
     "run_at": "2026-08-12T01:16:43Z",
     "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
-  },
-  {
-    "id": "985e00c21fb54b091006809106f359338df45b35",
-    "impact": "Medium",
-    "name": "Claude Platform Changelog",
-    "url": "https://platform.claude.com/docs/en/release-notes/overview",
-    "snippet": "-Claude Platform Docs\n-Solutions\n-AI agents\n-Code modernization\n-Coding\n-Customer support\n-Financial services\n-Government\n-Higher education\n-K-12 teachers\n-Life sciences\n-Partners\n-Claude on AWS\n-Claude on Google Cloud\n-Learn\n-Blog\n-Courses\n-Use cases\n-Connectors\n-Customer stories\n-Engineering at Anthropic\n-Events\n-Powered by Claude\n-Service partners\n-Startups program\n-Company\n-Anthropic\n-Careers\n-Economic Futures\n-Research\n-News\n-Responsible Scaling Policy\n-Security and compliance\n-Transparency\n-Learn\n-Blog\n-Courses\n-Use cases\n-Connectors\n-Customer stories",
-    "snippet_full": "",
-    "diff": {
-      "added": 1,
-      "removed": 57,
-      "churn": 58
-    },
-    "score": 30,
-    "reasons": [
-      "Changelog: security/auth/policy"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 11 Aug 2026 01:09:23 GMT",
-    "run_at": "2026-08-11T01:08:34Z",
-    "run_id": "5398453a3cb941b4bdb6bd46241024a7"
-  },
-  {
-    "id": "67f54932875358ef377dd3c4424b76c2b77e4884",
-    "impact": "High",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Putting frontier cyber models in more trusted hands\n+link: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\n+id: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\n+title: What building an AI-native finance function taught me\n+link: https://openai.com/index/building-an-ai-native-finance-function\n+id: https://openai.com/index/building-an-ai-native-finance-function\n+date: Mon, 10 Aug 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Expanding Daybreak as the Cyber Defense Window Narrows\n+link: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\n+id: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-    "snippet_full": "+title: What building an AI-native finance function taught me\n+link: https://openai.com/index/building-an-ai-native-finance-function\n+id: https://openai.com/index/building-an-ai-native-finance-function\n+date: Mon, 10 Aug 2026 17:00:00 GMT\n+body:\n+#ITEM\n+title: Expanding Daybreak as the Cyber Defense Window Narrows\n+link: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\n+id: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\n+date: Mon, 10 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: Model ML completes finance work more efficiently with GPT-5.6 Sol\n+link: https://openai.com/index/model-ml\n+id: https://openai.com/index/model-ml\n+date: Mon, 10 Aug 2026 12:00:00 GMT\n+body:\n+#ITEM\n+title: Premium seats are coming to ChatGPT Business\n+link: https://openai.com/index/premium-seats-chatgpt-business\n+id: https://openai.com/index/premium-seats-chatgpt-business\n+date: Mon, 10 Aug 2026 00:00:00 GMT\n+body:\n+#ITEM\n+title: Putting frontier cyber models in more trusted hands\n+link: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\n+id: https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\n+date: Mon, 10 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n+title: OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas\n+link: https://openai.com/index/responsible-ai-infrastructure-texas\n+id: https://openai.com/index/responsible-ai-infrastructure-texas\n+date: Mon, 10 Aug 2026 14:00:00 GMT\n+body:\n+#ITEM\n+title: Virgin Atlantic sharpens customer journeys with ChatGPT Work\n+link: https://openai.com/index/virgin-atlantic/chatgpt-work\n+id: https://openai.com/index/virgin-atlantic/chatgpt-work\n+date: Mon, 10 Aug 2026 00:00:00 GMT",
-    "diff": {
-      "added": 48,
-      "removed": 0,
-      "churn": 48
-    },
-    "score": 50,
-    "reasons": [
-      "News: policy/terms/pricing/security"
-    ],
-    "summary_ja": "",
-    "pubDate": "Tue, 11 Aug 2026 01:09:15 GMT",
-    "run_at": "2026-08-11T01:08:34Z",
-    "run_id": "5398453a3cb941b4bdb6bd46241024a7"
   }
 ]

@@ -618,11 +618,11 @@ Docs
 Select...
 All posts
 Recent
+Architectural visualization with Astra
+Building games with Astra
 Meet Rosalind Workbench: Empowering every scientist to be their own research team
 Automating repetitive work at OpenAI with Codex
 Meet the winners of OpenAI Build Week
-Scaling cyber defenders with Daybreak
-Codex as a platform: build on the open agent harness
 Topics
 General
 API

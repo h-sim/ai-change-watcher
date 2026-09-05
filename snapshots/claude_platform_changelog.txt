@@ -51,6 +51,19 @@ complete CHANGELOG.md
 in the
 claude-code
 repository.
+September 3, 2026
+
+Version 1.30.0 of the
+ant
+CLI adds
+ant apply
+, which creates and updates agents, environments, skills, memory stores, and deployments from files in your repository. Describe each resource in a file, run
+ant apply
+, and approve the plan it prints. Commit the
+claude-lock.json
+lockfile it writes so that later runs, on your machine or in CI, update the same resources instead of creating new ones. See
+Manage resources as code with ant apply
+.
 September 1, 2026
 
 We've launched
@@ -2180,6 +2193,7 @@ blog post
 このページは役に立ちましたか？
 
 
+September 3, 2026
 September 1, 2026
 August 27, 2026
 August 26, 2026
