@@ -2879,6 +2879,12 @@ id: https://openai.com/index/gpt-5-system-card-update-gpt-5-2
 date: Thu, 11 Dec 2025 00:00:00 GMT
 body:
 #ITEM
+title: GPT-6 Astra: A new generation of intelligence
+link: https://openai.com/index/gpt-6-astra
+id: https://openai.com/index/gpt-6-astra
+date: Thu, 03 Sep 2026 11:00:00 GMT
+body:
+#ITEM
 title: gpt-oss-120b & gpt-oss-20b Model Card
 link: https://openai.com/index/gpt-oss-model-card
 id: https://openai.com/index/gpt-oss-model-card
