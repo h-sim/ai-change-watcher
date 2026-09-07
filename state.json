@@ -1,5 +1,24 @@
 [
   {
+    "id": "39b745fa67fea2adfc990eb31db6faa8986e5b02",
+    "impact": "Low",
+    "name": "OpenAI News (RSS)",
+    "url": "https://openai.com/news/rss.xml",
+    "snippet": "+title: An Alien Mind\n+link: https://openai.com/index/an-alien-mind\n+id: https://openai.com/index/an-alien-mind\n+date: Sun, 06 Sep 2026 09:00:00 GMT\n+body:\n+#ITEM\n+title: Research acceleration: The view inside OpenAI\n+link: https://openai.com/index/research-acceleration-view-inside-openai\n+id: https://openai.com/index/research-acceleration-view-inside-openai\n+date: Sun, 06 Sep 2026 08:00:00 GMT\n+body:\n+#ITEM",
+    "snippet_full": "",
+    "diff": {
+      "added": 12,
+      "removed": 0,
+      "churn": 12
+    },
+    "score": 0,
+    "reasons": [],
+    "summary_ja": "",
+    "pubDate": "Mon, 07 Sep 2026 02:13:36 GMT",
+    "run_at": "2026-09-07T02:13:35Z",
+    "run_id": "fd05abe83a37443099cdaae861f0ada5"
+  },
+  {
     "id": "ee32de5354c3a5ce9c8456dde64487f4b125b390",
     "impact": "Low",
     "name": "OpenAI News (RSS)",
@@ -971,25 +990,6 @@
     ],
     "summary_ja": "",
     "pubDate": "Wed, 12 Aug 2026 01:16:52 GMT",
-    "run_at": "2026-08-12T01:16:43Z",
-    "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
-  },
-  {
-    "id": "a205533536b5b19f9821fb916446273b7b06afdf",
-    "impact": "Low",
-    "name": "OpenAI News (RSS)",
-    "url": "https://openai.com/news/rss.xml",
-    "snippet": "+title: Daybreak models are now available on AWS\n+link: https://openai.com/index/daybreak-models-are-now-available-on-aws\n+id: https://openai.com/index/daybreak-models-are-now-available-on-aws\n+date: Tue, 11 Aug 2026 10:00:00 GMT\n+body:\n+#ITEM\n-date: Thu, 07 May 2026 00:00:00 GMT\n+date: Tue, 11 Aug 2026 10:00:00 GMT",
-    "snippet_full": "",
-    "diff": {
-      "added": 7,
-      "removed": 1,
-      "churn": 8
-    },
-    "score": 0,
-    "reasons": [],
-    "summary_ja": "",
-    "pubDate": "Wed, 12 Aug 2026 01:16:43 GMT",
     "run_at": "2026-08-12T01:16:43Z",
     "run_id": "3f55fd4bc76146fea1cc17607b5cf5ce"
   }

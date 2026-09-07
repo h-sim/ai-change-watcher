@@ -695,6 +695,12 @@ id: https://openai.com/index/amazon-partnership
 date: Fri, 27 Feb 2026 05:30:00 GMT
 body:
 #ITEM
+title: An Alien Mind
+link: https://openai.com/index/an-alien-mind
+id: https://openai.com/index/an-alien-mind
+date: Sun, 06 Sep 2026 09:00:00 GMT
+body:
+#ITEM
 title: Announcing OpenAI DevDay 2025
 link: https://openai.com/index/announcing-devday-2025
 id: https://openai.com/index/announcing-devday-2025
@@ -5697,6 +5703,12 @@ title: Requests for Research 2.0
 link: https://openai.com/index/requests-for-research-2
 id: https://openai.com/index/requests-for-research-2
 date: Wed, 31 Jan 2018 08:00:00 GMT
+body:
+#ITEM
+title: Research acceleration: The view inside OpenAI
+link: https://openai.com/index/research-acceleration-view-inside-openai
+id: https://openai.com/index/research-acceleration-view-inside-openai
+date: Sun, 06 Sep 2026 08:00:00 GMT
 body:
 #ITEM
 title: Responding to the next frontier of critical cyber capabilities
